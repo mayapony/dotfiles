@@ -23,7 +23,6 @@ export ZSH=$HOME/.oh-my-zsh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vi=nvim
 alias s=neofetch
 alias pacman="sudo pacman"
 alias c=clear
@@ -156,3 +155,4 @@ zplug load
 export ANDROID_HOME=/home/maya/Config/android-sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+source /usr/share/nvm/init-nvm.sh
