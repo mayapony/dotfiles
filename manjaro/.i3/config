@@ -45,9 +45,9 @@ bindsym $mod+z exec --no-startup-id morc_menu
 
 exec --no-startup-id volumeicon
 bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
-#exec --no-startup-id pulseaudio
-#exec --no-startup-id pa-applet
-#bindsym $mod+Ctrl+m exec pavucontrol
+exec --no-startup-id pulseaudio
+exec --no-startup-id pa-applet
+# bindsym $mod+Ctrl+m exec pavucontrol
 
 ################################################################################################
 
@@ -273,19 +273,20 @@ mode "resize" {
 # Lock screen
 bindsym $mod+9 exec --no-startup-id blurlock
 
-# Autostart applications
+# Autostart applications 自动开启
+exec --no-startup-id lxrandr
 exec_always --no-startup-id xmodmap -e "keysym Super_L = Multi_key"
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec --no-startup-id nitrogen --restore; sleep 1; picom -b
+exec --no-startup-id nitrogen --restore; sleep 2; picom -b
 exec --no-startup-id manjaro-hello
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
-exec --no-startup-id clipit
+exec --no-startup-id xfce4-clipman
 exec --no-startup-id fcitx5
-# exec --no-startup-id blueman-applet
-# exec_always --no-startup-id sbxkb
-exec --no-startup-id start_conky_maia
+exec --no-startup-id blueman-applet
+exec_always --no-startup-id sbxkb
+# exec --no-startup-id start_conky_maia
 # exec --no-startup-id start_conky_green
 exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
@@ -324,13 +325,15 @@ set_from_resource $term_color15    color15
 
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 bar {
+   position top
+   # position bottom
 	i3bar_command i3bar
 	status_command i3status
-	position bottom
-
+	 # position bottom
+  
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
-#	tray_output primary
-#	tray_output eDP1
+	# tray_output primary
+	# tray_output HDMI-1
 
 	bindsym button4 nop
 	bindsym button5 nop
@@ -369,8 +372,8 @@ bindsym $mod+m bar mode toggle
 #############################
 
 # Set inner/outer gaps
-gaps inner 14
-gaps outer -2
+gaps inner 10
+gaps outer -1
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # gaps inner|outer current|all set|plus|minus <px>
