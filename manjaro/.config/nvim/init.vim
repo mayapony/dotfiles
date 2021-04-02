@@ -55,21 +55,33 @@ set smartcase
 call plug#begin('~/.vim/plugged')
 Plug 'mhinz/vim-startify' " 启动页面
 Plug 'Yggdroot/indentLine' " 可视化缩进
-" Plug 'crusoexia/vim-monokai' " 主题
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes' "airline 的主题
 Plug 'luochen1990/rainbow' " 彩虹括号
 Plug 'preservim/nerdtree' " 文件管理
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'majutsushi/tagbar'
+
+" Markdown {
 Plug 'godlygeek/tabular' "必要插件，安装在vim-markdown前面
 Plug 'plasticboy/vim-markdown' " markdown相关
 Plug 'mzlogin/vim-markdown-toc' " 在当前光标生成目录
+Plug '907th/vim-auto-save' " 自动保存
 Plug 'iamcco/markdown-preview.nvim'
-Plug 'liuchengxu/space-vim-dark' " 主题
+Plug 'SirVer/ultisnips',{'for':'markdown'}
+" }
+
 " Use release branch (recommend)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'octol/vim-cpp-enhanced-highlight' " 加强C++高亮
+" themes {{{
+" Plug 'crusoexia/vim-monokai' " 主题
+Plug 'liuchengxu/space-vim-dark' " 主题
+Plug 'joshdick/onedark.vim'
+" }}}
+
+" Plug airline [[[
+Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-airline/vim-airline'
+" ]]]
 call plug#end()
 
 " ** indentLine 设置
@@ -82,7 +94,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline#extensions#tabline#buffer_nr_show = 0
 let g:airline#extensions#tabline#formatter = 'default'
-let g:airline_theme = 'desertink'  " 主题
+let g:airline_theme = 'onedark'  " 主题
 let g:airline#extensions#keymap#enabled = 1
 let g:airline#extensions#tabline#buffer_idx_mode = 1
 let g:airline#extensions#tabline#buffer_idx_format = {
@@ -107,18 +119,15 @@ nmap <leader>6 <Plug>AirlineSelectTab6
 nmap <leader>7 <Plug>AirlineSelectTab7
 nmap <leader>8 <Plug>AirlineSelectTab8
 nmap <leader>9 <Plug>AirlineSelectTab9
+
 " 设置切换tab的快捷键 <\> + <-> 切换到前一个 tab
-nmap <leader>- <Plug>AirlineSelectPrevTab
+nmap tp <Plug>AirlineSelectPrevTab
 " 设置切换tab的快捷键 <\> + <+> 切换到后一个 tab
-nmap <leader>+ <Plug>AirlineSelectNextTab
+nmap tn <leader>+ <Plug>AirlineSelectNextTab
 " 设置切换tab的快捷键 <\> + <q> 退出当前的 tab
 nmap <leader>q :bp<cr>:bd #<cr>
-" 修改了一些个人不喜欢的字符
-if !exists('g:airline_symbols')
-    let g:airline_symbols = {}
-endif
 
-let g:airline_symbols.maxlinenr = 'Ml' "maxline
+" let g:airline_symbols.maxlinenr = 'Ml' "maxline
 "let g:airline_symbols.branch = 'BR'
 "let g:airline_symbols.readonly = "RO"
 "let g:airline_symbols.dirty = "DT"
@@ -166,7 +175,7 @@ let g:NERDTreeHidden=0     "不显示隐藏文件
 ""Making it prettier
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
-nnoremap <F3> :NERDTreeToggle<CR> " 开启/关闭nerdtree快捷键
+nnoremap <C-b> :NERDTreeToggle<CR> " 开启/关闭nerdtree快捷键
 
 " ** tagbar 相关设置
 let g:tagbar_width=30
@@ -174,17 +183,9 @@ nnoremap <silent> <F4> :TagbarToggle<CR> " 将tagbar的开关按键设置为 F4
 
 " hi Normal ctermfg=252 ctermbg=none 背景透明
 
-" ** vim-markdown 相关设置
-let g:vim_markdown_math = 1
-
-" ** vim-markdown-toc 设置
-let g:vmt_auto_update_on_save = 0
-
-" ** markdown-preview配置
-let g:mkdp_markdown_css=''
 
 " theme 设置
-colorscheme space-vim-dark
+colorscheme onedark
 
 " if hidden is not set, TextEdit might fail.
 set hidden
@@ -286,4 +287,22 @@ command! -nargs=? Fold :call     CocAction('fold', <f-args>)
 command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
 
 
+"markdown {{{
+let g:markdown_fenced_languages = ['coffee', 'css', 'erb=eruby', 'javascript', 'js=javascript', 'json=javascript', 'ruby', 'sass', 'xml', 'shell']
 
+" ** vim-markdown 相关设置
+let g:vim_markdown_math = 1
+
+" ** vim-markdown-toc 设置
+let g:vmt_auto_update_on_save = 0
+
+" ** markdown-preview配置
+let g:mkdp_markdown_css=''
+
+let g:auto_save = 0
+augroup ft_markdown
+  au!
+  au FileType markdown let b:auto_save = 1
+augroup END
+let g:vim_markdown_conceal=0
+" }}}
