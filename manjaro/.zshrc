@@ -145,3 +145,4 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 source /usr/share/nvm/init-nvm.sh
 
+export EDITOR=nvim
