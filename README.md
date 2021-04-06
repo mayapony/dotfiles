@@ -95,12 +95,16 @@ sudo pacman install python2-pip
 
 ## 一些故障
 
-１．i3bar position 设置为top时，底部bar仍显示
+1. 3bar position 设置为top时，底部bar仍显示
 
 ```shell
 $ rm -r ~/.config/nitrogen/
 ```
 
+2. 蓝牙连接成功但是没有声音
+
+解决方法：
+启动： `pulseaudio --start`  如果失败 使用`killall pulseaudio`
 
 
 
