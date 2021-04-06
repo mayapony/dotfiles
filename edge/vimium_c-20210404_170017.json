@@ -1,0 +1,28 @@
+{
+	"name": "Vimium C",
+	"@time": "2021/4/4下午5:00:17",
+	"time": 1617526817330,
+	"environment": {
+		"extension": "1.88.2",
+		"platform": "win",
+		"chrome": 89
+	},
+	"exclusionRules": [
+		{
+			"pattern": ":https://mail.google.com/",
+			"passKeys": ""
+		},
+		{
+			"pattern": "^https?://www\\.ikbc\\.com\\.cn/",
+			"passKeys": ""
+		}
+	],
+	"keyMappings": [
+		"map u LinkHints.activate",
+		"map k scrollPageUp",
+		"map j scrollPageDown",
+		"map d scrollDown",
+		"map f scrollUp",
+		""
+	]
+}
