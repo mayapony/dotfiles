@@ -159,6 +159,7 @@ let g:vim_markdown_math = 1
 let g:vmt_auto_update_on_save = 0
 
 " ** markdown-preview配置
+ let g:mkdp_path_to_chrome = "/usr/bin/chromium"
 let g:mkdp_auto_start = 1 "自动开启预览
 let g:mkdp_markdown_css=''
 let g:mkdp_browser = 'chromium'
