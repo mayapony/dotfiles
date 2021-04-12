@@ -107,5 +107,3 @@ $ rm -r ~/.config/nitrogen/
 启动： `pulseaudio --start`  如果失败 使用`killall pulseaudio`
 
 
-
-
