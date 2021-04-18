@@ -71,11 +71,26 @@ pacman-key --populate archlinuxcn
 代理神器！！！
 
 1. fzf
+
 2. thefuck
+
 3. autojump
+
 4. figlet 获得艺术字
+
 5. nitrogen 壁纸管理
+
 6. goldendict 翻译工具 [使用指南](https://zhuanlan.zhihu.com/p/67156145)
+
+7. manjaro-application-utility 默认应用管理工具
+
+8. flameshot 截图
+
+9. deepin-system-monitor 任务管理器 (好看)
+
+   ![image-20210418152929449](/home/maya/.config/Typora/typora-user-images/image-20210418152929449.png)
+   
+10. zeal 离线文档
 
 ### 2. 剪切板工具
 
@@ -106,4 +121,31 @@ $ rm -r ~/.config/nitrogen/
 解决方法：
 启动： `pulseaudio --start`  如果失败 使用`killall pulseaudio`
 
+## 修改默认浏览器
 
+```shell
+nvim ~/.profile
+```
+
+修改export `export BROWSER=/usr/bin/chromium`
+
+[可参考](https://www.rockyourcode.com/change-the-default-browser-in-i3-manjaro-linux/)
+
+如果上述方案无效：
+
+1. 找到下方文件 此为`google-chorome`快捷方式
+
+   `/usr/share/applications/google-chrome-stable.desktop`
+
+2. 执行下列命令
+
+   ```shell
+   unset BROWSER
+   xdg-settings set default-web-browser google-chrome-stable.desktop
+   xdg-settings get default-web-browser
+   xdg-open https://www.manjaro.org
+   ```
+
+## 六、添加字体
+
+将字体添加在 `~/.local/share/fonts` 

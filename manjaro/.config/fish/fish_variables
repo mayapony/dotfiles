@@ -4,6 +4,7 @@ SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_c:clear
 SETUVAR _fish_abbr_pacman:sudo\x20pacman
 SETUVAR _fish_abbr_pc:proxychains
+SETUVAR _fish_abbr_ra:ranger
 SETUVAR _fish_abbr_s:neofetch
 SETUVAR _fish_abbr_vi:nvim
 SETUVAR fish_color_autosuggestion:747369
