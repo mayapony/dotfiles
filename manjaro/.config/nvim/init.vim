@@ -47,7 +47,7 @@ Plug 'godlygeek/tabular' "必要插件，安装在vim-markdown前面
 Plug 'plasticboy/vim-markdown' " markdown相关
 Plug 'mzlogin/vim-markdown-toc' " 在当前光标生成目录
 Plug '907th/vim-auto-save' " 自动保存
-Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+Plug 'iamcco/markdown-preview.nvim', 
 Plug 'SirVer/ultisnips',{'for':'markdown'}
 
 " Use release branch (recommend)
@@ -159,7 +159,7 @@ let g:vim_markdown_math = 1
 let g:vmt_auto_update_on_save = 0
 
 " ** markdown-preview配置
- let g:mkdp_path_to_chrome = "/usr/bin/chromium"
+let g:mkdp_path_to_chrome = "exec /usr/bin/chromium"
 let g:mkdp_auto_start = 1 "自动开启预览
 let g:mkdp_markdown_css=''
 let g:mkdp_browser = 'chromium'
@@ -183,6 +183,7 @@ let g:vim_markdown_conceal_code_blocks = 0
 " ===
 " coc.config ====== {{{
 let g:coc_global_extensions = [
+    \ 'coc-yank',
     \ 'coc-python',
     \ 'coc-git',
     \ 'coc-highlight',
