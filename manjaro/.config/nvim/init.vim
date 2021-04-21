@@ -1,4 +1,55 @@
+" ********* 常用键位映射 *********** {{{
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
+" s{char}{char} to move to {char}{char}
+nmap s <Plug>(easymotion-overwin-f2)
+" Move to line
+map <Leader>L <Plug>(easymotion-bd-jk)
+nmap <Leader>L <Plug>(easymotion-overwin-line)
+" 打开剪切历史
+nnoremap <silent> <space><space>y :<C-u>CocList -A --normal yank<cr>
+" Symbol renaming.
+nmap <leader>rn <Plug>(coc-rename)
+" Use <c-space> to trigger completion.
+nmap <silent> [g <Plug>(coc-diagnostic-prev)
+nmap <silent> ]g <Plug>(coc-diagnostic-next)
+" Remap keys for gotos
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+" Use <leader>h to show documentation in preview window
+nnoremap <silent> <leader>h :call <SID>show_documentation()<CR>
+" python
+noremap <F5> :CocCommand python.execInTerminal<cr>
+" Remap for do codeAction of current line
+nmap <leader>ac <Plug>(coc-codeaction)
+" Fix autofix problem of current line
+nmap <leader>qf  <Plug>(coc-fix-current)
+nnoremap <silent> <F4> :TagbarToggle<CR> " 将tagbar的开关按键设置为 F4
+nnoremap <C-b> :NERDTreeToggle<CR> " 开启/关闭nerdtree快捷键
+" 设置切换tab的快捷键 <\> + <-> 切换到前一个 tab
+nmap tp <Plug>AirlineSelectPrevTab
+" 设置切换tab的快捷键 <\> + <+> 切换到后一个 tab
+nmap tn <leader>+ <Plug>AirlineSelectNextTab
+" 设置切换tab的快捷键 <\> + <q> 退出当前的 tab
+nmap <leader>Q :bp<cr>:bd #<cr>
+" Add `:Format` command to format current buffer.
+command! -nargs=0 Format :call CocAction('format')
+
+" Add `:Fold` command to fold current buffer.
+command! -nargs=? Fold :call     CocAction('fold', <f-args>)
+
+" Add `:OR` command for organize imports of the current buffer.
+command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
+
+
+" ********************************** }}}
+
 " 基础设置
+filetype plugin on
 let mapleader="\<space>"
 noremap <leader>y "+y
 noremap <leader>p "+p
@@ -16,10 +67,9 @@ set fileencoding=utf-8
 set number
 set cursorline
 set relativenumber
-set tabstop=2
 set shiftwidth=4
 set expandtab
-set softtabstop=2
+set softtabstop=4
 set textwidth=80
 set wrap
 set linebreak
@@ -27,6 +77,8 @@ set wrapmargin=2
 set scrolloff=5
 set sidescrolloff=15
 set showmatch
+set autoindent
+set tabstop=4
 
 " 基础：搜索
 set showmatch
@@ -35,19 +87,25 @@ set incsearch
 set ignorecase
 set smartcase
 
+set t_ut=
+set t_Co=256 "指定配色方案为256
+
+
 call plug#begin('~/.vim/plugged')
 Plug 'mhinz/vim-startify' " 启动页面
 Plug 'Yggdroot/indentLine' " 可视化缩进
 Plug 'preservim/nerdtree' " 文件管理
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'majutsushi/tagbar'
+Plug 'tpope/vim-surround'
+Plug 'junegunn/vim-easy-align'
 
 " Markdown.plug ====== {
 Plug 'godlygeek/tabular' "必要插件，安装在vim-markdown前面
 Plug 'plasticboy/vim-markdown' " markdown相关
 Plug 'mzlogin/vim-markdown-toc' " 在当前光标生成目录
 Plug '907th/vim-auto-save' " 自动保存
-Plug 'iamcco/markdown-preview.nvim', 
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'SirVer/ultisnips',{'for':'markdown'}
 
 " Use release branch (recommend)
@@ -57,12 +115,17 @@ Plug 'octol/vim-cpp-enhanced-highlight' " 加强C++高亮
 " Plug 'crusoexia/vim-monokai' " 主题
 Plug 'liuchengxu/space-vim-dark' " 主题
 Plug 'joshdick/onedark.vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
 " }}}
 
 " Plug airline [[[
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-airline/vim-airline'
 " ]]]
+
+Plug 'preservim/nerdcommenter'
+Plug 'honza/vim-snippets'
+Plug 'easymotion/vim-easymotion'
 call plug#end()
 
 " ** indentLine 设置
@@ -101,13 +164,6 @@ nmap <leader>7 <Plug>AirlineSelectTab7
 nmap <leader>8 <Plug>AirlineSelectTab8
 nmap <leader>9 <Plug>AirlineSelectTab9
 
-" 设置切换tab的快捷键 <\> + <-> 切换到前一个 tab
-nmap tp <Plug>AirlineSelectPrevTab
-" 设置切换tab的快捷键 <\> + <+> 切换到后一个 tab
-nmap tn <leader>+ <Plug>AirlineSelectNextTab
-" 设置切换tab的快捷键 <\> + <q> 退出当前的 tab
-nmap <leader>q :bp<cr>:bd #<cr>
-
 " ** nerdTree 相关配置
 " autocmd vimenter * NERDTree  "自动开启Nerdtree
 let g:NERDTreeWinSize = 25 "设定 NERDTree 视窗大小
@@ -125,14 +181,12 @@ let g:NERDTreeHidden=0     "不显示隐藏文件
 ""Making it prettier
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
-nnoremap <C-b> :NERDTreeToggle<CR> " 开启/关闭nerdtree快捷键
 
 " ** tagbar 相关设置
 let g:tagbar_width=30
-nnoremap <silent> <F4> :TagbarToggle<CR> " 将tagbar的开关按键设置为 F4
 
 " theme 设置
-colorscheme onedark
+colorscheme dracula
 
 " Use <cr> to confirm completion, `<C-g>u` means break undo chain at current position.
 " Coc only does snippet and additional edit on confirm.
@@ -146,10 +200,6 @@ function! s:show_documentation()
   endif
 endfunction
  
-" Remap for do codeAction of current line
-nmap <leader>ac <Plug>(coc-codeaction)
-" Fix autofix problem of current line
-nmap <leader>qf  <Plug>(coc-fix-current)
  
 " ===
 " ====== markdown.config ====== {{{
@@ -159,10 +209,10 @@ let g:vim_markdown_math = 1
 let g:vmt_auto_update_on_save = 0
 
 " ** markdown-preview配置
-let g:mkdp_path_to_chrome = "exec /usr/bin/chromium"
+" let g:mkdp_path_to_chrome = "exec /usr/bin/chromium"
 let g:mkdp_auto_start = 1 "自动开启预览
 let g:mkdp_markdown_css=''
-let g:mkdp_browser = 'chromium'
+" let g:mkdp_browser = 'chromium'
 let g:mkdp_echo_preview_url = 1
 "======preview
 
@@ -183,14 +233,18 @@ let g:vim_markdown_conceal_code_blocks = 0
 " ===
 " coc.config ====== {{{
 let g:coc_global_extensions = [
+    \ 'coc-jedi',
+    \ 'coc-cmake',
+    \ 'coc-sh',
+    \ 'coc-snippets',
+    \ 'coc-yaml',
+    \ 'coc-syntax',
     \ 'coc-yank',
     \ 'coc-python',
     \ 'coc-git',
     \ 'coc-highlight',
     \ 'coc-json',
     \ 'coc-vimlsp']
-" python
-noremap <F5> :CocCommand python.execInTerminal<cr>
 
 " if hidden is not set, TextEdit might fail.
 set hidden
@@ -210,22 +264,9 @@ function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
-" Use <c-space> to trigger completion.
-nmap <silent> [g <Plug>(coc-diagnostic-prev)
-nmap <silent> ]g <Plug>(coc-diagnostic-next)
-" Remap keys for gotos
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
-" Use <leader>h to show documentation in preview window
-nnoremap <silent> <leader>h :call <SID>show_documentation()<CR>
 " 在同个词下会有提醒
 autocmd CursorHold * silent call CocActionAsync('highlight')
 set termguicolors
-
-" Symbol renaming.
-nmap <leader>rn <Plug>(coc-rename)
 
 " Remap for format selected region
 xmap <leader>f  <Plug>(coc-format-selected)
@@ -254,18 +295,37 @@ omap ac <Plug>(coc-classobj-a)
 nmap <silent> <C-s> <Plug>(coc-range-select)
 xmap <silent> <C-s> <Plug>(coc-range-select)
 
-" Add `:Format` command to format current buffer.
-command! -nargs=0 Format :call CocAction('format')
-
-" Add `:Fold` command to fold current buffer.
-command! -nargs=? Fold :call     CocAction('fold', <f-args>)
-
-" Add `:OR` command for organize imports of the current buffer.
-command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
-
-" 打开剪切历史
-nnoremap <silent> <space><space>y :<C-u>CocList -A --normal yank<cr>
-
 " =============== }}}
-" ===
+
+
+
+
+" nerdcommenter 设置 {{{
+"add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+" python 自动的会多加一个空格
+au FileType python let g:NERDSpaceDelims = 0
+ 
+" Use compact syntax for prettified multi-line comments
+let g:NERDCompactSexyComs = 1
+ 
+" Align line-wise comment delimiters flush left instead of following code indentation
+let g:NERDDefaultAlign = 'left'
+ 
+" Set a language to use its alternate delimiters by default
+let g:NERDAltDelims_java = 1
+ 
+" Add your own custom formats or override the defaults
+" let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
+ 
+" Allow commenting and inverting empty lines (useful when commenting a region)
+let g:NERDCommentEmptyLines = 1
+ 
+" Enable trimming of trailing whitespace when uncommenting
+let g:NERDTrimTrailingWhitespace = 1
+ 
+" Enable NERDCommenterToggle to check all selected lines is commented or not
+let g:NERDToggleCheckAllLines = 1
+" }}}
+
 
