@@ -219,7 +219,10 @@ for_window [class="Skype"] floating enable border normal
 for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [class="Xfburn"] floating enable
-for_window [class="youdao-dict"] floating enable border normal
+for_window [class="Youdao Dict"] floating enable border none
+for_window [title="Android Emulator - Pixel_3a_API_30_x86:5554"] floating enable border none
+for_window [class="Colorgrab"] floating enable border none
+for_window [class="tim.exe"] floating enable border none
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -278,7 +281,6 @@ mode "resize" {
 bindsym $mod+9 exec --no-startup-id blurlock
 
 # Autostart applications 自动开启
-exec --no-startup-id youdao-dict
 # exec --no-startup-id lxrandr
 exec_always --no-startup-id xmodmap -e "keysym Super_L = Multi_key"
 exec_always --no-startup-id xrandr --output HDMI-1 --mode 1920x1080 --rate 60.00 --output eDP-1 --mode 1920x1080 --rate 60.03 --right-of HDMI-1
@@ -292,6 +294,7 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id xfce4-clipman
 exec --no-startup-id fcitx5
 exec --no-startup-id blueman-applet
+exec --no-startup-id youdao-dict; sleep 3
 exec_always --no-startup-id sbxkb
 # exec --no-startup-id start_conky_maia
 # exec --no-startup-id start_conky_green
@@ -349,16 +352,18 @@ bar {
 	strip_workspace_numbers yes
 
     colors {
-        background #222D31
+        # background #222D31
+        background #333A47
         statusline #F9FAF9
         separator  #454947
 
 #                      border  backgr. text
-        focused_workspace  #F9FAF9 #16a085 #292F34
+        #focused_workspace  #F9FAF9 #16a085 #292F34
+        focused_workspace  #F9FAF9 #bd93f9 #292F34
         active_workspace   #595B5B #353836 #FDF6E3
         inactive_workspace #595B5B #222D31 #EEE8D5
-        binding_mode       #16a085 #2C2C2C #F9FAF9
-        urgent_workspace   #16a085 #FDF6E3 #E5201D
+        binding_mode       #bd93f9 #2C2C2C #F9FAF9
+        urgent_workspace   #bd93f9 #bd93f9 #FDF6E3 #E5201D
     }
 }
 
@@ -368,7 +373,8 @@ bindsym $mod+m bar mode toggle
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
   # client.focused          #556064 #556064 #80FFF9 #FDF6E3
-  client.focused          #3275a8 #3275a8 #80FFF9 #FDF6E3
+  # client.focused          #3275a8 #3275a8 #80FFF9 #FDF6E3
+  client.focused          #BD93F9 #BD93F9#3275a8 #80FFF9 #FDF6E3
   client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
   client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
   client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
