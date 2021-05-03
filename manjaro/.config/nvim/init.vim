@@ -1,3 +1,14 @@
+"=============================================================================
+" init.vim --- Entry file for neovim
+" Copyright (c) 2016-2020 Wang Shidong & Contributors
+" Author: Wang Shidong < wsdjeg@outlook.com >
+" URL: https://spacevim.org
+" License: GPLv3
+"=============================================================================
+
+" execute 'source' fnamemodify(expand('<sfile>'), ':h').'/main.vim'
+
+
 " ********* 常用键位映射 *********** {{{
 " Start interactive EasyAlign in visual mode (e.g. vipga)
 xmap ga <Plug>(EasyAlign)
@@ -228,11 +239,10 @@ let g:vim_markdown_conceal_code_blocks = 0
 " ========================== }}}
 " ===
 
-
-
 " ===
 " coc.config ====== {{{
 let g:coc_global_extensions = [
+    \ 'coc-pairs',
     \ 'coc-jedi',
     \ 'coc-cmake',
     \ 'coc-sh',
@@ -327,5 +337,6 @@ let g:NERDTrimTrailingWhitespace = 1
 " Enable NERDCommenterToggle to check all selected lines is commented or not
 let g:NERDToggleCheckAllLines = 1
 " }}}
+
 
 

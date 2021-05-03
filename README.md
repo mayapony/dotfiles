@@ -66,49 +66,28 @@ pacman-key --populate archlinuxcn
 
 ## 四、一些工具
 
-### 1. proxychains
-
-代理神器！！！
-
 1. fzf
-
 2. thefuck
-
 3. autojump
-
 4. figlet 获得艺术字
-
-5. nitrogen 壁纸管理
-
+5. **nitrogen** 壁纸管理
 6. goldendict 翻译工具 [使用指南](https://zhuanlan.zhihu.com/p/67156145)
-
 7. manjaro-application-utility 默认应用管理工具
-
-8. flameshot 截图
-
+8. **flameshot** 截图
 9. deepin-system-monitor 任务管理器 (好看)
-
-   ![](https://gitee.com/mayapony/dotfiles/raw/master/imgs/image-20210418152929449.png)
-   
 10. zeal 离线文档
-
-11. stacer 系统诊断和优化工具
-
+11. **stacer** 系统诊断和优化工具
 12. qtq2 文本转二维码 (可不登陆qq与手机通信)
-
 13. nitroshare 局域网文件传输
-
 14. **feem** 局域网文件传输，可通过手机热点传输
-
 15. font-manager 字体管理工具
-
 16. gimp 图片编辑工具
-
 17. ydcv 有道翻译命令行
-
-18. youdao-dict 有道翻译(最好用)
-
+18. **youdao-dict** 有道翻译(最好用)
 19. xfce4-clipman 截图
+20. filezilla ftp工具
+21. simplescreenrecorder 屏幕录制
+22. proxychains 终端代理
 
 ### 2. 剪切板工具
 
@@ -138,6 +117,15 @@ $ rm -r ~/.config/nitrogen/
 
 解决方法：
 启动： `pulseaudio --start`  如果失败 使用`killall pulseaudio`
+
+3. 关闭BIOS 的声音
+
+解决办法：在终端输入 `xset -b` 并回车
+也可以把下面一行加入到 `xprofile`
+
+```shell
+sudo echo 'xset -b' >> ~/.xprofile
+```
 
 ## 修改默认浏览器
 
