@@ -35,7 +35,8 @@ bindsym $mod+Return exec xfce4-terminal
 bindsym $mod+Shift+q kill
 
 # start program launcher
-bindsym $mod+d exec --no-startup-id dmenu_recency
+# bindsym $mod+d exec --no-startup-id dmenu_recency
+bindsym $mod+d exec rofi -show run
 
 # launch categorized menu
 bindsym $mod+z exec --no-startup-id morc_menu
@@ -223,6 +224,8 @@ for_window [class="Youdao Dict"] floating enable border none
 for_window [title="Android Emulator - Pixel_3a_API_30_x86:5554"] floating enable border none
 for_window [class="Colorgrab"] floating enable border none
 for_window [class="tim.exe"] floating enable border none
+for_window [class="qq.exe"] floating enable border none
+for_window [class="flameshot"] floating enable border none
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -298,9 +301,13 @@ exec --no-startup-id youdao-dict; sleep 3
 exec_always --no-startup-id sbxkb
 # exec --no-startup-id start_conky_maia
 # exec --no-startup-id start_conky_green
+# exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec --no-startup-id xautolock -time 10 -locker blurlock
 # exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
+
+exec --no-startup-id "i3-msg 'workspace 1; append_layout /home/maya/.i3/workspace-1.json'"
+# exec --no-startup-id /home/maya/.config/polybar/launch.sh
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
@@ -337,7 +344,8 @@ set_from_resource $term_color15    color15
 bar {
     position top
     # position bottom
-	i3bar_command i3bar
+    i3bar_command i3bar --transparency
+    # i3bar_command $HOME/.config/polybar/launch.sh
 	status_command i3status
   
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
@@ -353,9 +361,10 @@ bar {
 
     colors {
         # background #222D31
-        background #333A47
-        statusline #F9FAF9
-        separator  #454947
+        background #333A47BF
+        # background #333A4700
+        statusline #F9FAF9B3
+        separator  #454947B3
 
 #                      border  backgr. text
         #focused_workspace  #F9FAF9 #16a085 #292F34
