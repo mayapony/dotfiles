@@ -1,15 +1,7 @@
-"=============================================================================
-" init.vim --- Entry file for neovim
-" Copyright (c) 2016-2020 Wang Shidong & Contributors
-" Author: Wang Shidong < wsdjeg@outlook.com >
-" URL: https://spacevim.org
-" License: GPLv3
-"=============================================================================
-
 " execute 'source' fnamemodify(expand('<sfile>'), ':h').'/main.vim'
 
-
 " ********* 常用键位映射 *********** {{{
+let mapleader="\<space>"
 " Start interactive EasyAlign in visual mode (e.g. vipga)
 xmap ga <Plug>(EasyAlign)
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
@@ -41,12 +33,13 @@ nmap <leader>ac <Plug>(coc-codeaction)
 nmap <leader>qf  <Plug>(coc-fix-current)
 nnoremap <silent> <F4> :TagbarToggle<CR> " 将tagbar的开关按键设置为 F4
 nnoremap <C-b> :NERDTreeToggle<CR> " 开启/关闭nerdtree快捷键
+inoremap <C-b> :NERDTreeToggle<CR> " 开启/关闭nerdtree快捷键
 " 设置切换tab的快捷键 <\> + <-> 切换到前一个 tab
 nmap tp <Plug>AirlineSelectPrevTab
 " 设置切换tab的快捷键 <\> + <+> 切换到后一个 tab
-nmap tn <leader>+ <Plug>AirlineSelectNextTab
+nmap tn <Plug>AirlineSelectNextTab
 " 设置切换tab的快捷键 <\> + <q> 退出当前的 tab
-nmap <leader>Q :bp<cr>:bd #<cr>
+nmap tc :bd<cr>
 " Add `:Format` command to format current buffer.
 command! -nargs=0 Format :call CocAction('format')
 
@@ -56,12 +49,13 @@ command! -nargs=? Fold :call     CocAction('fold', <f-args>)
 " Add `:OR` command for organize imports of the current buffer.
 command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
 
+xmap <leader>a  <Plug>(coc-codeaction-selected)
+nmap <leader>a  <Plug>(coc-codeaction-selected)
 
 " ********************************** }}}
 
 " 基础设置
 filetype plugin on
-let mapleader="\<space>"
 noremap <leader>y "+y
 noremap <leader>p "+p
 noremap J 5j
@@ -105,8 +99,6 @@ set t_Co=256 "指定配色方案为256
 call plug#begin('~/.vim/plugged')
 Plug 'mhinz/vim-startify' " 启动页面
 Plug 'Yggdroot/indentLine' " 可视化缩进
-Plug 'preservim/nerdtree' " 文件管理
-Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-surround'
 Plug 'junegunn/vim-easy-align'
@@ -124,8 +116,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'octol/vim-cpp-enhanced-highlight' " 加强C++高亮
 " themes {{{
 " Plug 'crusoexia/vim-monokai' " 主题
-Plug 'liuchengxu/space-vim-dark' " 主题
-Plug 'joshdick/onedark.vim'
+" Plug 'liuchengxu/space-vim-dark' " 主题
+" Plug 'joshdick/onedark.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
 " }}}
 
@@ -137,6 +129,15 @@ Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdcommenter'
 Plug 'honza/vim-snippets'
 Plug 'easymotion/vim-easymotion'
+
+" Plug dart [[[
+Plug 'dart-lang/dart-vim-plugin'
+" ]]]
+" NerdTree [[[
+Plug 'preservim/nerdtree' " 文件管理
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'ryanoasis/vim-devicons'
+" ]]]
 call plug#end()
 
 " ** indentLine 设置
@@ -242,6 +243,7 @@ let g:vim_markdown_conceal_code_blocks = 0
 " ===
 " coc.config ====== {{{
 let g:coc_global_extensions = [
+    \ 'coc-flutter',
     \ 'coc-pairs',
     \ 'coc-jedi',
     \ 'coc-cmake',

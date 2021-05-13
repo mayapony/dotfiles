@@ -1,3 +1,7 @@
+
+
+![screenshot](https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210513105954.png)
+
 ## 一、关于i3的一些设置
 
 > i3 的配置文件在 `~/.i3/config`
@@ -88,6 +92,9 @@ pacman-key --populate archlinuxcn
 20. filezilla ftp工具
 21. simplescreenrecorder 屏幕录制
 22. proxychains 终端代理
+23. alsamixer 声音调节
+24. baidunetdisk 百度网盘
+25. Evince PDF阅读器
 
 ### 2. 剪切板工具
 
@@ -160,3 +167,4 @@ nvim ~/.profile
 docker run -r
 ```
 
+​	[]()
