@@ -4,6 +4,7 @@ SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_c:clear
 SETUVAR _fish_abbr_cdC:cd\x20/run/media/maya/Windows\x2dSSD/
 SETUVAR _fish_abbr_cdD:/run/media/maya/Windows\x2dSSD/Users/maya/Desktop
+SETUVAR _fish_abbr_fq:export\x20https_proxy\x3d\x22127\x2e0\x2e0\x2e1\x3a8889\x22\x20\x26\x26\x20export\x20http_proxy\x3d\x22127\x2e0\x2e0\x2e1\x3a8889\x22
 SETUVAR _fish_abbr_ll:lsd\x20\x2dl
 SETUVAR _fish_abbr_ls:lsd
 SETUVAR _fish_abbr_pac:sudo\x20pacman

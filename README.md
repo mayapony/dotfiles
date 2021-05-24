@@ -95,6 +95,12 @@ pacman-key --populate archlinuxcn
 23. alsamixer 声音调节
 24. baidunetdisk 百度网盘
 25. Evince PDF阅读器
+26. Gcolor2 取色器
+27. breaktimer 休息定时器
+28. xunlei 迅雷下载
+29. kdeconnect 局域网文件传输等
+30. peek GIF录制工具
+31. pinta 画图工具
 
 ### 2. 剪切板工具
 
