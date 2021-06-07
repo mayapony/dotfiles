@@ -60,6 +60,7 @@ exec --no-startup-id pa-applet
 # Start Applications
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 # bindsym $mod+F2 exec google-chrome-stable
+# bindsym $mod+F2 exec microsoft-edge-dev
 bindsym $mod+F2 exec firefox
 bindsym $mod+F3 exec pcmanfm
 bindsym $mod+F4 exec deepin-system-monitor
