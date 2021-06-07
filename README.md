@@ -101,6 +101,7 @@ pacman-key --populate archlinuxcn
 29. kdeconnect 局域网文件传输等
 30. peek GIF录制工具
 31. pinta 画图工具
+32. piper 鼠标管理工具
 
 ### 2. 剪切板工具
 
@@ -148,7 +149,7 @@ nvim ~/.profile
 
 修改export `export BROWSER=/usr/bin/chromium`
 
-[可参考](https://www.rockyourcode.com/change-the-default-browser-in-i3-manjaro-linux/)
+[可参考](https://www.rockyourucode.com/change-the-default-browser-in-i3-manjaro-linux/)
 
 如果上述方案无效：
 
@@ -156,7 +157,7 @@ nvim ~/.profile
 
    `/usr/share/applications/google-chrome-stable.desktop`
 
-2. 执行下列命令
+2. 执行下列命令(在`bash shell`下执行)
 
    ```shell
    unset BROWSER
@@ -172,5 +173,3 @@ nvim ~/.profile
 ```shell
 docker run -r
 ```
-
-​	[]()
