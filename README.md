@@ -1,4 +1,4 @@
-
+··
 
 ![screenshot](https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210513105954.png)
 
@@ -15,8 +15,6 @@
 **默认程序位置：** `.config/mimeapps.list` 
 
 
-
-可以使用 `$mod + z` 来进行设置
 
 ### 2. 设置开机启动
 
@@ -79,7 +77,7 @@ pacman-key --populate archlinuxcn
 7. manjaro-application-utility 默认应用管理工具
 8. **flameshot** 截图
 9. deepin-system-monitor 任务管理器 (好看)
-10. zeal 离线文档
+10. zeal 离线文档·······
 11. **stacer** 系统诊断和优化工具
 12. qtq2 文本转二维码 (可不登陆qq与手机通信)
 13. nitroshare 局域网文件传输
@@ -141,6 +139,29 @@ $ rm -r ~/.config/nitrogen/
 sudo echo 'xset -b' >> ~/.xprofile
 ```
 
+4. `firefox` 没有声音
+
+```
+just in case anyone is still interested, I had it working on the first try.
+I installed pulseaudio, pulseaudio-alsa, manjaro-pulse, pavu-control and pa-applet.
+I uninstalled the volume-icon that was in the tray. No particular reason, so I don't
+know if the present tray volume control works with pulse as well.
+
+Then, in the i3 config file, under autostart applications, I added these two entries:
+
+exec --no-startup-id pa-applet
+exec --no-startup-id start-pulseaudio-x11
+
+This will start pulseaudio and you'll have a audio applet on the bottom "panel" or
+whatever it's called. I had to do this on pretty much every pc with manjaro i3,
+because none of my hardware has any controls under just alsa alone, so I could
+not unmute and change volume, so I had no audio.
+
+Anyway, this works on both my desktops and my laptop.
+```
+
+
+
 ## 修改默认浏览器
 
 ```shell
@@ -169,7 +190,3 @@ nvim ~/.profile
 ## 六、添加字体
 
 将字体添加在 `~/.local/share/fonts` 
-
-```shell
-docker run -r
-```

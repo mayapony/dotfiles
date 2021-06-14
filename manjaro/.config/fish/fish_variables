@@ -5,8 +5,6 @@ SETUVAR _fish_abbr_c:clear
 SETUVAR _fish_abbr_cdC:cd\x20/run/media/maya/Windows\x2dSSD/
 SETUVAR _fish_abbr_cdD:/run/media/maya/Windows\x2dSSD/Users/maya/Desktop
 SETUVAR _fish_abbr_fq:export\x20https_proxy\x3d\x22127\x2e0\x2e0\x2e1\x3a8889\x22\x20\x26\x26\x20export\x20http_proxy\x3d\x22127\x2e0\x2e0\x2e1\x3a8889\x22
-SETUVAR _fish_abbr_ll:lsd\x20\x2dl
-SETUVAR _fish_abbr_ls:lsd
 SETUVAR _fish_abbr_pac:sudo\x20pacman
 SETUVAR _fish_abbr_pacman:sudo\x20pacman
 SETUVAR _fish_abbr_pc:proxychains
@@ -38,7 +36,7 @@ SETUVAR fish_color_status:red
 SETUVAR fish_color_user:brgreen
 SETUVAR fish_color_valid_path:\x2d\x2dunderline
 SETUVAR fish_greeting:Welcome\x20to\x20fish\x2c\x20the\x20friendly\x20interactive\x20shell\x0aType\x20\x60help\x60\x20for\x20instructions\x20on\x20how\x20to\x20use\x20fish
-SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_key_bindings:fish_vi_key_bindings
 SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
