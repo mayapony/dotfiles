@@ -141,6 +141,10 @@ sudo echo 'xset -b' >> ~/.xprofile
 
 4. `firefox` 没有声音
 
+修改 `i3` 配置
+
+![](https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210615160204.png)
+
 ```
 just in case anyone is still interested, I had it working on the first try.
 I installed pulseaudio, pulseaudio-alsa, manjaro-pulse, pavu-control and pa-applet.
