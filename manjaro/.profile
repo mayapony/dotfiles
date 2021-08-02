@@ -11,7 +11,7 @@ export CHROME_EXECUTABLE=google-chrome-stable
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 
-export GOPATH=/home/maya/Documents/Go  #根据自己的Go工作目录替换
+export GOPATH=/home/mayapony/Documents/Go  #根据自己的Go工作目录替换
 export GOBIN=$GOPATH/bin
 export PATH=$GOBIN:$PATH
 
