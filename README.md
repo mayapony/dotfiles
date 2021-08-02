@@ -1,5 +1,3 @@
-··
-
 ![screenshot](https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210513105954.png)
 
 ## 一、关于i3的一些设置
@@ -100,6 +98,8 @@ pacman-key --populate archlinuxcn
 30. peek GIF录制工具
 31. pinta 画图工具
 32. piper 鼠标管理工具
+33. aur/deepin.com.qq.im.light QQ很好用
+34. nextcloud 私人云
 
 ### 2. 剪切板工具
 
@@ -194,3 +194,9 @@ nvim ~/.profile
 ## 六、添加字体
 
 将字体添加在 `~/.local/share/fonts` 
+
+
+
+## 七、主题
+
+主题、图标、光标：WhiteSur
