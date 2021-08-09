@@ -15,3 +15,8 @@ export GOPATH=/home/mayapony/Documents/Go  #根据自己的Go工作目录替换
 export GOBIN=$GOPATH/bin
 export PATH=$GOBIN:$PATH
 
+# Android SDK
+export ANDROID_HOME=/opt/android-sdk
+export PATH=$ANDROID_HOME/tools:$PATH
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+

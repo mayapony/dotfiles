@@ -4,15 +4,9 @@
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
 
-# set default desktop layout (default is tiling)
-# workspace_layout tabbed <stacking|tabbed>
-
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
 default_border pixel 3
 default_floating_border normal
-
-# Hide borders
-# hide_edge_borders none
 hide_edge_borders both
 
 # change borders
@@ -20,16 +14,12 @@ for_window [class="^.*"] border pixel 3
 bindsym $mod+u border none
 bindsym $mod+y border pixel 1
 
-
-# Font for window titles. Will also be used by the bar unless a different font
-# is used in the bar {} block below.
-# font xft:URWGothic-Book 13
-
 # Use Mouse+$mod to drag floating windows
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec xfce4-terminal
+# bindsym $mod+Return exec xfce4-terminal
+bindsym $mod+Return exec --no-startup-id alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -54,11 +44,9 @@ bindsym $mod+Ctrl+m exec pavucontrol
 
 ################################################################################################
 
-# Screen brightness controls
-# bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
-# bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
-
 # Start Applications
+# win + w(ord)
+bindsym $mod+w exec youdao-dict
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 # bindsym $mod+F2 exec google-chrome-stable
 # bindsym $mod+F2 exec microsoft-edge-dev
@@ -120,7 +108,8 @@ bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
+# tabbed change to youdao 
+# bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
@@ -147,10 +136,6 @@ bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
 
 # Workspace names
-# to display names or symbols instead of plain workspace numbers you can use
-# something like: set $ws1 1:mail
-#                 set $ws2 2:
-# set $ws1 "&#xf121;"
 set $ws1 1
 set $ws2 2
 set $ws3 3
@@ -191,10 +176,6 @@ bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
 # Open applications on specific workspaces
-# assign [class="Thunderbird"] $ws1
-# assign [class="Pale moon"] $ws2
-# assign [class="Pcmanfm"] $ws3
-# assign [class="Skype"] $ws5
 
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1
@@ -241,7 +222,6 @@ for_window [class="seafile-applet"] floating enable border none
 for_window [title="Android Emulator - Pixel_2_API_30:5554"] floating enable border none
 
 
-
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
 
@@ -265,8 +245,6 @@ mode "$mode_system" {
     bindsym h exec --no-startup-id i3exit hibernate, mode "default"
     bindsym r exec --no-startup-id i3exit reboot, mode "default"
     bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
-
-    # exit system mode: "Enter" or "Escape"
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
@@ -297,31 +275,6 @@ mode "resize" {
 
 # Lock screen
 bindsym $mod+9 exec --no-startup-id blurlock
-
-# Autostart applications 自动开启
-# exec --no-startup-id lxrandr
-exec_always --no-startup-id xmodmap -e "keysym Super_L = Multi_key"
-exec_always --no-startup-id xrandr --output HDMI-1 --mode 1920x1080 --rate 60.00 --output eDP-1 --mode 1920x1080 --rate 60.03 --right-of HDMI-1
-exec --no-startup-id /usr/bin/xmodmap ~/.Xmodmap
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec --no-startup-id nitrogen --restore; sleep 2; picom -b
-exec --no-startup-id nm-applet
-exec --no-startup-id xfce4-power-manager
-exec --no-startup-id pamac-tray
-exec --no-startup-id xfce4-clipman
-exec --no-startup-id fcitx5
-exec --no-startup-id blueman-applet
-# exec --no-startup-id youdao-dict; sleep 3
-exec --no-startup-id /opt/BreakTimer/breaktimer
-exec_always --no-startup-id sbxkb
-# exec --no-startup-id start_conky_maia
-# exec --no-startup-id start_conky_green
-# exec_always --no-startup-id ~/.config/polybar/launch.sh
-exec --no-startup-id xautolock -time 10 -locker blurlock
-# exec_always --no-startup-id ff-theme-util
-exec_always --no-startup-id fix_xcursor
-# exec_always --no-startup-id nutstore
-exec_always --no-startup-id nextcloud
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
@@ -356,25 +309,16 @@ set_from_resource $term_color15    color15
 
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 bar {
-# mode hide
     position top
     # position bottom
     i3bar_command i3bar --transparency
-    # i3bar_command $HOME/.config/polybar/launch.sh
 	status_command i3status
-  
-## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
-	# tray_output primary
-	# tray_output HDMI-1
-
-	bindsym button4 nop
-	bindsym button5 nop
-	font xft:URWGothic-Book 13
-	# font pango:FontAwesome 13
-  # font pango:DejaVu Sans Mono, FontAwesome 13
+	# status_command i3blocks
+	# font xft:URWGothic-Book 13
+    # font pango:DejaVu Sans Mono, FontAwesome 13
+    font pango: SpaceMono Nerd Font Regular 14
 	strip_workspace_numbers yes
     strip_workspace_name no
-
     colors {
         # background #222D31
         background #333A47BF
@@ -385,10 +329,10 @@ bar {
 #                      border  backgr. text
         #focused_workspace  #F9FAF9 #16a085 #292F34
         focused_workspace  #F9FAF9 #bd93f9 #292F34
-        active_workspace   #595B5B #353836 #FDF6E3
-        inactive_workspace #595B5B #222D31 #EEE8D5
+        active_workspace   #353836 #353836 #FDF6E3
+        inactive_workspace #222D31 #222D31 #EEE8D5
         binding_mode       #bd93f9 #2C2C2C #F9FAF9
-        urgent_workspace   #bd93f9 #bd93f9 #FDF6E3 #E5201D
+        urgent_workspace   #F9FAF9 #ff6768 #FDF6E3 #E5201D
     }
 }
 
@@ -463,3 +407,20 @@ mode "$mode_gaps_outer" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
+
+# Autostart applications 自动开启
+exec --no-startup-id /usr/bin/xmodmap ~/.Xmodmap
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec --no-startup-id nitrogen --restore; sleep 2; picom -b
+exec --no-startup-id nm-applet
+exec --no-startup-id xfce4-power-manager
+exec --no-startup-id pamac-tray
+exec --no-startup-id xfce4-clipman
+exec --no-startup-id fcitx5
+exec --no-startup-id blueman-applet
+exec --no-startup-id /opt/BreakTimer/breaktimer
+exec --no-startup-id xautolock -time 10 -locker blurlock
+exec_always --no-startup-id nextcloud
+exec --no-startup-id ~/.scripts/monitors.sh
+exec --no-startup-id copyq
+

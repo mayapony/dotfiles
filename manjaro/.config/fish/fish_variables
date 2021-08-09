@@ -3,6 +3,7 @@
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_c:clear
 SETUVAR _fish_abbr_pac:sudo\x20pacman
+SETUVAR _fish_abbr_s:neofetch
 SETUVAR _fish_abbr_vi:nvim
 SETUVAR fish_color_autosuggestion:BD93F9
 SETUVAR fish_color_cancel:\x2dr
