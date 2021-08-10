@@ -5,4 +5,5 @@ if status is-interactive
     if test -e $AUTOJUMP_PATH
         source $AUTOJUMP_PATH
     end
+    starship init fish | source
 end
