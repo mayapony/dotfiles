@@ -1,0 +1,162 @@
+{
+  "uploaded": [
+    {
+      "fileName": "上传测试.png",
+      "width": 678,
+      "height": 901,
+      "extname": ".png",
+      "imgUrl": "https://gitee.com/mayapony/pic-dog/raw/master/imgs/上传测试.png",
+      "sha": "251171f4c1f6fe25e543e1ab8137963dd2bfca4d",
+      "type": "gitee",
+      "id": "15043920-799a-49ff-8df7-7a409ff96f19"
+    },
+    {
+      "fileName": "20210803115642.png",
+      "width": 411,
+      "height": 731,
+      "extname": ".png",
+      "imgUrl": "https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210803115642.png",
+      "sha": "b09db901a67736afec87bcba472bc76cc005600b",
+      "type": "gitee",
+      "id": "29da9f9b-6c12-44f9-ab07-351dc0f6521d"
+    },
+    {
+      "fileName": "修改项目名称.png",
+      "width": 692,
+      "height": 401,
+      "extname": ".png",
+      "imgUrl": "https://gitee.com/mayapony/pic-dog/raw/master/imgs/修改项目名称.png",
+      "sha": "3b9704223f5db91e74636ed4485e83c22ed4fbc3",
+      "type": "gitee",
+      "id": "91bebc30-4a3e-4d33-87ac-76c97380af8d"
+    },
+    {
+      "fileName": "20210808211724.png",
+      "width": 332,
+      "height": 306,
+      "extname": ".png",
+      "imgUrl": "https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210808211724.png",
+      "sha": "ab5cee66b0f2a8f8278de2e02d2d772d52e736bf",
+      "type": "gitee",
+      "id": "6c55c05b-9feb-4e47-975e-d2b44e03e5e1"
+    },
+    {
+      "fileName": "20210808211759.png",
+      "width": 313,
+      "height": 103,
+      "extname": ".png",
+      "imgUrl": "https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210808211759.png",
+      "sha": "27fb967832df9209f628c959219ac4b198570ca4",
+      "type": "gitee",
+      "id": "be064973-a52a-42be-81b0-df71cda6f050"
+    },
+    {
+      "fileName": "20210808211834.png",
+      "width": 518,
+      "height": 243,
+      "extname": ".png",
+      "imgUrl": "https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210808211834.png",
+      "sha": "87e25ad71cb82475d662440487ada233eca6ac4f",
+      "type": "gitee",
+      "id": "04dc5274-0b01-4b84-88bb-e6c2976d742c"
+    },
+    {
+      "fileName": "20210810123202.png",
+      "width": 1920,
+      "height": 1080,
+      "extname": ".png",
+      "imgUrl": "https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210810123202.png",
+      "sha": "4923b934917143cee042a835bcc9b7f5e7510269",
+      "type": "gitee",
+      "id": "7bbbb2a4-9cb5-4115-bd3b-cfbe93d51ebd"
+    }
+  ],
+  "picBed": {
+    "current": "gitee",
+    "list": [
+      {
+        "name": "SM.MS图床",
+        "type": "smms",
+        "visible": false
+      },
+      {
+        "name": "腾讯云COS",
+        "type": "tcyun",
+        "visible": false
+      },
+      {
+        "name": "微博图床",
+        "type": "weibo",
+        "visible": false
+      },
+      {
+        "name": "GitHub图床",
+        "type": "github",
+        "visible": false
+      },
+      {
+        "name": "七牛图床",
+        "type": "qiniu",
+        "visible": false
+      },
+      {
+        "name": "Imgur图床",
+        "type": "imgur",
+        "visible": false
+      },
+      {
+        "name": "阿里云OSS",
+        "type": "aliyun",
+        "visible": false
+      },
+      {
+        "name": "又拍云图床",
+        "type": "upyun",
+        "visible": false
+      },
+      {
+        "name": "gitee",
+        "type": "gitee",
+        "visible": true
+      }
+    ],
+    "gitee": {
+      "branch": "master",
+      "customPath": "",
+      "customUrl": "",
+      "path": "imgs",
+      "repo": "mayapony/pic-dog",
+      "token": "ab3801901d17c162894c0c33a1ae859d"
+    }
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": true,
+        "key": "CommandOrControl+Shift+P",
+        "name": "upload",
+        "label": "快捷上传"
+      }
+    },
+    "server": {
+      "port": 36677,
+      "host": "127.0.0.1",
+      "enable": true
+    },
+    "showUpdateTip": false,
+    "autoRename": false,
+    "rename": true,
+    "uploadNotification": true
+  },
+  "picgoPlugins": {
+    "picgo-plugin-gitee-smart": true,
+    "picgo-plugin-autocopy": true,
+    "picgo-plugin-compress": true
+  },
+  "debug": true,
+  "PICGO_ENV": "GUI",
+  "needReload": false,
+  "picgo-plugin-gitee-uploader": {
+    "lastSync": "2021-08-10 12:32:07"
+  }
+}
