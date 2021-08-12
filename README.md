@@ -1,4 +1,4 @@
-![screenshot](https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210513105954.png)
+![](https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210810123202.png)
 
 ## 一、关于i3的一些设置
 

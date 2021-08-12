@@ -59,12 +59,7 @@ bindsym $mod+F5 exec terminal -e 'mocp'
 bindsym $mod+t exec --no-startup-id pkill picom
 bindsym $mod+Ctrl+t exec --no-startup-id picom -b
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
-# bindsym Print exec --no-startup-id i3-scrot
 bindsym Print exec --no-startup-id flameshot gui
-# bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
-# bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
-bindsym $mod+Shift+y exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
-bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 
 # 防止切换workspace时失去焦点
 focus_follows_mouse no
@@ -135,16 +130,27 @@ bindsym $mod+minus scratchpad show
 bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
 
-# Workspace names
-set $ws1 1
-set $ws2 2
-set $ws3 3
-set $ws4 4
-set $ws5 5
-set $ws6 6
-set $ws7 7
-set $ws8 8
+set $ws1 " 1:  "
+set $ws2 " 2:  "
+set $ws3 " 3:  "
+set $ws4 " 4:  "
+set $ws5 " 5:  "
+set $ws6 " 6:  "
+set $ws7 " 7:  "
+set $ws8 " 8: ♫ "
+set $ws9 " 9:  "
+set $ws0 " 10:  "
 
+## Always open some programs on specified workspace
+assign [class="ranger"]    $ws4
+assign [class="Joplin"]    $ws7
+assign [class="obsidian"]    $ws7
+assign [class="Picgo"]     $ws7
+assign [class="jetbrains-studio"]    $ws2
+assign [class="firefox"] $ws1
+assign [class="Pcmanfm"] $ws4
+for_window [class="qqmusic"] move container to workspace $ws8; workspace $ws8
+  
 # switch to workspace
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
@@ -175,51 +181,22 @@ bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
-# Open applications on specific workspaces
-
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1
-for_window [class="calamares"] floating enable border normal
-for_window [class="Clipgrab"] floating enable
-for_window [title="File Transfer*"] floating enable
-for_window [class="fpakman"] floating enable
-for_window [class="Galculator"] floating enable border pixel 1
-for_window [class="GParted"] floating enable border normal
-for_window [title="i3_help"] floating enable sticky enable border normal
-for_window [class="Lightdm-settings"] floating enable
 for_window [class="Lxappearance"] floating enable sticky enable border normal
-for_window [class="Manjaro-hello"] floating enable
-for_window [class="Manjaro Settings Manager"] floating enable border normal
-for_window [title="MuseScore: Play Panel"] floating enable
 for_window [class="Nitrogen"] floating enable sticky enable border normal
 for_window [class="Oblogout"] fullscreen enable
-for_window [class="octopi"] floating enable
-for_window [title="About Pale Moon"] floating enable
-for_window [class="Pamac-manager"] floating enable
 for_window [class="Pavucontrol"] floating enable
 for_window [class="qt5ct"] floating enable sticky enable border normal
 for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
-for_window [class="Simple-scan"] floating enable border normal
-for_window [class="(?i)System-config-printer.py"] floating enable border normal
-for_window [class="Skype"] floating enable border normal
-for_window [class="Timeset-gui"] floating enable border normal
-for_window [class="(?i)virtualbox"] floating enable border normal
-for_window [class="Xfburn"] floating enable
 for_window [class="Youdao Dict"] floating enable border none
-for_window [class="Colorgrab"] floating enable border none
-for_window [class="tim.exe"] floating enable border none
-for_window [class="qq.exe"] floating enable border none
 for_window [class="flameshot"] floating enable border none
-for_window [class="Wine"] floating enable border none
 for_window [class="deepin-system-monitor"] floating enable border none
-for_window [class="Qq"] floating enable border none
 for_window [class="Mousepad"] floating enable border none
 for_window [class="Steam"] floating enable border none
-for_window [class="Nm-connection-editor"] floating enable border none
-for_window [class="Piper"] floating enable border none
-for_window [class="Drawing"] floating enable border none
-for_window [class="seafile-applet"] floating enable border none
 for_window [title="Android Emulator - Pixel_2_API_30:5554"] floating enable border none
+for_window [class="qq.exe"] floating enable border none
+for_window [class="Wine"] floating enable border none
 
 
 # switch to workspace with urgent window automatically
@@ -253,104 +230,58 @@ mode "$mode_system" {
 # Resize window (you can also use the mouse for that)
 bindsym $mod+r mode "resize"
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 5 px or 5 ppt
+        bindsym h resize shrink width 5 px or 5 ppt
         bindsym k resize grow height 5 px or 5 ppt
-        bindsym l resize shrink height 5 px or 5 ppt
-        bindsym semicolon resize grow width 5 px or 5 ppt
-
-        # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
-
+        bindsym j resize shrink height 5 px or 5 ppt
+        bindsym l resize grow width 5 px or 5 ppt
         # exit resize mode: Enter or Escape
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
 
 # Lock screen
-bindsym $mod+9 exec --no-startup-id blurlock
+bindsym $mod+9 exec --no-startup-id betterlockscreen -l dimblur
 
-# Color palette used for the terminal ( ~/.Xresources file )
-# Colors are gathered based on the documentation:
-# https://i3wm.org/docs/userguide.html#xresources
-# Change the variable name at the place you want to match the color
-# of your terminal like this:
-# [example]
-# If you want your bar to have the same background color as your 
-# terminal background change the line 362 from:
-# background #14191D
-# to:
-# background $term_background
-# Same logic applied to everything else.
-set_from_resource $term_background background
-set_from_resource $term_foreground foreground
-set_from_resource $term_color0     color0
-set_from_resource $term_color1     color1
-set_from_resource $term_color2     color2
-set_from_resource $term_color3     color3
-set_from_resource $term_color4     color4
-set_from_resource $term_color5     color5
-set_from_resource $term_color6     color6
-set_from_resource $term_color7     color7
-set_from_resource $term_color8     color8
-set_from_resource $term_color9     color9
-set_from_resource $term_color10    color10
-set_from_resource $term_color11    color11
-set_from_resource $term_color12    color12
-set_from_resource $term_color13    color13
-set_from_resource $term_color14    color14
-set_from_resource $term_color15    color15
+# Defining colors
+set $bg      #282A36
+set $lg      #44475a
+set $fg      #f8f8f2
+set $cyan    #8be9fd
+set $green   #50fa7b
+set $magenta #ff79c6
+set $comment #6272a4
+set $purple  #bd93f9
+
+
+# Set some nice colors      border	 background text     indicator
+client.focused              $purple $purple   $fg      $comment
+client.unfocused            $bg      $bg        $cyan    $bg
+client.focused_inactive     $bg      $bg        $green   $bg
+client.urgent               $bg      $bg        $magenta $bg
+client.placeholder          $bg      $bg        $cyan    $bg
+client.background       #2B2C2B
 
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 bar {
     position top
-    # position bottom
-    i3bar_command i3bar --transparency
-	# status_command i3status
+    i3bar_command i3bar
 	status_command i3blocks
-	# font xft:URWGothic-Book 13
-    # font pango:DejaVu Sans Mono, FontAwesome 13
     font pango: FiraMono Nerd Font Regular 12
-	strip_workspace_numbers yes
-    strip_workspace_name no
+	# strip_workspace_numbers yes
+    # strip_workspace_name no
     colors {
-        # background #222D31
-        background #333A47BF
-        # background #333A4700
-        statusline #F9FAF9B3
-        separator  #454947B3
+        background #333A47
 
-#                      border  backgr. text
-        #focused_workspace  #F9FAF9 #16a085 #292F34
-        focused_workspace  #F9FAF9 #bd93f9 #292F34
-        active_workspace   #353836 #353836 #FDF6E3
-        inactive_workspace #222D31 #222D31 #EEE8D5
-        binding_mode       #bd93f9 #2C2C2C #F9FAF9
-        urgent_workspace   #F9FAF9 #ff6768 #FDF6E3 #E5201D
+        focused_workspace   $fg    $purple        $bg
+        active_workspace    $bg    $bg        $purple
+        inactive_workspace  $bg    $bg        $fg
+        urgent_workspace    $bg    $bg        $magenta
+        background          $bg
     }
 }
 
 # hide/unhide i3status bar
 bindsym $mod+m bar mode toggle
-
-# Theme colors
-# class                   border  backgr. text    indic.   child_border
-  # client.focused          #556064 #556064 #80FFF9 #FDF6E3
-  # client.focused          #3275a8 #3275a8 #80FFF9 #FDF6E3
-  client.focused          #BD93F9 #BD93F9#3275a8 #80FFF9 #FDF6E3
-  client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
-  client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
-  client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
-  client.placeholder      #000000 #0c0c0c #ffffff #000000 
-
-  client.background       #2B2C2B
 
 #############################
 ### settings for i3-gaps: ###
@@ -416,12 +347,12 @@ exec --no-startup-id nitrogen --restore; sleep 2; picom -b
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
-exec --no-startup-id xfce4-clipman
+# exec --no-startup-id xfce4-clipman
 exec --no-startup-id fcitx5
-exec --no-startup-id blueman-applet
+# exec --no-startup-id blueman-applet
 exec --no-startup-id /opt/BreakTimer/breaktimer
-exec --no-startup-id xautolock -time 10 -locker blurlock
-exec_always --no-startup-id nextcloud
+exec --no-startup-id xautolock -time 10 -locker betterlockscreen -l limblur
+exec --no-startup-id nextcloud
 exec --no-startup-id ~/.scripts/monitors.sh
-exec --no-startup-id copyq
+# exec --no-startup-id copyq
 
