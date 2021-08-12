@@ -1,0 +1,76 @@
+2021-07-31 21:03:53 [PicGo INFO] [PicGo Server] is listening at 36677
+2021-07-31 21:33:15 [PicGo INFO] [PicGo Server] shutdown
+2021-08-01 09:21:37 [PicGo INFO] [PicGo Server] is listening at 36677
+2021-08-01 09:22:21 [PicGo INFO] [PicGo Server] shutdown
+2021-08-01 12:16:49 [PicGo INFO] [PicGo Server] is listening at 36677
+2021-08-01 12:17:15 [PicGo SUCCESS] 插件安装成功
+2021-08-01 15:41:00 [PicGo INFO] [PicGo Server] shutdown
+2021-08-01 15:42:51 [PicGo INFO] [PicGo Server] is listening at 36677
+2021-08-01 15:45:51 [PicGo SUCCESS] 插件安装成功
+2021-08-01 15:48:12 [PicGo SUCCESS] 插件安装成功
+2021-08-01 15:58:16 [PicGo INFO] Before transform
+2021-08-01 15:58:16 [PicGo INFO] Transforming...
+2021-08-01 15:58:16 [PicGo INFO] Before upload
+2021-08-01 15:58:33 [PicGo INFO] Uploading...
+2021-08-01 15:58:33 [PicGo INFO] 插件开始上传.....
+2021-08-01 15:58:34 [PicGo SUCCESS] 
+https://gitee.com/mayapony/pic-dog/raw/master/imgs/上传测试.png
+2021-08-02 18:17:35 [PicGo INFO] [PicGo Server] is listening at 36677
+2021-08-03 11:56:16 [PicGo INFO] [PicGo Server] is listening at 36677
+2021-08-03 11:56:42 [PicGo INFO] Before transform
+2021-08-03 11:56:42 [PicGo INFO] Transforming...
+2021-08-03 11:56:42 [PicGo INFO] Before upload
+2021-08-03 11:56:51 [PicGo INFO] Uploading...
+2021-08-03 11:56:51 [PicGo INFO] 插件开始上传.....
+2021-08-03 11:56:52 [PicGo SUCCESS] 
+https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210803115642.png
+2021-08-04 14:23:47 [PicGo INFO] [PicGo Server] is listening at 36677
+2021-08-04 14:25:33 [PicGo ERROR] Error: image not found in clipboard
+------Error Stack Begin------
+Error: image not found in clipboard
+    at PicGo.upload (/tmp/.mount_picgo0g32sh/resources/app.asar/node_modules/picgo/dist/src/core/PicGo.js:132:27)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+-------Error Stack End-------
+2021-08-04 14:25:40 [PicGo ERROR] Error: image not found in clipboard
+------Error Stack Begin------
+Error: image not found in clipboard
+    at PicGo.upload (/tmp/.mount_picgo0g32sh/resources/app.asar/node_modules/picgo/dist/src/core/PicGo.js:132:27)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+-------Error Stack End-------
+2021-08-08 21:15:23 [PicGo INFO] [PicGo Server] is listening at 36677
+2021-08-08 21:15:25 [PicGo INFO] Before transform
+2021-08-08 21:15:25 [PicGo INFO] Transforming...
+2021-08-08 21:15:25 [PicGo INFO] Before upload
+2021-08-08 21:15:37 [PicGo INFO] Uploading...
+2021-08-08 21:15:37 [PicGo INFO] 插件开始上传.....
+2021-08-08 21:15:38 [PicGo SUCCESS] 
+https://gitee.com/mayapony/pic-dog/raw/master/imgs/修改项目名称.png
+2021-08-08 21:17:24 [PicGo INFO] Before transform
+2021-08-08 21:17:24 [PicGo INFO] Transforming...
+2021-08-08 21:17:25 [PicGo INFO] Before upload
+2021-08-08 21:17:30 [PicGo INFO] Uploading...
+2021-08-08 21:17:30 [PicGo INFO] 插件开始上传.....
+2021-08-08 21:17:31 [PicGo SUCCESS] 
+https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210808211724.png
+2021-08-08 21:17:59 [PicGo INFO] Before transform
+2021-08-08 21:17:59 [PicGo INFO] Transforming...
+2021-08-08 21:17:59 [PicGo INFO] Before upload
+2021-08-08 21:18:00 [PicGo INFO] Uploading...
+2021-08-08 21:18:00 [PicGo INFO] 插件开始上传.....
+2021-08-08 21:18:01 [PicGo SUCCESS] 
+https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210808211759.png
+2021-08-08 21:18:34 [PicGo INFO] Before transform
+2021-08-08 21:18:34 [PicGo INFO] Transforming...
+2021-08-08 21:18:34 [PicGo INFO] Before upload
+2021-08-08 21:18:46 [PicGo INFO] Uploading...
+2021-08-08 21:18:46 [PicGo INFO] 插件开始上传.....
+2021-08-08 21:18:46 [PicGo SUCCESS] 
+https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210808211834.png
+2021-08-10 12:32:00 [PicGo INFO] [PicGo Server] is listening at 36677
+2021-08-10 12:32:02 [PicGo INFO] Before transform
+2021-08-10 12:32:02 [PicGo INFO] Transforming...
+2021-08-10 12:32:02 [PicGo INFO] Before upload
+2021-08-10 12:32:06 [PicGo INFO] Uploading...
+2021-08-10 12:32:06 [PicGo INFO] 插件开始上传.....
+2021-08-10 12:32:07 [PicGo SUCCESS] 
+https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210810123202.png
