@@ -103,6 +103,9 @@ pacman-key --populate archlinuxcn
 35. Dbeaver SQL数据库
 36. git-delta 替代 `diff` 的工具
 37. trash-cli 使用trash命令代替rm，删除文件更加安全
+38. **qt5ct** 修改 QT Theme
+39. foxitreader pdf阅读器
+40. kleopatra
 
 ### 2. 剪切板工具
 
@@ -173,8 +176,9 @@ Anyway, this works on both my desktops and my laptop.
 exec ** --no-startup-id ** alacritty
 ```
 
-
 ## 修改默认浏览器
+
+[测试链接](https://www.baidu.com)
 
 ```shell
 nvim ~/.profile
@@ -196,7 +200,8 @@ nvim ~/.profile
    unset BROWSER
    xdg-settings set default-web-browser google-chrome-stable.desktop
    xdg-settings get default-web-browser
-   xdg-open https://www.manjaro.org
+   
+   
    ```
 
 ## 六、添加字体
@@ -208,3 +213,5 @@ nvim ~/.profile
 ## 七、主题
 
 主题、图标、光标：WhiteSur
+
+壁纸位置： `/usr/share/backgrounds`

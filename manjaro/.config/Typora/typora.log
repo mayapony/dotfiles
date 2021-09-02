@@ -1193,3 +1193,36 @@ INFO 2021/8/11 下午7:32:08  ----------------before-quit-----------------
 INFO 2021/8/11 下午7:32:08  ------------------will-quit------------------
 INFO 2021/8/11 下午7:32:08  -----------------quit------------------
 INFO 2021/8/11 下午7:32:08  closeLogging
+INFO 2021/8/13 下午2:34:46  ------------------start------------------
+INFO 2021/8/13 下午2:34:46  typora version: 0.10.11
+INFO 2021/8/13 下午2:34:46  [Raven] instanceKey = a51e8b80-8b44-4cf2-ac0d-7a56ba6b1067
+INFO 2021/8/13 下午2:34:46  addRecentDocument
+INFO 2021/8/13 下午2:34:46  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/8/13 下午2:34:46  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/8/13 下午2:34:46  [focus] 1
+INFO 2021/8/13 下午2:34:46  synced recovery
+INFO 2021/8/13 下午2:34:47  handle document.loadInitData
+INFO 2021/8/13 下午2:34:47  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/8/13 下午2:34:47  synced recovery
+INFO 2021/8/13 下午2:34:47  [blur] 1
+INFO 2021/8/13 下午2:34:47  [win] blur
+INFO 2021/8/13 下午2:34:49  [focus] 1
+INFO 2021/8/13 下午2:34:57  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (3939)
+INFO 2021/8/13 下午2:34:57  synced recovery
+INFO 2021/8/13 下午2:34:57  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (3940)
+INFO 2021/8/13 下午2:34:57  synced recovery
+INFO 2021/8/13 下午2:35:01  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (3942)
+INFO 2021/8/13 下午2:35:01  synced recovery
+INFO 2021/8/13 下午2:35:04  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (3951)
+INFO 2021/8/13 下午2:35:04  synced recovery
+INFO 2021/8/13 下午2:35:05  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2021/8/13 下午2:35:05  synced recovery
+INFO 2021/8/13 下午2:35:05  synced recovery
+INFO 2021/8/13 下午2:35:05  ----------------before-quit-----------------
+INFO 2021/8/13 下午2:35:05  ------------------will-quit------------------
+INFO 2021/8/13 下午2:35:05  -----------------quit------------------
+INFO 2021/8/13 下午2:35:05  closeLogging

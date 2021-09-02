@@ -13,6 +13,7 @@ configFolders = [
     'Typora',
     'omf',
     'fcitx',
+    'i3blocks'
 ]
 
 for folderName in configFolders:

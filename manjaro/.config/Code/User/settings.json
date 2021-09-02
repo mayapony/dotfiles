@@ -33,10 +33,10 @@
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["<leader>", "r"],
-      "commands": ["python.execInTerminal"]
-    },
+    // {
+    //   "before": ["<leader>", "r"],
+    //   "commands": ["python.execInTerminal"]
+    // },
     {
       "before": ["<leader>", "a"],
       "commands": ["wwm.aligncode"]
@@ -208,8 +208,10 @@
     "blueimp",
     "blueimp md",
     "echarts",
+    "foxmail",
     "kase",
     "kruskal",
+    "mayapony",
     "md",
     "renda",
     "spfa",
@@ -296,9 +298,7 @@
     "*.ipynb": "jupyter.notebook.ipynb"
   },
   "window.menuBarVisibility": "toggle",
-  "python.experiments.optOutFrom": [
-    "pythonJediLSP"
-  ],
+  "python.experiments.optOutFrom": ["pythonJediLSP"],
   "terminal.integrated.automationShell.linux": "/bin/fish",
   "terminal.integrated.shell.linux": "/bin/fish",
   "terminal.integrated.profiles.linux": {
@@ -364,7 +364,7 @@
   ],
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
+  },
   "path-intellisense.mappings": {
     "@": "${workspaceRoot}/src"
   },
@@ -376,5 +376,9 @@
   "workbench.activityBar.visible": false,
   "joplin.token": "9962f6ee0b33959a8d346bd831b59de119141f7426400790ecdafe91dab5315e97dc094d8fe7b43ad066643d55313688c39affe5817ae9d3957c33dd56da8609",
   "joplin.programProfilePath": "/home/mayapony/Documents/Nextcloud/Joplin",
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.zoomLevel": 1,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
