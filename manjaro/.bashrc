@@ -139,3 +139,7 @@ ex ()
 }
 
 # exec fish
+export http_proxy='127.0.0.1:8888'
+export https_proxy='127.0.0.1:8888'
+export ftp_proxy=''
+export socks_proxy=''

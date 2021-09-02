@@ -2,11 +2,13 @@
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_c:clear
-SETUVAR _fish_abbr_la:exa\x20\x2da
-SETUVAR _fish_abbr_ll:exa\x20\x2dl
-SETUVAR _fish_abbr_ls:exa
+SETUVAR _fish_abbr_fzf_2D_p:fzf\x20\x2d\x2dpreview\x20\x27bat\x20\x2d\x2dcolor\x3dalways\x20\x2d\x2dstyle\x3dnumbers\x20\x2d\x2dline\x2drange\x3d\x3a500\x20\x7b\x7d
+SETUVAR _fish_abbr_la:exa\x20\x2da\x20\x2d\x2dicons
+SETUVAR _fish_abbr_ll:exa\x20\x2dl\x20\x2d\x2dicons
+SETUVAR _fish_abbr_ls:exa\x20\x2d\x2dicons
 SETUVAR _fish_abbr_pac:sudo\x20pacman
 SETUVAR _fish_abbr_ra:ranger
+SETUVAR _fish_abbr_rm:trash
 SETUVAR _fish_abbr_s:neofetch
 SETUVAR _fish_abbr_trash:rm
 SETUVAR _fish_abbr_vi:nvim

@@ -18,12 +18,6 @@ Name=shuangpin
 # Layout
 Layout=
 
-[Groups/0/Items/2]
-# Name
-Name=pinyin
-# Layout
-Layout=
-
 [GroupOrder]
 0=Default
 

@@ -103,6 +103,7 @@ pacman-key --populate archlinuxcn
 35. Dbeaver SQL数据库
 36. git-delta 替代 `diff` 的工具
 37. trash-cli 使用trash命令代替rm，删除文件更加安全
+38. **qt5ct** 修改 QT Theme
 
 ### 2. 剪切板工具
 

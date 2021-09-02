@@ -1,6 +1,5 @@
 # i3 config file
 # Auther maya
-
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
 
@@ -27,6 +26,7 @@ bindsym $mod+Shift+q kill
 # start program launcher
 # bindsym $mod+d exec --no-startup-id dmenu_recency
 bindsym $mod+d exec rofi -show run -theme dracula
+# bindsym $mod+d exec rofi -show
 
 # launch categorized menu
 bindsym $mod+z exec --no-startup-id morc_menu
@@ -48,9 +48,9 @@ bindsym $mod+Ctrl+m exec pavucontrol
 # win + w(ord)
 bindsym $mod+w exec youdao-dict
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-# bindsym $mod+F2 exec google-chrome-stable
+bindsym $mod+F2 exec google-chrome-stable
 # bindsym $mod+F2 exec microsoft-edge-dev
-bindsym $mod+F2 exec firefox
+# bindsym $mod+F2 exec firefox
 bindsym $mod+F3 exec pcmanfm
 bindsym $mod+F4 exec deepin-system-monitor
 # bindsym $mod+F3 exec ranger
@@ -130,24 +130,22 @@ bindsym $mod+minus scratchpad show
 bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
 
-set $ws1 " 1:  "
+set $ws1 " 1:  "
 set $ws2 " 2:  "
 set $ws3 " 3:  "
 set $ws4 " 4:  "
 set $ws5 " 5:  "
 set $ws6 " 6:  "
 set $ws7 " 7:  "
-set $ws8 " 8: ♫ "
+set $ws8 " 8:  "
 set $ws9 " 9:  "
 set $ws0 " 10:  "
 
 ## Always open some programs on specified workspace
-assign [class="ranger"]    $ws4
-assign [class="Joplin"]    $ws7
 assign [class="obsidian"]    $ws7
 assign [class="Picgo"]     $ws7
 assign [class="jetbrains-studio"]    $ws2
-assign [class="firefox"] $ws1
+assign [class="google-chrome"] $ws1
 assign [class="Pcmanfm"] $ws4
 for_window [class="qqmusic"] move container to workspace $ws8; workspace $ws8
   
@@ -184,8 +182,6 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1
 for_window [class="Lxappearance"] floating enable sticky enable border normal
-for_window [class="Nitrogen"] floating enable sticky enable border normal
-for_window [class="Oblogout"] fullscreen enable
 for_window [class="Pavucontrol"] floating enable
 for_window [class="qt5ct"] floating enable sticky enable border normal
 for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
@@ -197,6 +193,7 @@ for_window [class="Steam"] floating enable border none
 for_window [title="Android Emulator - Pixel_2_API_30:5554"] floating enable border none
 for_window [class="qq.exe"] floating enable border none
 for_window [class="Wine"] floating enable border none
+for_window [class="Anki"] floating enable border none
 
 
 # switch to workspace with urgent window automatically
@@ -227,13 +224,13 @@ mode "$mode_system" {
     bindsym Escape mode "default"
 }
 
-# Resize window (you can also use the mouse for that)
+# jesize window (you can also use the mouse for that)
 bindsym $mod+r mode "resize"
 mode "resize" {
-        bindsym h resize shrink width 5 px or 5 ppt
-        bindsym k resize grow height 5 px or 5 ppt
-        bindsym j resize shrink height 5 px or 5 ppt
-        bindsym l resize grow width 5 px or 5 ppt
+        bindsym l resize shrink width 5 px or 5 ppt
+        bindsym j resize grow height 5 px or 5 ppt
+        bindsym k resize shrink height 5 px or 5 ppt
+        bindsym h resize grow width 5 px or 5 ppt
         # exit resize mode: Enter or Escape
         bindsym Return mode "default"
         bindsym Escape mode "default"
@@ -351,8 +348,8 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id fcitx5
 # exec --no-startup-id blueman-applet
 exec --no-startup-id /opt/BreakTimer/breaktimer
-exec --no-startup-id xautolock -time 10 -locker betterlockscreen -l limblur
+exec --no-startup-id xautolock -time 10 -locker blurlock
 exec --no-startup-id nextcloud
 exec --no-startup-id ~/.scripts/monitors.sh
-# exec --no-startup-id copyq
+exec --no-startup-id copyq
 
