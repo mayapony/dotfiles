@@ -25,8 +25,8 @@ bindsym $mod+Shift+q kill
 
 # start program launcher
 # bindsym $mod+d exec --no-startup-id dmenu_recency
-bindsym $mod+d exec rofi -show run -theme dracula
-# bindsym $mod+d exec rofi -show
+# bindsym $mod+d exec rofi -show run -theme config
+bindsym $mod+d exec ~/.config/rofi/bin/launcher_colorful
 
 # launch categorized menu
 bindsym $mod+z exec --no-startup-id morc_menu
@@ -48,7 +48,8 @@ bindsym $mod+Ctrl+m exec pavucontrol
 # win + w(ord)
 bindsym $mod+w exec youdao-dict
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym $mod+F2 exec google-chrome-stable
+bindsym $mod+F2 exec --no-startup-id google-chrome-stable
+# bindsym $mod+F2 exec --no-startup-id vivaldi-stable
 # bindsym $mod+F2 exec microsoft-edge-dev
 # bindsym $mod+F2 exec firefox
 bindsym $mod+F3 exec pcmanfm
@@ -137,7 +138,7 @@ set $ws4 " 4:  "
 set $ws5 " 5:  "
 set $ws6 " 6:  "
 set $ws7 " 7:  "
-set $ws8 " 8:  "
+set $ws8 " 8:  "
 set $ws9 " 9:  "
 set $ws0 " 10:  "
 
@@ -194,6 +195,7 @@ for_window [title="Android Emulator - Pixel_2_API_30:5554"] floating enable bord
 for_window [class="qq.exe"] floating enable border none
 for_window [class="Wine"] floating enable border none
 for_window [class="Anki"] floating enable border none
+for_window [class="EasyConnect"] floating enable border none
 
 
 # switch to workspace with urgent window automatically
@@ -344,12 +346,12 @@ exec --no-startup-id nitrogen --restore; sleep 2; picom -b
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
-# exec --no-startup-id xfce4-clipman
+exec --no-startup-id xfce4-clipman
 exec --no-startup-id fcitx5
-# exec --no-startup-id blueman-applet
+exec --no-startup-id blueman-applet
 exec --no-startup-id /opt/BreakTimer/breaktimer
 exec --no-startup-id xautolock -time 10 -locker blurlock
 exec --no-startup-id nextcloud
-exec --no-startup-id ~/.scripts/monitors.sh
-exec --no-startup-id copyq
+exec --no-startup-id /home/mayapony/.scripts/monitors.sh
+# exec --no-startup-id copyq
 

@@ -1,21 +1,12 @@
 {
   "#region": {
     "prefix": "#region",
-    "body": [
-        "// *\\/*** #region / $1 / *****\\/*",
-        "$2",
-        "// */\\** #end region / $1 / **/\\*",
-    ],
+    "body": ["// *\\/*** #region / $1 / *****\\/*", "$2", "// */\\** #end region / $1 / **/\\*"],
     "description": "region surrend code"
   },
   "%for": {
     "prefix": "%for",
-    "body": [
-      "<% for(var i = $1; $2; $3){ %>",
-      "  $4",
-      "<% } %>",
-      "$5"
-    ]
+    "body": ["<% for(var i = $1; $2; $3){ %>", "  $4", "<% } %>", "$5"]
   },
   "#fn": {
     "prefix": "#fn",
@@ -30,7 +21,11 @@
       "  fn: async function (inputs, exits) {",
       "$4",
       "  }",
-      "};"      
+      "};"
     ]
+  },
+  "logger": {
+    "prefix": "logger",
+    "body": ["const logger = new Logger('$TM_FILENAME_BASE');", "$2"]
   }
 }

@@ -132,8 +132,7 @@
   // "vim.autoSwitchInputMethod.obtainIMCmd": "C:\\Tools\\im-select\\im-select.exe",
   // "vim.autoSwitchInputMethod.switchIMCmd": "C:\\Tools\\im-select\\im-select.exe {im}",
   // =================== VIM END ======================================
-  "search.followSymlinks": false, //关闭快速预览
-  "editor.fontSize": 16,
+  "search.followSymlinks": false,
   "editor.fontLigatures": true,
   "editor.lineHeight": 40,
   "markdown.preview.fontSize": 16,
@@ -174,8 +173,8 @@
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
   "breadcrumbs.symbolPath": "off",
-  "editor.fontFamily": " 'JetBrains Mono','Fira Code','Source Code Pro', 'hack', Menlo, 'Courier New',monospace",
-  "terminal.integrated.fontFamily": "'FiraCode Nerd Font','JetBrains Mono','Fira Code',Menlo,Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'hack', 'Fira Code', 'JetBrains Mono','Source Code Pro', Menlo, 'Courier New',monospace",
+  "terminal.integrated.fontFamily": "'FiraMono Nerd Font','JetBrains Mono','Fira Code',Menlo,Monaco, 'Courier New', monospace",
   "liveServer.settings.donotVerifyTags": true,
   "debug.console.fontSize": 16,
   "terminal.integrated.fontSize": 16,
@@ -205,6 +204,7 @@
   "explorer.confirmDragAndDrop": false,
   "cSpell.userWords": [
     "alipay",
+    "axios",
     "blueimp",
     "blueimp md",
     "echarts",
@@ -213,6 +213,7 @@
     "kruskal",
     "mayapony",
     "md",
+    "nestjs",
     "renda",
     "spfa",
     "stoi",
@@ -295,9 +296,8 @@
   "tabnine.experimentalAutoImports": true,
   "git.enableSmartCommit": true,
   "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
+    "*.ipynb": "jupyter-notebook"
   },
-  "window.menuBarVisibility": "toggle",
   "python.experiments.optOutFrom": ["pythonJediLSP"],
   "terminal.integrated.automationShell.linux": "/bin/fish",
   "terminal.integrated.shell.linux": "/bin/fish",
@@ -311,7 +311,7 @@
   "terminal.integrated.copyOnSelection": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[vue]": {
-    "editor.defaultFormatter": "octref.vetur"
+    "editor.defaultFormatter": "johnsoncodehk.volar"
   },
   "cSpell.enabled": true,
   "cSpell.enableFiletypes": ["vue"],
@@ -371,14 +371,32 @@
   "editor.minimap.enabled": false,
   "editor.wordWrapColumn": 120,
   "editor.wordWrap": "on",
-  "editor.suggest.preview": true,
-  "workbench.colorTheme": "Dracula",
-  "workbench.activityBar.visible": false,
+  "editor.suggest.preview": false, // 自动不全预览
+  "workbench.colorTheme": "GitHub Dark Dimmed",
   "joplin.token": "9962f6ee0b33959a8d346bd831b59de119141f7426400790ecdafe91dab5315e97dc094d8fe7b43ad066643d55313688c39affe5817ae9d3957c33dd56da8609",
   "joplin.programProfilePath": "/home/mayapony/Documents/Nextcloud/Joplin",
   "security.workspace.trust.untrustedFiles": "open",
   "window.zoomLevel": 1,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "window.menuBarVisibility": "toggle",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "editor.fontSize": 16,
+  "docthis.dateTagFormat": "yyyy-mm-dd",
+  "docthis.includeDateTag": true,
+  "docthis.includeDescriptionTag": true,
+  "docthis.includeMemberOfOnInterfaceMembers": false,
+  "docthis.includeMemberOfOnClassMembers": false,
+  "docthis.returnsTag": true,
+  "docthis.authorName": "maya",
+  "docthis.includeTypes": false,
+  "editor.quickSuggestionsDelay": 5
 }
