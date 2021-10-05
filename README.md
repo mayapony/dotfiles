@@ -105,7 +105,7 @@ pacman-key --populate archlinuxcn
 37. trash-cli 使用trash命令代替rm，删除文件更加安全
 38. **qt5ct** 修改 QT Theme
 39. foxitreader pdf阅读器
-40. kleopatra
+40. kleopatra 证书管理器
 
 ### 2. 剪切板工具
 
@@ -215,3 +215,12 @@ nvim ~/.profile
 主题、图标、光标：WhiteSur
 
 壁纸位置： `/usr/share/backgrounds`
+
+
+
+## 八、修改Java环境版本
+
+```shell
+archlinux-java --help # 使用set命令
+```
+
