@@ -20,7 +20,17 @@
 
 `exec --no-startup-id fcitx5`
 
+### 3. i3blocks
 
+
+
+> 配置文件位置  `~/.config/i3blocks/config`
+
+
+
+#### 1) 截图
+
+![](https://gitee.com/mayapony/pic-dog/raw/master/imgs/20211029115030.png)
 
 ## 二、pacman 问题
 
@@ -223,4 +233,16 @@ nvim ~/.profile
 ```shell
 archlinux-java --help # 使用set命令
 ```
+
+
+
+## 九、Emacs
+
+
+
+doom-emacs 建议
+
+![](https://gitee.com/mayapony/pic-dog/raw/master/imgs/20211029201137.png)
+
+
 

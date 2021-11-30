@@ -48,9 +48,9 @@ bindsym $mod+Ctrl+m exec pavucontrol
 # win + w(ord)
 bindsym $mod+w exec youdao-dict
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym $mod+F2 exec --no-startup-id google-chrome-stable
+# bindsym $mod+F2 exec --no-startup-id google-chrome-stable
 # bindsym $mod+F2 exec --no-startup-id vivaldi-stable
-# bindsym $mod+F2 exec microsoft-edge-dev
+bindsym $mod+F2 exec --no-startup-id microsoft-edge-stable
 # bindsym $mod+F2 exec firefox
 bindsym $mod+F3 exec pcmanfm
 bindsym $mod+F4 exec deepin-system-monitor
@@ -347,7 +347,8 @@ exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id xfce4-clipman
-exec --no-startup-id fcitx5
+# exec --no-startup-id fcitx5
+exec --no-startup-id fcitx
 exec --no-startup-id blueman-applet
 exec --no-startup-id /opt/BreakTimer/breaktimer
 exec --no-startup-id xautolock -time 10 -locker blurlock

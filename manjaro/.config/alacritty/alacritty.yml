@@ -29,20 +29,23 @@ scrolling:
 font:
   normal:
     # family: Source Code Pro
-    family: FiraMono Nerd Font
-    style: Regular
+    # family: FiraMono Nerd Font
+    family: CaskaydiaCove Nerd Font
+    style: Bold
 
   bold:
     # family: Source Code Pro
-    family: FiraMono Nerd Font
+    # family: FiraMono Nerd Font
+    family: CaskaydiaCove Nerd Font
     style: Bold
 
   italic:
     # family: Source Code Pro
-    family: FiraMono Nerd Font
+    family: CaskaydiaCove Nerd Font
+      # family: FiraMono Nerd Font
     style: Italic
 
-  size: 16.0
+  size: 17.0
 
   offset:
     x: 0
