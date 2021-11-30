@@ -1,3 +1,14 @@
 [user]
 	email = 1327909321@qq.com
 	name = mayapony
+[url "https://github.com.cnpmjs.org/"]
+	insteadof = https://github.com/
+[url "https://github"]
+	com = https://github.com.cnpmjs.org/
+[url "https://github.com/"]
+	insteadof = https://github.com/
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

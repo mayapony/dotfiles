@@ -27,5 +27,18 @@
   "logger": {
     "prefix": "logger",
     "body": ["const logger = new Logger('$TM_FILENAME_BASE');", "$2"]
+  },
+  "@prop": {
+    "prefix": "@prop",
+    "body": [
+      "@Prop({",
+      "  required: true,",
+      "})",
+      "@ApiProperty({",
+      "  description: '$1',",
+      "  example: '$2'",
+      "})",
+      "$3"
+    ]
   }
 }

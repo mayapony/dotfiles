@@ -33,10 +33,6 @@
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
-    // {
-    //   "before": ["<leader>", "r"],
-    //   "commands": ["python.execInTerminal"]
-    // },
     {
       "before": ["<leader>", "a"],
       "commands": ["wwm.aligncode"]
@@ -90,16 +86,24 @@
       "commands": [":tabprev"]
     },
     {
-      "before": ["t", "o"],
-      "commands": [":tabo"]
-    },
-    {
       "before": ["<leader>", "v", "s"],
       "commands": [":vsp"]
     },
     {
-      "before": ["<leader>", "h", "s"],
-      "commands": [":vs"]
+      "before": ["<C-w>", "="],
+      "commands": [{ "command": "workbench.action.increaseViewSize", "args": [] }]
+    },
+    {
+      "before": ["<C-w>", "-"],
+      "commands": [{ "command": "workbench.action.decreaseViewSize", "args": [] }]
+    },
+    {
+      "before": [":"],
+      "commands": ["workbench.action.showCommands"]
+    },
+    {
+      "before": ["<leader>", "o"],
+      "commands": ["workbench.action.gotoSymbol"]
     }
   ],
   "vim.foldfix": true,
@@ -111,7 +115,9 @@
     "<C-c>": false,
     "<C-j>": false,
     "<C-b>": false,
-    "<C-k>": false
+    "<C-k>": false,
+    "<Esc>": false,
+    "<C-h>": false
   },
   "vim.operatorPendingModeKeyBindings": [
     {
@@ -158,22 +164,17 @@
   "prettier.arrowParens": "avoid", //  (x) => {} 箭头函数参数只有一个时是否要有小括号。avoid：省略括号
   "prettier.bracketSpacing": true, // 在对象，数组括号与文字之间加空格 "{ foo: bar }"
   "prettier.endOfLine": "auto", // 结尾是 \n \r \n\r auto
-  "prettier.eslintIntegration": false, //不让prettier使用eslint的代码格式进行校验
   "prettier.htmlWhitespaceSensitivity": "ignore",
   "prettier.ignorePath": ".prettierignore", // 不使用prettier格式化的文件填写在项目的.prettierignore文件中
   "prettier.jsxBracketSameLine": false, // 在jsx中把'>' 是否单独放一行
   "prettier.jsxSingleQuote": false, // 在jsx中使用单引号代替双引号
-  "prettier.parser": "babylon", // 格式化的解析器，默认是babylon
-  "prettier.requireConfig": false, // Require a 'prettierconfig' to format prettier
-  "prettier.stylelintIntegration": false, //不让prettier使用stylelint的代码格式进行校验
+  "prettier.requireConfig": true, // Require a 'prettierconfig' to format prettier
   "prettier.trailingComma": "es5", // 在对象或数组最后一个元素后面是否加逗号（在ES5中加尾逗号）
-  "prettier.tslintIntegration": false, // 不让prettier使用tslint的代码格式进行校验
   "workbench.editor.limit.enabled": true,
-  "blade.format.enable": true,
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
   "breadcrumbs.symbolPath": "off",
-  "editor.fontFamily": "'hack', 'Fira Code', 'JetBrains Mono','Source Code Pro', Menlo, 'Courier New',monospace",
+  "editor.fontFamily": "'Cascadia Code','hack', 'JetBrains Mono','Source Code Pro', 'Fira Code',  Menlo",
   "terminal.integrated.fontFamily": "'FiraMono Nerd Font','JetBrains Mono','Fira Code',Menlo,Monaco, 'Courier New', monospace",
   "liveServer.settings.donotVerifyTags": true,
   "debug.console.fontSize": 16,
@@ -218,7 +219,8 @@
     "spfa",
     "stoi",
     "tbody",
-    "thead"
+    "thead",
+    "vuex"
   ],
   "editor.renderControlCharacters": false,
   "editor.renderWhitespace": "none",
@@ -279,7 +281,7 @@
   // "editor.scrollBeyondLastLine": false,
 
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "advancedNewFile.exclude": {
     "node_modules": true,
@@ -292,7 +294,6 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  "explorer.sortOrder": "modified",
   "tabnine.experimentalAutoImports": true,
   "git.enableSmartCommit": true,
   "workbench.editorAssociations": {
@@ -311,7 +312,7 @@
   "terminal.integrated.copyOnSelection": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[vue]": {
-    "editor.defaultFormatter": "johnsoncodehk.volar"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "cSpell.enabled": true,
   "cSpell.enableFiletypes": ["vue"],
@@ -372,13 +373,12 @@
   "editor.wordWrapColumn": 120,
   "editor.wordWrap": "on",
   "editor.suggest.preview": false, // 自动不全预览
-  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "workbench.colorTheme": "Sonokai",
   "joplin.token": "9962f6ee0b33959a8d346bd831b59de119141f7426400790ecdafe91dab5315e97dc094d8fe7b43ad066643d55313688c39affe5817ae9d3957c33dd56da8609",
   "joplin.programProfilePath": "/home/mayapony/Documents/Nextcloud/Joplin",
   "security.workspace.trust.untrustedFiles": "open",
-  "window.zoomLevel": 1,
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "window.menuBarVisibility": "toggle",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -389,7 +389,6 @@
     "default": "right",
     "jupyter-notebook": "left"
   },
-  "editor.fontSize": 16,
   "docthis.dateTagFormat": "yyyy-mm-dd",
   "docthis.includeDateTag": true,
   "docthis.includeDescriptionTag": true,
@@ -398,5 +397,14 @@
   "docthis.returnsTag": true,
   "docthis.authorName": "maya",
   "docthis.includeTypes": false,
-  "editor.quickSuggestionsDelay": 5
+  "editor.quickSuggestionsDelay": 5,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"window.zoomLevel": 1,
+  "git.confirmSync": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.defaultDateFormat": null,
+  "editor.fontSize": 15,
+  "prettier.useEditorConfig": false
 }
