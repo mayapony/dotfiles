@@ -1226,3 +1226,3408 @@ INFO 2021/8/13 下午2:35:05  ----------------before-quit-----------------
 INFO 2021/8/13 下午2:35:05  ------------------will-quit------------------
 INFO 2021/8/13 下午2:35:05  -----------------quit------------------
 INFO 2021/8/13 下午2:35:05  closeLogging
+INFO 2021/8/16 下午6:44:18  ------------------start------------------
+INFO 2021/8/16 下午6:44:18  typora version: 0.10.11
+INFO 2021/8/16 下午6:44:18  [Raven] instanceKey = 1cda3862-53bc-4294-b99f-a7987dab58a3
+INFO 2021/8/16 下午6:44:18  addRecentDocument
+INFO 2021/8/16 下午6:44:18  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/8/16 下午6:44:18  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/8/16 下午6:44:18  [focus] 1
+INFO 2021/8/16 下午6:44:18  synced recovery
+INFO 2021/8/16 下午6:44:19  handle document.loadInitData
+INFO 2021/8/16 下午6:44:19  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/8/16 下午6:44:19  synced recovery
+INFO 2021/8/16 下午6:44:26  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (3956)
+INFO 2021/8/16 下午6:44:26  synced recovery
+INFO 2021/8/16 下午6:44:27  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (3957)
+INFO 2021/8/16 下午6:44:27  synced recovery
+INFO 2021/8/16 下午6:44:28  [blur] 1
+INFO 2021/8/16 下午6:44:28  [win] blur
+INFO 2021/8/16 下午6:46:28  [focus] 1
+INFO 2021/8/16 下午6:46:30  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (3960)
+INFO 2021/8/16 下午6:46:30  synced recovery
+INFO 2021/8/16 下午6:46:32  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (3980)
+INFO 2021/8/16 下午6:46:32  synced recovery
+INFO 2021/8/16 下午6:46:32  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (3979)
+INFO 2021/8/16 下午6:46:32  synced recovery
+INFO 2021/8/16 下午6:46:35  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (3968)
+INFO 2021/8/16 下午6:46:35  synced recovery
+INFO 2021/8/16 下午6:46:40  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (3974)
+INFO 2021/8/16 下午6:46:40  synced recovery
+INFO 2021/8/16 下午6:46:40  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (3971)
+INFO 2021/8/16 下午6:46:40  synced recovery
+INFO 2021/8/16 下午6:46:42  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (4012)
+INFO 2021/8/16 下午6:46:42  synced recovery
+INFO 2021/8/16 下午6:46:43  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (3971)
+INFO 2021/8/16 下午6:46:43  synced recovery
+INFO 2021/8/16 下午6:46:47  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (3972)
+INFO 2021/8/16 下午6:46:47  synced recovery
+INFO 2021/8/16 下午6:46:47  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (3975)
+INFO 2021/8/16 下午6:46:47  synced recovery
+INFO 2021/8/16 下午6:46:49  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2021/8/16 下午6:46:49  synced recovery
+INFO 2021/8/16 下午6:47:07  [blur] 1
+INFO 2021/8/16 下午6:47:07  [win] blur
+INFO 2021/8/16 下午6:59:00  [focus] 1
+INFO 2021/8/16 下午6:59:09  [blur] 1
+INFO 2021/8/16 下午6:59:09  [win] blur
+INFO 2021/8/16 下午6:59:14  [focus] 1
+INFO 2021/8/16 下午6:59:14  [blur] 1
+INFO 2021/8/16 下午6:59:14  [win] blur
+INFO 2021/8/16 下午6:59:14  [focus] 1
+INFO 2021/8/16 下午6:59:14  [blur] 1
+INFO 2021/8/16 下午6:59:14  [win] blur
+INFO 2021/8/16 下午6:59:14  [focus] 1
+INFO 2021/8/16 下午6:59:14  [blur] 1
+INFO 2021/8/16 下午6:59:14  [win] blur
+INFO 2021/8/16 下午7:02:20  [focus] 1
+INFO 2021/8/16 下午7:02:25  [blur] 1
+INFO 2021/8/16 下午7:02:25  [win] blur
+INFO 2021/8/16 下午7:03:40  [focus] 1
+INFO 2021/8/17 下午5:46:47  ------------------start------------------
+INFO 2021/8/17 下午5:46:47  typora version: 0.10.11
+INFO 2021/8/17 下午5:46:47  [Raven] instanceKey = 1eee2b92-e632-429e-929f-2266da3dedc1
+INFO 2021/8/17 下午5:46:47  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/8/17 下午5:46:47  launch from abnormal quit
+INFO 2021/8/17 下午5:46:47  recoverWindow {"id":1,"path":"/home/mayapony/dotfiles/README.md","useCRLF":false,"hasUnsaved":false,"scrollPos":3301,"syncDate":1629110809175,"mountFolder":"/home/mayapony/dotfiles"}
+INFO 2021/8/17 下午5:46:47  addRecentDocument
+INFO 2021/8/17 下午5:46:47  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/8/17 下午5:46:47  [focus] 1
+INFO 2021/8/17 下午5:46:47  synced recovery
+INFO 2021/8/17 下午5:46:48  handle document.loadInitData
+INFO 2021/8/17 下午5:46:49  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/8/17 下午5:46:49  synced recovery
+INFO 2021/8/17 下午5:46:59  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (3977)
+INFO 2021/8/17 下午5:46:59  synced recovery
+INFO 2021/8/17 下午5:47:00  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...图标、光标：WhiteSur
+" (3975)
+INFO 2021/8/17 下午5:47:00  synced recovery
+INFO 2021/8/17 下午5:47:01  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...标、光标：WhiteSur
+
+" (3976)
+INFO 2021/8/17 下午5:47:01  synced recovery
+INFO 2021/8/17 下午5:47:04  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...标：WhiteSur
+
+壁纸
+" (3979)
+INFO 2021/8/17 下午5:47:04  synced recovery
+INFO 2021/8/17 下午5:47:08  [blur] 1
+INFO 2021/8/17 下午5:47:08  [win] blur
+INFO 2021/8/17 下午5:47:09  [focus] 1
+INFO 2021/8/17 下午5:47:09  [blur] 1
+INFO 2021/8/17 下午5:47:09  [win] blur
+INFO 2021/8/17 下午5:47:09  [focus] 1
+INFO 2021/8/17 下午5:47:09  [blur] 1
+INFO 2021/8/17 下午5:47:09  [win] blur
+INFO 2021/8/17 下午5:47:09  [focus] 1
+INFO 2021/8/17 下午5:47:14  [blur] 1
+INFO 2021/8/17 下午5:47:14  [win] blur
+INFO 2021/8/17 下午5:47:27  [focus] 1
+INFO 2021/8/17 下午5:47:27  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...hiteSur
+
+壁纸位置：
+" (3982)
+INFO 2021/8/17 下午5:47:27  synced recovery
+INFO 2021/8/17 下午5:47:37  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...hiteSur
+
+壁纸位置：
+" (3982)
+INFO 2021/8/17 下午5:47:37  synced recovery
+INFO 2021/8/17 下午5:47:38  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...iteSur
+
+壁纸位置：`
+" (3983)
+INFO 2021/8/17 下午5:47:38  synced recovery
+INFO 2021/8/17 下午5:47:39  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...iteSur
+
+壁纸位置：`
+" (3983)
+INFO 2021/8/17 下午5:47:39  synced recovery
+INFO 2021/8/17 下午5:47:40  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...iteSur
+
+壁纸位置： 
+" (3983)
+INFO 2021/8/17 下午5:47:40  synced recovery
+INFO 2021/8/17 下午5:47:42  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...iteSur
+
+壁纸位置： 
+" (3983)
+INFO 2021/8/17 下午5:47:42  synced recovery
+INFO 2021/8/17 下午5:47:43  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...teSur
+
+壁纸位置： `
+" (3984)
+INFO 2021/8/17 下午5:47:43  synced recovery
+INFO 2021/8/17 下午5:47:46  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...r
+
+壁纸位置： `usr`
+" (3988)
+INFO 2021/8/17 下午5:47:46  synced recovery
+INFO 2021/8/17 下午5:47:48  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...Sur
+
+壁纸位置： `/`
+" (3986)
+INFO 2021/8/17 下午5:47:48  synced recovery
+INFO 2021/8/17 下午5:47:50  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...r
+
+壁纸位置： `/sr`
+" (3988)
+INFO 2021/8/17 下午5:47:50  synced recovery
+INFO 2021/8/17 下午5:47:51  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...ur
+
+壁纸位置： `/u`
+" (3987)
+INFO 2021/8/17 下午5:47:51  synced recovery
+INFO 2021/8/17 下午5:47:54  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...壁纸位置： `/usr/s`
+" (3991)
+INFO 2021/8/17 下午5:47:54  synced recovery
+INFO 2021/8/17 下午5:47:57  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git.../share/backgr`
+" (4002)
+INFO 2021/8/17 下午5:47:57  synced recovery
+INFO 2021/8/17 下午5:48:01  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2021/8/17 下午5:48:01  synced recovery
+INFO 2021/8/17 下午5:48:07  synced recovery
+INFO 2021/8/17 下午5:48:07  ----------------before-quit-----------------
+INFO 2021/8/17 下午5:48:07  ------------------will-quit------------------
+INFO 2021/8/17 下午5:48:07  -----------------quit------------------
+INFO 2021/8/17 下午5:48:07  closeLogging
+INFO 2021/8/20 下午2:22:39  ------------------start------------------
+INFO 2021/8/20 下午2:22:39  typora version: 0.10.11
+INFO 2021/8/20 下午2:22:39  [Raven] instanceKey = 1159912c-8db4-4e20-9329-0b1f3fb79e41
+INFO 2021/8/20 下午2:22:39  addRecentDocument
+INFO 2021/8/20 下午2:22:39  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/8/20 下午2:22:39  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/8/20 下午2:22:39  [focus] 1
+INFO 2021/8/20 下午2:22:39  synced recovery
+INFO 2021/8/20 下午2:22:40  handle document.loadInitData
+INFO 2021/8/20 下午2:22:40  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/8/20 下午2:22:40  synced recovery
+INFO 2021/8/20 下午2:23:19  [blur] 1
+INFO 2021/8/20 下午2:23:19  [win] blur
+INFO 2021/8/20 下午2:23:38  [focus] 1
+INFO 2021/8/20 下午2:23:38  [blur] 1
+INFO 2021/8/20 下午2:23:38  [win] blur
+INFO 2021/8/20 下午2:24:03  [focus] 1
+INFO 2021/8/20 下午2:24:07  [blur] 1
+INFO 2021/8/20 下午2:24:07  [win] blur
+INFO 2021/8/20 下午2:24:33  [focus] 1
+INFO 2021/8/20 下午2:24:33  [blur] 1
+INFO 2021/8/20 下午2:24:33  [win] blur
+INFO 2021/8/20 下午2:24:33  [focus] 1
+INFO 2021/8/20 下午2:24:33  [blur] 1
+INFO 2021/8/20 下午2:24:33  [win] blur
+INFO 2021/8/20 下午2:24:33  [focus] 1
+INFO 2021/8/20 下午2:24:34  [blur] 1
+INFO 2021/8/20 下午2:24:34  [win] blur
+INFO 2021/8/20 下午2:26:37  [focus] 1
+INFO 2021/8/20 下午2:26:37  [blur] 1
+INFO 2021/8/20 下午2:26:37  [win] blur
+INFO 2021/8/20 下午2:39:35  synced recovery
+INFO 2021/8/20 下午2:39:35  ----------------before-quit-----------------
+INFO 2021/8/20 下午2:39:35  [focus] 1
+INFO 2021/8/24 上午1:47:56  ------------------start------------------
+INFO 2021/8/24 上午1:47:56  typora version: 0.10.11
+INFO 2021/8/24 上午1:47:56  [Raven] instanceKey = c9a0ffeb-b89f-4152-9a00-2a2805655bd7
+INFO 2021/8/24 上午1:47:56  addRecentDocument
+INFO 2021/8/24 上午1:47:57  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/8/24 上午1:47:57  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/8/24 上午1:47:57  [focus] 1
+INFO 2021/8/24 上午1:47:57  synced recovery
+INFO 2021/8/24 上午1:47:58  handle document.loadInitData
+INFO 2021/8/24 上午1:47:58  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/8/24 上午1:47:58  synced recovery
+INFO 2021/8/24 上午1:48:04  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4011)
+INFO 2021/8/24 上午1:48:04  synced recovery
+INFO 2021/8/24 上午1:48:04  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4011)
+INFO 2021/8/24 上午1:48:04  synced recovery
+INFO 2021/8/24 上午1:48:05  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4011)
+INFO 2021/8/24 上午1:48:05  synced recovery
+INFO 2021/8/24 上午1:48:06  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4011)
+INFO 2021/8/24 上午1:48:06  synced recovery
+INFO 2021/8/24 上午1:48:06  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4011)
+INFO 2021/8/24 上午1:48:06  synced recovery
+INFO 2021/8/24 上午1:48:25  [blur] 1
+INFO 2021/8/24 上午1:48:25  [win] blur
+INFO 2021/8/24 上午1:48:32  [focus] 1
+INFO 2021/8/24 上午1:48:32  [blur] 1
+INFO 2021/8/24 上午1:48:32  [win] blur
+INFO 2021/8/24 上午1:48:32  [focus] 1
+INFO 2021/8/24 上午1:48:32  [blur] 1
+INFO 2021/8/24 上午1:48:32  [win] blur
+INFO 2021/8/24 上午1:48:32  [focus] 1
+INFO 2021/8/24 上午1:48:39  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4011)
+INFO 2021/8/24 上午1:48:39  synced recovery
+INFO 2021/8/24 上午1:48:40  [blur] 1
+INFO 2021/8/24 上午1:48:40  [win] blur
+INFO 2021/8/24 上午1:48:41  [focus] 1
+INFO 2021/8/24 上午1:48:41  [blur] 1
+INFO 2021/8/24 上午1:48:41  [win] blur
+INFO 2021/8/24 上午1:48:42  [focus] 1
+INFO 2021/8/24 上午1:48:43  [blur] 1
+INFO 2021/8/24 上午1:48:43  [win] blur
+INFO 2021/8/24 上午1:49:08  [focus] 1
+INFO 2021/8/24 上午1:49:08  [blur] 1
+INFO 2021/8/24 上午1:49:08  [win] blur
+INFO 2021/8/24 上午1:49:09  [focus] 1
+INFO 2021/8/24 上午1:49:09  [blur] 1
+INFO 2021/8/24 上午1:49:09  [win] blur
+INFO 2021/8/24 上午1:49:26  [focus] 1
+INFO 2021/8/24 上午1:49:27  [blur] 1
+INFO 2021/8/24 上午1:49:27  [win] blur
+INFO 2021/8/24 上午1:49:27  [focus] 1
+INFO 2021/8/24 上午1:49:28  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4026)
+INFO 2021/8/24 上午1:49:28  synced recovery
+INFO 2021/8/24 上午1:49:32  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4021)
+INFO 2021/8/24 上午1:49:32  synced recovery
+INFO 2021/8/24 上午1:49:34  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2021/8/24 上午1:49:34  synced recovery
+INFO 2021/8/24 上午1:49:34  [blur] 1
+INFO 2021/8/24 上午1:49:34  [win] blur
+INFO 2021/8/24 上午1:50:23  [focus] 1
+INFO 2021/8/24 上午1:50:23  [blur] 1
+INFO 2021/8/24 上午1:50:23  [win] blur
+INFO 2021/8/24 上午1:50:23  [focus] 1
+INFO 2021/8/24 上午1:50:23  [blur] 1
+INFO 2021/8/24 上午1:50:23  [win] blur
+INFO 2021/8/24 上午1:50:23  [focus] 1
+INFO 2021/8/24 上午1:50:35  [blur] 1
+INFO 2021/8/24 上午1:50:35  [win] blur
+INFO 2021/8/24 上午1:50:43  [focus] 1
+INFO 2021/8/24 上午1:50:43  [blur] 1
+INFO 2021/8/24 上午1:50:43  [win] blur
+INFO 2021/8/24 上午1:50:43  [focus] 1
+INFO 2021/8/24 上午1:50:43  [blur] 1
+INFO 2021/8/24 上午1:50:43  [win] blur
+INFO 2021/8/24 上午1:50:43  [focus] 1
+INFO 2021/8/24 上午1:50:45  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4025)
+INFO 2021/8/24 上午1:50:45  synced recovery
+INFO 2021/8/24 上午1:50:45  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4025)
+INFO 2021/8/24 上午1:50:45  synced recovery
+INFO 2021/8/24 上午1:50:46  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4025)
+INFO 2021/8/24 上午1:50:46  synced recovery
+INFO 2021/8/24 上午1:50:46  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4025)
+INFO 2021/8/24 上午1:50:46  synced recovery
+INFO 2021/8/24 上午1:50:50  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4065)
+INFO 2021/8/24 上午1:50:50  synced recovery
+INFO 2021/8/24 上午1:50:50  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4020)
+INFO 2021/8/24 上午1:50:50  synced recovery
+INFO 2021/8/24 上午1:50:51  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4019)
+INFO 2021/8/24 上午1:50:51  synced recovery
+INFO 2021/8/24 上午1:50:52  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4020)
+INFO 2021/8/24 上午1:50:52  synced recovery
+INFO 2021/8/24 上午1:50:53  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2021/8/24 上午1:50:53  synced recovery
+INFO 2021/8/24 上午1:50:54  [blur] 1
+INFO 2021/8/24 上午1:50:54  [win] blur
+INFO 2021/8/24 上午2:03:54  [focus] 1
+INFO 2021/8/24 上午2:03:55  [blur] 1
+INFO 2021/8/24 上午2:03:55  [win] blur
+INFO 2021/8/24 上午2:03:59  [focus] 1
+INFO 2021/8/24 上午2:03:59  [blur] 1
+INFO 2021/8/24 上午2:03:59  [win] blur
+INFO 2021/8/24 上午2:04:23  The system is going to sleep
+INFO 2021/8/24 上午2:06:38  [focus] 1
+INFO 2021/8/31 上午11:48:18  ------------------start------------------
+INFO 2021/8/31 上午11:48:18  typora version: 0.10.11
+INFO 2021/8/31 上午11:48:18  [Raven] instanceKey = 1fb2511a-c85c-4a26-88fe-e48c9bb86f74
+INFO 2021/8/31 上午11:48:18  launch from abnormal quit
+INFO 2021/8/31 上午11:48:18  recoverWindow {"id":1,"path":"/home/mayapony/dotfiles/README.md","useCRLF":false,"hasUnsaved":false,"scrollPos":3424,"syncDate":1629741053130,"mountFolder":"/home/mayapony/dotfiles"}
+INFO 2021/8/31 上午11:48:18  addRecentDocument
+INFO 2021/8/31 上午11:48:18  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/8/31 上午11:48:18  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/8/31 上午11:48:18  [focus] 1
+INFO 2021/8/31 上午11:48:18  synced recovery
+INFO 2021/8/31 上午11:48:19  handle document.loadInitData
+INFO 2021/8/31 上午11:48:19  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/8/31 上午11:48:19  synced recovery
+INFO 2021/8/31 上午11:48:26  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...ackgrounds`
+
+
+
+" (4023)
+INFO 2021/8/31 上午11:48:26  synced recovery
+INFO 2021/8/31 上午11:48:30  synced recovery
+INFO 2021/8/31 上午11:48:30  ----------------before-quit-----------------
+INFO 2021/8/31 上午11:48:30  ------------------will-quit------------------
+INFO 2021/8/31 上午11:48:30  -----------------quit------------------
+INFO 2021/8/31 上午11:48:30  closeLogging
+INFO 2021/8/31 下午5:49:05  ------------------start------------------
+INFO 2021/8/31 下午5:49:05  typora version: 0.10.11
+INFO 2021/8/31 下午5:49:05  [Raven] instanceKey = 35d0b5e6-5760-445a-b396-bad3c4219a59
+INFO 2021/8/31 下午5:49:05  addRecentDocument
+INFO 2021/8/31 下午5:49:05  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/8/31 下午5:49:05  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/8/31 下午5:49:05  [focus] 1
+INFO 2021/8/31 下午5:49:05  synced recovery
+INFO 2021/8/31 下午5:49:07  handle document.loadInitData
+INFO 2021/8/31 下午5:49:07  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/8/31 下午5:49:07  synced recovery
+INFO 2021/8/31 下午5:49:13  [blur] 1
+INFO 2021/8/31 下午5:49:13  [win] blur
+INFO 2021/8/31 下午5:49:14  [focus] 1
+INFO 2021/8/31 下午5:49:18  [blur] 1
+INFO 2021/8/31 下午5:49:18  [win] blur
+INFO 2021/8/31 下午5:51:40  [focus] 1
+INFO 2021/8/31 下午5:51:46  [blur] 1
+INFO 2021/8/31 下午5:51:46  [win] blur
+INFO 2021/8/31 下午5:52:11  [focus] 1
+INFO 2021/8/31 下午5:52:12  [blur] 1
+INFO 2021/8/31 下午5:52:12  [win] blur
+INFO 2021/8/31 下午5:52:14  [focus] 1
+INFO 2021/8/31 下午5:52:17  [blur] 1
+INFO 2021/8/31 下午5:52:17  [win] blur
+INFO 2021/8/31 下午5:52:23  [focus] 1
+INFO 2021/8/31 下午5:52:27  [blur] 1
+INFO 2021/8/31 下午5:52:27  [win] blur
+INFO 2021/8/31 下午5:52:33  [focus] 1
+INFO 2021/8/31 下午5:52:36  [blur] 1
+INFO 2021/8/31 下午5:52:36  [win] blur
+INFO 2021/8/31 下午5:52:44  [focus] 1
+INFO 2021/8/31 下午5:52:46  [blur] 1
+INFO 2021/8/31 下午5:52:46  [win] blur
+INFO 2021/8/31 下午5:52:48  [focus] 1
+INFO 2021/8/31 下午5:52:51  [blur] 1
+INFO 2021/8/31 下午5:52:51  [win] blur
+INFO 2021/8/31 下午5:52:53  [focus] 1
+INFO 2021/8/31 下午5:52:56  [blur] 1
+INFO 2021/8/31 下午5:52:56  [win] blur
+INFO 2021/8/31 下午5:55:19  ------------------start------------------
+INFO 2021/8/31 下午5:55:19  typora version: 0.10.11
+INFO 2021/8/31 下午5:55:19  [Raven] instanceKey = be5e212c-efdc-46b4-8d7b-f9a6c05dbfca
+INFO 2021/8/31 下午5:55:19  launch from abnormal quit
+INFO 2021/8/31 下午5:55:19  recoverWindow {"id":1,"path":"/home/mayapony/dotfiles/README.md","mountFolder":"/home/mayapony/dotfiles"}
+INFO 2021/8/31 下午5:55:19  addRecentDocument
+INFO 2021/8/31 下午5:55:19  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/8/31 下午5:55:19  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/8/31 下午5:55:19  [focus] 1
+INFO 2021/8/31 下午5:55:19  synced recovery
+INFO 2021/8/31 下午5:55:20  handle document.loadInitData
+INFO 2021/8/31 下午5:55:20  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/8/31 下午5:55:20  synced recovery
+INFO 2021/8/31 下午5:55:31  [blur] 1
+INFO 2021/8/31 下午5:55:31  [win] blur
+INFO 2021/8/31 下午5:55:33  [focus] 1
+INFO 2021/8/31 下午5:55:38  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4021)
+INFO 2021/8/31 下午5:55:38  synced recovery
+INFO 2021/8/31 下午5:55:41  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4023)
+INFO 2021/8/31 下午5:55:41  synced recovery
+INFO 2021/8/31 下午5:55:43  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4023)
+INFO 2021/8/31 下午5:55:43  synced recovery
+INFO 2021/8/31 下午5:55:43  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4021)
+INFO 2021/8/31 下午5:55:43  synced recovery
+INFO 2021/8/31 下午5:55:44  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4022)
+INFO 2021/8/31 下午5:55:44  synced recovery
+INFO 2021/8/31 下午5:55:45  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4021)
+INFO 2021/8/31 下午5:55:45  synced recovery
+INFO 2021/8/31 下午5:55:45  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4023)
+INFO 2021/8/31 下午5:55:45  synced recovery
+INFO 2021/8/31 下午5:55:47  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4025)
+INFO 2021/8/31 下午5:55:47  synced recovery
+INFO 2021/8/31 下午5:55:48  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4027)
+INFO 2021/8/31 下午5:55:48  synced recovery
+INFO 2021/8/31 下午5:55:50  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4027)
+INFO 2021/8/31 下午5:55:50  synced recovery
+INFO 2021/8/31 下午5:55:52  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4029)
+INFO 2021/8/31 下午5:55:52  synced recovery
+INFO 2021/8/31 下午5:55:54  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4030)
+INFO 2021/8/31 下午5:55:54  synced recovery
+INFO 2021/8/31 下午5:56:16  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4043)
+INFO 2021/8/31 下午5:56:16  synced recovery
+INFO 2021/8/31 下午5:56:24  [blur] 1
+INFO 2021/8/31 下午5:56:24  [win] blur
+INFO 2021/8/31 下午5:56:27  [focus] 1
+INFO 2021/8/31 下午5:56:27  [blur] 1
+INFO 2021/8/31 下午5:56:27  [win] blur
+INFO 2021/8/31 下午5:56:27  [focus] 1
+INFO 2021/8/31 下午5:56:27  [blur] 1
+INFO 2021/8/31 下午5:56:27  [win] blur
+INFO 2021/8/31 下午5:56:27  [focus] 1
+INFO 2021/8/31 下午5:56:31  [blur] 1
+INFO 2021/8/31 下午5:56:31  [win] blur
+INFO 2021/8/31 下午6:05:38  [focus] 1
+INFO 2021/8/31 下午6:05:40  [blur] 1
+INFO 2021/8/31 下午6:05:40  [win] blur
+INFO 2021/8/31 下午6:05:49  [focus] 1
+INFO 2021/8/31 下午6:05:55  [blur] 1
+INFO 2021/8/31 下午6:05:55  [win] blur
+INFO 2021/8/31 下午6:06:19  [focus] 1
+INFO 2021/8/31 下午6:06:21  [blur] 1
+INFO 2021/8/31 下午6:06:21  [win] blur
+INFO 2021/8/31 下午6:06:24  [focus] 1
+INFO 2021/8/31 下午6:06:25  [blur] 1
+INFO 2021/8/31 下午6:06:25  [win] blur
+INFO 2021/8/31 下午6:07:19  [focus] 1
+INFO 2021/8/31 下午6:07:20  [blur] 1
+INFO 2021/8/31 下午6:07:20  [win] blur
+INFO 2021/8/31 下午6:07:20  [focus] 1
+INFO 2021/8/31 下午6:07:20  [blur] 1
+INFO 2021/8/31 下午6:07:20  [win] blur
+INFO 2021/8/31 下午6:07:24  [focus] 1
+INFO 2021/8/31 下午6:07:25  [blur] 1
+INFO 2021/8/31 下午6:07:25  [win] blur
+INFO 2021/8/31 下午6:07:27  [focus] 1
+INFO 2021/8/31 下午6:07:29  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4022)
+INFO 2021/8/31 下午6:07:29  synced recovery
+INFO 2021/8/31 下午6:07:31  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2021/8/31 下午6:07:31  synced recovery
+INFO 2021/8/31 下午6:07:31  synced recovery
+INFO 2021/8/31 下午6:07:31  ----------------before-quit-----------------
+INFO 2021/8/31 下午6:07:31  ------------------will-quit------------------
+INFO 2021/8/31 下午6:07:31  -----------------quit------------------
+INFO 2021/8/31 下午6:07:31  closeLogging
+INFO 2021/9/6 下午10:14:46  ------------------start------------------
+INFO 2021/9/6 下午10:14:46  typora version: 0.10.11
+INFO 2021/9/6 下午10:14:46  [Raven] instanceKey = 9dd4a357-bd61-41ee-b5b7-5a4a46bd2ea7
+INFO 2021/9/6 下午10:14:46  addRecentDocument
+INFO 2021/9/6 下午10:14:46  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/9/6 下午10:14:46  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/9/6 下午10:14:46  [focus] 1
+INFO 2021/9/6 下午10:14:46  synced recovery
+INFO 2021/9/6 下午10:14:46  handle document.loadInitData
+INFO 2021/9/6 下午10:14:46  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/9/6 下午10:14:46  synced recovery
+INFO 2021/9/6 下午10:15:34  [blur] 1
+INFO 2021/9/6 下午10:15:34  [win] blur
+INFO 2021/9/6 下午10:16:10  [focus] 1
+INFO 2021/9/6 下午10:16:10  [blur] 1
+INFO 2021/9/6 下午10:16:10  [win] blur
+INFO 2021/9/6 下午10:17:20  [focus] 1
+INFO 2021/9/6 下午10:17:20  [blur] 1
+INFO 2021/9/6 下午10:17:20  [win] blur
+INFO 2021/9/6 下午10:17:21  [focus] 1
+INFO 2021/9/6 下午10:17:21  [blur] 1
+INFO 2021/9/6 下午10:17:21  [win] blur
+INFO 2021/9/6 下午10:17:22  [focus] 1
+INFO 2021/9/6 下午10:17:22  [blur] 1
+INFO 2021/9/6 下午10:17:22  [win] blur
+INFO 2021/9/6 下午10:17:23  [focus] 1
+INFO 2021/9/6 下午10:17:24  [blur] 1
+INFO 2021/9/6 下午10:17:24  [win] blur
+INFO 2021/9/6 下午10:25:38  [focus] 1
+INFO 2021/9/6 下午10:25:38  [blur] 1
+INFO 2021/9/6 下午10:25:38  [win] blur
+INFO 2021/9/6 下午10:27:01  [focus] 1
+INFO 2021/9/6 下午10:27:01  [blur] 1
+INFO 2021/9/6 下午10:27:01  [win] blur
+INFO 2021/9/6 下午10:36:45  [focus] 1
+INFO 2021/9/6 下午10:36:46  [blur] 1
+INFO 2021/9/6 下午10:36:46  [win] blur
+INFO 2021/9/6 下午10:50:47  [focus] 1
+INFO 2021/9/6 下午10:50:47  [blur] 1
+INFO 2021/9/6 下午10:50:47  [win] blur
+INFO 2021/9/6 下午11:14:20  [focus] 1
+INFO 2021/9/11 下午11:04:19  ------------------start------------------
+INFO 2021/9/11 下午11:04:19  typora version: 0.10.11
+INFO 2021/9/11 下午11:04:19  [Raven] instanceKey = 88e557d5-f72a-4d67-ae17-7e350c6a95f1
+INFO 2021/9/11 下午11:04:19  launch from abnormal quit
+INFO 2021/9/11 下午11:04:19  recoverWindow {"id":1,"path":"/home/mayapony/dotfiles/README.md","mountFolder":"/home/mayapony/dotfiles"}
+INFO 2021/9/11 下午11:04:19  addRecentDocument
+INFO 2021/9/11 下午11:04:19  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/9/11 下午11:04:19  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/9/11 下午11:04:19  [focus] 1
+INFO 2021/9/11 下午11:04:19  synced recovery
+INFO 2021/9/11 下午11:04:20  handle document.loadInitData
+INFO 2021/9/11 下午11:04:20  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/9/11 下午11:04:20  synced recovery
+INFO 2021/9/11 下午11:04:26  [blur] 1
+INFO 2021/9/11 下午11:04:26  [win] blur
+INFO 2021/9/11 下午11:04:30  [focus] 1
+INFO 2021/9/11 下午11:04:30  [blur] 1
+INFO 2021/9/11 下午11:04:30  [win] blur
+INFO 2021/9/11 下午11:04:30  [focus] 1
+INFO 2021/9/11 下午11:04:30  [blur] 1
+INFO 2021/9/11 下午11:04:30  [win] blur
+INFO 2021/9/11 下午11:04:33  [focus] 1
+INFO 2021/9/11 下午11:04:33  [blur] 1
+INFO 2021/9/11 下午11:04:33  [win] blur
+INFO 2021/9/11 下午11:04:33  [focus] 1
+INFO 2021/9/11 下午11:04:33  [blur] 1
+INFO 2021/9/11 下午11:04:33  [win] blur
+INFO 2021/9/11 下午11:04:33  [focus] 1
+INFO 2021/9/11 下午11:04:33  [blur] 1
+INFO 2021/9/11 下午11:04:33  [win] blur
+INFO 2021/9/11 下午11:04:33  [focus] 1
+INFO 2021/9/11 下午11:04:36  [blur] 1
+INFO 2021/9/11 下午11:04:36  [win] blur
+INFO 2021/9/11 下午11:04:53  [focus] 1
+INFO 2021/9/11 下午11:04:55  [blur] 1
+INFO 2021/9/11 下午11:04:55  [win] blur
+INFO 2021/9/11 下午11:05:06  [focus] 1
+INFO 2021/9/11 下午11:05:17  [blur] 1
+INFO 2021/9/11 下午11:05:17  [win] blur
+INFO 2021/9/11 下午11:05:21  [focus] 1
+INFO 2021/9/11 下午11:05:21  [blur] 1
+INFO 2021/9/11 下午11:05:21  [win] blur
+INFO 2021/9/11 下午11:05:21  [focus] 1
+INFO 2021/9/11 下午11:05:21  [blur] 1
+INFO 2021/9/11 下午11:05:21  [win] blur
+INFO 2021/9/11 下午11:05:21  [focus] 1
+INFO 2021/9/11 下午11:05:22  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4023)
+INFO 2021/9/11 下午11:05:22  synced recovery
+INFO 2021/9/11 下午11:05:26  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4027)
+INFO 2021/9/11 下午11:05:26  synced recovery
+INFO 2021/9/11 下午11:05:28  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4027)
+INFO 2021/9/11 下午11:05:28  synced recovery
+INFO 2021/9/11 下午11:05:29  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4028)
+INFO 2021/9/11 下午11:05:29  synced recovery
+INFO 2021/9/11 下午11:05:29  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4033)
+INFO 2021/9/11 下午11:05:29  synced recovery
+INFO 2021/9/11 下午11:05:46  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4013)
+INFO 2021/9/11 下午11:05:46  synced recovery
+INFO 2021/9/11 下午11:05:47  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4033)
+INFO 2021/9/11 下午11:05:47  synced recovery
+INFO 2021/9/11 下午11:05:49  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4073)
+INFO 2021/9/11 下午11:05:49  synced recovery
+INFO 2021/9/11 下午11:05:49  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...e/backgrounds`
+" (4028)
+INFO 2021/9/11 下午11:05:49  synced recovery
+INFO 2021/9/11 下午11:06:00  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git.../backgrounds`
+
+" (4029)
+INFO 2021/9/11 下午11:06:00  synced recovery
+INFO 2021/9/11 下午11:06:00  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...ackgrounds`
+
+
+
+" (4031)
+INFO 2021/9/11 下午11:06:00  synced recovery
+INFO 2021/9/11 下午11:06:01  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git.../backgrounds`
+
+" (4029)
+INFO 2021/9/11 下午11:06:01  synced recovery
+INFO 2021/9/11 下午11:06:02  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...ackgrounds`
+
+#
+" (4031)
+INFO 2021/9/11 下午11:06:02  synced recovery
+INFO 2021/9/11 下午11:06:04  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...ackgrounds`
+
+#
+" (4031)
+INFO 2021/9/11 下午11:06:04  synced recovery
+INFO 2021/9/11 下午11:06:04  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...ckgrounds`
+
+#、
+" (4032)
+INFO 2021/9/11 下午11:06:04  synced recovery
+INFO 2021/9/11 下午11:06:05  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...ckgrounds`
+
+#、
+" (4032)
+INFO 2021/9/11 下午11:06:05  synced recovery
+INFO 2021/9/11 下午11:06:07  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...grounds`
+
+#、修改
+" (4034)
+INFO 2021/9/11 下午11:06:07  synced recovery
+INFO 2021/9/11 下午11:06:12  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...s`
+
+#、修改Java环境
+" (4040)
+INFO 2021/9/11 下午11:06:12  synced recovery
+INFO 2021/9/11 下午11:06:14  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+#、修改Java环境版本
+
+" (4043)
+INFO 2021/9/11 下午11:06:14  synced recovery
+INFO 2021/9/11 下午11:06:15  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+#、修改Java环境版本
+" (4042)
+INFO 2021/9/11 下午11:06:15  synced recovery
+INFO 2021/9/11 下午11:06:20  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+# 、修改Java环境版本
+" (4043)
+INFO 2021/9/11 下午11:06:20  synced recovery
+INFO 2021/9/11 下午11:06:23  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 八、修改Java环境版本
+" (4044)
+INFO 2021/9/11 下午11:06:23  synced recovery
+INFO 2021/9/11 下午11:06:30  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 八、修改Java环境版本
+" (4046)
+INFO 2021/9/11 下午11:06:30  synced recovery
+INFO 2021/9/11 下午11:06:34  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 八、修改Java环境版本
+" (4044)
+INFO 2021/9/11 下午11:06:34  synced recovery
+INFO 2021/9/11 下午11:06:35  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git... #八、修改Java环境版本
+" (4045)
+INFO 2021/9/11 下午11:06:35  synced recovery
+INFO 2021/9/11 下午11:06:36  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 八、修改Java环境版本
+" (4044)
+INFO 2021/9/11 下午11:06:36  synced recovery
+INFO 2021/9/11 下午11:06:36  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+八、修改Java环境版本
+" (4042)
+INFO 2021/9/11 下午11:06:36  synced recovery
+INFO 2021/9/11 下午11:06:41  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+八、修改Java环境版本
+
+" (4043)
+INFO 2021/9/11 下午11:06:41  synced recovery
+INFO 2021/9/11 下午11:06:42  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...#八、修改Java环境版本
+
+" (4044)
+INFO 2021/9/11 下午11:06:42  synced recovery
+INFO 2021/9/11 下午11:06:44  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+八、修改Java环境版本
+
+" (4048)
+INFO 2021/9/11 下午11:06:44  synced recovery
+INFO 2021/9/11 下午11:06:45  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git... 八、修改Java环境版本
+
+" (4046)
+INFO 2021/9/11 下午11:06:45  synced recovery
+INFO 2021/9/11 下午11:06:51  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git... 八、修改Java环境版本
+
+" (4048)
+INFO 2021/9/11 下午11:06:51  synced recovery
+INFO 2021/9/11 下午11:06:55  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...、修改Java环境版本
+
+`
+" (4050)
+INFO 2021/9/11 下午11:06:55  synced recovery
+INFO 2021/9/11 下午11:06:58  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+```shell
+```
+
+" (4062)
+INFO 2021/9/11 下午11:06:58  synced recovery
+INFO 2021/9/11 下午11:07:01  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...``shell
+a
+```
+
+" (4064)
+INFO 2021/9/11 下午11:07:01  synced recovery
+INFO 2021/9/11 下午11:07:02  [blur] 1
+INFO 2021/9/11 下午11:07:02  [win] blur
+INFO 2021/9/11 下午11:07:05  [focus] 1
+INFO 2021/9/11 下午11:07:06  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...ell
+archl
+```
+
+" (4068)
+INFO 2021/9/11 下午11:07:06  synced recovery
+INFO 2021/9/11 下午11:07:09  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...nux-java 
+```
+
+" (4078)
+INFO 2021/9/11 下午11:07:09  synced recovery
+INFO 2021/9/11 下午11:07:10  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...ux-java -
+```
+
+" (4079)
+INFO 2021/9/11 下午11:07:10  synced recovery
+INFO 2021/9/11 下午11:07:13  [blur] 1
+INFO 2021/9/11 下午11:07:13  [win] blur
+INFO 2021/9/11 下午11:07:14  [focus] 1
+INFO 2021/9/11 下午11:07:14  [blur] 1
+INFO 2021/9/11 下午11:07:14  [win] blur
+INFO 2021/9/11 下午11:07:14  [focus] 1
+INFO 2021/9/11 下午11:07:14  [blur] 1
+INFO 2021/9/11 下午11:07:14  [win] blur
+INFO 2021/9/11 下午11:07:14  [focus] 1
+INFO 2021/9/11 下午11:07:14  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2021/9/11 下午11:07:14  synced recovery
+INFO 2021/9/11 下午11:07:16  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...a --help 
+```
+
+" (4085)
+INFO 2021/9/11 下午11:07:16  synced recovery
+INFO 2021/9/11 下午11:07:18  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...-help # u
+```
+
+" (4088)
+INFO 2021/9/11 下午11:07:18  synced recovery
+INFO 2021/9/11 下午11:07:21  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2021/9/11 下午11:07:21  synced recovery
+INFO 2021/9/11 下午11:07:24  synced recovery
+INFO 2021/9/11 下午11:07:24  ----------------before-quit-----------------
+INFO 2021/9/11 下午11:07:24  ------------------will-quit------------------
+INFO 2021/9/11 下午11:07:24  -----------------quit------------------
+INFO 2021/9/11 下午11:07:24  closeLogging
+INFO 2021/9/19 下午4:10:05  ------------------start------------------
+INFO 2021/9/19 下午4:10:05  typora version: 0.10.11
+INFO 2021/9/19 下午4:10:05  [Raven] instanceKey = 7ba968fc-e4de-4d48-b37d-119e0dcfb2f8
+INFO 2021/9/19 下午4:10:05  addRecentDocument
+INFO 2021/9/19 下午4:10:05  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/9/19 下午4:10:05  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/9/19 下午4:10:05  [focus] 1
+INFO 2021/9/19 下午4:10:05  synced recovery
+INFO 2021/9/19 下午4:10:06  handle document.loadInitData
+INFO 2021/9/19 下午4:10:06  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/9/19 下午4:10:06  synced recovery
+INFO 2021/9/19 下午4:10:15  synced recovery
+INFO 2021/9/19 下午4:10:15  ----------------before-quit-----------------
+INFO 2021/9/19 下午4:10:15  ------------------will-quit------------------
+INFO 2021/9/19 下午4:10:15  -----------------quit------------------
+INFO 2021/9/19 下午4:10:15  closeLogging
+INFO 2021/9/20 上午9:23:40  ------------------start------------------
+INFO 2021/9/20 上午9:23:40  typora version: 0.10.11
+INFO 2021/9/20 上午9:23:40  [Raven] instanceKey = 884d5458-5065-455f-8156-d12e9db11604
+INFO 2021/9/20 上午9:23:40  addRecentDocument
+INFO 2021/9/20 上午9:23:40  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/9/20 上午9:23:40  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/9/20 上午9:23:40  [focus] 1
+INFO 2021/9/20 上午9:23:40  synced recovery
+INFO 2021/9/20 上午9:23:41  handle document.loadInitData
+INFO 2021/9/20 上午9:23:41  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/9/20 上午9:23:41  synced recovery
+INFO 2021/9/20 上午9:23:41  [blur] 1
+INFO 2021/9/20 上午9:23:41  [win] blur
+INFO 2021/9/20 上午9:23:41  [focus] 1
+INFO 2021/9/20 上午9:23:41  [blur] 1
+INFO 2021/9/20 上午9:23:41  [win] blur
+INFO 2021/9/20 上午9:23:41  [focus] 1
+INFO 2021/9/20 上午9:23:41  [blur] 1
+INFO 2021/9/20 上午9:23:41  [win] blur
+INFO 2021/9/20 上午9:23:41  [focus] 1
+INFO 2021/9/20 上午9:23:50  synced recovery
+INFO 2021/9/20 上午9:23:50  ----------------before-quit-----------------
+INFO 2021/9/20 上午9:23:50  ------------------will-quit------------------
+INFO 2021/9/20 上午9:23:50  -----------------quit------------------
+INFO 2021/9/20 上午9:23:50  closeLogging
+INFO 2021/9/21 下午3:44:34  ------------------start------------------
+INFO 2021/9/21 下午3:44:34  typora version: 0.10.11
+INFO 2021/9/21 下午3:44:34  [Raven] instanceKey = a1ef9ff7-ce86-4968-ab71-ec405a3c4da8
+INFO 2021/9/21 下午3:44:34  addRecentDocument
+INFO 2021/9/21 下午3:44:34  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/9/21 下午3:44:34  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/9/21 下午3:44:34  [focus] 1
+INFO 2021/9/21 下午3:44:34  synced recovery
+INFO 2021/9/21 下午3:44:34  handle document.loadInitData
+INFO 2021/9/21 下午3:44:34  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/9/21 下午3:44:34  synced recovery
+INFO 2021/9/21 下午3:44:41  [blur] 1
+INFO 2021/9/21 下午3:44:41  [win] blur
+INFO 2021/9/21 下午3:45:35  [focus] 1
+INFO 2021/9/21 下午3:46:07  [blur] 1
+INFO 2021/9/21 下午3:46:07  [win] blur
+INFO 2021/9/21 下午3:46:45  [focus] 1
+INFO 2021/9/21 下午3:46:45  [blur] 1
+INFO 2021/9/21 下午3:46:45  [win] blur
+INFO 2021/9/21 下午3:48:56  [focus] 1
+INFO 2021/9/21 下午3:48:57  [blur] 1
+INFO 2021/9/21 下午3:48:57  [win] blur
+INFO 2021/9/21 下午3:55:26  [focus] 1
+INFO 2021/9/21 下午3:55:27  [blur] 1
+INFO 2021/9/21 下午3:55:27  [win] blur
+INFO 2021/9/21 下午3:55:27  [focus] 1
+INFO 2021/9/21 下午3:55:32  [blur] 1
+INFO 2021/9/21 下午3:55:32  [win] blur
+INFO 2021/9/21 下午3:55:52  [focus] 1
+INFO 2021/9/21 下午3:55:55  [blur] 1
+INFO 2021/9/21 下午3:55:55  [win] blur
+INFO 2021/9/21 下午3:55:59  [focus] 1
+INFO 2021/9/21 下午3:56:00  [blur] 1
+INFO 2021/9/21 下午3:56:00  [win] blur
+INFO 2021/9/21 下午3:56:00  [focus] 1
+INFO 2021/9/21 下午3:56:01  [blur] 1
+INFO 2021/9/21 下午3:56:01  [win] blur
+INFO 2021/9/21 下午10:56:36  [focus] 1
+INFO 2021/9/21 下午10:56:38  synced recovery
+INFO 2021/9/21 下午10:56:38  ----------------before-quit-----------------
+INFO 2021/9/21 下午10:56:38  ------------------will-quit------------------
+INFO 2021/9/21 下午10:56:38  -----------------quit------------------
+INFO 2021/9/21 下午10:56:38  closeLogging
+INFO 2021/10/7 下午10:12:02  ------------------start------------------
+INFO 2021/10/7 下午10:12:02  typora version: 0.10.11
+INFO 2021/10/7 下午10:12:02  [Raven] instanceKey = 68537803-1b7f-4dc1-9520-64bc6c8b56f6
+INFO 2021/10/7 下午10:12:02  addRecentDocument
+INFO 2021/10/7 下午10:12:02  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/10/7 下午10:12:02  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/10/7 下午10:12:02  [focus] 1
+INFO 2021/10/7 下午10:12:02  synced recovery
+INFO 2021/10/7 下午10:12:03  handle document.loadInitData
+INFO 2021/10/7 下午10:12:03  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/10/7 下午10:12:03  synced recovery
+INFO 2021/10/7 下午10:12:13  [blur] 1
+INFO 2021/10/7 下午10:12:13  [win] blur
+INFO 2021/10/7 下午10:17:23  [focus] 1
+INFO 2021/10/7 下午10:17:23  [blur] 1
+INFO 2021/10/7 下午10:17:23  [win] blur
+INFO 2021/10/7 下午10:17:23  [focus] 1
+INFO 2021/10/7 下午10:17:23  [blur] 1
+INFO 2021/10/7 下午10:17:23  [win] blur
+INFO 2021/10/7 下午10:17:23  [focus] 1
+INFO 2021/10/7 下午10:17:23  synced recovery
+INFO 2021/10/7 下午10:17:23  ----------------before-quit-----------------
+INFO 2021/10/7 下午10:17:23  ------------------will-quit------------------
+INFO 2021/10/7 下午10:17:23  -----------------quit------------------
+INFO 2021/10/7 下午10:17:23  closeLogging
+INFO 2021/10/24 下午3:56:44  ------------------start------------------
+INFO 2021/10/24 下午3:56:44  typora version: 0.10.11
+INFO 2021/10/24 下午3:56:44  [Raven] instanceKey = 484c10fe-46ad-419f-8250-94a3e496577a
+INFO 2021/10/24 下午3:56:44  addRecentDocument
+INFO 2021/10/24 下午3:56:44  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/10/24 下午3:56:44  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/10/24 下午3:56:44  [focus] 1
+INFO 2021/10/24 下午3:56:44  synced recovery
+INFO 2021/10/24 下午3:56:45  handle document.loadInitData
+INFO 2021/10/24 下午3:56:45  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/10/24 下午3:56:45  synced recovery
+INFO 2021/10/24 下午3:56:46  [blur] 1
+INFO 2021/10/24 下午3:56:46  [win] blur
+INFO 2021/10/24 下午3:56:47  [focus] 1
+INFO 2021/10/24 下午3:56:49  [blur] 1
+INFO 2021/10/24 下午3:56:49  [win] blur
+INFO 2021/10/24 下午4:00:00  [focus] 1
+INFO 2021/10/24 下午4:00:01  [blur] 1
+INFO 2021/10/24 下午4:00:01  [win] blur
+INFO 2021/10/24 下午4:00:42  [focus] 1
+INFO 2021/10/24 下午4:00:42  [blur] 1
+INFO 2021/10/24 下午4:00:42  [win] blur
+INFO 2021/10/24 下午4:02:16  [focus] 1
+INFO 2021/10/24 下午4:02:17  [blur] 1
+INFO 2021/10/24 下午4:02:17  [win] blur
+INFO 2021/10/24 下午4:04:58  [focus] 1
+INFO 2021/10/24 下午4:04:59  [blur] 1
+INFO 2021/10/24 下午4:04:59  [win] blur
+INFO 2021/10/24 下午4:05:50  [focus] 1
+INFO 2021/10/24 下午4:05:51  [blur] 1
+INFO 2021/10/24 下午4:05:51  [win] blur
+INFO 2021/10/24 下午4:07:08  [focus] 1
+INFO 2021/10/24 下午4:07:09  [blur] 1
+INFO 2021/10/24 下午4:07:09  [win] blur
+INFO 2021/10/24 下午4:12:31  [focus] 1
+INFO 2021/10/24 下午4:12:32  [blur] 1
+INFO 2021/10/24 下午4:12:32  [win] blur
+INFO 2021/10/24 下午4:12:33  [focus] 1
+INFO 2021/10/24 下午4:12:33  [blur] 1
+INFO 2021/10/24 下午4:12:33  [win] blur
+INFO 2021/10/24 下午4:12:46  [focus] 1
+INFO 2021/10/24 下午4:12:46  [blur] 1
+INFO 2021/10/24 下午4:12:46  [win] blur
+INFO 2021/10/24 下午4:13:15  [focus] 1
+INFO 2021/10/24 下午4:13:15  [blur] 1
+INFO 2021/10/24 下午4:13:15  [win] blur
+INFO 2021/10/24 下午4:13:17  [focus] 1
+INFO 2021/10/24 下午4:13:17  [blur] 1
+INFO 2021/10/24 下午4:13:17  [win] blur
+INFO 2021/10/24 下午4:17:33  [focus] 1
+INFO 2021/10/24 下午4:17:33  [blur] 1
+INFO 2021/10/24 下午4:17:33  [win] blur
+INFO 2021/10/24 下午4:20:19  [focus] 1
+INFO 2021/10/24 下午4:20:19  [blur] 1
+INFO 2021/10/24 下午4:20:19  [win] blur
+INFO 2021/10/24 下午4:20:20  [focus] 1
+INFO 2021/10/24 下午4:20:22  [blur] 1
+INFO 2021/10/24 下午4:20:22  [win] blur
+INFO 2021/10/24 下午4:36:34  [focus] 1
+INFO 2021/10/24 下午4:36:35  [blur] 1
+INFO 2021/10/24 下午4:36:35  [win] blur
+INFO 2021/10/24 下午4:36:37  [focus] 1
+INFO 2021/10/24 下午4:36:38  synced recovery
+INFO 2021/10/24 下午4:36:38  ----------------before-quit-----------------
+INFO 2021/10/24 下午4:36:38  ------------------will-quit------------------
+INFO 2021/10/24 下午4:36:38  -----------------quit------------------
+INFO 2021/10/24 下午4:36:38  closeLogging
+INFO 2021/10/29 上午11:48:36  ------------------start------------------
+INFO 2021/10/29 上午11:48:36  typora version: 0.10.11
+INFO 2021/10/29 上午11:48:36  [Raven] instanceKey = 8e9d166c-f983-4af7-9ed6-849c5825f2d4
+INFO 2021/10/29 上午11:48:36  addRecentDocument
+INFO 2021/10/29 上午11:48:36  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/10/29 上午11:48:36  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/10/29 上午11:48:36  [focus] 1
+INFO 2021/10/29 上午11:48:36  synced recovery
+INFO 2021/10/29 上午11:48:37  handle document.loadInitData
+INFO 2021/10/29 上午11:48:37  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/10/29 上午11:48:37  synced recovery
+INFO 2021/10/29 上午11:48:55  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4096)
+INFO 2021/10/29 上午11:48:55  synced recovery
+INFO 2021/10/29 上午11:48:56  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4094)
+INFO 2021/10/29 上午11:48:56  synced recovery
+INFO 2021/10/29 上午11:48:58  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4095)
+INFO 2021/10/29 上午11:48:58  synced recovery
+INFO 2021/10/29 上午11:49:01  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4099)
+INFO 2021/10/29 上午11:49:01  synced recovery
+INFO 2021/10/29 上午11:49:01  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4098)
+INFO 2021/10/29 上午11:49:01  synced recovery
+INFO 2021/10/29 上午11:49:04  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4104)
+INFO 2021/10/29 上午11:49:04  synced recovery
+INFO 2021/10/29 上午11:49:04  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4102)
+INFO 2021/10/29 上午11:49:04  synced recovery
+INFO 2021/10/29 上午11:49:04  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4101)
+INFO 2021/10/29 上午11:49:04  synced recovery
+INFO 2021/10/29 上午11:49:09  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4098)
+INFO 2021/10/29 上午11:49:09  synced recovery
+INFO 2021/10/29 上午11:49:10  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4100)
+INFO 2021/10/29 上午11:49:10  synced recovery
+INFO 2021/10/29 上午11:49:11  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4094)
+INFO 2021/10/29 上午11:49:11  synced recovery
+INFO 2021/10/29 上午11:49:12  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4095)
+INFO 2021/10/29 上午11:49:12  synced recovery
+INFO 2021/10/29 上午11:49:16  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4102)
+INFO 2021/10/29 上午11:49:16  synced recovery
+INFO 2021/10/29 上午11:49:17  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4103)
+INFO 2021/10/29 上午11:49:17  synced recovery
+INFO 2021/10/29 上午11:49:21  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4106)
+INFO 2021/10/29 上午11:49:21  synced recovery
+INFO 2021/10/29 上午11:49:23  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4109)
+INFO 2021/10/29 上午11:49:23  synced recovery
+INFO 2021/10/29 上午11:49:24  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4104)
+INFO 2021/10/29 上午11:49:24  synced recovery
+INFO 2021/10/29 上午11:49:27  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4111)
+INFO 2021/10/29 上午11:49:27  synced recovery
+INFO 2021/10/29 上午11:49:31  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4109)
+INFO 2021/10/29 上午11:49:31  synced recovery
+INFO 2021/10/29 上午11:49:31  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4108)
+INFO 2021/10/29 上午11:49:31  synced recovery
+INFO 2021/10/29 上午11:49:34  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4102)
+INFO 2021/10/29 上午11:49:34  synced recovery
+INFO 2021/10/29 上午11:49:36  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4106)
+INFO 2021/10/29 上午11:49:36  synced recovery
+INFO 2021/10/29 上午11:49:37  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4102)
+INFO 2021/10/29 上午11:49:37  synced recovery
+INFO 2021/10/29 上午11:49:38  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4102)
+INFO 2021/10/29 上午11:49:38  synced recovery
+INFO 2021/10/29 上午11:49:38  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4103)
+INFO 2021/10/29 上午11:49:38  synced recovery
+INFO 2021/10/29 上午11:49:41  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4109)
+INFO 2021/10/29 上午11:49:41  synced recovery
+INFO 2021/10/29 上午11:49:42  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4111)
+INFO 2021/10/29 上午11:49:42  synced recovery
+INFO 2021/10/29 上午11:49:44  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4113)
+INFO 2021/10/29 上午11:49:44  synced recovery
+INFO 2021/10/29 上午11:49:45  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4111)
+INFO 2021/10/29 上午11:49:45  synced recovery
+INFO 2021/10/29 上午11:49:47  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4112)
+INFO 2021/10/29 上午11:49:47  synced recovery
+INFO 2021/10/29 上午11:49:48  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4113)
+INFO 2021/10/29 上午11:49:48  synced recovery
+INFO 2021/10/29 上午11:49:48  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4112)
+INFO 2021/10/29 上午11:49:48  synced recovery
+INFO 2021/10/29 上午11:49:49  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4113)
+INFO 2021/10/29 上午11:49:49  synced recovery
+INFO 2021/10/29 上午11:49:49  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4114)
+INFO 2021/10/29 上午11:49:49  synced recovery
+INFO 2021/10/29 上午11:49:51  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4115)
+INFO 2021/10/29 上午11:49:51  synced recovery
+INFO 2021/10/29 上午11:49:53  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4113)
+INFO 2021/10/29 上午11:49:53  synced recovery
+INFO 2021/10/29 上午11:49:55  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4119)
+INFO 2021/10/29 上午11:49:55  synced recovery
+INFO 2021/10/29 上午11:49:57  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4122)
+INFO 2021/10/29 上午11:49:57  synced recovery
+INFO 2021/10/29 上午11:49:59  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4122)
+INFO 2021/10/29 上午11:49:59  synced recovery
+INFO 2021/10/29 上午11:50:01  [blur] 1
+INFO 2021/10/29 上午11:50:01  [win] blur
+INFO 2021/10/29 上午11:50:16  [focus] 1
+INFO 2021/10/29 上午11:50:19  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4123)
+INFO 2021/10/29 上午11:50:19  synced recovery
+INFO 2021/10/29 上午11:50:20  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4227)
+INFO 2021/10/29 上午11:50:20  synced recovery
+INFO 2021/10/29 上午11:50:22  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4123)
+INFO 2021/10/29 上午11:50:22  synced recovery
+INFO 2021/10/29 上午11:50:28  [blur] 1
+INFO 2021/10/29 上午11:50:28  [win] blur
+INFO 2021/10/29 上午11:50:33  [focus] 1
+INFO 2021/10/29 上午11:50:33  [blur] 1
+INFO 2021/10/29 上午11:50:33  [win] blur
+INFO 2021/10/29 上午11:50:33  [focus] 1
+INFO 2021/10/29 上午11:50:33  [blur] 1
+INFO 2021/10/29 上午11:50:33  [win] blur
+INFO 2021/10/29 上午11:50:36  [focus] 1
+INFO 2021/10/29 上午11:50:36  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4197)
+INFO 2021/10/29 上午11:50:36  synced recovery
+INFO 2021/10/29 上午11:50:40  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4199)
+INFO 2021/10/29 上午11:50:40  synced recovery
+INFO 2021/10/29 上午11:50:42  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4197)
+INFO 2021/10/29 上午11:50:42  synced recovery
+INFO 2021/10/29 上午11:50:47  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4199)
+INFO 2021/10/29 上午11:50:47  synced recovery
+INFO 2021/10/29 上午11:50:52  [blur] 1
+INFO 2021/10/29 上午11:50:52  [win] blur
+INFO 2021/10/29 上午11:50:52  [focus] 1
+INFO 2021/10/29 上午11:50:53  [blur] 1
+INFO 2021/10/29 上午11:50:53  [win] blur
+INFO 2021/10/29 上午11:51:07  [focus] 1
+INFO 2021/10/29 上午11:51:12  [blur] 1
+INFO 2021/10/29 上午11:51:12  [win] blur
+INFO 2021/10/29 上午11:51:15  [focus] 1
+INFO 2021/10/29 上午11:51:15  [blur] 1
+INFO 2021/10/29 上午11:51:15  [win] blur
+INFO 2021/10/29 上午11:51:15  [focus] 1
+INFO 2021/10/29 上午11:51:15  [blur] 1
+INFO 2021/10/29 上午11:51:15  [win] blur
+INFO 2021/10/29 上午11:51:15  [focus] 1
+INFO 2021/10/29 上午11:51:18  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 使用set命令
+```
+
+" (4197)
+INFO 2021/10/29 上午11:51:18  synced recovery
+INFO 2021/10/29 上午11:51:21  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2021/10/29 上午11:51:21  synced recovery
+INFO 2021/10/29 上午11:51:26  [blur] 1
+INFO 2021/10/29 上午11:51:26  [win] blur
+INFO 2021/10/29 上午11:52:18  [focus] 1
+INFO 2021/10/29 上午11:52:18  [blur] 1
+INFO 2021/10/29 上午11:52:18  [win] blur
+INFO 2021/10/29 上午11:52:18  [focus] 1
+INFO 2021/10/29 上午11:52:18  [blur] 1
+INFO 2021/10/29 上午11:52:18  [win] blur
+INFO 2021/10/29 上午11:52:18  [focus] 1
+INFO 2021/10/29 上午11:52:20  [blur] 1
+INFO 2021/10/29 上午11:52:20  [win] blur
+INFO 2021/10/29 上午11:52:23  [focus] 1
+INFO 2021/10/29 上午11:52:24  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2021/10/29 上午11:52:24  synced recovery
+INFO 2021/10/29 上午11:52:26  synced recovery
+INFO 2021/10/29 上午11:52:26  ----------------before-quit-----------------
+INFO 2021/10/29 上午11:52:26  ------------------will-quit------------------
+INFO 2021/10/29 上午11:52:26  -----------------quit------------------
+INFO 2021/10/29 上午11:52:26  closeLogging
+INFO 2021/10/29 下午8:11:49  ------------------start------------------
+INFO 2021/10/29 下午8:11:49  typora version: 0.10.11
+INFO 2021/10/29 下午8:11:49  [Raven] instanceKey = 235e90b2-0b22-4dda-ad85-d20853919075
+INFO 2021/10/29 下午8:11:49  addRecentDocument
+INFO 2021/10/29 下午8:11:49  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/10/29 下午8:11:49  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/10/29 下午8:11:49  [focus] 1
+INFO 2021/10/29 下午8:11:49  synced recovery
+INFO 2021/10/29 下午8:11:50  handle document.loadInitData
+INFO 2021/10/29 下午8:11:51  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/10/29 下午8:11:51  synced recovery
+INFO 2021/10/29 下午8:12:00  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...使用set命令
+```
+
+
+
+" (4199)
+INFO 2021/10/29 下午8:12:00  synced recovery
+INFO 2021/10/29 下午8:12:00  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...set命令
+```
+
+
+
+$
+" (4201)
+INFO 2021/10/29 下午8:12:00  synced recovery
+INFO 2021/10/29 下午8:12:01  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...set命令
+```
+
+
+
+$
+" (4201)
+INFO 2021/10/29 下午8:12:01  synced recovery
+INFO 2021/10/29 下午8:12:01  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...set命令
+```
+
+
+
+#
+" (4201)
+INFO 2021/10/29 下午8:12:01  synced recovery
+INFO 2021/10/29 下午8:12:04  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...`
+
+
+
+## Emacs
+
+" (4209)
+INFO 2021/10/29 下午8:12:04  synced recovery
+INFO 2021/10/29 下午8:12:05  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+
+## Emacs
+
+k
+" (4211)
+INFO 2021/10/29 下午8:12:05  synced recovery
+INFO 2021/10/29 下午8:12:06  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...`
+
+
+
+## Emacs
+
+" (4209)
+INFO 2021/10/29 下午8:12:06  synced recovery
+INFO 2021/10/29 下午8:12:12  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+
+
+## 九Emacs
+
+" (4210)
+INFO 2021/10/29 下午8:12:12  synced recovery
+INFO 2021/10/29 下午8:12:17  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+## 九、Emacs
+
+
+
+" (4213)
+INFO 2021/10/29 下午8:12:17  synced recovery
+INFO 2021/10/29 下午8:12:18  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 九、Emacs
+
+
+
+d
+" (4215)
+INFO 2021/10/29 下午8:12:18  synced recovery
+INFO 2021/10/29 下午8:12:19  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git... 九、Emacs
+
+
+
+do
+" (4216)
+INFO 2021/10/29 下午8:12:19  synced recovery
+INFO 2021/10/29 下午8:12:19  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...九、Emacs
+
+
+
+doo
+" (4217)
+INFO 2021/10/29 下午8:12:19  synced recovery
+INFO 2021/10/29 下午8:12:22  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+
+doom-emacs 
+" (4225)
+INFO 2021/10/29 下午8:12:22  synced recovery
+INFO 2021/10/29 下午8:12:25  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...doom-emacs 建议
+
+" (4228)
+INFO 2021/10/29 下午8:12:25  synced recovery
+INFO 2021/10/29 下午8:12:25  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...029201137.png)
+" (4303)
+INFO 2021/10/29 下午8:12:25  synced recovery
+INFO 2021/10/29 下午8:12:49  [blur] 1
+INFO 2021/10/29 下午8:12:49  [win] blur
+INFO 2021/10/30 上午11:27:38  [focus] 1
+INFO 2021/10/30 上午11:27:39  [blur] 1
+INFO 2021/10/30 上午11:27:39  [win] blur
+INFO 2021/10/30 上午11:27:40  [focus] 1
+INFO 2021/10/30 上午11:50:45  [blur] 1
+INFO 2021/10/30 上午11:50:45  [win] blur
+INFO 2021/10/30 下午12:46:28  [focus] 1
+INFO 2021/10/30 下午12:46:31  [blur] 1
+INFO 2021/10/30 下午12:46:31  [win] blur
+INFO 2021/10/30 下午1:01:17  [focus] 1
+INFO 2021/10/30 下午1:01:26  [blur] 1
+INFO 2021/10/30 下午1:01:26  [win] blur
+INFO 2021/10/30 下午3:41:05  [focus] 1
+INFO 2021/10/30 下午3:41:05  [blur] 1
+INFO 2021/10/30 下午3:41:05  [win] blur
+INFO 2021/10/30 下午3:41:06  [focus] 1
+INFO 2021/10/30 下午3:41:08  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2021/10/30 下午3:41:08  synced recovery
+INFO 2021/10/30 下午3:41:09  synced recovery
+INFO 2021/10/30 下午3:41:09  ----------------before-quit-----------------
+INFO 2021/10/30 下午3:41:09  ------------------will-quit------------------
+INFO 2021/10/30 下午3:41:09  -----------------quit------------------
+INFO 2021/10/30 下午3:41:09  closeLogging
+INFO 2021/11/2 下午7:59:33  ------------------start------------------
+INFO 2021/11/2 下午7:59:33  typora version: 0.10.11
+INFO 2021/11/2 下午7:59:33  [Raven] instanceKey = cb354eb1-f72d-4271-807a-b7880bd44540
+INFO 2021/11/2 下午7:59:33  addRecentDocument
+INFO 2021/11/2 下午7:59:33  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/11/2 下午7:59:33  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/11/2 下午7:59:33  [focus] 1
+INFO 2021/11/2 下午7:59:33  synced recovery
+INFO 2021/11/2 下午7:59:34  handle document.loadInitData
+INFO 2021/11/2 下午7:59:34  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/11/2 下午7:59:34  synced recovery
+INFO 2021/11/2 下午7:59:46  synced recovery
+INFO 2021/11/2 下午7:59:46  ----------------before-quit-----------------
+INFO 2021/11/2 下午7:59:46  ------------------will-quit------------------
+INFO 2021/11/2 下午7:59:46  -----------------quit------------------
+INFO 2021/11/2 下午7:59:46  closeLogging
+INFO 2021/11/3 下午3:10:26  ------------------start------------------
+INFO 2021/11/3 下午3:10:26  typora version: 0.10.11
+INFO 2021/11/3 下午3:10:26  [Raven] instanceKey = 9db5a0f5-f48c-43b7-ad7a-5037d0b07486
+INFO 2021/11/3 下午3:10:26  addRecentDocument
+INFO 2021/11/3 下午3:10:26  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/11/3 下午3:10:26  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/11/3 下午3:10:26  [focus] 1
+INFO 2021/11/3 下午3:10:26  synced recovery
+INFO 2021/11/3 下午3:10:27  handle document.loadInitData
+INFO 2021/11/3 下午3:10:27  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/11/3 下午3:10:27  synced recovery
+INFO 2021/11/3 下午3:10:44  [blur] 1
+INFO 2021/11/3 下午3:10:44  [win] blur
+INFO 2021/11/3 下午3:10:47  [focus] 1
+INFO 2021/11/3 下午3:10:47  [blur] 1
+INFO 2021/11/3 下午3:10:47  [win] blur
+INFO 2021/11/3 下午3:10:47  [focus] 1
+INFO 2021/11/3 下午3:10:47  [blur] 1
+INFO 2021/11/3 下午3:10:47  [win] blur
+INFO 2021/11/3 下午3:10:47  [focus] 1
+INFO 2021/11/3 下午3:10:48  [blur] 1
+INFO 2021/11/3 下午3:10:48  [win] blur
+INFO 2021/11/3 下午3:11:53  [focus] 1
+INFO 2021/11/3 下午3:12:02  [blur] 1
+INFO 2021/11/3 下午3:12:02  [win] blur
+INFO 2021/11/3 下午3:12:07  [focus] 1
+INFO 2021/11/3 下午3:12:07  [blur] 1
+INFO 2021/11/3 下午3:12:07  [win] blur
+INFO 2021/11/3 下午3:12:07  [focus] 1
+INFO 2021/11/3 下午3:12:07  [blur] 1
+INFO 2021/11/3 下午3:12:07  [win] blur
+INFO 2021/11/3 下午3:12:07  [focus] 1
+INFO 2021/11/3 下午3:12:17  [blur] 1
+INFO 2021/11/3 下午3:12:17  [win] blur
+INFO 2021/11/3 下午3:12:46  [focus] 1
+INFO 2021/11/3 下午3:12:52  [blur] 1
+INFO 2021/11/3 下午3:12:52  [win] blur
+INFO 2021/11/3 下午3:12:56  [focus] 1
+INFO 2021/11/3 下午3:12:58  [blur] 1
+INFO 2021/11/3 下午3:12:58  [win] blur
+INFO 2021/11/3 下午3:13:44  [focus] 1
+INFO 2021/11/3 下午3:13:46  [blur] 1
+INFO 2021/11/3 下午3:13:46  [win] blur
+INFO 2021/11/3 下午3:13:50  [focus] 1
+INFO 2021/11/3 下午3:13:51  [blur] 1
+INFO 2021/11/3 下午3:13:51  [win] blur
+INFO 2021/11/3 下午3:13:54  [focus] 1
+INFO 2021/11/3 下午3:13:55  [blur] 1
+INFO 2021/11/3 下午3:13:55  [win] blur
+INFO 2021/11/3 下午3:13:56  [focus] 1
+INFO 2021/11/3 下午3:13:56  [blur] 1
+INFO 2021/11/3 下午3:13:56  [win] blur
+INFO 2021/11/3 下午3:13:56  [focus] 1
+INFO 2021/11/3 下午3:13:56  [blur] 1
+INFO 2021/11/3 下午3:13:56  [win] blur
+INFO 2021/11/3 下午3:13:56  [focus] 1
+INFO 2021/11/3 下午3:13:58  [blur] 1
+INFO 2021/11/3 下午3:13:58  [win] blur
+INFO 2021/11/3 下午3:14:13  [focus] 1
+INFO 2021/11/3 下午3:14:13  [blur] 1
+INFO 2021/11/3 下午3:14:13  [win] blur
+INFO 2021/11/3 下午3:16:51  [focus] 1
+INFO 2021/11/3 下午3:16:51  [blur] 1
+INFO 2021/11/3 下午3:16:51  [win] blur
+INFO 2021/11/3 下午3:17:36  [focus] 1
+INFO 2021/11/3 下午3:17:36  [blur] 1
+INFO 2021/11/3 下午3:17:36  [win] blur
+INFO 2021/11/3 下午3:17:43  [focus] 1
+INFO 2021/11/3 下午3:17:44  [blur] 1
+INFO 2021/11/3 下午3:17:44  [win] blur
+INFO 2021/11/3 下午3:17:48  got argv [typora] from secondary instance
+INFO 2021/11/3 下午3:17:48  added recovery 2 null undefined (0)
+INFO 2021/11/3 下午3:17:48  [focus] 2
+INFO 2021/11/3 下午3:17:48  synced recovery
+INFO 2021/11/3 下午3:17:49  handle document.loadInitData
+INFO 2021/11/3 下午3:17:49  added recovery 2 undefined undefined (0)
+INFO 2021/11/3 下午3:17:49  synced recovery
+INFO 2021/11/3 下午3:18:27  [blur] 2
+INFO 2021/11/3 下午3:18:27  [win] blur
+INFO 2021/11/3 下午3:18:33  [focus] 2
+INFO 2021/11/3 下午3:18:42  [focus] 1
+INFO 2021/11/3 下午3:18:46  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2021/11/3 下午3:18:46  synced recovery
+INFO 2021/11/3 下午3:18:52  [blur] 1
+INFO 2021/11/3 下午3:18:52  [win] blur
+INFO 2021/11/3 下午3:19:06  [focus] 1
+INFO 2021/11/3 下午3:19:08  [blur] 1
+INFO 2021/11/3 下午3:19:08  [win] blur
+INFO 2021/11/3 下午3:19:13  [focus] 1
+INFO 2021/11/3 下午3:19:15  [blur] 1
+INFO 2021/11/3 下午3:19:15  [win] blur
+INFO 2021/11/3 下午3:19:18  [focus] 1
+INFO 2021/11/3 下午3:19:20  [blur] 1
+INFO 2021/11/3 下午3:19:20  [win] blur
+INFO 2021/11/3 下午3:19:22  [focus] 1
+INFO 2021/11/3 下午3:19:24  [blur] 1
+INFO 2021/11/3 下午3:19:24  [win] blur
+INFO 2021/11/3 下午3:20:00  [focus] 1
+INFO 2021/11/3 下午3:20:00  [blur] 1
+INFO 2021/11/3 下午3:20:00  [win] blur
+INFO 2021/11/3 下午3:20:00  [focus] 1
+INFO 2021/11/3 下午3:20:00  [blur] 1
+INFO 2021/11/3 下午3:20:00  [win] blur
+INFO 2021/11/3 下午3:20:00  [focus] 1
+INFO 2021/11/3 下午3:20:03  [blur] 1
+INFO 2021/11/3 下午3:20:03  [win] blur
+INFO 2021/11/3 下午3:20:03  [focus] 1
+INFO 2021/11/3 下午3:20:04  [blur] 1
+INFO 2021/11/3 下午3:20:04  [win] blur
+INFO 2021/11/3 下午3:20:08  [focus] 1
+INFO 2021/11/3 下午3:20:09  synced recovery
+INFO 2021/11/3 下午3:20:09  ----------------before-quit-----------------
+INFO 2021/11/3 下午3:20:09  ------------------will-quit------------------
+INFO 2021/11/3 下午3:20:09  -----------------quit------------------
+INFO 2021/11/3 下午3:20:09  closeLogging
+INFO 2021/11/10 下午3:09:35  ------------------start------------------
+INFO 2021/11/10 下午3:09:35  typora version: 0.10.11
+INFO 2021/11/10 下午3:09:35  [Raven] instanceKey = 631acea1-6619-4169-8989-6c0832b912e2
+INFO 2021/11/10 下午3:09:35  addRecentDocument
+INFO 2021/11/10 下午3:09:35  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/11/10 下午3:09:35  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/11/10 下午3:09:35  [focus] 1
+INFO 2021/11/10 下午3:09:35  synced recovery
+INFO 2021/11/10 下午3:09:36  handle document.loadInitData
+INFO 2021/11/10 下午3:09:36  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/11/10 下午3:09:36  synced recovery
+INFO 2021/11/10 下午3:10:05  [blur] 1
+INFO 2021/11/10 下午3:10:05  [win] blur
+INFO 2021/11/10 下午3:10:19  [focus] 1
+INFO 2021/11/10 下午3:10:24  [blur] 1
+INFO 2021/11/10 下午3:10:24  [win] blur
+INFO 2021/11/10 下午3:10:25  [focus] 1
+INFO 2021/11/10 下午3:10:28  synced recovery
+INFO 2021/11/10 下午3:10:28  ----------------before-quit-----------------
+INFO 2021/11/10 下午3:10:28  ------------------will-quit------------------
+INFO 2021/11/10 下午3:10:28  -----------------quit------------------
+INFO 2021/11/10 下午3:10:28  closeLogging
+INFO 2021/11/10 下午9:49:08  ------------------start------------------
+INFO 2021/11/10 下午9:49:09  typora version: 0.10.11
+INFO 2021/11/10 下午9:49:09  [Raven] instanceKey = fd591286-9813-485b-87a1-bb6d48b4ade4
+INFO 2021/11/10 下午9:49:09  addRecentDocument
+INFO 2021/11/10 下午9:49:09  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/11/10 下午9:49:09  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/11/10 下午9:49:09  [focus] 1
+INFO 2021/11/10 下午9:49:09  synced recovery
+INFO 2021/11/10 下午9:49:09  handle document.loadInitData
+INFO 2021/11/10 下午9:49:09  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/11/10 下午9:49:09  synced recovery
+INFO 2021/11/10 下午9:49:19  [blur] 1
+INFO 2021/11/10 下午9:49:19  [win] blur
+INFO 2021/11/10 下午9:49:36  [focus] 1
+INFO 2021/11/10 下午9:49:45  [blur] 1
+INFO 2021/11/10 下午9:49:45  [win] blur
+INFO 2021/11/10 下午9:49:48  [focus] 1
+INFO 2021/11/10 下午9:49:53  [blur] 1
+INFO 2021/11/10 下午9:49:53  [win] blur
+INFO 2021/11/10 下午9:49:53  [focus] 1
+INFO 2021/11/10 下午9:49:54  [blur] 1
+INFO 2021/11/10 下午9:49:54  [win] blur
+INFO 2021/11/10 下午9:50:14  [focus] 1
+INFO 2021/11/10 下午9:50:18  [blur] 1
+INFO 2021/11/10 下午9:50:18  [win] blur
+INFO 2021/11/10 下午9:50:22  [focus] 1
+INFO 2021/11/10 下午9:50:26  [blur] 1
+INFO 2021/11/10 下午9:50:26  [win] blur
+INFO 2021/11/10 下午9:50:26  [focus] 1
+INFO 2021/11/10 下午9:50:26  [blur] 1
+INFO 2021/11/10 下午9:50:26  [win] blur
+INFO 2021/11/10 下午9:50:29  [focus] 1
+INFO 2021/11/10 下午9:50:30  [blur] 1
+INFO 2021/11/10 下午9:50:30  [win] blur
+INFO 2021/11/10 下午9:50:42  [focus] 1
+INFO 2021/11/10 下午9:50:44  synced recovery
+INFO 2021/11/10 下午9:50:44  ----------------before-quit-----------------
+INFO 2021/11/10 下午9:50:44  ------------------will-quit------------------
+INFO 2021/11/10 下午9:50:44  -----------------quit------------------
+INFO 2021/11/10 下午9:50:44  closeLogging
+INFO 2021/11/20 下午5:59:58  ------------------start------------------
+INFO 2021/11/20 下午5:59:58  typora version: 0.10.11
+INFO 2021/11/20 下午5:59:58  [Raven] instanceKey = 57bbfebf-f304-48f5-a5b8-43793b2969d2
+INFO 2021/11/20 下午5:59:58  addRecentDocument
+INFO 2021/11/20 下午5:59:58  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/11/20 下午5:59:58  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/11/20 下午5:59:58  [focus] 1
+INFO 2021/11/20 下午5:59:58  synced recovery
+INFO 2021/11/20 下午5:59:58  handle document.loadInitData
+INFO 2021/11/20 下午5:59:59  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/11/20 下午5:59:59  synced recovery
+INFO 2021/11/20 下午6:00:09  switchDocument 1 [/home/mayapony/dotfiles/ubuntu/nvim/LICENSE]
+INFO 2021/11/20 下午6:00:09  addRecentDocument
+INFO 2021/11/20 下午6:00:09  added recovery 1 /home/mayapony/dotfiles/ubuntu/nvim/LICENSE undefined (0)
+INFO 2021/11/20 下午6:00:09  synced recovery
+INFO 2021/11/20 下午6:00:09  added recovery 1 /home/mayapony/dotfiles/ubuntu/nvim/LICENSE null (0)
+INFO 2021/11/20 下午6:00:09  synced recovery
+INFO 2021/11/20 下午6:00:14  switchDocument 1 [/home/mayapony/dotfiles/README.md]
+INFO 2021/11/20 下午6:00:14  addRecentDocument
+INFO 2021/11/20 下午6:00:14  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/11/20 下午6:00:14  synced recovery
+INFO 2021/11/20 下午6:00:14  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2021/11/20 下午6:00:14  synced recovery
+INFO 2021/11/20 下午6:00:24  [blur] 1
+INFO 2021/11/20 下午6:00:24  [win] blur
+INFO 2021/11/20 下午8:04:38  ------------------start------------------
+INFO 2021/11/20 下午8:04:38  typora version: 0.10.11
+INFO 2021/11/20 下午8:04:38  [Raven] instanceKey = b71bfb6b-43e3-40cb-8406-2bdb0b2935bd
+INFO 2021/11/20 下午8:04:38  launch from abnormal quit
+INFO 2021/11/20 下午8:04:38  recoverWindow {"id":1,"path":"/home/mayapony/dotfiles/README.md","useCRLF":false,"hasUnsaved":false,"scrollPos":2507,"syncDate":1637402414890,"mountFolder":"/home/mayapony/dotfiles"}
+INFO 2021/11/20 下午8:04:38  addRecentDocument
+INFO 2021/11/20 下午8:04:38  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/11/20 下午8:04:38  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/11/20 下午8:04:38  [focus] 1
+INFO 2021/11/20 下午8:04:38  synced recovery
+INFO 2021/11/20 下午8:04:38  handle document.loadInitData
+INFO 2021/11/20 下午8:04:39  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/11/20 下午8:04:39  synced recovery
+INFO 2021/11/20 下午8:05:30  [blur] 1
+INFO 2021/11/20 下午8:05:30  [win] blur
+INFO 2021/11/20 下午8:05:45  [focus] 1
+INFO 2021/11/20 下午8:05:45  [blur] 1
+INFO 2021/11/20 下午8:05:45  [win] blur
+INFO 2021/11/20 下午8:05:45  [focus] 1
+INFO 2021/11/20 下午8:05:45  [blur] 1
+INFO 2021/11/20 下午8:05:45  [win] blur
+INFO 2021/11/20 下午8:05:45  [focus] 1
+INFO 2021/11/20 下午8:05:45  [blur] 1
+INFO 2021/11/20 下午8:05:45  [win] blur
+INFO 2021/11/20 下午8:06:00  [focus] 1
+INFO 2021/11/20 下午8:06:00  [blur] 1
+INFO 2021/11/20 下午8:06:00  [win] blur
+INFO 2021/11/20 下午8:06:09  [focus] 1
+INFO 2021/11/20 下午8:06:10  [blur] 1
+INFO 2021/11/20 下午8:06:10  [win] blur
+INFO 2021/11/20 下午8:06:32  [focus] 1
+INFO 2021/11/20 下午8:06:32  [blur] 1
+INFO 2021/11/20 下午8:06:32  [win] blur
+INFO 2021/11/20 下午8:06:57  [focus] 1
+INFO 2021/11/20 下午8:06:58  [blur] 1
+INFO 2021/11/20 下午8:06:58  [win] blur
+INFO 2021/11/20 下午8:07:01  [focus] 1
+INFO 2021/11/20 下午8:07:02  [blur] 1
+INFO 2021/11/20 下午8:07:02  [win] blur
+INFO 2021/11/20 下午8:07:12  [focus] 1
+INFO 2021/11/20 下午8:07:12  [blur] 1
+INFO 2021/11/20 下午8:07:12  [win] blur
+INFO 2021/11/20 下午8:08:39  [focus] 1
+INFO 2021/11/20 下午8:08:41  [blur] 1
+INFO 2021/11/20 下午8:08:41  [win] blur
+INFO 2021/11/20 下午8:10:15  [focus] 1
+INFO 2021/11/20 下午8:10:16  [blur] 1
+INFO 2021/11/20 下午8:10:16  [win] blur
+INFO 2021/11/20 下午8:10:17  [focus] 1
+INFO 2021/11/20 下午8:10:17  [blur] 1
+INFO 2021/11/20 下午8:10:17  [win] blur
+INFO 2021/11/20 下午8:10:48  [focus] 1
+INFO 2021/11/20 下午8:10:48  [blur] 1
+INFO 2021/11/20 下午8:10:48  [win] blur
+INFO 2021/11/20 下午8:11:17  [focus] 1
+INFO 2021/11/20 下午8:11:18  [blur] 1
+INFO 2021/11/20 下午8:11:18  [win] blur
+INFO 2021/11/28 下午8:34:21  ------------------start------------------
+INFO 2021/11/28 下午8:34:21  typora version: 0.10.11
+INFO 2021/11/28 下午8:34:21  [Raven] instanceKey = 580957e2-1aff-4632-a47d-71d61b4afb38
+INFO 2021/11/28 下午8:34:21  launch from abnormal quit
+INFO 2021/11/28 下午8:34:21  recoverWindow {"id":1,"path":"/home/mayapony/dotfiles/README.md","mountFolder":"/home/mayapony/dotfiles"}
+INFO 2021/11/28 下午8:34:21  addRecentDocument
+INFO 2021/11/28 下午8:34:21  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/11/28 下午8:34:21  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/11/28 下午8:34:21  [focus] 1
+INFO 2021/11/28 下午8:34:21  synced recovery
+INFO 2021/11/28 下午8:34:22  handle document.loadInitData
+INFO 2021/11/28 下午8:34:23  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/11/28 下午8:34:23  synced recovery
+INFO 2021/11/28 下午8:34:57  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4306)
+INFO 2021/11/28 下午8:34:57  synced recovery
+INFO 2021/11/28 下午8:34:57  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...1137.png)
+
+
+
+
+
+" (4308)
+INFO 2021/11/28 下午8:34:57  synced recovery
+INFO 2021/11/28 下午8:34:57  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...37.png)
+
+
+
+
+
+
+
+" (4310)
+INFO 2021/11/28 下午8:34:57  synced recovery
+INFO 2021/11/28 下午8:34:59  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git....png)
+
+
+
+
+
+
+
+#
+" (4312)
+INFO 2021/11/28 下午8:34:59  synced recovery
+INFO 2021/11/28 下午8:35:02  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...ng)
+
+
+
+
+
+
+
+# v
+" (4314)
+INFO 2021/11/28 下午8:35:02  synced recovery
+INFO 2021/11/28 下午8:35:03  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...ng)
+
+
+
+
+
+
+
+# v
+" (4314)
+INFO 2021/11/28 下午8:35:03  synced recovery
+INFO 2021/11/28 下午8:35:05  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+
+
+
+
+
+
+# 这是一个
+" (4317)
+INFO 2021/11/28 下午8:35:05  synced recovery
+INFO 2021/11/28 下午8:35:06  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+
+
+
+# 这是一个标题
+
+" (4320)
+INFO 2021/11/28 下午8:35:06  synced recovery
+INFO 2021/11/28 下午8:35:08  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+
+# 这是一个标题
+
+1
+" (4322)
+INFO 2021/11/28 下午8:35:08  synced recovery
+INFO 2021/11/28 下午8:35:08  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+# 这是一个标题
+
+1. 
+" (4324)
+INFO 2021/11/28 下午8:35:08  synced recovery
+INFO 2021/11/28 下午8:35:08  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...是一个标题
+
+1. 
+2. 
+" (4328)
+INFO 2021/11/28 下午8:35:08  synced recovery
+INFO 2021/11/28 下午8:35:09  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 这是一个标题
+
+1. 
+
+" (4325)
+INFO 2021/11/28 下午8:35:09  synced recovery
+INFO 2021/11/28 下午8:35:09  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...这是一个标题
+
+1. 
+
+
+
+" (4327)
+INFO 2021/11/28 下午8:35:09  synced recovery
+INFO 2021/11/28 下午8:35:11  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...一个标题
+
+1. 
+
+
+
+|
+" (4329)
+INFO 2021/11/28 下午8:35:11  synced recovery
+INFO 2021/11/28 下午8:35:14  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+1. 
+
+
+
+| 啊 |
+
+" (4334)
+INFO 2021/11/28 下午8:35:14  synced recovery
+INFO 2021/11/28 下午8:35:15  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+1. 
+
+
+
+| 啊 |
+" (4333)
+INFO 2021/11/28 下午8:35:15  synced recovery
+INFO 2021/11/28 下午8:35:15  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...题
+
+1. 
+
+
+
+| 啊 
+" (4332)
+INFO 2021/11/28 下午8:35:15  synced recovery
+INFO 2021/11/28 下午8:35:16  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+1. 
+
+
+
+| 啊 \
+" (4333)
+INFO 2021/11/28 下午8:35:16  synced recovery
+INFO 2021/11/28 下午8:35:16  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...题
+
+1. 
+
+
+
+| 啊 
+" (4332)
+INFO 2021/11/28 下午8:35:16  synced recovery
+INFO 2021/11/28 下午8:35:17  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+1. 
+
+
+
+| 啊 |
+" (4333)
+INFO 2021/11/28 下午8:35:17  synced recovery
+INFO 2021/11/28 下午8:35:18  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+1. 
+
+
+
+| 啊 | 
+" (4334)
+INFO 2021/11/28 下午8:35:18  synced recovery
+INFO 2021/11/28 下午8:35:19  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...# 这是一个标题
+
+1. 
+
+" (4325)
+INFO 2021/11/28 下午8:35:19  synced recovery
+INFO 2021/11/28 下午8:35:19  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+# 这是一个标题
+
+1. 
+" (4324)
+INFO 2021/11/28 下午8:35:19  synced recovery
+INFO 2021/11/28 下午8:35:19  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+
+
+
+# 这是一个标题
+
+" (4320)
+INFO 2021/11/28 下午8:35:19  synced recovery
+INFO 2021/11/28 下午8:35:19  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+
+
+
+
+# 这是一个标题
+" (4319)
+INFO 2021/11/28 下午8:35:19  synced recovery
+INFO 2021/11/28 下午8:35:20  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+
+
+
+
+
+# 这是一个标
+" (4318)
+INFO 2021/11/28 下午8:35:20  synced recovery
+INFO 2021/11/28 下午8:35:21  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...37.png)
+
+
+
+
+
+
+
+" (4310)
+INFO 2021/11/28 下午8:35:21  synced recovery
+INFO 2021/11/28 下午8:35:21  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...1137.png)
+
+
+
+
+
+" (4308)
+INFO 2021/11/28 下午8:35:21  synced recovery
+INFO 2021/11/28 下午8:35:21  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4306)
+INFO 2021/11/28 下午8:35:21  synced recovery
+INFO 2021/11/28 下午8:35:24  [blur] 1
+INFO 2021/11/28 下午8:35:24  [win] blur
+INFO 2021/11/28 下午8:35:29  [focus] 1
+INFO 2021/11/28 下午8:35:29  [blur] 1
+INFO 2021/11/28 下午8:35:29  [win] blur
+INFO 2021/11/28 下午8:35:29  [focus] 1
+INFO 2021/11/28 下午8:35:29  [blur] 1
+INFO 2021/11/28 下午8:35:29  [win] blur
+INFO 2021/11/28 下午8:35:29  [focus] 1
+INFO 2021/11/28 下午8:35:30  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2021/11/28 下午8:35:30  synced recovery
+INFO 2021/11/28 下午8:35:30  synced recovery
+INFO 2021/11/28 下午8:35:30  ----------------before-quit-----------------
+INFO 2021/11/28 下午8:35:30  ------------------will-quit------------------
+INFO 2021/11/28 下午8:35:30  -----------------quit------------------
+INFO 2021/11/28 下午8:35:30  closeLogging
+INFO 2021/11/30 上午11:59:49  ------------------start------------------
+INFO 2021/11/30 上午11:59:49  typora version: 0.10.11
+INFO 2021/11/30 上午11:59:49  [Raven] instanceKey = b3d55589-39ba-4598-95a4-e516f7f2e30e
+INFO 2021/11/30 上午11:59:49  addRecentDocument
+INFO 2021/11/30 上午11:59:49  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/11/30 上午11:59:49  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/11/30 上午11:59:49  [focus] 1
+INFO 2021/11/30 上午11:59:49  synced recovery
+INFO 2021/11/30 上午11:59:50  handle document.loadInitData
+INFO 2021/11/30 上午11:59:50  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/11/30 上午11:59:50  synced recovery
+INFO 2021/11/30 上午11:59:59  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4307)
+INFO 2021/11/30 上午11:59:59  synced recovery
+INFO 2021/11/30 上午11:59:59  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4309)
+INFO 2021/11/30 上午11:59:59  synced recovery
+INFO 2021/11/30 下午12:00:00  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4307)
+INFO 2021/11/30 下午12:00:00  synced recovery
+INFO 2021/11/30 下午12:00:01  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4306)
+INFO 2021/11/30 下午12:00:01  synced recovery
+INFO 2021/11/30 下午12:00:01  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4308)
+INFO 2021/11/30 下午12:00:01  synced recovery
+INFO 2021/11/30 下午12:00:01  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4309)
+INFO 2021/11/30 下午12:00:01  synced recovery
+INFO 2021/11/30 下午12:00:02  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4310)
+INFO 2021/11/30 下午12:00:02  synced recovery
+INFO 2021/11/30 下午12:00:06  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4312)
+INFO 2021/11/30 下午12:00:06  synced recovery
+INFO 2021/11/30 下午12:00:09  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4316)
+INFO 2021/11/30 下午12:00:09  synced recovery
+INFO 2021/11/30 下午12:00:12  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4317)
+INFO 2021/11/30 下午12:00:12  synced recovery
+INFO 2021/11/30 下午12:00:13  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4318)
+INFO 2021/11/30 下午12:00:13  synced recovery
+INFO 2021/11/30 下午12:00:20  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4321)
+INFO 2021/11/30 下午12:00:20  synced recovery
+INFO 2021/11/30 下午12:00:24  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4325)
+INFO 2021/11/30 下午12:00:24  synced recovery
+INFO 2021/11/30 下午12:00:25  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4324)
+INFO 2021/11/30 下午12:00:25  synced recovery
+INFO 2021/11/30 下午12:00:27  [blur] 1
+INFO 2021/11/30 下午12:00:27  [win] blur
+INFO 2021/11/30 下午12:00:30  [focus] 1
+INFO 2021/11/30 下午12:00:31  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4331)
+INFO 2021/11/30 下午12:00:31  synced recovery
+INFO 2021/11/30 下午12:00:33  [blur] 1
+INFO 2021/11/30 下午12:00:33  [win] blur
+INFO 2021/11/30 下午12:00:34  [focus] 1
+INFO 2021/11/30 下午12:00:34  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4339)
+INFO 2021/11/30 下午12:00:34  synced recovery
+INFO 2021/11/30 下午12:00:36  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2021/11/30 下午12:00:36  synced recovery
+INFO 2021/11/30 下午12:00:38  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4348)
+INFO 2021/11/30 下午12:00:38  synced recovery
+INFO 2021/11/30 下午12:00:39  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4347)
+INFO 2021/11/30 下午12:00:39  synced recovery
+INFO 2021/11/30 下午12:00:39  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4352)
+INFO 2021/11/30 下午12:00:39  synced recovery
+INFO 2021/11/30 下午12:00:40  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4349)
+INFO 2021/11/30 下午12:00:40  synced recovery
+INFO 2021/11/30 下午12:00:40  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4351)
+INFO 2021/11/30 下午12:00:40  synced recovery
+INFO 2021/11/30 下午12:00:41  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4350)
+INFO 2021/11/30 下午12:00:41  synced recovery
+INFO 2021/11/30 下午12:00:41  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4349)
+INFO 2021/11/30 下午12:00:41  synced recovery
+INFO 2021/11/30 下午12:00:43  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2021/11/30 下午12:00:43  synced recovery
+INFO 2021/11/30 下午12:00:44  synced recovery
+INFO 2021/11/30 下午12:00:44  ----------------before-quit-----------------
+INFO 2021/11/30 下午12:00:44  ------------------will-quit------------------
+INFO 2021/11/30 下午12:00:44  -----------------quit------------------
+INFO 2021/11/30 下午12:00:44  closeLogging
+INFO 2021/12/14 下午6:02:47  ------------------start------------------
+INFO 2021/12/14 下午6:02:47  typora version: 0.10.11
+INFO 2021/12/14 下午6:02:47  [Raven] instanceKey = 385877be-649a-451a-af76-6fc70d90b9ff
+INFO 2021/12/14 下午6:02:47  addRecentDocument
+INFO 2021/12/14 下午6:02:47  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/12/14 下午6:02:47  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/12/14 下午6:02:47  [focus] 1
+INFO 2021/12/14 下午6:02:48  synced recovery
+INFO 2021/12/14 下午6:02:48  handle document.loadInitData
+INFO 2021/12/14 下午6:02:48  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/12/14 下午6:02:48  synced recovery
+INFO 2021/12/14 下午6:02:59  [blur] 1
+INFO 2021/12/14 下午6:02:59  [win] blur
+INFO 2021/12/14 下午6:04:27  [focus] 1
+INFO 2021/12/14 下午6:04:28  [blur] 1
+INFO 2021/12/14 下午6:04:28  [win] blur
+INFO 2021/12/14 下午6:05:50  [focus] 1
+INFO 2021/12/14 下午6:05:50  [blur] 1
+INFO 2021/12/14 下午6:05:50  [win] blur
+INFO 2021/12/14 下午6:05:50  [focus] 1
+INFO 2021/12/14 下午6:05:50  [blur] 1
+INFO 2021/12/14 下午6:05:50  [win] blur
+INFO 2021/12/14 下午6:05:50  [focus] 1
+INFO 2021/12/14 下午6:05:52  [blur] 1
+INFO 2021/12/14 下午6:05:52  [win] blur
+INFO 2021/12/14 下午6:08:06  [focus] 1
+INFO 2021/12/14 下午6:08:11  synced recovery
+INFO 2021/12/14 下午6:08:11  ----------------before-quit-----------------
+INFO 2021/12/14 下午6:08:11  ------------------will-quit------------------
+INFO 2021/12/14 下午6:08:11  -----------------quit------------------
+INFO 2021/12/14 下午6:08:11  closeLogging
+INFO 2021/12/17 下午9:57:07  ------------------start------------------
+INFO 2021/12/17 下午9:57:07  typora version: 0.10.11
+INFO 2021/12/17 下午9:57:07  [Raven] instanceKey = 34ad0b4c-2f17-48c3-88f8-c92fdf9ec547
+INFO 2021/12/17 下午9:57:07  addRecentDocument
+INFO 2021/12/17 下午9:57:07  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/12/17 下午9:57:07  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2021/12/17 下午9:57:07  [focus] 1
+INFO 2021/12/17 下午9:57:07  synced recovery
+INFO 2021/12/17 下午9:57:08  handle document.loadInitData
+INFO 2021/12/17 下午9:57:08  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2021/12/17 下午9:57:08  synced recovery
+INFO 2021/12/17 下午9:57:19  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4351)
+INFO 2021/12/17 下午9:57:19  synced recovery
+INFO 2021/12/17 下午9:57:21  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4353)
+INFO 2021/12/17 下午9:57:21  synced recovery
+INFO 2021/12/17 下午9:57:25  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4355)
+INFO 2021/12/17 下午9:57:25  synced recovery
+INFO 2021/12/17 下午9:57:27  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4356)
+INFO 2021/12/17 下午9:57:27  synced recovery
+INFO 2021/12/17 下午9:57:28  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4357)
+INFO 2021/12/17 下午9:57:28  synced recovery
+INFO 2021/12/17 下午9:57:28  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...201137.png)
+
+
+
+" (4383)
+INFO 2021/12/17 下午9:57:28  synced recovery
+INFO 2021/12/17 下午9:57:30  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2021/12/17 下午9:57:30  synced recovery
+INFO 2021/12/17 下午9:57:31  synced recovery
+INFO 2021/12/17 下午9:57:31  ----------------before-quit-----------------
+INFO 2021/12/17 下午9:57:31  ------------------will-quit------------------
+INFO 2021/12/17 下午9:57:31  -----------------quit------------------
+INFO 2021/12/17 下午9:57:31  closeLogging
+INFO 2022/1/15 下午12:05:06  ------------------start------------------
+INFO 2022/1/15 下午12:05:06  typora version: 0.10.11
+INFO 2022/1/15 下午12:05:06  [Raven] instanceKey = 7486194e-101d-4373-b1dd-1a633b67d250
+INFO 2022/1/15 下午12:05:06  addRecentDocument
+INFO 2022/1/15 下午12:05:06  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2022/1/15 下午12:05:06  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2022/1/15 下午12:05:06  [focus] 1
+INFO 2022/1/15 下午12:05:06  synced recovery
+INFO 2022/1/15 下午12:05:07  handle document.loadInitData
+INFO 2022/1/15 下午12:05:07  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2022/1/15 下午12:05:07  synced recovery
+INFO 2022/1/15 下午12:05:31  [blur] 1
+INFO 2022/1/15 下午12:05:31  [win] blur
+INFO 2022/1/15 下午12:05:55  [focus] 1
+INFO 2022/1/15 下午12:06:06  synced recovery
+INFO 2022/1/15 下午12:06:06  ----------------before-quit-----------------
+INFO 2022/1/15 下午12:06:06  ------------------will-quit------------------
+INFO 2022/1/15 下午12:06:06  -----------------quit------------------
+INFO 2022/1/15 下午12:06:06  closeLogging
+INFO 2022/1/15 下午12:06:10  ------------------start------------------
+INFO 2022/1/15 下午12:06:10  typora version: 0.10.11
+INFO 2022/1/15 下午12:06:10  [Raven] instanceKey = 561b127a-9064-40c0-888f-0ef1e905f987
+INFO 2022/1/15 下午12:06:10  addRecentDocument
+INFO 2022/1/15 下午12:06:10  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2022/1/15 下午12:06:11  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2022/1/15 下午12:06:11  [focus] 1
+INFO 2022/1/15 下午12:06:11  synced recovery
+INFO 2022/1/15 下午12:06:12  handle document.loadInitData
+INFO 2022/1/15 下午12:06:12  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2022/1/15 下午12:06:12  synced recovery
+INFO 2022/1/15 下午12:06:24  window.File && (function(){document.body.classList.remove("show-footer"),document.body.classList.add("hide-footer")})();
+INFO 2022/1/15 下午12:06:28  window.File && (function(){document.body.classList.add("show-footer"),document.body.classList.remove("hide-footer")})();
+INFO 2022/1/15 下午12:07:15  added recovery 2 null undefined (0)
+INFO 2022/1/15 下午12:07:15  [blur] 1
+INFO 2022/1/15 下午12:07:15  [win] blur
+INFO 2022/1/15 下午12:07:15  [focus] 2
+INFO 2022/1/15 下午12:07:15  synced recovery
+INFO 2022/1/15 下午12:07:16  handle document.loadInitData
+INFO 2022/1/15 下午12:07:16  added recovery 2 undefined undefined (0)
+INFO 2022/1/15 下午12:07:16  synced recovery
+INFO 2022/1/15 下午12:07:16  [blur] 2
+INFO 2022/1/15 下午12:07:16  [win] blur
+INFO 2022/1/15 下午12:07:16  [focus] 1
+INFO 2022/1/15 下午12:07:18  [focus] 2
+INFO 2022/1/15 下午12:07:18  [blur] 2
+INFO 2022/1/15 下午12:07:18  [win] blur
+INFO 2022/1/15 下午12:07:18  [focus] 2
+INFO 2022/1/15 下午12:07:18  [blur] 2
+INFO 2022/1/15 下午12:07:18  [win] blur
+INFO 2022/1/15 下午12:07:18  [focus] 2
+INFO 2022/1/15 下午12:07:19  [blur] 2
+INFO 2022/1/15 下午12:07:19  [win] blur
+INFO 2022/1/15 下午12:07:25  [focus] 2
+INFO 2022/1/15 下午12:07:26  added recovery 2 undefined # (1)
+INFO 2022/1/15 下午12:07:26  synced recovery
+INFO 2022/1/15 下午12:07:28  added recovery 2 undefined # q (3)
+INFO 2022/1/15 下午12:07:28  synced recovery
+INFO 2022/1/15 下午12:07:29  added recovery 2 undefined # 权限 (4)
+INFO 2022/1/15 下午12:07:29  synced recovery
+INFO 2022/1/15 下午12:07:31  added recovery 2 undefined # 权限控制
+
+ (8)
+INFO 2022/1/15 下午12:07:31  synced recovery
+INFO 2022/1/15 下午12:07:32  [blur] 2
+INFO 2022/1/15 下午12:07:32  [win] blur
+INFO 2022/1/15 下午12:10:51  [focus] 2
+INFO 2022/1/15 下午12:10:54  added recovery 2 undefined # 权限控制
+
+# (9)
+INFO 2022/1/15 下午12:10:54  synced recovery
+INFO 2022/1/15 下午12:10:56  added recovery 2 undefined # 权限控制
+
+## y (12)
+INFO 2022/1/15 下午12:10:56  synced recovery
+INFO 2022/1/15 下午12:10:57  added recovery 2 undefined # 权限控制
+
+## 一 (12)
+INFO 2022/1/15 下午12:10:57  synced recovery
+INFO 2022/1/15 下午12:11:00  added recovery 2 undefined # 权限控制
+
+## 一、添加用户
+
+ (19)
+INFO 2022/1/15 下午12:11:00  synced recovery
+INFO 2022/1/15 下午12:11:01  [blur] 2
+INFO 2022/1/15 下午12:11:01  [win] blur
+INFO 2022/1/15 下午12:11:02  [focus] 2
+INFO 2022/1/15 下午12:11:02  [blur] 2
+INFO 2022/1/15 下午12:11:02  [win] blur
+INFO 2022/1/15 下午12:11:04  [focus] 2
+INFO 2022/1/15 下午12:11:16  File.option.useCustomFontSize=true
+INFO 2022/1/15 下午12:11:16  document.body.parentElement.style.fontSize = '14px'
+INFO 2022/1/15 下午12:11:19  File.option.customFontSize=15
+INFO 2022/1/15 下午12:11:19  document.body.parentElement.style.fontSize = '15px'
+INFO 2022/1/15 下午12:11:19  File.option.customFontSize=16
+INFO 2022/1/15 下午12:11:19  document.body.parentElement.style.fontSize = '16px'
+INFO 2022/1/15 下午12:11:19  File.option.customFontSize=17
+INFO 2022/1/15 下午12:11:19  document.body.parentElement.style.fontSize = '17px'
+INFO 2022/1/15 下午12:11:20  File.option.customFontSize=18
+INFO 2022/1/15 下午12:11:20  document.body.parentElement.style.fontSize = '18px'
+INFO 2022/1/15 下午12:11:21  File.option.customFontSize=18
+INFO 2022/1/15 下午12:11:21  document.body.parentElement.style.fontSize = '18px'
+INFO 2022/1/15 下午12:11:25  added recovery 2 undefined # 权限控制
+
+## 一、添加用户
+
+1 (20)
+INFO 2022/1/15 下午12:11:25  synced recovery
+INFO 2022/1/15 下午12:11:25  added recovery 2 undefined # 权限控制
+
+## 一、添加用户
+
+ (19)
+INFO 2022/1/15 下午12:11:25  synced recovery
+INFO 2022/1/15 下午12:11:26  [blur] 2
+INFO 2022/1/15 下午12:11:26  [win] blur
+INFO 2022/1/15 下午12:11:33  [focus] 2
+INFO 2022/1/15 下午12:11:33  added recovery 2 undefined # 权限控制
+
+## 一、添加用户
+
+》 (20)
+INFO 2022/1/15 下午12:11:33  synced recovery
+INFO 2022/1/15 下午12:11:34  added recovery 2 undefined # 权限控制
+
+## 一、添加用户
+
+》 (20)
+INFO 2022/1/15 下午12:11:34  synced recovery
+INFO 2022/1/15 下午12:11:35  added recovery 2 undefined # 权限控制
+
+## 一、添加用户
+
+> (20)
+INFO 2022/1/15 下午12:11:35  synced recovery
+INFO 2022/1/15 下午12:11:35  added recovery 2 undefined # 权限控制
+
+## 一、添加用户
+
+>  (21)
+INFO 2022/1/15 下午12:11:35  synced recovery
+INFO 2022/1/15 下午12:11:36  added recovery 2 undefined # 权限控制
+
+## 一、添加用户
+
+> 路径 (23)
+INFO 2022/1/15 下午12:11:36  synced recovery
+INFO 2022/1/15 下午12:11:38  added recovery 2 undefined # 权限控制
+
+## 一、添加用户
+
+> 路径： (24)
+INFO 2022/1/15 下午12:11:38  synced recovery
+INFO 2022/1/15 下午12:11:38  added recovery 2 undefined # 权限控制
+
+## 一、添加用户
+
+> 路径：` (25)
+INFO 2022/1/15 下午12:11:38  synced recovery
+INFO 2022/1/15 下午12:11:41  added recovery 2 undefined # 权限控制
+
+## 一、添加用户
+
+> 路径：`s` (27)
+INFO 2022/1/15 下午12:11:41  synced recovery
+INFO 2022/1/15 下午12:11:45  added recovery 2 undefined # 权限控制
+
+## 一、添加用户
+
+> 路径：`s` (27)
+INFO 2022/1/15 下午12:11:45  synced recovery
+INFO 2022/1/15 下午12:11:48  [blur] 2
+INFO 2022/1/15 下午12:11:48  [win] blur
+INFO 2022/1/15 下午12:11:58  [focus] 2
+INFO 2022/1/15 下午12:11:59  added recovery 2 undefined # 权限控制
+
+## 一、添加用户
+
+> 路径：`src/g` (31)
+INFO 2022/1/15 下午12:11:59  synced recovery
+INFO 2022/1/15 下午12:12:02  added recovery 2 undefined # 权限控制
+
+## 一、添加用户
+
+> 路径：`src/global/Global` (43)
+INFO 2022/1/15 下午12:12:02  synced recovery
+INFO 2022/1/15 下午12:12:05  added recovery 2 undefined # 权限控制
+
+## 一、添加用户
+
+> 路径：`src/global/Global.j` (45)
+INFO 2022/1/15 下午12:12:05  synced recovery
+INFO 2022/1/15 下午12:12:07  added recovery 2 undefined # 权限控制
+
+## 一、添加用户
+
+> 路径：`src/global/i` (38)
+INFO 2022/1/15 下午12:12:07  synced recovery
+INFO 2022/1/15 下午12:12:09  [blur] 2
+INFO 2022/1/15 下午12:12:09  [win] blur
+INFO 2022/1/15 下午12:12:34  [focus] 2
+INFO 2022/1/15 下午12:12:38  [blur] 2
+INFO 2022/1/15 下午12:12:38  [win] blur
+INFO 2022/1/15 下午12:12:44  [focus] 2
+INFO 2022/1/15 下午12:12:47  added recovery 2 undefined # 权限控制
+
+## 一、添加用户
+
+> 路径：`src/global/index.js`
+
+对应 (49)
+INFO 2022/1/15 下午12:12:47  synced recovery
+INFO 2022/1/15 下午12:12:50  added recovery 2 undefined "# 权限控制
+
+## 一、添加...dex.js`
+
+对应代码偏团" (53)
+INFO 2022/1/15 下午12:12:50  synced recovery
+INFO 2022/1/15 下午12:12:50  added recovery 2 undefined "# 权限控制
+
+## 一、添加...ndex.js`
+
+对应代码偏" (52)
+INFO 2022/1/15 下午12:12:50  synced recovery
+INFO 2022/1/15 下午12:12:53  added recovery 2 undefined "# 权限控制
+
+## 一、添加...dex.js`
+
+对应代码片段" (53)
+INFO 2022/1/15 下午12:12:53  synced recovery
+INFO 2022/1/15 下午12:12:54  added recovery 2 undefined "# 权限控制
+
+## 一、添加....js`
+
+对应代码片段：
+
+" (56)
+INFO 2022/1/15 下午12:12:54  synced recovery
+INFO 2022/1/15 下午12:12:54  added recovery 2 undefined "# 权限控制
+
+## 一、添加...js`
+
+对应代码片段：
+
+`" (57)
+INFO 2022/1/15 下午12:12:54  synced recovery
+INFO 2022/1/15 下午12:12:56  added recovery 2 undefined "# 权限控制
+
+## 一、添加...段：
+
+```js
+```
+
+" (67)
+INFO 2022/1/15 下午12:12:56  synced recovery
+INFO 2022/1/15 下午12:12:57  added recovery 2 undefined "# 权限控制
+
+## 一、添加...rketMange
+```
+
+" (79)
+INFO 2022/1/15 下午12:12:57  synced recovery
+INFO 2022/1/15 下午12:12:58  added recovery 2 undefined "# 权限控制
+
+## 一、添加...arketMang
+```
+
+" (78)
+INFO 2022/1/15 下午12:12:58  synced recovery
+INFO 2022/1/15 下午12:12:59  added recovery 2 undefined "# 权限控制
+
+## 一、添加...
+```js
+ma
+```
+
+" (70)
+INFO 2022/1/15 下午12:12:59  synced recovery
+INFO 2022/1/15 下午12:13:00  [blur] 2
+INFO 2022/1/15 下午12:13:00  [win] blur
+INFO 2022/1/15 下午12:13:03  [focus] 2
+INFO 2022/1/15 下午12:13:04  added recovery 2 undefined "# 权限控制
+
+## 一、添加...anage'
+]
+
+```
+
+" (234)
+INFO 2022/1/15 下午12:13:04  synced recovery
+INFO 2022/1/15 下午12:13:08  added recovery 2 undefined "# 权限控制
+
+## 一、添加...age'
+]
+
+```
+
+如果" (236)
+INFO 2022/1/15 下午12:13:08  synced recovery
+INFO 2022/1/15 下午12:13:12  added recovery 2 undefined "# 权限控制
+
+## 一、添加...
+
+```
+
+如果需要添加角色" (242)
+INFO 2022/1/15 下午12:13:12  synced recovery
+INFO 2022/1/15 下午12:13:16  added recovery 2 undefined "# 权限控制
+
+## 一、添加...
+
+如果需要添加角色，在数组后" (247)
+INFO 2022/1/15 下午12:13:16  synced recovery
+INFO 2022/1/15 下午12:13:23  added recovery 2 undefined "# 权限控制
+
+## 一、添加...加角色，在数组后添加即可。
+
+" (254)
+INFO 2022/1/15 下午12:13:23  synced recovery
+INFO 2022/1/15 下午12:13:25  added recovery 2 undefined "# 权限控制
+
+## 一、添加...色，在数组后添加即可。
+
+
+
+" (256)
+INFO 2022/1/15 下午12:13:25  synced recovery
+INFO 2022/1/15 下午12:13:27  added recovery 2 undefined "# 权限控制
+
+## 一、添加...，在数组后添加即可。
+
+
+
+#" (257)
+INFO 2022/1/15 下午12:13:27  synced recovery
+INFO 2022/1/15 下午12:13:28  added recovery 2 undefined "# 权限控制
+
+## 一、添加...数组后添加即可。
+
+
+
+## " (259)
+INFO 2022/1/15 下午12:13:28  synced recovery
+INFO 2022/1/15 下午12:13:29  added recovery 2 undefined "# 权限控制
+
+## 一、添加...组后添加即可。
+
+
+
+## 二" (260)
+INFO 2022/1/15 下午12:13:29  synced recovery
+INFO 2022/1/15 下午12:13:34  added recovery 2 undefined "# 权限控制
+
+## 一、添加...
+
+
+
+## 二、修改用户权限" (267)
+INFO 2022/1/15 下午12:13:34  synced recovery
+INFO 2022/1/15 下午12:13:35  added recovery 2 undefined "# 权限控制
+
+## 一、添加...
+
+## 二、修改用户权限
+
+" (269)
+INFO 2022/1/15 下午12:13:35  synced recovery
+INFO 2022/1/15 下午12:13:35  [blur] 2
+INFO 2022/1/15 下午12:13:35  [win] blur
+INFO 2022/1/15 下午12:14:02  [focus] 2
+INFO 2022/1/15 下午12:14:04  added recovery 2 undefined "# 权限控制
+
+## 一、添加...
+## 二、修改用户权限
+
+》" (270)
+INFO 2022/1/15 下午12:14:04  synced recovery
+INFO 2022/1/15 下午12:14:05  added recovery 2 undefined "# 权限控制
+
+## 一、添加...
+## 二、修改用户权限
+
+》" (270)
+INFO 2022/1/15 下午12:14:05  synced recovery
+INFO 2022/1/15 下午12:14:06  added recovery 2 undefined "# 权限控制
+
+## 一、添加...
+## 二、修改用户权限
+
+》" (270)
+INFO 2022/1/15 下午12:14:06  synced recovery
+INFO 2022/1/15 下午12:14:07  added recovery 2 undefined "# 权限控制
+
+## 一、添加...
+## 二、修改用户权限
+
+》" (270)
+INFO 2022/1/15 下午12:14:07  synced recovery
+INFO 2022/1/15 下午12:14:07  added recovery 2 undefined "# 权限控制
+
+## 一、添加...
+
+
+
+## 二、修改用户权限" (267)
+INFO 2022/1/15 下午12:14:07  synced recovery
+INFO 2022/1/15 下午12:14:08  added recovery 2 undefined "# 权限控制
+
+## 一、添加...
+
+## 二、修改用户权限
+
+" (269)
+INFO 2022/1/15 下午12:14:08  synced recovery
+INFO 2022/1/15 下午12:14:08  added recovery 2 undefined "# 权限控制
+
+## 一、添加...
+## 二、修改用户权限
+
+>" (270)
+INFO 2022/1/15 下午12:14:08  synced recovery
+INFO 2022/1/15 下午12:14:09  added recovery 2 undefined "# 权限控制
+
+## 一、添加...## 二、修改用户权限
+
+> " (271)
+INFO 2022/1/15 下午12:14:09  synced recovery
+INFO 2022/1/15 下午12:14:10  added recovery 2 undefined "# 权限控制
+
+## 一、添加... 二、修改用户权限
+
+> 路径" (273)
+INFO 2022/1/15 下午12:14:10  synced recovery
+INFO 2022/1/15 下午12:14:13  added recovery 2 undefined "# 权限控制
+
+## 一、添加...限
+
+> 路径 `src/g`" (281)
+INFO 2022/1/15 下午12:14:13  synced recovery
+INFO 2022/1/15 下午12:14:17  added recovery 2 undefined "# 权限控制
+
+## 一、添加.../index.js`
+>
+> " (300)
+INFO 2022/1/15 下午12:14:17  synced recovery
+INFO 2022/1/15 下午12:14:17  added recovery 2 undefined "# 权限控制
+
+## 一、添加...bal/index.js`
+
+" (297)
+INFO 2022/1/15 下午12:14:17  synced recovery
+INFO 2022/1/15 下午12:14:20  added recovery 2 undefined "# 权限控制
+
+## 一、添加...l/index.js`
+
+对应" (299)
+INFO 2022/1/15 下午12:14:20  synced recovery
+INFO 2022/1/15 下午12:14:22  added recovery 2 undefined "# 权限控制
+
+## 一、添加...ndex.js`
+
+对应代码偏" (302)
+INFO 2022/1/15 下午12:14:22  synced recovery
+INFO 2022/1/15 下午12:14:26  added recovery 2 undefined "# 权限控制
+
+## 一、添加...dex.js`
+
+对应代码片段" (303)
+INFO 2022/1/15 下午12:14:26  synced recovery
+INFO 2022/1/15 下午12:14:26  added recovery 2 undefined "# 权限控制
+
+## 一、添加....js`
+
+对应代码片段：
+
+" (306)
+INFO 2022/1/15 下午12:14:26  synced recovery
+INFO 2022/1/15 下午12:14:27  added recovery 2 undefined "# 权限控制
+
+## 一、添加...js`
+
+对应代码片段：
+
+`" (307)
+INFO 2022/1/15 下午12:14:27  synced recovery
+INFO 2022/1/15 下午12:14:30  added recovery 2 undefined "# 权限控制
+
+## 一、添加...段：
+
+```js
+```
+
+" (317)
+INFO 2022/1/15 下午12:14:30  synced recovery
+INFO 2022/1/15 下午12:14:31  added recovery 2 undefined "# 权限控制
+
+## 一、添加....base]
+}
+
+```
+
+" (597)
+INFO 2022/1/15 下午12:14:31  synced recovery
+INFO 2022/1/15 下午12:14:32  added recovery 2 undefined "# 权限控制
+
+## 一、添加.....base]
+}
+```
+
+" (596)
+INFO 2022/1/15 下午12:14:32  synced recovery
+INFO 2022/1/15 下午12:14:38  added recovery 2 undefined "# 权限控制
+
+## 一、添加....base]
+}
+```
+
+在" (597)
+INFO 2022/1/15 下午12:14:38  synced recovery
+INFO 2022/1/15 下午12:14:39  added recovery 2 undefined "# 权限控制
+
+## 一、添加...base]
+}
+```
+
+在数" (598)
+INFO 2022/1/15 下午12:14:39  synced recovery
+INFO 2022/1/15 下午12:14:40  added recovery 2 undefined "# 权限控制
+
+## 一、添加... ...base]
+}
+```" (594)
+INFO 2022/1/15 下午12:14:40  synced recovery
+INFO 2022/1/15 下午12:14:42  added recovery 2 undefined "# 权限控制
+
+## 一、添加.....base]
+}
+```
+
+" (596)
+INFO 2022/1/15 下午12:14:42  synced recovery
+INFO 2022/1/15 下午12:14:43  added recovery 2 undefined "# 权限控制
+
+## 一、添加...base]
+}
+```
+
+如果" (598)
+INFO 2022/1/15 下午12:14:43  synced recovery
+INFO 2022/1/15 下午12:14:47  added recovery 2 undefined "# 权限控制
+
+## 一、添加...}
+```
+
+如果要更改可访问" (604)
+INFO 2022/1/15 下午12:14:47  synced recovery
+INFO 2022/1/15 下午12:14:52  added recovery 2 undefined "# 权限控制
+
+## 一、添加...
+
+如果要更改可访问的页面，在" (609)
+INFO 2022/1/15 下午12:14:52  synced recovery
+INFO 2022/1/15 下午12:14:55  added recovery 2 undefined "# 权限控制
+
+## 一、添加...更改可访问的页面，在数组中添加" (614)
+INFO 2022/1/15 下午12:14:55  synced recovery
+INFO 2022/1/15 下午12:14:57  [blur] 2
+INFO 2022/1/15 下午12:14:57  [win] blur
+INFO 2022/1/15 下午12:15:17  [focus] 2
+INFO 2022/1/15 下午12:15:20  added recovery 2 undefined "# 权限控制
+
+## 一、添加...可访问的页面，在数组中添加即可" (667)
+INFO 2022/1/15 下午12:15:20  synced recovery
+INFO 2022/1/15 下午12:15:27  added recovery 2 undefined "# 权限控制
+
+## 一、添加...访问的页面，在数组中添加即可." (668)
+INFO 2022/1/15 下午12:15:27  synced recovery
+INFO 2022/1/15 下午12:15:27  added recovery 2 undefined "# 权限控制
+
+## 一、添加...可访问的页面，在数组中添加即可" (667)
+INFO 2022/1/15 下午12:15:27  synced recovery
+INFO 2022/1/15 下午12:15:28  added recovery 2 undefined "# 权限控制
+
+## 一、添加...访问的页面，在数组中添加即可。" (668)
+INFO 2022/1/15 下午12:15:28  synced recovery
+INFO 2022/1/15 下午12:15:31  [blur] 2
+INFO 2022/1/15 下午12:15:31  [win] blur
+INFO 2022/1/15 下午12:15:36  [focus] 2
+INFO 2022/1/15 下午12:15:36  [blur] 2
+INFO 2022/1/15 下午12:15:36  [win] blur
+INFO 2022/1/15 下午12:15:36  [focus] 2
+INFO 2022/1/15 下午12:15:36  [blur] 2
+INFO 2022/1/15 下午12:15:36  [win] blur
+INFO 2022/1/15 下午12:15:36  [focus] 2
+INFO 2022/1/15 下午12:15:39  [blur] 2
+INFO 2022/1/15 下午12:15:39  [win] blur
+INFO 2022/1/15 下午12:15:57  [focus] 2
+INFO 2022/1/15 下午12:15:57  [blur] 2
+INFO 2022/1/15 下午12:15:57  [win] blur
+INFO 2022/1/15 下午12:15:57  [focus] 2
+INFO 2022/1/15 下午12:15:57  [blur] 2
+INFO 2022/1/15 下午12:15:57  [win] blur
+INFO 2022/1/15 下午12:15:57  [focus] 2
+INFO 2022/1/15 下午12:15:57  addRecentDocument
+INFO 2022/1/15 下午12:15:57  added recovery 2 undefined null (0)
+INFO 2022/1/15 下午12:15:57  synced recovery
+INFO 2022/1/15 下午12:15:57  added recovery 2 /home/mayapony/Documents/Markdown/权限控制.md null (0)
+INFO 2022/1/15 下午12:15:57  synced recovery
+INFO 2022/1/15 下午12:16:23  load file [/tmp/1642220183137-0.5272144488611801.html] for PDF export
+INFO 2022/1/15 下午12:16:23  [blur] 2
+INFO 2022/1/15 下午12:16:23  [win] blur
+INFO 2022/1/15 下午12:16:23  generate print window with id 3
+INFO 2022/1/15 下午12:16:35  [focus] 2
+INFO 2022/1/15 下午12:16:35  [blur] 2
+INFO 2022/1/15 下午12:16:35  [win] blur
+INFO 2022/1/15 下午12:16:35  [focus] 2
+INFO 2022/1/15 下午12:16:35  [blur] 2
+INFO 2022/1/15 下午12:16:35  [win] blur
+INFO 2022/1/15 下午12:16:35  [focus] 2
+INFO 2022/1/15 下午12:16:35  [RenderProcess 3][Log] export PDF to /home/mayapony/Desktop/权限控制.pdf
+INFO 2022/1/15 下午12:16:37  [blur] 2
+INFO 2022/1/15 下午12:16:37  [win] blur
+INFO 2022/1/15 下午12:21:44  The system is going to sleep
+INFO 2022/1/15 下午1:30:45  The system is going to sleep
+INFO 2022/1/15 下午3:18:16  [focus] 2
+INFO 2022/1/15 下午3:18:18  synced recovery
+INFO 2022/1/15 下午3:18:18  ----------------before-quit-----------------
+INFO 2022/1/15 下午3:18:18  ------------------will-quit------------------
+INFO 2022/1/15 下午3:18:18  -----------------quit------------------
+INFO 2022/1/15 下午3:18:18  closeLogging
+INFO 2022/1/16 下午6:03:54  ------------------start------------------
+INFO 2022/1/16 下午6:03:54  typora version: 0.10.11
+INFO 2022/1/16 下午6:03:54  addRecentDocument
+INFO 2022/1/16 下午6:03:54  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2022/1/16 下午6:03:54  [Raven] instanceKey = e347da47-9408-4c6e-b6f9-42a187fcb031
+INFO 2022/1/16 下午6:03:54  [focus] 1
+INFO 2022/1/16 下午6:03:54  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2022/1/16 下午6:03:54  synced recovery
+INFO 2022/1/16 下午6:03:55  handle document.loadInitData
+INFO 2022/1/16 下午6:03:55  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2022/1/16 下午6:03:55  synced recovery
+INFO 2022/1/16 下午6:04:10  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...37.png)
+
+
+
+## 
+" (4387)
+INFO 2022/1/16 下午6:04:10  synced recovery
+INFO 2022/1/16 下午6:04:12  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git....png)
+
+
+
+## ui
+" (4389)
+INFO 2022/1/16 下午6:04:12  synced recovery
+INFO 2022/1/16 下午6:04:12  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...7.png)
+
+
+
+## u
+" (4388)
+INFO 2022/1/16 下午6:04:12  synced recovery
+INFO 2022/1/16 下午6:04:13  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...7.png)
+
+
+
+## u
+" (4388)
+INFO 2022/1/16 下午6:04:13  synced recovery
+INFO 2022/1/16 下午6:04:14  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...7.png)
+
+
+
+## 是
+" (4388)
+INFO 2022/1/16 下午6:04:14  synced recovery
+INFO 2022/1/16 下午6:04:14  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...37.png)
+
+
+
+## 
+" (4387)
+INFO 2022/1/16 下午6:04:14  synced recovery
+INFO 2022/1/16 下午6:04:16  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...7.png)
+
+
+
+## 十
+" (4388)
+INFO 2022/1/16 下午6:04:16  synced recovery
+INFO 2022/1/16 下午6:04:19  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...)
+
+
+
+## 十、一些位置
+" (4393)
+INFO 2022/1/16 下午6:04:19  synced recovery
+INFO 2022/1/16 下午6:04:19  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+
+
+## 十、一些位置
+
+" (4394)
+INFO 2022/1/16 下午6:04:19  synced recovery
+INFO 2022/1/16 下午6:04:20  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+## 十、一些位置
+
+
+
+" (4396)
+INFO 2022/1/16 下午6:04:20  synced recovery
+INFO 2022/1/16 下午6:04:20  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+
+
+## 十、一些位置
+
+" (4394)
+INFO 2022/1/16 下午6:04:20  synced recovery
+INFO 2022/1/16 下午6:04:22  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...
+
+## 十、一些位置
+
+a
+" (4396)
+INFO 2022/1/16 下午6:04:22  synced recovery
+INFO 2022/1/16 下午6:04:25  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...些位置
+
+appiamges
+" (4404)
+INFO 2022/1/16 下午6:04:25  synced recovery
+INFO 2022/1/16 下午6:04:25  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...些位置
+
+appiamge 
+" (4404)
+INFO 2022/1/16 下午6:04:25  synced recovery
+INFO 2022/1/16 下午6:04:28  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...appiamge 存放位置：
+" (4409)
+INFO 2022/1/16 下午6:04:28  synced recovery
+INFO 2022/1/16 下午6:04:32  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...iamge 存放位置：`/`
+" (4412)
+INFO 2022/1/16 下午6:04:32  synced recovery
+INFO 2022/1/16 下午6:04:35  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...位置：`/opt/appi`
+" (4420)
+INFO 2022/1/16 下午6:04:35  synced recovery
+INFO 2022/1/16 下午6:04:39  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2022/1/16 下午6:04:39  synced recovery
+INFO 2022/1/16 下午6:04:39  synced recovery
+INFO 2022/1/16 下午6:04:39  ----------------before-quit-----------------
+INFO 2022/1/16 下午6:04:39  ------------------will-quit------------------
+INFO 2022/1/16 下午6:04:39  -----------------quit------------------
+INFO 2022/1/16 下午6:04:39  closeLogging
+INFO 2022/1/16 下午6:05:13  ------------------start------------------
+INFO 2022/1/16 下午6:05:13  typora version: 0.10.11
+INFO 2022/1/16 下午6:05:13  addRecentDocument
+INFO 2022/1/16 下午6:05:13  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2022/1/16 下午6:05:13  [Raven] instanceKey = 557ea9c5-6b00-406b-b6ab-64dca7b88322
+INFO 2022/1/16 下午6:05:13  [focus] 1
+INFO 2022/1/16 下午6:05:13  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2022/1/16 下午6:05:13  synced recovery
+INFO 2022/1/16 下午6:05:13  handle document.loadInitData
+INFO 2022/1/16 下午6:05:13  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2022/1/16 下午6:05:13  synced recovery
+INFO 2022/1/16 下午6:05:19  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...pt/appimages` 
+" (4426)
+INFO 2022/1/16 下午6:05:19  synced recovery
+INFO 2022/1/16 下午6:05:20  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...pt/appimages` 
+" (4426)
+INFO 2022/1/16 下午6:05:20  synced recovery
+INFO 2022/1/16 下午6:05:24  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...images` 用户位置：~
+" (4432)
+INFO 2022/1/16 下午6:05:24  synced recovery
+INFO 2022/1/16 下午6:05:24  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...pimages` 用户位置：
+" (4431)
+INFO 2022/1/16 下午6:05:24  synced recovery
+INFO 2022/1/16 下午6:05:25  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...images` 用户位置：`
+" (4432)
+INFO 2022/1/16 下午6:05:25  synced recovery
+INFO 2022/1/16 下午6:05:28  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...ges` 用户位置：`~/`
+" (4435)
+INFO 2022/1/16 下午6:05:28  synced recovery
+INFO 2022/1/16 下午6:05:32  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...`~/.appimages`
+" (4445)
+INFO 2022/1/16 下午6:05:32  synced recovery
+INFO 2022/1/16 下午6:05:38  added recovery 1 /home/mayapony/dotfiles/README.md null (0)
+INFO 2022/1/16 下午6:05:38  synced recovery
+INFO 2022/1/16 下午6:05:38  synced recovery
+INFO 2022/1/16 下午6:05:38  ----------------before-quit-----------------
+INFO 2022/1/16 下午6:05:38  ------------------will-quit------------------
+INFO 2022/1/16 下午6:05:38  -----------------quit------------------
+INFO 2022/1/16 下午6:05:38  closeLogging
+INFO 2022/1/22 下午7:47:55  ------------------start------------------
+INFO 2022/1/22 下午7:47:55  typora version: 0.10.11
+INFO 2022/1/22 下午7:47:55  [Raven] instanceKey = d6231720-cbcc-4f39-aafd-36ceed4dffd2
+INFO 2022/1/22 下午7:47:55  addRecentDocument
+INFO 2022/1/22 下午7:47:55  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2022/1/22 下午7:47:55  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2022/1/22 下午7:47:56  [focus] 1
+INFO 2022/1/22 下午7:47:56  synced recovery
+INFO 2022/1/22 下午7:47:56  handle document.loadInitData
+INFO 2022/1/22 下午7:47:57  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2022/1/22 下午7:47:57  synced recovery
+INFO 2022/1/22 下午7:48:03  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git....appimages`
+
+
+
+" (4448)
+INFO 2022/1/22 下午7:48:03  synced recovery
+INFO 2022/1/22 下午7:48:03  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...~/.appimages`
+
+" (4446)
+INFO 2022/1/22 下午7:48:03  synced recovery
+INFO 2022/1/22 下午7:48:04  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git....appimages`
+
+$
+" (4448)
+INFO 2022/1/22 下午7:48:04  synced recovery
+INFO 2022/1/22 下午7:48:05  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...images`
+$$
+
+$$
+" (4452)
+INFO 2022/1/22 下午7:48:05  synced recovery
+INFO 2022/1/22 下午7:48:05  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...mages`
+$$
+$
+$$
+" (4453)
+INFO 2022/1/22 下午7:48:05  synced recovery
+INFO 2022/1/22 下午7:48:06  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...mages`
+$$
+$
+$$
+" (4453)
+INFO 2022/1/22 下午7:48:06  synced recovery
+INFO 2022/1/22 下午7:48:10  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...mages`
+$$
+v
+$$
+" (4453)
+INFO 2022/1/22 下午7:48:10  synced recovery
+INFO 2022/1/22 下午7:48:12  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...ages`
+$$
+证\
+$$
+" (4454)
+INFO 2022/1/22 下午7:48:12  synced recovery
+INFO 2022/1/22 下午7:48:12  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...ges`
+$$
+证\\
+$$
+" (4455)
+INFO 2022/1/22 下午7:48:12  synced recovery
+INFO 2022/1/22 下午7:48:14  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...s`
+$$
+证\\
+c
+$$
+" (4457)
+INFO 2022/1/22 下午7:48:14  synced recovery
+INFO 2022/1/22 下午7:48:15  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...s`
+$$
+证\\
+c
+$$
+" (4457)
+INFO 2022/1/22 下午7:48:15  synced recovery
+INFO 2022/1/22 下午7:48:15  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...ages`
+$$
+证\
+$$
+" (4454)
+INFO 2022/1/22 下午7:48:15  synced recovery
+INFO 2022/1/22 下午7:48:16  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...ages`
+$$
+证 
+$$
+" (4454)
+INFO 2022/1/22 下午7:48:16  synced recovery
+INFO 2022/1/22 下午7:48:16  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...mages`
+$$
+证
+$$
+" (4453)
+INFO 2022/1/22 下午7:48:16  synced recovery
+INFO 2022/1/22 下午7:48:18  [blur] 1
+INFO 2022/1/22 下午7:48:18  [win] blur
+INFO 2022/1/22 下午7:48:24  [focus] 1
+INFO 2022/1/22 下午7:48:24  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...images`
+$$
+
+$$
+" (4452)
+INFO 2022/1/22 下午7:48:24  synced recovery
+INFO 2022/1/22 下午7:48:28  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...`
+$$
+DELETE
+$$
+" (4458)
+INFO 2022/1/22 下午7:48:28  synced recovery
+INFO 2022/1/22 下午7:48:30  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...images`
+$$
+
+$$
+" (4452)
+INFO 2022/1/22 下午7:48:30  synced recovery
+INFO 2022/1/22 下午7:48:31  [blur] 1
+INFO 2022/1/22 下午7:48:31  [win] blur
+INFO 2022/1/22 下午7:48:36  [focus] 1
+INFO 2022/1/22 下午7:48:37  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...`
+$$
+DELETE
+$$
+" (4458)
+INFO 2022/1/22 下午7:48:37  synced recovery
+INFO 2022/1/22 下午7:48:38  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...s`
+$$
+DELET
+$$
+" (4457)
+INFO 2022/1/22 下午7:48:38  synced recovery
+INFO 2022/1/22 下午7:48:40  [blur] 1
+INFO 2022/1/22 下午7:48:40  [win] blur
+INFO 2022/1/22 下午7:48:43  [focus] 1
+INFO 2022/1/22 下午7:48:43  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...images`
+$$
+
+$$
+" (4452)
+INFO 2022/1/22 下午7:48:43  synced recovery
+INFO 2022/1/22 下午7:48:46  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...`
+$$
+DELETE
+$$
+" (4458)
+INFO 2022/1/22 下午7:48:46  synced recovery
+INFO 2022/1/22 下午7:48:47  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...images`
+$$
+
+$$
+" (4452)
+INFO 2022/1/22 下午7:48:47  synced recovery
+INFO 2022/1/22 下午7:48:48  [blur] 1
+INFO 2022/1/22 下午7:48:48  [win] blur
+INFO 2022/1/22 下午7:48:54  [focus] 1
+INFO 2022/1/22 下午7:48:55  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...由拉格朗日中值定理有}
+$$
+" (4537)
+INFO 2022/1/22 下午7:48:55  synced recovery
+INFO 2022/1/22 下午7:49:03  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...由拉格朗日中值定理有}
+$$
+" (4539)
+INFO 2022/1/22 下午7:49:03  synced recovery
+INFO 2022/1/22 下午7:49:05  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...由拉格朗日中值定理有}
+$$
+" (4538)
+INFO 2022/1/22 下午7:49:05  synced recovery
+INFO 2022/1/22 下午7:49:07  [blur] 1
+INFO 2022/1/22 下午7:49:07  [win] blur
+INFO 2022/1/22 下午7:49:57  [focus] 1
+INFO 2022/1/22 下午7:49:59  [blur] 1
+INFO 2022/1/22 下午7:49:59  [win] blur
+INFO 2022/1/22 下午7:52:57  [focus] 1
+INFO 2022/1/22 下午7:52:59  [blur] 1
+INFO 2022/1/22 下午7:52:59  [win] blur
+INFO 2022/1/22 下午8:11:26  [focus] 1
+INFO 2022/1/22 下午8:11:30  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...由拉格朗日中值定理有}
+$$
+" (4537)
+INFO 2022/1/22 下午8:11:30  synced recovery
+INFO 2022/1/22 下午8:11:37  window.File && (function(){ClientCommand.zoomIn()})();
+INFO 2022/1/22 下午8:11:38  window.File && (function(){ClientCommand.zoomIn()})();
+INFO 2022/1/22 下午8:11:43  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...由拉格朗日中值定理有}
+$$
+" (4537)
+INFO 2022/1/22 下午8:11:43  synced recovery
+INFO 2022/1/22 下午8:11:48  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...由拉格朗日中值定理有}
+$$
+" (4539)
+INFO 2022/1/22 下午8:11:48  synced recovery
+INFO 2022/1/22 下午8:11:49  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...由拉格朗日中值定理有}
+$$
+" (4538)
+INFO 2022/1/22 下午8:11:49  synced recovery
+INFO 2022/1/22 下午8:11:50  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...由拉格朗日中值定理有}
+$$
+" (4537)
+INFO 2022/1/22 下午8:11:50  synced recovery
+INFO 2022/1/22 下午8:12:14  synced recovery
+INFO 2022/1/22 下午8:12:14  ----------------before-quit-----------------
+INFO 2022/1/22 下午8:12:14  ------------------will-quit------------------
+INFO 2022/1/22 下午8:12:14  -----------------quit------------------
+INFO 2022/1/22 下午8:12:14  closeLogging
+INFO 2022/1/22 下午8:27:22  ------------------start------------------
+INFO 2022/1/22 下午8:27:22  typora version: 0.10.11
+INFO 2022/1/22 下午8:27:22  [Raven] instanceKey = f593fec1-db17-4a01-9967-82dd8019269b
+INFO 2022/1/22 下午8:27:22  addRecentDocument
+INFO 2022/1/22 下午8:27:22  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2022/1/22 下午8:27:22  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2022/1/22 下午8:27:22  [focus] 1
+INFO 2022/1/22 下午8:27:22  synced recovery
+INFO 2022/1/22 下午8:27:24  handle document.loadInitData
+INFO 2022/1/22 下午8:27:24  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2022/1/22 下午8:27:24  synced recovery
+INFO 2022/1/22 下午8:27:31  added recovery 1 /home/mayapony/dotfiles/README.md "![](https://git...\end{align}
+$$
+" (4662)
+INFO 2022/1/22 下午8:27:31  synced recovery
+INFO 2022/1/22 下午8:27:39  [blur] 1
+INFO 2022/1/22 下午8:27:39  [win] blur
+INFO 2022/1/22 下午8:51:43  [focus] 1
+INFO 2022/1/22 下午8:51:46  synced recovery
+INFO 2022/1/22 下午8:51:46  ----------------before-quit-----------------
+INFO 2022/1/22 下午8:51:46  ------------------will-quit------------------
+INFO 2022/1/22 下午8:51:46  -----------------quit------------------
+INFO 2022/1/22 下午8:51:46  closeLogging
+INFO 2022/1/30 下午2:06:03  ------------------start------------------
+INFO 2022/1/30 下午2:06:03  typora version: 0.10.11
+INFO 2022/1/30 下午2:06:03  [Raven] instanceKey = 1c5788c8-19a3-4dc1-a1d5-d2eda5220dd1
+INFO 2022/1/30 下午2:06:03  addRecentDocument
+INFO 2022/1/30 下午2:06:03  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2022/1/30 下午2:06:03  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2022/1/30 下午2:06:03  [focus] 1
+INFO 2022/1/30 下午2:06:03  synced recovery
+INFO 2022/1/30 下午2:06:04  handle document.loadInitData
+INFO 2022/1/30 下午2:06:04  added recovery 1 /home/mayapony/dotfiles/README.md undefined (0)
+INFO 2022/1/30 下午2:06:04  synced recovery
+INFO 2022/1/30 下午2:06:05  synced recovery
+INFO 2022/1/30 下午2:06:05  ----------------before-quit-----------------
+INFO 2022/1/30 下午2:06:05  ------------------will-quit------------------
+INFO 2022/1/30 下午2:06:05  -----------------quit------------------
+INFO 2022/1/30 下午2:06:05  closeLogging
+INFO 2022/1/30 下午2:06:15  ------------------start------------------
+INFO 2022/1/30 下午2:06:15  typora version: 0.10.11
+INFO 2022/1/30 下午2:06:15  addRecentDocument
+INFO 2022/1/30 下午2:06:16  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md undefined (0)
+INFO 2022/1/30 下午2:06:16  [Raven] instanceKey = e08b3412-7322-4fc7-9763-992c17c7b83c
+INFO 2022/1/30 下午2:06:16  [focus] 1
+INFO 2022/1/30 下午2:06:16  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2022/1/30 下午2:06:16  synced recovery
+INFO 2022/1/30 下午2:06:16  handle document.loadInitData
+INFO 2022/1/30 下午2:06:16  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md undefined (0)
+INFO 2022/1/30 下午2:06:16  synced recovery
+INFO 2022/1/30 下午2:06:16  [blur] 1
+INFO 2022/1/30 下午2:06:16  [win] blur
+INFO 2022/1/30 下午2:06:18  [focus] 1
+INFO 2022/1/30 下午2:06:22  [blur] 1
+INFO 2022/1/30 下午2:06:22  [win] blur
+INFO 2022/1/30 下午2:06:22  synced recovery
+INFO 2022/1/30 下午2:06:22  ----------------before-quit-----------------
+INFO 2022/1/30 下午2:06:22  synced recovery
+INFO 2022/1/30 下午2:06:22  ----------------before-quit-----------------
+INFO 2022/1/30 下午2:06:22  ------------------will-quit------------------
+INFO 2022/1/30 下午2:06:22  -----------------quit------------------
+INFO 2022/1/30 下午2:06:22  closeLogging
+INFO 2022/1/30 下午2:06:25  ------------------start------------------
+INFO 2022/1/30 下午2:06:25  typora version: 0.10.11
+INFO 2022/1/30 下午2:06:25  [Raven] instanceKey = 096987ca-011d-4ceb-8b10-71cdb38494a5
+INFO 2022/1/30 下午2:06:25  addRecentDocument
+INFO 2022/1/30 下午2:06:25  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md undefined (0)
+INFO 2022/1/30 下午2:06:25  [Raven] userId = 59094c2f-d77c-4f88-97f3-aa4dc175df9e
+INFO 2022/1/30 下午2:06:25  [focus] 1
+INFO 2022/1/30 下午2:06:25  synced recovery
+INFO 2022/1/30 下午2:06:26  handle document.loadInitData
+INFO 2022/1/30 下午2:06:26  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md undefined (0)
+INFO 2022/1/30 下午2:06:26  synced recovery
+INFO 2022/1/30 下午2:06:39  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (312)
+INFO 2022/1/30 下午2:06:39  synced recovery
+INFO 2022/1/30 下午2:06:42  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (317)
+INFO 2022/1/30 下午2:06:42  synced recovery
+INFO 2022/1/30 下午2:06:42  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (316)
+INFO 2022/1/30 下午2:06:42  synced recovery
+INFO 2022/1/30 下午2:06:43  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (316)
+INFO 2022/1/30 下午2:06:43  synced recovery
+INFO 2022/1/30 下午2:06:45  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (315)
+INFO 2022/1/30 下午2:06:45  synced recovery
+INFO 2022/1/30 下午2:06:46  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (303)
+INFO 2022/1/30 下午2:06:46  synced recovery
+INFO 2022/1/30 下午2:06:48  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (304)
+INFO 2022/1/30 下午2:06:48  synced recovery
+INFO 2022/1/30 下午2:06:50  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (304)
+INFO 2022/1/30 下午2:06:50  synced recovery
+INFO 2022/1/30 下午2:06:51  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (305)
+INFO 2022/1/30 下午2:06:51  synced recovery
+INFO 2022/1/30 下午2:06:52  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (304)
+INFO 2022/1/30 下午2:06:52  synced recovery
+INFO 2022/1/30 下午2:06:53  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (305)
+INFO 2022/1/30 下午2:06:53  synced recovery
+INFO 2022/1/30 下午2:06:54  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (304)
+INFO 2022/1/30 下午2:06:54  synced recovery
+INFO 2022/1/30 下午2:06:55  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (305)
+INFO 2022/1/30 下午2:06:55  synced recovery
+INFO 2022/1/30 下午2:06:55  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (304)
+INFO 2022/1/30 下午2:06:55  synced recovery
+INFO 2022/1/30 下午2:06:56  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (305)
+INFO 2022/1/30 下午2:06:56  synced recovery
+INFO 2022/1/30 下午2:06:56  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (304)
+INFO 2022/1/30 下午2:06:56  synced recovery
+INFO 2022/1/30 下午2:06:56  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (305)
+INFO 2022/1/30 下午2:06:56  synced recovery
+INFO 2022/1/30 下午2:06:57  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (303)
+INFO 2022/1/30 下午2:06:57  synced recovery
+INFO 2022/1/30 下午2:06:57  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (311)
+INFO 2022/1/30 下午2:06:57  synced recovery
+INFO 2022/1/30 下午2:06:59  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## P....org/config/).
+" (310)
+INFO 2022/1/30 下午2:06:59  synced recovery
+INFO 2022/1/30 下午2:07:03  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## 安....org/config/).
+" (300)
+INFO 2022/1/30 下午2:07:03  synced recovery
+INFO 2022/1/30 下午2:07:06  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## 安....org/config/).
+" (305)
+INFO 2022/1/30 下午2:07:06  synced recovery
+INFO 2022/1/30 下午2:07:09  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## 安....org/config/).
+" (307)
+INFO 2022/1/30 下午2:07:09  synced recovery
+INFO 2022/1/30 下午2:07:14  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## 安....org/config/).
+" (313)
+INFO 2022/1/30 下午2:07:14  synced recovery
+INFO 2022/1/30 下午2:07:17  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## 安....org/config/).
+" (317)
+INFO 2022/1/30 下午2:07:17  synced recovery
+INFO 2022/1/30 下午2:07:19  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## 安....org/config/).
+" (321)
+INFO 2022/1/30 下午2:07:19  synced recovery
+INFO 2022/1/30 下午2:07:19  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## 安....org/config/).
+" (322)
+INFO 2022/1/30 下午2:07:19  synced recovery
+INFO 2022/1/30 下午2:07:25  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## 安....org/config/).
+" (319)
+INFO 2022/1/30 下午2:07:25  synced recovery
+INFO 2022/1/30 下午2:07:25  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## 安....org/config/).
+" (321)
+INFO 2022/1/30 下午2:07:25  synced recovery
+INFO 2022/1/30 下午2:07:26  added recovery 1 /home/mayapony/.code/Vue/sun-run/README.md "# sun-run
+
+## 安....org/config/).
+" (319)
+INFO 2022/1/30 下午2:07:27  synced recovery
+INFO 2022/1/30 下午2:07:29  [blur] 1
+INFO 2022/1/30 下午2:07:29  [win] blur
+INFO 2022/1/30 下午2:16:26  [focus] 1
+INFO 2022/1/30 下午2:16:30  synced recovery
+INFO 2022/1/30 下午2:16:30  ----------------before-quit-----------------
+INFO 2022/1/30 下午2:16:30  ------------------will-quit------------------
+INFO 2022/1/30 下午2:16:30  -----------------quit------------------
+INFO 2022/1/30 下午2:16:30  closeLogging
