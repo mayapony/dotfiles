@@ -140,6 +140,35 @@
   // =================== VIM END ======================================
   "search.followSymlinks": false,
   "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "italic font",
+        "scope": [
+          "comment",
+          "keyword",
+          "keyword.control.import",
+          "keyword.control.default",
+          "keyword.control.from",
+          "keyword.operator.new",
+          "keyword.control.export",
+          "keyword.control.flow",
+          "storage.type.class",
+          "variable.language.super",
+          "variable.language.this",
+          "support.type.primitive",
+          "entity.other.attribute-name",
+          "punctuation.definition.comment",
+          "text.html.basic entity.other.attribute-name.html",
+          "text.html.basic entity.other.attribute-name",
+          "source.js constant.other.object.key.js string.unquoted.label.js"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
   "editor.lineHeight": 40,
   "markdown.preview.fontSize": 16,
 
@@ -174,7 +203,7 @@
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
   "breadcrumbs.symbolPath": "off",
-  "editor.fontFamily": "'Cascadia Code','hack', 'JetBrains Mono','Source Code Pro', 'Fira Code',  Menlo",
+  "editor.fontFamily": "'Operator Mono Medium','hack', 'JetBrains Mono','Source Code Pro', 'Fira Code',  Menlo",
   "terminal.integrated.fontFamily": "'FiraMono Nerd Font','JetBrains Mono','Fira Code',Menlo,Monaco, 'Courier New', monospace",
   "liveServer.settings.donotVerifyTags": true,
   "debug.console.fontSize": 16,
@@ -220,6 +249,7 @@
     "stoi",
     "tbody",
     "thead",
+    "vite",
     "vuex"
   ],
   "editor.renderControlCharacters": false,
@@ -281,7 +311,7 @@
   // "editor.scrollBeyondLastLine": false,
 
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "advancedNewFile.exclude": {
     "node_modules": true,
@@ -300,8 +330,6 @@
     "*.ipynb": "jupyter-notebook"
   },
   "python.experiments.optOutFrom": ["pythonJediLSP"],
-  "terminal.integrated.automationShell.linux": "/bin/fish",
-  "terminal.integrated.shell.linux": "/bin/fish",
   "terminal.integrated.profiles.linux": {
     "fish": {
       "path": "fish"
@@ -372,15 +400,11 @@
   "editor.minimap.enabled": false,
   "editor.wordWrapColumn": 120,
   "editor.wordWrap": "on",
-  "editor.suggest.preview": false, // 自动不全预览
-  "workbench.colorTheme": "Sonokai",
-  "joplin.token": "9962f6ee0b33959a8d346bd831b59de119141f7426400790ecdafe91dab5315e97dc094d8fe7b43ad066643d55313688c39affe5817ae9d3957c33dd56da8609",
-  "joplin.programProfilePath": "/home/mayapony/Documents/Nextcloud/Joplin",
+  "editor.suggest.preview": false,
   "security.workspace.trust.untrustedFiles": "open",
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "window.menuBarVisibility": "toggle",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -400,11 +424,15 @@
   "editor.quickSuggestionsDelay": 5,
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"window.zoomLevel": 1,
+  },
+  "window.zoomLevel": 1,
   "git.confirmSync": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.defaultDateFormat": null,
-  "editor.fontSize": 15,
-  "prettier.useEditorConfig": false
+  "editor.fontSize": 16,
+  "prettier.useEditorConfig": false,
+  "window.menuBarVisibility": "toggle",
+  "dynoFileUtils.confirmDelete": false,
+  "workbench.colorTheme": "Dracula",
+  "bracket-pair-colorizer-2.depreciation-notice": false
 }

@@ -1,6 +1,43 @@
 [
   {
-  "key": "ctrl+n", // "cmd+n" on mac
-  "command": "extension.advancedNewFile",
- }
+    "key": "ctrl+n", // "cmd+n" on mac
+    "command": "extension.advancedNewFile"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-extension.vim_ctrl+p",
+    "when": "suggestWidgetVisible && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "-workbench.action.showCommands"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-testing.toggleTestingPeekHistory",
+    "when": "testing.isPeekVisible"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-extension.vim_ctrl+h",
+    "when": "editorTextFocus && vim.active && vim.use<C-h> && !inDebugRepl"
+  }
 ]
