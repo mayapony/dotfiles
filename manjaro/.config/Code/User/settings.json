@@ -425,7 +425,7 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 2,
   "git.confirmSync": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.defaultDateFormat": null,
@@ -433,6 +433,6 @@
   "prettier.useEditorConfig": false,
   "window.menuBarVisibility": "toggle",
   "dynoFileUtils.confirmDelete": false,
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Monokai",
   "bracket-pair-colorizer-2.depreciation-notice": false
 }

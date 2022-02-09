@@ -45,7 +45,7 @@ font:
       # family: FiraMono Nerd Font
     style: Italic
 
-  size: 17.0
+  size: 20.0
 
   offset:
     x: 0
@@ -92,7 +92,7 @@ visual_bell:
   animation: EaseOutExpo
   duration: 0
 
-background_opacity: 1 # 设置透明度
+background_opacity: 0.7 # 设置透明度
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"

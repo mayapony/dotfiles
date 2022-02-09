@@ -81,7 +81,7 @@ pacman-key --populate archlinuxcn
 3. autojump
 4. figlet 获得艺术字
 5. **nitrogen** 壁纸管理
-6. goldendict 翻译工具 [使用指南](https://zhuanlan.zhihu.com/p/67156145)
+6. goldendict 翻译工具 [使用指南](https://zhuanlan.zhihu.com/p/67156145) 非常好用！
 7. manjaro-application-utility 默认应用管理工具
 8. **flameshot** 截图
 9. deepin-system-monitor 任务管理器 (好看)
@@ -93,7 +93,7 @@ pacman-key --populate archlinuxcn
 15. font-manager 字体管理工具
 16. gimp 图片编辑工具
 17. ydcv 有道翻译命令行
-18. **youdao-dict** 有道翻译(最好用)
+18. **youdao-dict** 有道翻译
 19. xfce4-clipman 截图
 20. filezilla ftp工具
 21. simplescreenrecorder 屏幕录制
