@@ -116,6 +116,7 @@ pacman-key --populate archlinuxcn
 38. **qt5ct** 修改 QT Theme
 39. foxitreader pdf阅读器
 40. kleopatra 证书管理器
+41. alacritty 终端
 
 ### 2. 剪切板工具
 
@@ -251,3 +252,11 @@ doom-emacs 建议
 ## 十、一些位置
 
 appiamge 存放位置：`/opt/appimages` 用户位置：`~/.appimages`
+
+一些脚本： `~/.scripts`
+
+
+
+## 十一、现在的分区大小
+
+![](https://gitee.com/mayapony/pic-dog/raw/master/imgs/20220209103151.png)

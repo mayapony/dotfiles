@@ -4,7 +4,7 @@
 set $mod Mod4
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-default_border pixel 3
+# default_border pixel 3
 default_floating_border normal
 hide_edge_borders both
 
@@ -48,7 +48,7 @@ bindsym $mod+Ctrl+m exec pavucontrol
 # Start Applications
 # win + w(ord)
 # bindsym $mod+w exec youdao-dict
-bindsym $mod+w exec goldendict
+bindsym $mod+w exec --no-startup-id goldendict
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 # bindsym $mod+F2 exec --no-startup-id google-chrome-stable
 # bindsym $mod+F2 exec --no-startup-id vivaldi-stable
@@ -266,9 +266,9 @@ client.background       #2B2C2B
 bar {
     position top
     i3bar_command i3bar
-	status_command i3blocks
+    status_command i3blocks
     font pango: FiraMono Nerd Font Regular 12
-	# strip_workspace_numbers yes
+    # strip_workspace_numbers yes
     # strip_workspace_name no
     colors {
         background #333A47
@@ -342,19 +342,20 @@ mode "$mode_gaps_outer" {
 }
 
 # Autostart applications 自动开启
+exec --no-startup-id conky
 exec --no-startup-id /usr/bin/xmodmap ~/.Xmodmap
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+# exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id nitrogen --restore; sleep 2; picom -b
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
-exec --no-startup-id pamac-tray
+# exec --no-startup-id pamac-tray
 exec --no-startup-id xfce4-clipman
-exec --no-startup-id fcitx5
 # exec --no-startup-id fcitx
-exec --no-startup-id blueman-applet
-exec --no-startup-id /opt/BreakTimer/breaktimer
+# exec --no-startup-id blueman-applet
 exec --no-startup-id xautolock -time 10 -locker blurlock
-exec --no-startup-id nextcloud
+# exec --no-startup-id nextcloud
 exec --no-startup-id /home/mayapony/.scripts/monitors.sh
+exec --no-startup-id /opt/BreakTimer/breaktimer
+exec --no-startup-id fcitx5
 # exec --no-startup-id copyq
 

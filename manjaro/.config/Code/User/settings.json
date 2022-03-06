@@ -28,7 +28,7 @@
   ],
   "vim.insertModeKeyBindings": [
     {
-      "before": ["<C-[>"],
+      "before": ["j", "j"],
       "after": ["<Esc>"]
     }
   ],
@@ -421,18 +421,21 @@
   "docthis.returnsTag": true,
   "docthis.authorName": "maya",
   "docthis.includeTypes": false,
-  "editor.quickSuggestionsDelay": 5,
+  "editor.quickSuggestionsDelay": 0,
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 1,
   "git.confirmSync": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.defaultDateFormat": null,
   "editor.fontSize": 16,
   "prettier.useEditorConfig": false,
-  "window.menuBarVisibility": "toggle",
   "dynoFileUtils.confirmDelete": false,
-  "workbench.colorTheme": "Monokai",
-  "bracket-pair-colorizer-2.depreciation-notice": false
+  "workbench.colorTheme": "Dracula",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "editor.hover.delay": 0,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "window.menuBarVisibility": "toggle",
+  "workbench.activityBar.visible": false
 }
