@@ -9,7 +9,7 @@
 align=center
 separator=false
 color=#ffffff
-separator_block_width=20
+separator_block_width=10
 markup=pango
 
 # [i3-focusedwindow]
@@ -22,11 +22,11 @@ command=playerctl metadata --format "{{ artist }} - {{ title }}"
 interval=2
 label=<span color="#a9e185"> </span>
 
-[manjaro-update]
-command=checkupdates | wc -l
+#[manjaro-update]
+#command=checkupdates | wc -l
 # interval=once
 # label=<span color="#1793D1"> </span>
-# label=<span color="#35BF5C"> </span>
+#label=<span color="#35BF5C"> </span>
 
 # [battery]
 # command=~/.config/i3blocks/battery.py
@@ -61,42 +61,42 @@ command=checkupdates | wc -l
 # interval=5
 # label=<span color="#ffb86c"> </span>
 
-# [home]
-# command=df -h /home | awk 'FNR==2{print $4}'
-# interval=30
-# label=<span color="#a9e185"> </span>
+#[home]
+#command=df -h /home | awk 'FNR==2{print $4}'
+#interval=30
+#label=<span color="#a9e185"> </span>
+#
+#[root]
+#command=df -h / | awk 'FNR==2{print $4}'
+#interval=30
+#label=<span color="#ff79c6"> </span>
 
-[root]
-command=df -h / | awk 'FNR==2{print $4}'
-interval=30
-label=<span color="#ff79c6"> </span>
+# [cpu_usage]
+# command=~/.config/i3blocks/blocks/cpu_usage/cpu_usage
+# interval=2
+# label=<span color="#8be9fd"> </span>
 
-[cpu_usage]
-command=~/.config/i3blocks/blocks/cpu_usage/cpu_usage
-interval=2
-label=<span color="#8be9fd"> </span>
+# [cpu-temperature]
+# command=~/.config/i3blocks/blocks/temperature/temperature
+# interval=2
+# label=<span color="#8be9fd"> </span>
 
-[cpu-temperature]
-command=~/.config/i3blocks/blocks/temperature/temperature
-interval=2
-label=<span color="#8be9fd"> </span>
-
-[memory]
-command=free -h --si | awk 'FNR==2{ print $0 }' | awk '{ print $7 }'
-interval=2
-label=<span color="#a9e185"> </span>
+# [memory]
+# command=free -h --si | awk 'FNR==2{ print $0 }' | awk '{ print $7 }'
+# interval=2
+# label=<span color="#a9e185"> </span>
 
 # [volume]
 # command=pulseaudio-ctl full-status | awk '{ printf "%i%\n", $1 }'
 # interval=2
 # label=<span color="#ff79c6"> </span>
 
-# [date]
-# command=date '+%A%e'
-# interval=60
-# label=<span color="#8be9fd"> </span>
+[date]
+command=date '+%A%e'
+interval=60
+label=<span color="#ff79c6"> </span>
 
 [time]
 command=date '+%I:%M'
 interval=1
-label=<span color="#ffb86c"> </span>
+# label=<span color="#ffb86c"> </span>
