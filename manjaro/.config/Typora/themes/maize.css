@@ -1,8 +1,8 @@
 /* Fira Code */
 @font-face {
-  font-family: 'Fira Code';
+  font-family: 'CaskaydiaCove Nerd Font';
   font-style: normal;
-  src: local('Fira Code'), url('maize/FiraCode-Regular.ttf') format('ttf');
+  src: local('CaskaydiaCove Nerd Font'), url('maize/FiraCode-Regular.ttf') format('ttf');
 }
 
 /* 全局属性 */

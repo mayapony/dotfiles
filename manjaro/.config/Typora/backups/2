@@ -1,47 +1,15 @@
-# 权限控制
+# Bug
 
-## 一、添加用户
+## 导出
 
-> 路径：`src/global/index.js`
+- 大桥证详情导出
 
-对应代码片段：
+## 注册
 
-```js
-/**
- * 角色映射
- * 0 -> systemMange -> 系统管理员
- * 1 -> fleetManage
- */
-export const roleMap = [
-  'systemManage',
-  'fleetManage',
-  'bridgeCardManage',
-  'marketManage'
-]
-
-```
-
-如果需要添加角色，在数组后添加即可。
+- [ ] `/api/fleet/FleetRegistration` 请求返回401 需要添加到jwt配置的unless数组里
+- [ ] 
 
 
 
-## 二、修改用户权限
 
-> 路径 `src/global/index.js`
 
-对应代码片段：
-
-```js
-// 所有用户都允许访问的页面
-let base = ['Home', '404', '403']
-
-// 定义用户可访问的页面
-export const permission = {
-  systemManage: ['Fleet', 'Car', 'Driver', 'Receipt', 'BridgeCard', 'Map', 'Account', 'Help', ...base],
-  fleetManage: ['Fleet', ...base],
-  bridgeCardManage: ['BridgeCard', ...base],
-  marketManage: ['Receipt', 'BridgeCard', ...base]
-}
-```
-
-如果要更改可访问的页面，在数组中添加即可。
