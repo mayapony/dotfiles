@@ -234,6 +234,7 @@
   "explorer.confirmDragAndDrop": false,
   "cSpell.userWords": [
     "alipay",
+    "autoresize",
     "axios",
     "blueimp",
     "blueimp md",
@@ -436,8 +437,6 @@
   "bracket-pair-colorizer-2.depreciation-notice": false,
   "editor.hover.delay": 200,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "window.menuBarVisibility": "toggle",
-  "workbench.activityBar.visible": false,
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorSurroundingLines": 5,
@@ -445,7 +444,42 @@
   "redhat.telemetry.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.bracketPairColorization.enabled": true,
-  "workbench.colorTheme": "Nebula - Console",
+  "workbench.colorTheme": "Nebula",
   "workbench.editor.historyBasedLanguageDetection": true,
-  "editor.hover.sticky": false
+  "editor.hover.sticky": false,
+  "emmet.triggerExpansionOnTab": true,
+  "window.menuBarVisibility": "toggle",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "javascript": false
+  },
+  "[markdown]": {
+    // 快速补全
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    },
+    // 显示空格
+    "editor.renderWhitespace": "all",
+    // snippet 提示优先（看个人喜欢）
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "on"
+    // 使用enter 接受提示
+    // "editor.acceptSuggestionOnEnter": "on",
+  },
+  "markdown-image.base.fileNameFormat": "${mdname}/IMG_${YY}${MM}${DD}-${HH}${mm}${ss}",
+  // 头部注释
+  "fileheader.customMade": {
+    "Author": "maya", // 创建文件的作者
+    "Date": "Do not edit", // 文件创建时间(不变)
+    "LastEditors": "maya", // 文件最后编辑者
+    "LastEditTime": "Do not edit", // 文件最后编辑时间
+    "FilePath": "Do not edit", // 文件在项目中的相对路径 自动更新
+    "Description": "" // 介绍文件的作用、文件的入参、出参。
+  }
 }
