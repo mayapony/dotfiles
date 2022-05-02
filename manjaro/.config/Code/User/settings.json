@@ -481,5 +481,6 @@
     "LastEditTime": "Do not edit", // 文件最后编辑时间
     "FilePath": "Do not edit", // 文件在项目中的相对路径 自动更新
     "Description": "" // 介绍文件的作用、文件的入参、出参。
-  }
+  },
+  "python.analysis.extraPaths": ["/usr/lib/python3.10/site-packages"]
 }

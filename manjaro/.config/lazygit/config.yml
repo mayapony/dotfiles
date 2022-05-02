@@ -1,0 +1,19 @@
+customCommands:
+  - key: 'C'
+    prompts:
+      - type: 'menu'
+        title: 'What kind of commit is it?'
+        options:
+          - name: 'feat✨: 引入新功能'
+            description: '引入新功能'
+            value: 'feat✨: '
+          - name: 'fix🐛: 修复bug'
+            description: '修复bug'
+            value: 'fix🐛: '
+      - type: 'input'
+        title: 'What is the commit message'
+        initialValue: ''
+    command: "git flow {{index .PromptResponses 0}} start {{index .PromptResponses 1}}"
+    command: 'git commit -m "{{index .PromptResponses 0}}{{index .PromptResponses 1}}"'
+    context: 'commits'
+    loadingText: 'add commit'
