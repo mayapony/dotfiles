@@ -10,10 +10,10 @@ rootDist = home + '/dotfiles/manjaro/'
 configFolders = [
     'fcitx5',
     'rofi',
-    'Typora',
     'omf',
     'fcitx',
-    'i3blocks'
+    'i3blocks',
+    "lazygit"
 ]
 
 for folderName in configFolders:
