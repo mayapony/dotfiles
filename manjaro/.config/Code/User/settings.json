@@ -181,7 +181,7 @@
   "terminal.integrated.lineHeight": 1.0,
   "workbench.list.horizontalScrolling": true,
   "workbench.editor.showTabs": true,
-  "debug.console.fontFamily": "",
+  "debug.console.fontFamily": "FiraCode Nerd Font",
   "breadcrumbs.enabled": true,
   "workbench.startupEditor": "newUntitledFile",
   // prettier相关设置
@@ -204,7 +204,7 @@
   "editor.formatOnSave": true,
   "breadcrumbs.symbolPath": "off",
   "editor.fontFamily": "'Operator Mono Medium','hack', 'JetBrains Mono','Source Code Pro', 'Fira Code',  Menlo",
-  "terminal.integrated.fontFamily": "'FiraMono Nerd Font','JetBrains Mono','Fira Code',Menlo,Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "'FiraCode Nerd Font','CaskaydiaCove Nerd Font','JetBrains Mono','Fira Code',Menlo,Monaco, 'Courier New', monospace",
   "liveServer.settings.donotVerifyTags": true,
   "debug.console.fontSize": 16,
   "terminal.integrated.fontSize": 16,
@@ -427,7 +427,6 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 1,
   "git.confirmSync": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.defaultDateFormat": null,
@@ -444,7 +443,6 @@
   "redhat.telemetry.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.bracketPairColorization.enabled": true,
-  "workbench.colorTheme": "Nebula",
   "workbench.editor.historyBasedLanguageDetection": true,
   "editor.hover.sticky": false,
   "emmet.triggerExpansionOnTab": true,
@@ -482,5 +480,10 @@
     "FilePath": "Do not edit", // 文件在项目中的相对路径 自动更新
     "Description": "" // 介绍文件的作用、文件的入参、出参。
   },
-  "python.analysis.extraPaths": ["/usr/lib/python3.10/site-packages"]
+  "python.analysis.extraPaths": ["/usr/lib/python3.10/site-packages"],
+  "anki.saveStrategy": "useDirStructure",
+  "window.zoomLevel": 3,
+  "workbench.colorTheme": "Nebula",
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.saveAllFilesBeforeRun": true
 }

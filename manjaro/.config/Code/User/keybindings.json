@@ -1,9 +1,5 @@
 [
   {
-    "key": "ctrl+n", // "cmd+n" on mac
-    "command": "extension.advancedNewFile"
-  },
-  {
     "key": "ctrl+shift+p",
     "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
     "when": "inFilesPicker && inQuickOpen"
@@ -39,5 +35,17 @@
     "key": "ctrl+h",
     "command": "-extension.vim_ctrl+h",
     "when": "editorTextFocus && vim.active && vim.use<C-h> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "fileutils.newFile"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "-workbench.action.newWindow"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "fileutils.newFolder"
   }
 ]
