@@ -4,12 +4,13 @@
 set $mod Mod4
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-# default_border pixel 3
+# default_border pixel 0
+default_border none
 default_floating_border normal
 hide_edge_borders both
 
 # change borders
-for_window [class="^.*"] border pixel 3
+# for_window [class="^.*"] border pixel 3
 bindsym $mod+u border none
 bindsym $mod+y border pixel 1
 
@@ -52,8 +53,8 @@ bindsym $mod+w exec --no-startup-id goldendict
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 # bindsym $mod+F2 exec --no-startup-id google-chrome-stable
 # bindsym $mod+F2 exec --no-startup-id vivaldi-stable
-# bindsym $mod+F2 exec --no-startup-id microsoft-edge-stable
-bindsym $mod+F2 exec --no-startup-id firefox-developer-edition
+bindsym $mod+F2 exec --no-startup-id microsoft-edge-stable
+# bindsym $mod+F2 exec --no-startup-id firefox-developer-edition
 # bindsym $mod+F2 exec firefox
 bindsym $mod+F3 exec pcmanfm
 bindsym $mod+F4 exec deepin-system-monitor
@@ -256,7 +257,7 @@ set $purple  #bd93f9
 
 
 # Set some nice colors      border	 background text     indicator
-client.focused              $purple $purple   $fg      $comment
+client.focused              #00000000 #00000000   $fg      $comment
 client.unfocused            $bg      $bg        $cyan    $bg
 client.focused_inactive     $bg      $bg        $green   $bg
 client.urgent               $bg      $bg        $magenta $bg

@@ -21,8 +21,7 @@ window:
     y: 15
 
   decorations: full
-
-  opacity: 0.7
+  opacity: 0.85
 
 scrolling:
   multiplier: 1
@@ -58,8 +57,6 @@ font:
     y: 0
 
   scale_with_dpi: true
-
-  use_thin_strokes: false
 
 draw_bold_text_with_bright_colors: true
 
