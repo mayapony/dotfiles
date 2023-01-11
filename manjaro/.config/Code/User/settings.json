@@ -203,8 +203,8 @@
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
   "breadcrumbs.symbolPath": "off",
-  "editor.fontFamily": "'Operator Mono Medium','hack', 'JetBrains Mono','Source Code Pro', 'Fira Code',  Menlo",
-  "terminal.integrated.fontFamily": "'FiraCode Nerd Font','CaskaydiaCove Nerd Font','JetBrains Mono','Fira Code',Menlo,Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'CaskaydiaCove Nerd Font','Operator Mono Medium','hack', 'JetBrains Mono','Source Code Pro', 'Fira Code',  Menlo",
+  "terminal.integrated.fontFamily": "'CaskaydiaCove Nerd Font','FiraCode Nerd Font','JetBrains Mono','Fira Code',Menlo,Monaco, 'Courier New', monospace",
   "liveServer.settings.donotVerifyTags": true,
   "debug.console.fontSize": 16,
   "terminal.integrated.fontSize": 16,
@@ -482,8 +482,8 @@
   },
   "python.analysis.extraPaths": ["/usr/lib/python3.10/site-packages"],
   "anki.saveStrategy": "useDirStructure",
-  "window.zoomLevel": 3,
-  "workbench.colorTheme": "Nebula",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Dracula",
   "code-runner.saveFileBeforeRun": true,
   "code-runner.saveAllFilesBeforeRun": true
 }

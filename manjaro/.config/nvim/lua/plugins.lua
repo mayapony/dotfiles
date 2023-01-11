@@ -1,45 +1,20 @@
-return require('packer').startup(function()
-  -- Packer can manage itself
+-- pcall like try-catch (protect call)
+local status, packer = pcall(require, "packer")
+
+if (not status) then
+  print('Packer is not installed')
+  return 
+end
+
+vim.cmd [[packadd packer.nvim]]
+
+packer.startup(function(use)
   use 'wbthomason/packer.nvim'
-  -- treesitter
-  use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
-  -- which-key
-  use 'folke/which-key.nvim'
-  -- telescope
-  use 'nvim-lua/popup.nvim'
-  use 'nvim-lua/plenary.nvim'
-  use { 'nvim-telescope/telescope.nvim', requires = { {'nvim-lua/plenary.nvim'} } }
-  -- lspconfig
-  use 'neovim/nvim-lspconfig'
-  -- rust-tools
-  use 'simrat39/rust-tools.nvim'
-  -- nvim-cmp
-  use 'hrsh7th/cmp-nvim-lsp'
-  use 'hrsh7th/cmp-buffer'
-  use 'hrsh7th/cmp-path'
-  use 'hrsh7th/cmp-cmdline'
-  use 'hrsh7th/nvim-cmp'
-  use 'hrsh7th/cmp-vsnip'
-  -- vsnip
-  use 'hrsh7th/vim-vsnip'
-  use "rafamadriz/friendly-snippets"
-  -- use 'nvim-autopairs'
-  use "windwp/nvim-autopairs"
-  -- nvim-tree 
+  use 'EdenEast/nightfox.nvim'
   use {
-    'kyazdani42/nvim-tree.lua',
-    requires = 'kyazdani42/nvim-web-devicons',
+  'nvim-lualine/lualine.nvim',
+  requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
-  -- bufferline
-  use {'akinsho/bufferline.nvim', requires = 'kyazdani42/nvim-web-devicons'}
-  -- surround
-  use "blackCauldron7/surround.nvim" 
-  -- Comment 
-  use 'numToStr/Comment.nvim' 
-  -- nvim-coloizer
-  use 'norcalli/nvim-colorizer.lua'
-  -- theme
-    -- use {"ellisonleao/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
-  use {'dracula/vim', as = 'dracula'}
+  use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
 end)
 

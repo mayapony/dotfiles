@@ -1,7 +1,16 @@
 lastupdatecheck: 0
 recentrepos:
-- /home/mayapony/Code/Vue/cesium-visualization
+- /home/mayapony/Documents/Code/Web/hacker-stories
 - /home/mayapony/dotfiles
+- /home/mayapony/Documents/Code/Web/vue-mini
+- /home/mayapony/Code/Vue/cesium-visualization
+- /home/mayapony/Code/project/ticket-manage-client
+- /home/mayapony/Code/Java/bookstore
+- /home/mayapony/Code/Vue/ticket-manage-client-temp
+- /home/mayapony/Code/Vue/ticket-manage-client
+- /home/mayapony/Code/Vue/ticket-manage-client-latest
+- /home/mayapony/Blog
 startuppopupversion: 5
-customcommandshistory: []
+customcommandshistory:
+- wq
 hidecommandlog: false

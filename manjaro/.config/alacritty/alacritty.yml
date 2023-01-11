@@ -17,11 +17,11 @@ window:
     lines: 0
 
   padding:
-    x: 15
-    y: 15
+    x: 0
+    y: 0
 
   decorations: full
-  opacity: 0.85
+  opacity: 1
 
 scrolling:
   multiplier: 1

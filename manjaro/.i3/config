@@ -19,7 +19,7 @@ floating_modifier $mod
 
 # start a terminal
 # bindsym $mod+Return exec xfce4-terminal
-bindsym $mod+Return exec --no-startup-id alacritty
+bindsym $mod+Return exec --no-startup-id kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -53,9 +53,9 @@ bindsym $mod+w exec --no-startup-id goldendict
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 # bindsym $mod+F2 exec --no-startup-id google-chrome-stable
 # bindsym $mod+F2 exec --no-startup-id vivaldi-stable
-bindsym $mod+F2 exec --no-startup-id microsoft-edge-stable
+# bindsym $mod+F2 exec --no-startup-id microsoft-edge-stable
 # bindsym $mod+F2 exec --no-startup-id firefox-developer-edition
-# bindsym $mod+F2 exec firefox
+bindsym $mod+F2 exec firefox
 bindsym $mod+F3 exec pcmanfm
 bindsym $mod+F4 exec deepin-system-monitor
 # bindsym $mod+F3 exec ranger
@@ -256,7 +256,7 @@ set $comment #6272a4
 set $purple  #bd93f9
 
 
-# Set some nice colors      border	 background text     indicator
+# Set some nice colors      border background text     indicator
 client.focused              #00000000 #00000000   $fg      $comment
 client.unfocused            $bg      $bg        $cyan    $bg
 client.focused_inactive     $bg      $bg        $green   $bg
@@ -275,7 +275,7 @@ bar {
     colors {
         background #333A47
 
-        focused_workspace   $fg    $purple        $bg
+        focused_workspace   $purple    $purple        $bg
         active_workspace    $bg    $bg        $purple
         inactive_workspace  $bg    $bg        $fg
         urgent_workspace    $bg    $bg        $magenta
