@@ -13,7 +13,8 @@ configFolders = [
     'omf',
     'fcitx',
     'i3blocks',
-    "lazygit"
+    "lazygit",
+    'kitty'
 ]
 
 for folderName in configFolders:
