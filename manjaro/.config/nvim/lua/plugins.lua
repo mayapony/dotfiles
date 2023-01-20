@@ -17,4 +17,3 @@ packer.startup(function(use)
   }
   use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
 end)
-

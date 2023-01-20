@@ -10,4 +10,3 @@ local is_linux = has "linux"
 if is_linux then
   require('linux')
 end
-
