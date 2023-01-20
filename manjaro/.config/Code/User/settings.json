@@ -6,20 +6,8 @@
   "vim.hlsearch": true,
   "vim.visualModeKeyBindingsNonRecursive": [
     {
-      "before": ["<leader>", "a"],
-      "commands": ["wwm.aligncode"]
-    },
-    {
       "before": ["<leader>", "y"],
       "after": ["\"", "+", "y"]
-    },
-    {
-      "before": ["J"],
-      "after": ["5", "j"]
-    },
-    {
-      "before": ["K"],
-      "after": ["5", "k"]
     },
     {
       "before": ["<leader>", "j"],
@@ -34,8 +22,8 @@
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["<leader>", "a"],
-      "commands": ["wwm.aligncode"]
+      "before": ["<leader>", "r"],
+      "commands": ["editor.action.rename"]
     },
     {
       "before": ["<C-w>", "m"],
@@ -91,11 +79,15 @@
     },
     {
       "before": ["<C-w>", "="],
-      "commands": [{ "command": "workbench.action.increaseViewSize", "args": [] }]
+      "commands": [
+        { "command": "workbench.action.increaseViewSize", "args": [] }
+      ]
     },
     {
       "before": ["<C-w>", "-"],
-      "commands": [{ "command": "workbench.action.decreaseViewSize", "args": [] }]
+      "commands": [
+        { "command": "workbench.action.decreaseViewSize", "args": [] }
+      ]
     },
     {
       "before": [":"],
@@ -132,12 +124,7 @@
   "vim.surround": true,
   "vim.camelCaseMotion.enable": true,
   "vim.highlightedyank.enable": true,
-  // 自动切换输入法
-  // "vim.autoSwitchInputMethod.enable": true,
-  // "vim.autoSwitchInputMethod.defaultIM": "1033",
-  // "vim.autoSwitchInputMethod.obtainIMCmd": "C:\\Tools\\im-select\\im-select.exe",
-  // "vim.autoSwitchInputMethod.switchIMCmd": "C:\\Tools\\im-select\\im-select.exe {im}",
-  // =================== VIM END ======================================
+
   "search.followSymlinks": false,
   "editor.fontLigatures": true,
   "editor.tokenColorCustomizations": {
@@ -172,11 +159,6 @@
   "editor.lineHeight": 40,
   "markdown.preview.fontSize": 16,
 
-  "sync.autoUpload": false,
-  "sync.forceUpload": false,
-  "sync.quietSync": false,
-  "sync.gist": "90ca9b0f3b25a63eb4915915b2b272f7",
-
   "liveServer.settings.donotShowInfoMsg": true,
   "terminal.integrated.lineHeight": 1.0,
   "workbench.list.horizontalScrolling": true,
@@ -184,21 +166,6 @@
   "debug.console.fontFamily": "FiraCode Nerd Font",
   "breadcrumbs.enabled": true,
   "workbench.startupEditor": "newUntitledFile",
-  // prettier相关设置
-  "prettier.semi": false,
-  "prettier.singleQuote": true, //使用单引号代替双引号
-  "prettier.printWidth": 120, //超过最大值换行
-  "prettier.tabWidth": 2, // 缩进字节数
-  "prettier.useTabs": false, // 缩进不使用tab，使用空格
-  "prettier.arrowParens": "avoid", //  (x) => {} 箭头函数参数只有一个时是否要有小括号。avoid：省略括号
-  "prettier.bracketSpacing": true, // 在对象，数组括号与文字之间加空格 "{ foo: bar }"
-  "prettier.endOfLine": "auto", // 结尾是 \n \r \n\r auto
-  "prettier.htmlWhitespaceSensitivity": "ignore",
-  "prettier.ignorePath": ".prettierignore", // 不使用prettier格式化的文件填写在项目的.prettierignore文件中
-  "prettier.jsxBracketSameLine": false, // 在jsx中把'>' 是否单独放一行
-  "prettier.jsxSingleQuote": false, // 在jsx中使用单引号代替双引号
-  "prettier.requireConfig": true, // Require a 'prettierconfig' to format prettier
-  "prettier.trailingComma": "es5", // 在对象或数组最后一个元素后面是否加逗号（在ES5中加尾逗号）
   "workbench.editor.limit.enabled": true,
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
@@ -212,22 +179,6 @@
   "php.validate.enable": false,
   "zenMode.centerLayout": false,
   "zenMode.restore": true,
-  // 终端的配置
-  "terminal.integrated.shell.windows": "C:/Program Files/PowerShell/7/pwsh.exe",
-  "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#bd93f9"
-  },
-  "terminal.integrated.shellArgs.windows": ["-NoLogo"],
-  "code-runner.runInTerminal": true,
-  "vetur.format.options.tabSize": 2,
-  "vetur.format.options.useTabs": false,
-  "vetur.format.defaultFormatterOptions": {
-    "prettier": {
-      "semi": false, //不加分号
-      "singleQuote": true //用单引号
-    }
-  },
-  "vetur.completion.scaffoldSnippetSources": {},
   "editor.tabSize": 2,
   "files.autoSave": "off",
   "editor.suggestSelection": "first",
@@ -238,8 +189,11 @@
     "axios",
     "blueimp",
     "blueimp md",
+    "easymotion",
     "echarts",
     "foxmail",
+    "hlsearch",
+    "incsearch",
     "kase",
     "kruskal",
     "mayapony",
@@ -268,17 +222,11 @@
     "editor.semanticHighlighting.enabled": true,
     "editor.tabSize": 4
   },
-  "code-runner.languageIdToFileExtensionMap": {
-    "bat": ".bat",
-    "powershell": ".ps1",
-    "typescript": ".ts"
-  },
-  "code-runner.executorMap": {},
+
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.iconTheme": "material-icon-theme",
   "explorer.confirmDelete": false,
   "explorer.compactFolders": false,
-  "projectManager.git.baseFolders": ["server", "client"],
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -289,7 +237,6 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
-  "dart.warnWhenEditingFilesOutsideWorkspace": false,
   "files.associations": {
     "*.cjson": "jsonc",
     "*.wxss": "css",
@@ -300,33 +247,17 @@
   "emmet.includeLanguages": {
     "wxml": "html"
   },
-  "minapp-vscode.disableAutoConfig": true,
   "extensions.ignoreRecommendations": false,
-  "todo-tree.tree.showScanModeButton": false,
-  "dart.previewLsp": true,
+
   "editor.lineNumbers": "relative",
-
-  "vscode-neovim.useWSL": false,
-  // "vscode-neovim.neovimExecutablePaths.linux": "/usr/local/bin/nvim-nightly",
-  "vscode-neovim.neovimExecutablePaths.win32": "C:\\Tools\\nvim\\bin\\nvim.exe",
-
-  // "editor.scrollBeyondLastLine": false,
 
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "advancedNewFile.exclude": {
-    "node_modules": true,
-    "node_modules_electron": true,
-    "dev": true,
-    "dist": true
-  },
-  "advancedNewFile.showInformationMessages": true,
-  "advancedNewFile.convenienceOptions": ["last", "current", "root"],
+
   "editor.quickSuggestions": {
     "strings": true
   },
-  "tabnine.experimentalAutoImports": true,
   "git.enableSmartCommit": true,
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
@@ -346,53 +277,7 @@
   },
   "cSpell.enabled": true,
   "cSpell.enableFiletypes": ["vue"],
-  "better-comments.tags": [
-    {
-      "tag": "!",
-      "color": "#FF2D00",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "?",
-      "color": "#3498DB",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "//",
-      "color": "#474747",
-      "strikethrough": true,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "todo",
-      "color": "#FF8C00",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "*",
-      "color": "#98C379",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    }
-  ],
+
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -415,14 +300,7 @@
     "default": "right",
     "jupyter-notebook": "left"
   },
-  "docthis.dateTagFormat": "yyyy-mm-dd",
-  "docthis.includeDateTag": true,
-  "docthis.includeDescriptionTag": true,
-  "docthis.includeMemberOfOnInterfaceMembers": false,
-  "docthis.includeMemberOfOnClassMembers": false,
-  "docthis.returnsTag": true,
-  "docthis.authorName": "maya",
-  "docthis.includeTypes": false,
+
   "editor.quickSuggestionsDelay": 0,
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -430,17 +308,13 @@
   "git.confirmSync": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.defaultDateFormat": null,
-  "editor.fontSize": 18,
-  "prettier.useEditorConfig": false,
-  "dynoFileUtils.confirmDelete": false,
-  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "editor.fontSize": 20,
   "editor.hover.delay": 200,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "editor.cursorBlinking": "smooth",
+  "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.cursorSurroundingLines": 5,
+  "editor.cursorSurroundingLines": 15,
   "editor.cursorWidth": 3,
-  "redhat.telemetry.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.bracketPairColorization.enabled": true,
   "workbench.editor.historyBasedLanguageDetection": true,
@@ -448,42 +322,7 @@
   "emmet.triggerExpansionOnTab": true,
   "window.menuBarVisibility": "toggle",
   "editor.inlineSuggest.enabled": true,
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
-    "plaintext": false,
-    "markdown": false,
-    "javascript": false
-  },
-  "[markdown]": {
-    // 快速补全
-    "editor.quickSuggestions": {
-      "other": true,
-      "comments": true,
-      "strings": true
-    },
-    // 显示空格
-    "editor.renderWhitespace": "all",
-    // snippet 提示优先（看个人喜欢）
-    "editor.snippetSuggestions": "top",
-    "editor.tabCompletion": "on"
-    // 使用enter 接受提示
-    // "editor.acceptSuggestionOnEnter": "on",
-  },
-  "markdown-image.base.fileNameFormat": "${mdname}/IMG_${YY}${MM}${DD}-${HH}${mm}${ss}",
-  // 头部注释
-  "fileheader.customMade": {
-    "Author": "maya", // 创建文件的作者
-    "Date": "Do not edit", // 文件创建时间(不变)
-    "LastEditors": "maya", // 文件最后编辑者
-    "LastEditTime": "Do not edit", // 文件最后编辑时间
-    "FilePath": "Do not edit", // 文件在项目中的相对路径 自动更新
-    "Description": "" // 介绍文件的作用、文件的入参、出参。
-  },
-  "python.analysis.extraPaths": ["/usr/lib/python3.10/site-packages"],
-  "anki.saveStrategy": "useDirStructure",
+
   "window.zoomLevel": 1,
-  "workbench.colorTheme": "Dracula",
-  "code-runner.saveFileBeforeRun": true,
-  "code-runner.saveAllFilesBeforeRun": true
+  "workbench.colorTheme": "Dracula"
 }
