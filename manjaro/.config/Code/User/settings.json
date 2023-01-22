@@ -196,6 +196,7 @@
     "incsearch",
     "kase",
     "kruskal",
+    "localforage",
     "mayapony",
     "md",
     "nestjs",

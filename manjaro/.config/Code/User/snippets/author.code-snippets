@@ -1,7 +1,11 @@
 {
   "#region": {
     "prefix": "#region",
-    "body": ["// *\\/*** #region / $1 / *****\\/*", "$2", "// */\\** #end region / $1 / **/\\*"],
+    "body": [
+      "// *\\/*** #region / $1 / *****\\/*",
+      "$2",
+      "// */\\** #end region / $1 / **/\\*"
+    ],
     "description": "region surrend code"
   },
   "%for": {
@@ -40,5 +44,10 @@
       "})",
       "$3"
     ]
+  },
+  "export a async function": {
+    "prefix": "eaf",
+    "body": ["export async function ${1:Name}($2) {", "$0", "}"],
+    "description": "export a async function(loader action...)"
   }
 }

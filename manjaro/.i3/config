@@ -41,8 +41,8 @@ bindsym $mod+Ctrl+m exec pavucontrol
 # Start Applications
 bindsym $mod+w exec --no-startup-id goldendict
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-# bindsym $mod+F2 exec firefox-developer-edition
-bindsym $mod+F2 exec firefox
+bindsym $mod+F2 exec firefox-developer-edition
+# bindsym $mod+F2 exec firefox
 bindsym $mod+F3 exec pcmanfm
 bindsym $mod+t exec --no-startup-id pkill picom
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
