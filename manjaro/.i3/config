@@ -324,7 +324,6 @@ mode "$mode_gaps_outer" {
 }
 
 # Autostart applications 自动开启
-# exec --no-startup-id conky
 exec --no-startup-id /usr/bin/dunst
 exec --no-startup-id /usr/bin/xmodmap ~/.Xmodmap
 # exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
