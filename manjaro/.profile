@@ -36,3 +36,8 @@ export GLFW_IM_MODULE=ibus kitty
 
 # config qt5 theme
 export QT_QPA_PLATFORMTHEME="qt5ct"
+
+# To force GBM as backend
+# origin url: https://wiki.archlinux.org/title/wayland
+# export GBM_BACKEND=nvidia-drm
+# __GLX_VENDOR_LIBRARY_NAME=nvidia

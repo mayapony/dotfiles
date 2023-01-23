@@ -253,7 +253,10 @@
   "editor.lineNumbers": "relative",
 
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
   },
 
   "editor.quickSuggestions": {
