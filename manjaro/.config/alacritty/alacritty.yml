@@ -18,7 +18,7 @@ window:
 
   padding:
     x: 15
-    y: 15
+    y: 0
 
   decorations: full
   opacity: 1
@@ -32,7 +32,6 @@ font:
     # family: Source Code Pro
     # family: FiraMono Nerd Font
     family: CaskaydiaCove Nerd Font
-    style: Bold
 
   bold:
     # family: Source Code Pro

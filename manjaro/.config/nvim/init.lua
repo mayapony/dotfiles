@@ -7,6 +7,11 @@ require('plugins')
 local has = vim.fn.has
 local is_linux = has "linux"
 
+if vim.g.neovide then
+  print("neovide")
+  vim.opt.guifont = { "Source Code Pro", "h30" }
+end
+
 if is_linux then
   require('linux')
 end
