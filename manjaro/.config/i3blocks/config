@@ -6,47 +6,24 @@
 # | |___) | |_) | | (_) | (__|   <\__ \
 # |_|____/|_.__/|_|\___/ \___|_|\_\___/
 
-align=center
 separator=false
 color=#ffffff
 separator_block_width=12
 markup=pango
+#align=center
 
-# [i3-focusedwindow]
-# command=~/.config/i3blocks/blocks/i3-focusedwindow/i3-focusedwindow 20
+# [window]
+# command=xdotool getactivewindow getwindowname
 # interval=1
-# label=<span color="#ff79c6">Title: </span>
+# color=#A6D1FA
+# min_width=1366
+# align=center
+# label=[]=
 
-[mediaplayer]
-command=playerctl metadata --format "{{ artist }} - {{ title }}"
-interval=2
-label=<span color="#a9e185"> </span>
-
-
-# [home]
-# command=df -h /home | awk 'FNR==2{print $4}'
-# interval=60
-# label=<span color="#a9e185"> </span>
-# 
-# [root]
-# command=df -h / | awk 'FNR==2{print $4}'
-# interval=60
-# label=<span color="#ff79c6"> </span>
-# 
-# [cpu_usage]
-# command=~/.config/i3blocks/blocks/cpu_usage/cpu_usage
-# interval=5
-# label=<span color="#8be9fd"> </span>
-# 
-# [cpu-temperature]
-# command=~/.config/i3blocks/blocks/temperature/temperature
-# interval=5
-# label=<span color="#8be9fd"> </span>
-# 
-# [memory]
-# command=free -h --si | awk 'FNR==2{ print $0 }' | awk '{ print $7 }'
-# interval=5
-# label=<span color="#a9e185"> </span>
+#[mediaplayer]
+#command=playerctl metadata --format "{{ artist }} - {{ title }}"
+#interval=2
+#label=<span color="#a9e185"> </span>
 
 [date]
 command=date '+%A%e'

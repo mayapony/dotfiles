@@ -1,10 +1,11 @@
 # i3 config file
 # Auther maya
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
+font pango: FiraMono Nerd Font Regular 8
 set $mod Mod4
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-# default_border pixel 5
+#default_border pixel 2
 default_border none
 default_floating_border normal
 hide_edge_borders both
@@ -41,9 +42,12 @@ bindsym $mod+Ctrl+m exec pavucontrol
 # Start Applications
 bindsym $mod+w exec --no-startup-id goldendict
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym $mod+F2 exec firefox-developer-edition
-# bindsym $mod+F2 exec firefox
-bindsym $mod+F3 exec pcmanfm
+#bindsym $mod+F2 exec firefox-developer-edition
+bindsym $mod+F2 exec --no-startup-id microsoft-edge-stable
+#bindsym $mod+F2 exec brave
+#bindsym $mod+F2 exec firefox
+#bindsym $mod+F3 exec emacsclient
+bindsym $mod+F4 exec pcmanfm
 bindsym $mod+t exec --no-startup-id pkill picom
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
 bindsym $mod+Ctrl+d exec --no-startup-id /usr/bin/dunst
@@ -91,7 +95,8 @@ bindsym $mod+q split toggle
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
+# bindsym $mod+s layut stacking
+bindsym $mod+s exec --no-startup-id /usr/bin/tdrop -ma -w 800 -y "$PANEL_HEIGHT" alacritty
 
 bindsym $mod+e layout toggle split
 
@@ -172,16 +177,18 @@ for_window [class="Lxappearance"] floating enable sticky enable border normal
 for_window [class="Pavucontrol"] floating enable
 for_window [class="qt5ct"] floating enable sticky enable border normal
 for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
-for_window [class="Youdao Dict"] floating enable border none
 for_window [class="flameshot"] floating enable border none
 for_window [class="deepin-system-monitor"] floating enable border none
 for_window [class="Mousepad"] floating enable border none
 for_window [class="Steam"] floating enable border none
-for_window [title="Android Emulator - Pixel_2_API_30:5554"] floating enable border none
-for_window [class="qq.exe"] floating enable border none
+for_window [title="Android Emulator - Pixel_6_API_31:5554"] floating enable border none
+for_window [class="QQ"] floating enable border none, resize set 800 600, move position center
 for_window [class="Wine"] floating enable border none
 for_window [class="EasyConnect"] floating enable border none
-
+for_window [class="Alacritty"] floating enable border none
+for_window [class="tdrop"] floating enable border none
+for_window [class="goldendict"] floating enable border none
+for_window [class="GoldenDict"] floating enable border none, resize set 800 600, move position center, focus
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -238,8 +245,8 @@ set $purple  #bd93f9
 set $pink    #ff79c6
 
 
-# Set some nice colors      border background text     indicator
-client.focused              $purple $purple   $fg      $comment
+# Set some nice colors      border   background text     indicator
+client.focused              $pink    $pink      $fg      $comment
 client.unfocused            $bg      $bg        $cyan    $bg
 client.focused_inactive     $bg      $bg        $green   $bg
 client.urgent               $bg      $bg        $magenta $bg
@@ -247,22 +254,21 @@ client.placeholder          $bg      $bg        $cyan    $bg
 client.background       #2B2C2B
 
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
-bar {
-    position top
-    i3bar_command i3bar
-    status_command i3blocks
-    font pango: FiraMono Nerd Font Regular 12
-    colors {
-        background $bg
-
-        focused_workspace   $purple    $purple  $bg
-        active_workspace    $bg        $bg      $purple
-        inactive_workspace  $bg        $bg      $fg
-        urgent_workspace    $bg        $bg      $magenta
-        background          $bg
-    }
-}
-
+# bar {
+#     position top
+#     i3bar_command i3bar
+#     status_command i3blocks
+#     font pango: FiraMono Nerd Font Regular 12
+#     colors {
+#         background $bg
+#         focused_workspace   $purple    $purple  $bg
+#         active_workspace    $bg        $bg      $purple
+#         inactive_workspace  $bg        $bg      $fg
+#         urgent_workspace    $bg        $bg      $magenta
+#         background          $bg
+#     }
+# }
+# 
 # hide/unhide i3status bar
 bindsym $mod+m bar mode toggle
 
@@ -272,7 +278,7 @@ bindsym $mod+m bar mode toggle
 
 # Set inner/outer gaps
 gaps inner 10
-gaps outer -1
+gaps outer 0
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # gaps inner|outer current|all set|plus|minus <px>
@@ -280,7 +286,7 @@ gaps outer -1
 # gaps outer all plus 5
 
 # Smart gaps (gaps used if only more than one container on the workspace)
-smart_gaps on
+# smart_gaps on
 
 # Smart borders (draw borders around container only if it is not the only container on this workspace) 
 # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
@@ -324,10 +330,13 @@ mode "$mode_gaps_outer" {
 }
 
 # Autostart applications 自动开启
+# exec --no-startup-id "xrandr --output HDMI-1 --mode 1920x1080 --rate 60.00 --output eDP-1 --auto --right-of HDMI-1"
+exec --no-startup-id fcitx5
+exec --no-startup-id /home/mayapony/.scripts/monitors.sh
 exec --no-startup-id /usr/bin/dunst
-exec --no-startup-id /usr/bin/xmodmap ~/.Xmodmap
+# exec --no-startup-id /usr/bin/xmodmap ~/.Xmodmap
 # exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec --no-startup-id nitrogen --restore; sleep 2; picom -b
+exec --no-startup-id nitrogen --restore; sleep 2; picom --experimental-backends -b
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 # exec --no-startup-id pamac-tray
@@ -335,9 +344,8 @@ exec --no-startup-id xfce4-clipman
 # exec --no-startup-id fcitx
 # exec --no-startup-id blueman-applet
 exec --no-startup-id xautolock -time 10 -locker blurlock
-# exec --no-startup-id nextcloud
-exec --no-startup-id /home/mayapony/.scripts/monitors.sh
-exec --no-startup-id /opt/BreakTimer/breaktimer
-exec --no-startup-id fcitx5
+exec --no-startup-id /opt/appimages/BreakTimer.AppImage
+exec --no-startup-id /usr/bin/emacs --daemon
 # exec --no-startup-id copyq
+exec --no-startup-id ~/.config/polybar/launch.sh
 

@@ -1,51 +1,31 @@
+// Place your key bindings in this file to override the defaultsauto[]
 [
   {
-    "key": "ctrl+shift+p",
-    "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
-    "when": "inFilesPicker && inQuickOpen"
-  },
-  {
-    "key": "ctrl+p",
-    "command": "-extension.vim_ctrl+p",
-    "when": "suggestWidgetVisible && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
-  },
-  {
-    "key": "ctrl+p",
-    "command": "-workbench.action.quickOpen"
-  },
-  {
-    "key": "ctrl+p",
-    "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
-    "when": "inFilesPicker && inQuickOpen"
-  },
-  {
-    "key": "ctrl+p",
-    "command": "workbench.action.showCommands"
-  },
-  {
-    "key": "ctrl+shift+p",
-    "command": "-workbench.action.showCommands"
-  },
-  {
-    "key": "ctrl+h",
-    "command": "-testing.toggleTestingPeekHistory",
-    "when": "testing.isPeekVisible"
-  },
-  {
-    "key": "ctrl+h",
-    "command": "-extension.vim_ctrl+h",
-    "when": "editorTextFocus && vim.active && vim.use<C-h> && !inDebugRepl"
+    "key": "ctrl+n",
+    "command": "-workbench.action.files.newUntitledFile"
   },
   {
     "key": "ctrl+n",
-    "command": "fileutils.newFile"
+    "command": "fileutils.newFileAtRoot"
   },
   {
-    "key": "ctrl+shift+n",
-    "command": "-workbench.action.newWindow"
+    "key": "ctrl+n",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
   },
   {
-    "key": "ctrl+shift+n",
-    "command": "fileutils.newFolder"
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "-surround.with",
+    "when": "editorHasSelection"
   }
 ]
