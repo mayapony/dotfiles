@@ -1,10 +1,10 @@
 [global]
     frame_width = 1
-    frame_color = "#f8f8f2"
+    frame_color = "#8AADF4"
     
     font = Noto Sans 10
 
-    corner_radius = 15
+    corner_radius = 10
     
     # Allow a small subset of html markup:
     #   <b>bold</b>
@@ -136,7 +136,7 @@
     #  * foreground: use the same color as the foreground;
     #  * frame: use the same color as the frame;
     #  * anything else will be interpreted as a X color.
-    separator_color = #bd93f9
+    separator_color = frame
     
     # Print a notification on startup.
     # This is mainly for error detection, since dbus (re-)starts dunst
@@ -183,19 +183,20 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#282a36"
-    foreground = "#f8f8f2"
+    background = "#24273A"
+    foreground = "#CAD3F5"
     timeout = 10
 
 [urgency_normal]
-    background = "#282a36"
-    foreground = "#f8f8f2"
+    background = "#24273A"
+    foreground = "#CAD3F5"
     timeout = 10
 
 [urgency_critical]
-    background = "#D62929"
-    foreground = "#F9FAF9"
-    timeout = 0
+    background = "#24273A"
+    foreground = "#CAD3F5"
+    frame_color = "#F5A97F"
+    timeout = 2
 
 
 # Every section that isn't one of the above is interpreted as a rules to

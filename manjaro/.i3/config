@@ -42,8 +42,8 @@ bindsym $mod+Ctrl+m exec pavucontrol
 # Start Applications
 bindsym $mod+w exec --no-startup-id goldendict
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-#bindsym $mod+F2 exec firefox-developer-edition
-bindsym $mod+F2 exec --no-startup-id microsoft-edge-stable
+bindsym $mod+F2 exec firefox-developer-edition
+#bindsym $mod+F2 exec --no-startup-id microsoft-edge-stable
 #bindsym $mod+F2 exec brave
 #bindsym $mod+F2 exec firefox
 #bindsym $mod+F3 exec emacsclient
@@ -189,6 +189,7 @@ for_window [class="Alacritty"] floating enable border none
 for_window [class="tdrop"] floating enable border none
 for_window [class="goldendict"] floating enable border none
 for_window [class="GoldenDict"] floating enable border none, resize set 800 600, move position center, focus
+for_window [class="Anki"] floating enable border none, resize set 800 600, move position center, focus
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -332,11 +333,12 @@ mode "$mode_gaps_outer" {
 # Autostart applications 自动开启
 # exec --no-startup-id "xrandr --output HDMI-1 --mode 1920x1080 --rate 60.00 --output eDP-1 --auto --right-of HDMI-1"
 exec --no-startup-id fcitx5
+exec --no-startup-id nitrogen --restore; sleep 2; picom --experimental-backends -b
+exec --no-startup-id ~/.config/polybar/launch-monitor.sh
 exec --no-startup-id /home/mayapony/.scripts/monitors.sh
 exec --no-startup-id /usr/bin/dunst
 # exec --no-startup-id /usr/bin/xmodmap ~/.Xmodmap
 # exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec --no-startup-id nitrogen --restore; sleep 2; picom --experimental-backends -b
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 # exec --no-startup-id pamac-tray
@@ -347,5 +349,4 @@ exec --no-startup-id xautolock -time 10 -locker blurlock
 exec --no-startup-id /opt/appimages/BreakTimer.AppImage
 exec --no-startup-id /usr/bin/emacs --daemon
 # exec --no-startup-id copyq
-exec --no-startup-id ~/.config/polybar/launch.sh
 

@@ -3,22 +3,22 @@
   <path recursive="1">/home/mayapony/.goldendict/dicts</path>
  </paths>
  <sounddirs/>
- <dictionaryOrder id="0" name="">
+ <dictionaryOrder name="" id="0">
   <dictionary name="有道翻译">84f343f252b3e7179fd10c073a668087</dictionary>
   <dictionary name="oald10">dea38c9d5be5ffff80316d81455751c6</dictionary>
   <mutedDictionaries/>
  </dictionaryOrder>
- <inactiveDictionaries id="0" name="">
+ <inactiveDictionaries name="" id="0">
   <dictionary name="youdao">e689bf3801d896fea0695158dfc68f3a</dictionary>
   <mutedDictionaries/>
  </inactiveDictionaries>
  <groups nextId="3">
-  <group id="1" name="En-Zh" icon="en.png" shortcut="Ctrl+1">
+  <group name="En-Zh" id="1" icon="en.png" shortcut="Ctrl+1">
    <dictionary name="oald10">dea38c9d5be5ffff80316d81455751c6</dictionary>
    <dictionary name="有道翻译">84f343f252b3e7179fd10c073a668087</dictionary>
    <mutedDictionaries/>
   </group>
-  <group id="2" name="Zh-En" shortcut="Ctrl+2">
+  <group name="Zh-En" id="2" shortcut="Ctrl+2">
    <dictionary name="有道翻译">84f343f252b3e7179fd10c073a668087</dictionary>
    <mutedDictionaries/>
   </group>
@@ -54,34 +54,34 @@
   <languageCodes></languageCodes>
  </forvo>
  <mediawikis>
-  <mediawiki url="https://en.wikipedia.org/w" id="ae6f89aac7151829681b85f035d54e48" name="English Wikipedia" enabled="0" icon=""/>
-  <mediawiki url="https://en.wiktionary.org/w" id="affcf9678e7bfe701c9b071f97eccba3" name="English Wiktionary" enabled="0" icon=""/>
-  <mediawiki url="https://ru.wikipedia.org/w" id="8e0c1c2b6821dab8bdba8eb869ca7176" name="Russian Wikipedia" enabled="0" icon=""/>
-  <mediawiki url="https://ru.wiktionary.org/w" id="b09947600ae3902654f8ad4567ae8567" name="Russian Wiktionary" enabled="0" icon=""/>
-  <mediawiki url="https://de.wikipedia.org/w" id="a8a66331a1242ca2aeb0b4aed361c41d" name="German Wikipedia" enabled="0" icon=""/>
-  <mediawiki url="https://de.wiktionary.org/w" id="21c64bca5ec10ba17ff19f3066bc962a" name="German Wiktionary" enabled="0" icon=""/>
-  <mediawiki url="https://pt.wikipedia.org/w" id="96957cb2ad73a20c7a1d561fc83c253a" name="Portuguese Wikipedia" enabled="0" icon=""/>
-  <mediawiki url="https://pt.wiktionary.org/w" id="ed4c3929196afdd93cc08b9a903aad6a" name="Portuguese Wiktionary" enabled="0" icon=""/>
-  <mediawiki url="https://el.wikipedia.org/w" id="f3b4ec8531e52ddf5b10d21e4577a7a2" name="Greek Wikipedia" enabled="0" icon=""/>
-  <mediawiki url="https://el.wiktionary.org/w" id="5d45232075d06e002dea72fe3e137da1" name="Greek Wiktionary" enabled="0" icon=""/>
+  <mediawiki url="https://en.wikipedia.org/w" name="English Wikipedia" enabled="0" id="ae6f89aac7151829681b85f035d54e48" icon=""/>
+  <mediawiki url="https://en.wiktionary.org/w" name="English Wiktionary" enabled="0" id="affcf9678e7bfe701c9b071f97eccba3" icon=""/>
+  <mediawiki url="https://ru.wikipedia.org/w" name="Russian Wikipedia" enabled="0" id="8e0c1c2b6821dab8bdba8eb869ca7176" icon=""/>
+  <mediawiki url="https://ru.wiktionary.org/w" name="Russian Wiktionary" enabled="0" id="b09947600ae3902654f8ad4567ae8567" icon=""/>
+  <mediawiki url="https://de.wikipedia.org/w" name="German Wikipedia" enabled="0" id="a8a66331a1242ca2aeb0b4aed361c41d" icon=""/>
+  <mediawiki url="https://de.wiktionary.org/w" name="German Wiktionary" enabled="0" id="21c64bca5ec10ba17ff19f3066bc962a" icon=""/>
+  <mediawiki url="https://pt.wikipedia.org/w" name="Portuguese Wikipedia" enabled="0" id="96957cb2ad73a20c7a1d561fc83c253a" icon=""/>
+  <mediawiki url="https://pt.wiktionary.org/w" name="Portuguese Wiktionary" enabled="0" id="ed4c3929196afdd93cc08b9a903aad6a" icon=""/>
+  <mediawiki url="https://el.wikipedia.org/w" name="Greek Wikipedia" enabled="0" id="f3b4ec8531e52ddf5b10d21e4577a7a2" icon=""/>
+  <mediawiki url="https://el.wiktionary.org/w" name="Greek Wiktionary" enabled="0" id="5d45232075d06e002dea72fe3e137da1" icon=""/>
  </mediawikis>
  <websites>
-  <website url="https://www.google.com/dictionary?aq=f&amp;langpair=en|en&amp;q=%GDWORD%&amp;hl=en" inside_iframe="1" id="b88cb2898e634c6638df618528284c2d" name="Google En-En (Oxford)" enabled="0" icon=""/>
-  <website url="https://www.urbandictionary.com/define.php?term=%GDWORD%" inside_iframe="1" id="f376365a0de651fd7505e7e5e683aa45" name="Urban Dictionary" enabled="0" icon=""/>
-  <website url="https://multitran.ru/c/m.exe?CL=1&amp;l1=1&amp;s=%GD1251%" inside_iframe="1" id="324ca0306187df7511b26d3847f4b07c" name="Multitran (En)" enabled="0" icon=""/>
-  <website url="http://lingvopro.abbyyonline.com/en/Search/en-ru/%GDWORD%" inside_iframe="1" id="924db471b105299c82892067c0f10787" name="Lingvo (En-Ru)" enabled="0" icon=""/>
-  <website url="http://michaelis.uol.com.br/moderno/ingles/index.php?lingua=portugues-ingles&amp;palavra=%GDISO1%" inside_iframe="1" id="087a6d65615fb047f4c80eef0a9465db" name="Michaelis (Pt-En)" enabled="0" icon=""/>
-  <website url="http://dict.youdao.com/search?q=%GDWORD%&amp;ue=utf-8" inside_iframe="1" id="e689bf3801d896fea0695158dfc68f3a" name="youdao" enabled="1" icon=""/>
+  <website url="https://www.google.com/dictionary?aq=f&amp;langpair=en|en&amp;q=%GDWORD%&amp;hl=en" name="Google En-En (Oxford)" enabled="0" id="b88cb2898e634c6638df618528284c2d" inside_iframe="1" icon=""/>
+  <website url="https://www.urbandictionary.com/define.php?term=%GDWORD%" name="Urban Dictionary" enabled="0" id="f376365a0de651fd7505e7e5e683aa45" inside_iframe="1" icon=""/>
+  <website url="https://multitran.ru/c/m.exe?CL=1&amp;l1=1&amp;s=%GD1251%" name="Multitran (En)" enabled="0" id="324ca0306187df7511b26d3847f4b07c" inside_iframe="1" icon=""/>
+  <website url="http://lingvopro.abbyyonline.com/en/Search/en-ru/%GDWORD%" name="Lingvo (En-Ru)" enabled="0" id="924db471b105299c82892067c0f10787" inside_iframe="1" icon=""/>
+  <website url="http://michaelis.uol.com.br/moderno/ingles/index.php?lingua=portugues-ingles&amp;palavra=%GDISO1%" name="Michaelis (Pt-En)" enabled="0" id="087a6d65615fb047f4c80eef0a9465db" inside_iframe="1" icon=""/>
+  <website url="http://dict.youdao.com/search?q=%GDWORD%&amp;ue=utf-8" name="youdao" enabled="1" id="e689bf3801d896fea0695158dfc68f3a" inside_iframe="1" icon=""/>
  </websites>
  <dictservers/>
  <programs>
-  <program type="1" id="84f343f252b3e7179fd10c073a668087" name="有道翻译" enabled="1" icon="" commandLine="ydcv -f &quot;%GDWORD%&quot;"/>
+  <program type="1" name="有道翻译" enabled="1" commandLine="ydcv -f &quot;%GDWORD%&quot;" id="84f343f252b3e7179fd10c073a668087" icon=""/>
  </programs>
  <voiceEngines/>
  <mutedDictionaries/>
  <popupMutedDictionaries>
-  <mutedDictionary>de9a50c1eebbd851145e011234b6ef1d</mutedDictionary>
   <mutedDictionary>6d6e6ba33125ebe4e12090f500ce3c94</mutedDictionary>
+  <mutedDictionary>de9a50c1eebbd851145e011234b6ef1d</mutedDictionary>
  </popupMutedDictionaries>
  <preferences>
   <interfaceLanguage></interfaceLanguage>
@@ -130,7 +130,7 @@
   <historyStoreInterval>0</historyStoreInterval>
   <favoritesStoreInterval>0</favoritesStoreInterval>
   <confirmFavoritesDeletion>1</confirmFavoritesDeletion>
-  <proxyserver useSystemProxy="0" enabled="0">
+  <proxyserver enabled="0" useSystemProxy="0">
    <type>0</type>
    <host></host>
    <port>3128</port>
@@ -190,8 +190,8 @@
  <dictInfoGeometry></dictInfoGeometry>
  <inspectorGeometry></inspectorGeometry>
  <dictionariesDialogGeometry>AdnQywADAAAAAAI8AAABWQAABoUAAAOCAAACPgAAAW0AAAaDAAADgAAAAAEAAAAAB4AAAAI+AAABbQAABoMAAAOA</dictionariesDialogGeometry>
- <timeForNewReleaseCheck>2023-03-08T11:12:56</timeForNewReleaseCheck>
- <skippedRelease>23.02.07-alpha.230225.da004ee9</skippedRelease>
+ <timeForNewReleaseCheck>2023-03-22T18:49:21</timeForNewReleaseCheck>
+ <skippedRelease>23.02.07-alpha.230319.02fd327e</skippedRelease>
  <showingDictBarNames>1</showingDictBarNames>
  <usingSmallIconsInToolbars>0</usingSmallIconsInToolbars>
  <editDictionaryCommandLine></editDictionaryCommandLine>
