@@ -6,7 +6,7 @@
  */
 
 configuration {
-    font:                "Souce Code Pro 12";
+    font:                "霞鹜文楷 12";
     show-icons:          true;
     icon-theme: 				 "Dracula";
     display-drun: 			 "";
