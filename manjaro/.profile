@@ -16,6 +16,9 @@ export GOPATH=/home/mayapony/.env/go  #根据自己的Go工作目录替换
 export GOBIN=$GOPATH/bin
 export PATH=$GOBIN:$PATH
 
+# rust
+export PATH=/home/mayapony/.cargo/bin:$PATH
+
 # Android SDK
 # export ANDROID_HOME=/opt/android-sdk
 export ANDROID_HOME=/home/mayapony/.opt/android-sdk

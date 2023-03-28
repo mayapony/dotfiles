@@ -6,6 +6,8 @@
 #
 # See this wiki page for more info:
 # https://github.com/jwilm/alacritty/wiki
+import:
+  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
 
 env:
   TERM: xterm-256color
@@ -18,7 +20,7 @@ window:
 
   padding:
     x: 15
-    y: 0
+    y: 15
 
   decorations: full
   opacity: 1
@@ -31,17 +33,17 @@ font:
   normal:
     # family: Source Code Pro
     # family: FiraMono Nerd Font
-    family: CaskaydiaCove Nerd Font
+    family: FiraCode Nerd Font
 
   bold:
     # family: Source Code Pro
     # family: FiraMono Nerd Font
-    family: CaskaydiaCove Nerd Font
+    family: FiraCode Nerd Font
     style: Bold
 
   italic:
     # family: Source Code Pro
-    family: CaskaydiaCove Nerd Font
+    family: FiraCode Nerd Font
       # family: FiraMono Nerd Font
     style: Italic
 
@@ -62,8 +64,9 @@ draw_bold_text_with_bright_colors: true
 # Colors (Monokai Dark)
 colors:
   primary:
-    background: '0x282a36'
-    foreground: '0xf8f8f2'
+    background: '0x303446'
+#foreground: '0xf8f8f2'
+    foreground: '0xc6d0f5'
 
   normal:
    black:   '0x272822'
@@ -73,7 +76,7 @@ colors:
    blue:    '0x66D9EF'
    magenta: '0xAE81FF'
    cyan:    '0xA1EFE4'
-   white:   '0xF8F8F2'
+   white:   '0xc6d0f5'
 
   bright:
    black:   '0x75715E'
@@ -83,14 +86,12 @@ colors:
    blue:    '0x66D9EF'
    magenta: '0xAE81FF'
    cyan:    '0xA1EFE4'
-   white:   '0xF9F8F5'
+   white:   '0xc6d0f5'
 
 # Visual bell
 visual_bell:
   animation: EaseOutExpo
   duration: 0
-
-# background_opacity: 0.7 # 设置透明度
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
