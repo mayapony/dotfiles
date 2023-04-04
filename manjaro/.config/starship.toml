@@ -1,6 +1,8 @@
 # Sets user-defined palette
 palette = "catppuccin_frappe"
 
+add_newline = true
+
 [character]
 # Note the use of Catppuccin color 'maroon'
 success_symbol = "[❯](maroon)"
