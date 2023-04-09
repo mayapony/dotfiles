@@ -6,10 +6,20 @@
   "passtrough": false,
   "gtk-layer-shell": true,
   "height": 0,
-  "modules-left": ["wlr/workspaces", "clock"],
-  "modules-center": ["hyprland/window"],
-  "modules-right": ["pulseaudio", "backlight", "battery", "network", "tray"],
-
+  "modules-left": [
+    "wlr/workspaces",
+    "clock"
+  ],
+  "modules-center": [
+    "hyprland/window"
+  ],
+  "modules-right": [
+    "pulseaudio",
+    "backlight",
+    "battery",
+    "network",
+    "tray"
+  ],
   "hyprland/window": {
     "format": "👉 {}"
   },
@@ -63,7 +73,11 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": ["", "", ""]
+      "default": [
+        "",
+        "",
+        ""
+      ]
     }
   },
   "battery": {
@@ -74,13 +88,22 @@
       "critical": 15
     },
     "format": "{icon} {capacity}%",
-    "format-icons": [" ", " ", " ", " ", " "],
+    "format-icons": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
     "max-length": 25
   },
   "backlight": {
     "device": "intel_backlight",
     "format": "{icon}{percent}%",
-    "format-icons": [" ", " "]
+    "format-icons": [
+      " ",
+      " "
+    ]
   },
   "network": {
     "format": "{ifname}",

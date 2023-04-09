@@ -11,7 +11,7 @@ export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 
 # go 相关
-export GOPATH=/home/mayapony/.env/go  #根据自己的Go工作目录替换
+export GOPATH=/home/mayapony/.env/go #根据自己的Go工作目录替换
 export GOBIN=$GOPATH/bin
 export PATH=$GOBIN:$PATH
 
@@ -39,14 +39,14 @@ export XDG_CURRENT_DESKTOP=Hyprland
 export XDG_SESSION_TYPE=wayland
 export XDG_SESSION_DESKTOP=Hyprland
 export GDK_BACKEND=wayland,x11
-export QT_QPA_PLATFORM="wayland;xcb"
+# export QT_QPA_PLATFORM="wayland;xcb"
 export SDL_VIDEODRIVER=wayland
 export CLUTTER_BACKEND=wayland
 export QT_AUTO_SCREEN_SCALE_FACTOR=1
-export QT_QPA_PLATFORM=wayland;xcb
 export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
 export QT_QPA_PLATFORMTHEME=qt5ct
 
+export WIREPLUMBER_DEBUG=D
 
 # ==== DON'T DELETE ME =====
 Hyprland
