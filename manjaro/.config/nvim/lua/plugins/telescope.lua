@@ -15,6 +15,7 @@ return {
     { "<leader>fb", "<cmd>Telescope buffers<cr>", desc = "Buffers" },
     { "<leader>fr", "<cmd>Telescope oldfiles<cr>", desc = "Recent" },
     { "<leader>fp", "<cmd>Telescope projects<cr>", desc = "Projects" },
+    { "<leader>fN", "<cmd>Telescope notify<cr>", desc = "Notify" },
     -- git
     { "<leader>gc", "<cmd>Telescope git_commits<CR>", desc = "commits" },
     { "<leader>gs", "<cmd>Telescope git_status<CR>", desc = "status" },
@@ -107,5 +108,6 @@ return {
   },
   init = function()
     require("telescope").load_extension("projects")
+    require("telescope").load_extension("notify")
   end,
 }

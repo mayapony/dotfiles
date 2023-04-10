@@ -5,10 +5,7 @@ return {
     version = "*",
     config = function()
       require("toggleterm").setup({
-        open_mapping = [[<c-j>]],
-        on_stdout = function(t, job, data, name)
-          return true
-        end,
+        -- open_mapping = [[<c-j>]],
       })
     end,
     keys = {
