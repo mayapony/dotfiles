@@ -14,7 +14,7 @@ return {
 
     return {
       options = {
-        theme = "catppuccin",
+        theme = "auto",
         globalstatus = true,
         disabled_filetypes = { statusline = { "dashboard", "lazy", "alpha" } },
         component_separators = { left = "", right = "" },
