@@ -5,7 +5,7 @@ return {
     version = "*",
     config = function()
       require("toggleterm").setup({
-        -- open_mapping = [[<c-j>]],
+        open_mapping = [[<c-t>]],
       })
     end,
     keys = {

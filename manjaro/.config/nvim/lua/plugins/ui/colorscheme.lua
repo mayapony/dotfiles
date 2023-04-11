@@ -27,9 +27,15 @@ return {
           information = { "underline" },
         },
       },
+      color_overrides = {},
+      custom_highlights = function(colors)
+        return {
+          NeoTreeCursorLine = { bg = colors.crust },
+        }
+      end,
       integrations = {
         cmp = true,
-        gitsigns = false,
+        gitsigns = true,
         telescope = true,
         notify = true,
         mini = true,
@@ -53,10 +59,23 @@ return {
 -- return {
 --   "folke/tokyonight.nvim",
 --   lazy = false,
+--   priority = 1000,
 --   name = "tokyonight",
 --   config = function()
 --     require("tokyonight").setup({
+--       style = "storm",
 --       transparent = true,
+--       styles = {
+--         -- Style to be applied to different syntax groups
+--         -- Value is any valid attr-list value for `:help nvim_set_hl`
+--         comments = { italic = false },
+--         keywords = { italic = false },
+--         -- Background styles. Can be "dark", "transparent" or "normal"
+--         sidebars = "dark", -- style for sidebars, see below
+--         floats = "dark", -- style for floating windows
+--       },
+--       sidebars = { "qf", "help" },
+--       lualine_bold = true,
 --     })
 --     vim.cmd([[colorscheme tokyonight]])
 --   end,

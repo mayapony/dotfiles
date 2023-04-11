@@ -1,5 +1,5 @@
 #! /usr/bin/fish
-abbr -a -- s fastfetch
+abbr -a -- s neofetch
 abbr -a -- rm trash
 abbr -a -- p pnpm
 abbr -a -- ls 'colorls --dark'
