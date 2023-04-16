@@ -8,7 +8,8 @@
 }
 
 window#waybar {
-  background: rgba(21, 18, 27, 0);
+  /* background: rgba(21, 18, 27, 0); */
+  background-color: transparent;
   color: #c6d0f5;
 }
 
@@ -28,6 +29,7 @@ tooltip {
 
 #workspaces button.active {
   color: #e78284;
+  /* color: #cba6f7; */
 }
 
 #workspaces button.focused {
@@ -48,6 +50,7 @@ tooltip {
   border-radius: 10px;
 }
 
+#cava,
 #custom-language,
 #custom-updates,
 #custom-caffeine,
@@ -60,7 +63,8 @@ tooltip {
 #workspaces,
 #tray,
 #backlight {
-  background: #232634;
+  /* background: #232634; */
+  background: rgba(35, 38, 52, 0.6);
   padding: 0px 10px;
   margin: 0px 3px;
   margin-top: 5px;
@@ -75,7 +79,7 @@ tooltip {
 }
 
 #workspaces {
-  background: #232634;
+  /* background: #232634; */
   border-radius: 10px;
   margin-left: 10px;
   padding-right: 0px;
@@ -142,4 +146,9 @@ tooltip {
   border-radius: 0px 10px 10px 0px;
   border-right: 0px;
   margin-left: 0px;
+}
+
+#custom-cava {
+  padding: 0;
+  margin-top: 5px;
 }

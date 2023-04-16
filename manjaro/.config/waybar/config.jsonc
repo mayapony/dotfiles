@@ -14,6 +14,7 @@
     "hyprland/window"
   ],
   "modules-right": [
+    "custom/cava",
     "pulseaudio",
     "backlight",
     "battery",
@@ -43,6 +44,11 @@
       "active": "",
       "default": ""
     }
+  },
+  "custom/cava": {
+    "exec": "~/.config/waybar/scripts/cava.py -f 24 -b 12 -e fffdfc,fffafe,ffeafa,ffc3d2 -c average",
+    "restart-interval": 2,
+    "format": "{}"
   },
   "tray": {
     "icon-size": 15,

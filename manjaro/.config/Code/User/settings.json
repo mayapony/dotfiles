@@ -123,7 +123,7 @@
   "editor.fontLigatures": true,
   "editor.fontFamily": "'JetBrains Mono', 'Source Code Pro','hack','CaskaydiaCove Nerd Font','Fira Code', 'VictorMono Nerd Font'",
   "vim.vimrc.enable": true,
-  "editor.fontSize": 20,
+  "editor.fontSize": 16,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "debug.console.fontSize": 18,
@@ -132,7 +132,7 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorSurroundingLines": 15,
   "window.menuBarVisibility": "toggle",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "catppuccin-mocha",
   "terminal.integrated.fontFamily": "FiraMono Nerd Font",
   "terminal.integrated.fontSize": 18,
   "cSpell.customDictionaries": {
@@ -206,7 +206,7 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
-    "//": "Last update at 2023/4/11 10:54:19",
+    "//": "Last update at 2023/4/15 13:51:19",
     "*.asax": "$(capture).*.cs, $(capture).*.vb",
     "*.ascx": "$(capture).*.cs, $(capture).*.vb",
     "*.ashx": "$(capture).*.cs, $(capture).*.vb",
@@ -279,7 +279,7 @@
   "workbench.activityBar.visible": false,
   "browse-lite.chromeExecutable": "/usr/bin/brave",
   "browse-lite.startUrl": "http://localhost:5173",
-  "workbench.colorTheme": "Catppuccin Frappé",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "cSpell.ignoreWords": ["dosini"],
-  "window.zoomLevel": 1
+  "window.zoomLevel": 2
 }

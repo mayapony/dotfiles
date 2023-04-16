@@ -32,8 +32,9 @@ return {
               hint = icons.diagnostics.Hint,
             },
           },
-          { "filetype", icon_only = true, separator = "", padding = { left = 1, right = 0 } },
-          { "filename", path = 1, symbols = { modified = "*", readonly = "", unnamed = "" } },
+          { "filetype", icon_only = true, separator = "",                                           padding = { left = 1,
+            right = 0 } },
+          { "filename", path = 1,         symbols = { modified = "*", readonly = "", unnamed = "" } },
           -- stylua: ignore
           -- {
           --   function() return require("nvim-navic").get_location() end,
@@ -51,7 +52,7 @@ return {
           {
             function() return require("noice").api.status.mode.get() end,
             cond = function() return package.loaded["noice"] and require("noice").api.status.mode.has() end,
-            color = fg("Constant") ,
+            color = fg("Constant"),
           },
           -- { require("lazy.status").updates, cond = require("lazy.status").has_updates, color = fg("Special") },
           {
@@ -64,7 +65,7 @@ return {
           },
         },
         lualine_y = {
-          { "progress", separator = " ", padding = { left = 1, right = 0 } },
+          { "progress", separator = " ",                  padding = { left = 1, right = 0 } },
           { "location", padding = { left = 0, right = 1 } },
         },
         lualine_z = {
@@ -73,7 +74,7 @@ return {
           end,
         },
       },
-      extensions = { "neo-tree" },
+      extensions = { "neo-tree", "toggleterm" },
     }
   end,
 }
