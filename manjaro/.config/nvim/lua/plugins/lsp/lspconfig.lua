@@ -2,10 +2,12 @@ return {
   "neovim/nvim-lspconfig",
   event = { "BufReadPre", "BufNewFile" },
   dependencies = {
-    { "folke/neoconf.nvim", cmd = "Neoconf", config = true },
-    { "folke/neodev.nvim", opts = { experimental = { pathStrict = true } } },
+    { "folke/neoconf.nvim", cmd = "Neoconf",                                config = true },
+    { "folke/neodev.nvim",  opts = { experimental = { pathStrict = true } } },
     "mason.nvim",
     "williamboman/mason-lspconfig.nvim",
+    "themaxmarchuk/tailwindcss-colors.nvim",
+    "jose-elias-alvarez/typescript.nvim",
     {
       "hrsh7th/cmp-nvim-lsp",
       cond = function()
@@ -15,6 +17,15 @@ return {
   },
   ---@class PluginLspOpts
   opts = {
+    -- config ufo from https://github.com/LazyVim/LazyVim/issues/448
+    capabilities = {
+      textDocument = {
+        foldingRange = {
+          dynamicRegistration = false,
+          lineFoldingOnly = true,
+        },
+      },
+    },
     -- options for vim.diagnostic.config()
     diagnostics = {
       underline = true,
@@ -49,6 +60,19 @@ return {
           },
         },
       },
+      tsserver = {
+        -- source https://stackoverflow.com/questions/49582984/how-do-i-disable-js-file-is-a-commonjs-module-it-may-be-converted-to-an-es6
+        init_options = {
+          preferences = {
+            disableSuggestions = true,
+          },
+        },
+        settings = {
+          completions = {
+            completeFunctionCalls = true,
+          },
+        },
+      },
     },
     -- you can do any additional lsp server setup here
     -- return true if you don't want this server to be setup with lspconfig
@@ -69,6 +93,29 @@ return {
             client.server_capabilities.documentFormattingProvider = false
           end
         end)
+      end,
+      tailwindscss = function()
+        local nvim_lsp = require("lspconfig")
+        local on_attach = function(client, bufnr)
+          -- other stuff --
+          require("tailwindcss-colors").buf_attach(bufnr)
+        end
+        nvim_lsp["tailwindcss"].setup({
+          on_attach = on_attach,
+        })
+      end,
+      tsserver = function(_, opts)
+        require("lazyvim.util").on_attach(function(client, buffer)
+          if client.name == "tsserver" then
+            -- stylua: ignore
+            vim.keymap.set("n", "<leader>co", "<cmd>TypescriptOrganizeImports<CR>",
+              { buffer = buffer, desc = "Organize Imports" })
+            -- stylua: ignore
+            vim.keymap.set("n", "<leader>cR", "<cmd>TypescriptRenameFile<CR>", { desc = "Rename File", buffer = buffer })
+          end
+        end)
+        require("typescript").setup({ server = opts })
+        return true
       end,
     },
   },

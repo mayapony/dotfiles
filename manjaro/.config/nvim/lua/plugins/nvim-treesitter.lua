@@ -27,11 +27,20 @@ return {
   },
   keys = {
     { "<c-space>", desc = "Increment selection" },
-    { "<bs>", desc = "Decrement selection", mode = "x" },
+    { "<bs>",      desc = "Decrement selection", mode = "x" },
   },
   ---@type TSConfig
   opts = {
-    highlight = { enable = true },
+    highlight = function()
+      if (vim.g.colors_name == "catppuccin") then
+        return {
+          enable = true,
+          additional_vim_regex_highlighting = false
+        }
+      end
+
+      return { enable = true }
+    end,
     indent = { enable = true, disable = { "python" } },
     context_commentstring = { enable = true, enable_autocmd = false },
     ensure_installed = {

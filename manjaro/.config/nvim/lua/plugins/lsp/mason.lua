@@ -8,6 +8,7 @@ return {
       "stylua",
       "shfmt",
       "flake8",
+      "prettierd",
     },
   },
   ---@param opts MasonSettings | {ensure_installed: string[]}
