@@ -18,10 +18,10 @@ opt.inccommand = "nosplit" -- preview incremental substitute
 opt.laststatus = 0
 opt.list = true            -- Show some invisible characters (tabs...
 opt.mouse = "a"            -- Enable mouse mode
-opt.number = true          -- Print line number
+opt.number = false         -- Print line number
 opt.pumblend = 10          -- Popup blend
 opt.pumheight = 10         -- Maximum number of entries in a popup
-opt.relativenumber = true  -- Relative line numbers
+opt.relativenumber = false -- Relative line numbers
 opt.scrolloff = 4          -- Lines of context
 opt.sessionoptions = { "buffers", "curdir", "tabpages", "winsize" }
 opt.shiftround = true      -- Round indent
@@ -55,8 +55,7 @@ end
 vim.g.markdown_recommended_style = 0
 
 -- fold config
-vim.o.foldcolumn = '1' -- '0' is not bad
-vim.o.foldlevel = 99   -- Using ufo provider need a large value, feel free to decrease the value
-vim.o.foldlevelstart = 99
-vim.o.foldenable = true
-vim.o.foldmethod = "indent"
+opt.foldcolumn = '0' -- '0' is not bad
+opt.foldlevel = 99   -- Using ufo provider need a large value, feel free to decrease the value
+opt.foldlevelstart = 99
+opt.foldenable = true
