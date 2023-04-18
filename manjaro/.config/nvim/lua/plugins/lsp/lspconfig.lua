@@ -18,14 +18,14 @@ return {
   ---@class PluginLspOpts
   opts = {
     -- config ufo from https://github.com/LazyVim/LazyVim/issues/448
-    capabilities = {
-      textDocument = {
-        foldingRange = {
-          dynamicRegistration = false,
-          lineFoldingOnly = true,
-        },
-      },
-    },
+    -- capabilities = {
+    --   textDocument = {
+    --     foldingRange = {
+    --       dynamicRegistration = false,
+    --       lineFoldingOnly = true,
+    --     },
+    --   },
+    -- },
     -- options for vim.diagnostic.config()
     diagnostics = {
       underline = true,
