@@ -12,6 +12,7 @@ return {
   opts = {
     timeout = 2000,
     render = "minimal",
+    background_colour = "#303446",
     max_height = function()
       return math.floor(vim.o.lines * 0.75)
     end,

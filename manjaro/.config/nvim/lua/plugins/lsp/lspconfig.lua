@@ -14,18 +14,29 @@ return {
         return require("lazyvim.util").has("nvim-cmp")
       end,
     },
+    {
+      "SmiteshP/nvim-navbuddy",
+      dependencies = {
+        "SmiteshP/nvim-navic",
+        "MunifTanjim/nui.nvim"
+      },
+      opts = { lsp = { auto_attach = true } },
+      keys = {
+        { "<leader>ss", "<cmd>Navbuddy<cr>", desc = "Toggle navbuddy" }
+      }
+    }
   },
   ---@class PluginLspOpts
   opts = {
     -- config ufo from https://github.com/LazyVim/LazyVim/issues/448
-    -- capabilities = {
-    --   textDocument = {
-    --     foldingRange = {
-    --       dynamicRegistration = false,
-    --       lineFoldingOnly = true,
-    --     },
-    --   },
-    -- },
+    capabilities = {
+      textDocument = {
+        foldingRange = {
+          dynamicRegistration = false,
+          lineFoldingOnly = true,
+        },
+      },
+    },
     -- options for vim.diagnostic.config()
     diagnostics = {
       underline = true,
@@ -71,6 +82,30 @@ return {
           completions = {
             completeFunctionCalls = true,
           },
+          typescript = {
+            inlayHints = {
+              includeInlayParameterNameHints = 'all',
+              includeInlayParameterNameHintsWhenArgumentMatchesName = false,
+              includeInlayFunctionParameterTypeHints = true,
+              includeInlayVariableTypeHints = true,
+              includeInlayVariableTypeHintsWhenTypeMatchesName = false,
+              includeInlayPropertyDeclarationTypeHints = true,
+              includeInlayFunctionLikeReturnTypeHints = true,
+              includeInlayEnumMemberValueHints = true,
+            }
+          },
+          javascript = {
+            inlayHints = {
+              includeInlayParameterNameHints = 'all',
+              includeInlayParameterNameHintsWhenArgumentMatchesName = false,
+              includeInlayFunctionParameterTypeHints = true,
+              includeInlayVariableTypeHints = true,
+              includeInlayVariableTypeHintsWhenTypeMatchesName = false,
+              includeInlayPropertyDeclarationTypeHints = true,
+              includeInlayFunctionLikeReturnTypeHints = true,
+              includeInlayEnumMemberValueHints = true,
+            }
+          }
         },
       },
     },
@@ -110,8 +145,13 @@ return {
             -- stylua: ignore
             vim.keymap.set("n", "<leader>co", "<cmd>TypescriptOrganizeImports<CR>",
               { buffer = buffer, desc = "Organize Imports" })
-            -- stylua: ignore
             vim.keymap.set("n", "<leader>cR", "<cmd>TypescriptRenameFile<CR>", { desc = "Rename File", buffer = buffer })
+            vim.keymap.set("n", "<leader>ci", "<cmd>TypescriptAddMissingImports<CR>",
+              { desc = "Import missing modules", buffer = buffer })
+            vim.keymap.set("n", "<leader>cc", "<cmd>TypescriptRemoveUnused<CR>",
+              { desc = "Clear unused variables", buffer = buffer })
+            vim.keymap.set("n", "gd", "<cmd>TypescriptGoToSourceDefinition<CR>",
+              { desc = "Go to typescript source definition", buffer = buffer })
           end
         end)
         require("typescript").setup({ server = opts })
@@ -176,5 +216,7 @@ return {
       mlsp.setup({ ensure_installed = ensure_installed })
       mlsp.setup_handlers({ setup })
     end
+
+    require('ufo').setup()
   end,
 }
