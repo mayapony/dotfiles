@@ -1,6 +1,7 @@
 -- Autocmds are automatically loaded on the VeryLazy event
 -- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
 -- Add any additional autocmds here
+local fn = vim.fn
 
 local function augroup(name)
   return vim.api.nvim_create_augroup("lazyvim_" .. name, { clear = true })
@@ -76,5 +77,30 @@ vim.api.nvim_create_autocmd({ "BufWritePre" }, {
   callback = function(event)
     local file = vim.loop.fs_realpath(event.match) or event.match
     vim.fn.mkdir(vim.fn.fnamemodify(file, ":p:h"), "p")
+  end,
+})
+
+-- change kitty background color
+vim.api.nvim_create_autocmd("ColorScheme", {
+  callback = function()
+    local filePath = "/tmp/mykitty"
+    if vim.fn.filereadable(filePath) == 1 then
+      local color = fn.synIDattr(fn.synIDtrans(fn.hlID("Normal")), "bg#")
+      os.execute("kitty @ --to unix:" .. filePath .. " set-colors background=" .. color)
+    end
+  end
+})
+
+vim.api.nvim_create_augroup("LspAttach_inlayhints", {})
+vim.api.nvim_create_autocmd("LspAttach", {
+  group = "LspAttach_inlayhints",
+  callback = function(args)
+    if not (args.data and args.data.client_id) then
+      return
+    end
+
+    local bufnr = args.buf
+    local client = vim.lsp.get_client_by_id(args.data.client_id)
+    require("lsp-inlayhints").on_attach(client, bufnr)
   end,
 })

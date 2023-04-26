@@ -51,7 +51,7 @@ return {
           -- You could replace the expand_or_jumpable() calls with expand_or_locally_jumpable()
           -- they way you will only jump inside the snippet region
           -- TODO TEST this locally jumpable
-        elseif luasnip.expand_or_locally_jumpable() then
+        elseif luasnip.expand_or_jump() then
           luasnip.expand_or_jump()
         elseif has_words_before() then
           cmp.complete()

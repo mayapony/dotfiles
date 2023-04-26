@@ -1,5 +1,4 @@
 return {
-  {
-    "wakatime/vim-wakatime",
-  },
+  "wakatime/vim-wakatime",
+  event = "InsertEnter"
 }

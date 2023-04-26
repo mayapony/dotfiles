@@ -75,59 +75,10 @@ return {
   ---@param opts TSConfig
   config = function(_, opts)
     require("nvim-treesitter.configs").setup(opts)
+    -- require('ufo').setup({
+    --   provider_selector = function(bufnr, filetype, buftype)
+    --     return { 'treesitter', 'indent' }
+    --   end
+    -- })
   end,
-  -- init = function()
-  --   local parsers = {
-  --     "bash",
-  --     "bibtex",
-  --     "c",
-  --     "cmake",
-  --     "comment",
-  --     "cpp",
-  --     "css",
-  --     "dockerfile",
-  --     "fennel",
-  --     "fish",
-  --     "go",
-  --     "graphql",
-  --     "html",
-  --     "http",
-  --     "java",
-  --     "javascript",
-  --     "jsdoc",
-  --     "json",
-  --     "jsonc",
-  --     "latex",
-  --     "lua",
-  --     "make",
-  --     "ninja",
-  --     "nix",
-  --     "norg",
-  --     "org",
-  --     "perl",
-  --     "php",
-  --     "python",
-  --     "r",
-  --     "rasi",
-  --     "regex",
-  --     "ruby",
-  --     "rust",
-  --     "scss",
-  --     "tsx",
-  --     "typescript",
-  --     "vim",
-  --     "vue",
-  --     "xml",
-  --     "yaml",
-  --     "zig",
-  --   }
-  --   vim.api.nvim_create_autocmd("FileType", {
-  --     pattern = vim.fn.join(parsers, ","),
-  --     callback = function()
-  --       vim.opt_local.foldexpr = "nvim_treesitter#foldexpr()"
-  --       vim.opt_local.foldmethod = "expr"
-  --     end,
-  --     desc = "Set fold method for treesitter",
-  --   })
-  -- end
 }

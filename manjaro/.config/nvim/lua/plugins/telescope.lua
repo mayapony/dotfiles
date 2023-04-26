@@ -5,26 +5,27 @@ return {
   "nvim-telescope/telescope.nvim",
   cmd = "Telescope",
   version = false, -- telescope did only one release, so use HEAD for now
+  dependencies = {
+    "nvim-telescope/telescope-fzf-native.nvim",
+    build = "make",
+    config = function()
+      require("telescope").load_extension("fzf")
+    end,
+  },
   keys = {
     { "<leader>,",       "<cmd>Telescope buffers show_all_buffers=true<cr>", desc = "Switch Buffer" },
     { "<leader>/",       builtin.live_grep,                                  desc = "Find in Files (Grep)" },
     { "<leader>:",       "<cmd>Telescope command_history<cr>",               desc = "Command History" },
     { "<leader><space>", builtin.find_files,                                 desc = "Find Files (root dir)" },
     -- find
-    { "<leader>fb",      "<cmd>Telescope buffers<cr>",                       desc = "Buffers" },
     { "<leader>fr",      "<cmd>Telescope oldfiles<cr>",                      desc = "Recent" },
-    { "<leader>fp",      "<cmd>Telescope projects<cr>",                      desc = "Projects" },
+    { "<leader>fp",      "<cmd>Telescope projects<cr>",                      desc = "Change Projects" },
     { "<leader>fN",      "<cmd>Telescope notify<cr>",                        desc = "Notify" },
-    -- git
-    { "<leader>gc",      "<cmd>Telescope git_commits<CR>",                   desc = "commits" },
-    { "<leader>gs",      "<cmd>Telescope git_status<CR>",                    desc = "status" },
     -- search
     { "<leader>sa",      "<cmd>Telescope autocommands<cr>",                  desc = "Auto Commands" },
     { "<leader>sb",      "<cmd>Telescope current_buffer_fuzzy_find<cr>",     desc = "Buffer" },
-    { "<leader>sc",      "<cmd>Telescope command_history<cr>",               desc = "Command History" },
     { "<leader>sC",      "<cmd>Telescope commands<cr>",                      desc = "Commands" },
     { "<leader>sd",      "<cmd>Telescope diagnostics<cr>",                   desc = "Diagnostics" },
-    { "<leader>sg",      builtin.live_grep,                                  desc = "Grep (root dir)" },
     { "<leader>sh",      "<cmd>Telescope help_tags<cr>",                     desc = "Help Pages" },
     { "<leader>sH",      "<cmd>Telescope highlights<cr>",                    desc = "Search Highlight Groups" },
     { "<leader>sk",      "<cmd>Telescope keymaps<cr>",                       desc = "Key Maps" },
@@ -41,47 +42,17 @@ return {
       "Word (cwd)"
     },
     { "<leader>uC", Util.telescope("colorscheme", { enable_preview = true }), desc = "Colorscheme with preview" },
-    -- {
-    --   "<leader>ss",
-    --   Util.telescope("lsp_document_symbols", {
-    --     symbols = {
-    --       "Class",
-    --       "Function",
-    --       "Method",
-    --       "Constructor",
-    --       "Interface",
-    --       "Module",
-    --       "Struct",
-    --       "Trait",
-    --       "Field",
-    --       "Property",
-    --     },
-    --   }),
-    --   desc = "Goto Symbol",
-    -- },
-    {
-      "<leader>sS",
-      Util.telescope("lsp_workspace_symbols", {
-        symbols = {
-          "Class",
-          "Function",
-          "Method",
-          "Constructor",
-          "Interface",
-          "Module",
-          "Struct",
-          "Trait",
-          "Field",
-          "Property",
-        },
-      }),
-      desc = "Goto Symbol (Workspace)",
-    },
   },
   opts = {
     defaults = {
       prompt_prefix = " ",
       selection_caret = " ",
+      defaults = {
+        layout_strategy = "horizontal",
+        layout_config = { prompt_position = "top" },
+        sorting_strategy = "ascending",
+        winblend = 0,
+      },
       mappings = {
         i = {
           ["<c-t>"] = function(...)

@@ -5,14 +5,14 @@ return {
   opts = function(_, opts)
     local nls = require("null-ls")
     return {
-      root_dir = require("null-ls.utils").root_pattern(".null-ls-root", ".neoconf.json", "Makefile", ".git"),
+      root_dir = require("null-ls.utils").root_pattern(".null-ls-root", ".neoconf.json", "Makefile", ".git",
+      "package.json"),
       sources = {
-        nls.builtins.formatting.fish_indent,
-        nls.builtins.diagnostics.fish,
         nls.builtins.formatting.stylua,
         nls.builtins.formatting.shfmt,
         nls.builtins.formatting.prettierd,
         nls.builtins.diagnostics.flake8,
+
         -- cspell diagnostic source: https://zenn.dev/kawarimidoll/articles/ad35f3dc4a5009
         nls.builtins.diagnostics.cspell.with({
           extra_args = { '--config', '~/.config/cspell/cspell.json' },
@@ -24,6 +24,7 @@ return {
           end
         }),
         nls.builtins.code_actions.cspell,
+
         require("typescript.extensions.null-ls.code-actions"),
       },
     }

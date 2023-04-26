@@ -5,6 +5,11 @@ return {
     { "<leader>bp", "<Cmd>BufferLineTogglePin<CR>",            desc = "Toggle pin" },
     { "<leader>bP", "<Cmd>BufferLineGroupClose ungrouped<CR>", desc = "Delete non-pinned buffers" },
     { "<leader>ft", "<Cmd>BufferLinePick<CR>",                 desc = "Find Buffer" },
+    { "<A-1>",      "<Cmd>BufferLineGoToBuffer 1<CR>",         desc = "go to buffer 1" },
+    { "<A-2>",      "<Cmd>BufferLineGoToBuffer 2<CR>",         desc = "go to buffer 2" },
+    { "<A-3>",      "<Cmd>BufferLineGoToBuffer 3<CR>",         desc = "go to buffer 3" },
+    { "<A-4>",      "<Cmd>BufferLineGoToBuffer 4<CR>",         desc = "go to buffer 4" },
+    { "<A-5>",      "<Cmd>BufferLineGoToBuffer 5<CR>",         desc = "go to buffer 5" },
   },
   opts = {
     options = {
