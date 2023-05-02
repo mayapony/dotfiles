@@ -43,7 +43,7 @@ disable_ligatures never
 #: }}}
 
 #: Cursor customization {{{
-# cursor none
+cursor none
 # cursor_text_color background
 
 # cursor_shape block
@@ -1019,6 +1019,6 @@ include "Rosé Pine.conf"
 
 
 # BEGIN_KITTY_THEME
-# Rosé Pine
+# Catppuccin-Frappe
 include current-theme.conf
 # END_KITTY_THEME
