@@ -17,7 +17,7 @@ return {
   end,
   opts = {
     history = true,
-    delete_check_events = "TextChanged, InsertLeave",
+    delete_check_events = "InsertLeave",
     region_check_events = "InsertEnter"
   },
   -- stylua: ignore

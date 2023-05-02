@@ -41,7 +41,16 @@ return {
               right = 0
             }
           },
-          { "filename", path = 1, symbols = { modified = "*", readonly = "", unnamed = "" } },
+          -- stylua: ignore
+          {
+            "filename",
+            path = 1,
+            symbols = {
+              modified = "*",
+              readonly = "",
+              unnamed = ""
+            }
+          },
           -- stylua: ignore
           -- {
           --   function() return require("nvim-navic").get_location() end,
@@ -61,7 +70,7 @@ return {
             cond = function() return package.loaded["noice"] and require("noice").api.status.mode.has() end,
             color = fg("Constant"),
           },
-          -- { require("lazy.status").updates, cond = require("lazy.status").has_updates, color = fg("Special") },
+          { require("lazy.status").updates, cond = require("lazy.status").has_updates, color = fg("Special") },
           {
             "diff",
             symbols = {
@@ -84,178 +93,4 @@ return {
       extensions = { "toggleterm" },
     }
   end,
-  -- config = function()
-  --   local lualine = require('lualine')
-  --
-  --   local colors = require("catppuccin.palettes").get_palette()
-  --
-  --   local icons = require("lazyvim.config").icons
-  --
-  --   local conditions = {
-  --     buffer_not_empty = function()
-  --       return vim.fn.empty(vim.fn.expand('%:t')) ~= 1
-  --     end,
-  --     hide_in_width = function()
-  --       return vim.fn.winwidth(0) > 80
-  --     end,
-  --     check_git_workspace = function()
-  --       local filepath = vim.fn.expand('%:p:h')
-  --       local gitdir = vim.fn.finddir('.git', filepath .. ';')
-  --       return gitdir and #gitdir > 0 and #gitdir < #filepath
-  --     end,
-  --   }
-  --
-  --   -- Config
-  --   local config = {
-  --     options = {
-  --       -- Disable sections and component separators
-  --       disabled_filetypes = { statusline = { "dashboard", "lazy", "alpha", "Outline", "neo-tree" } },
-  --       extensions = { "toggleterm" },
-  --       component_separators = { left = "", right = "" },
-  --       section_separators = '',
-  --       theme = "catppuccin",
-  --     },
-  --     sections = {
-  --       -- these are to remove the defaults
-  --       lualine_a = {},
-  --       lualine_b = {},
-  --       lualine_y = {},
-  --       lualine_z = {},
-  --       -- These will be filled later
-  --       lualine_c = {},
-  --       lualine_x = {},
-  --     },
-  --     inactive_sections = {
-  --       -- these are to remove the defaults
-  --       lualine_a = {},
-  --       lualine_b = {},
-  --       lualine_y = {},
-  --       lualine_z = {},
-  --       lualine_c = {},
-  --       lualine_x = {},
-  --     },
-  --     -- extensions = { , "toggleterm" },
-  --   }
-  --
-  --   -- Inserts a component in lualine_c at left section
-  --   local function ins_left(component)
-  --     table.insert(config.sections.lualine_c, component)
-  --   end
-  --
-  --   -- Inserts a component in lualine_x at right section
-  --   local function ins_right(component)
-  --     table.insert(config.sections.lualine_x, component)
-  --   end
-  --
-  --   ins_left {
-  --     function()
-  --       return '▊'
-  --     end,
-  --     color = { fg = colors.blue },      -- Sets highlighting of component
-  --     padding = { left = 0, right = 0 }, -- We don't need space before this
-  --   }
-  --
-  --   ins_left {
-  --     "mode",
-  --     color = function()
-  --       local mode_color = {
-  --         n = colors.red,
-  --         i = colors.green,
-  --         v = colors.blue,
-  --         V = colors.blue,
-  --         c = colors.mauve,
-  --         no = colors.red,
-  --         s = colors.orange,
-  --         S = colors.orange,
-  --         [''] = colors.orange,
-  --         ic = colors.yellow,
-  --         R = colors.mauve,
-  --         Rv = colors.mauve,
-  --         cv = colors.red,
-  --         ce = colors.red,
-  --         r = colors.cyan,
-  --         rm = colors.cyan,
-  --         ['r?'] = colors.cyan,
-  --         ['!'] = colors.red,
-  --         t = colors.red,
-  --       }
-  --       return { fg = mode_color[vim.fn.mode()], gui = 'bold' }
-  --     end
-  --   }
-  --
-  --   ins_left {
-  --     'diagnostics',
-  --     sources = { 'nvim_diagnostic' },
-  --     symbols = {
-  --       error = icons.diagnostics.Error,
-  --       warn = icons.diagnostics.Warn,
-  --       info = icons.diagnostics.Info
-  --     },
-  --     diagnostics_color = {
-  --       color_error = { fg = colors.red },
-  --       color_warn = { fg = colors.yellow },
-  --       color_info = { fg = colors.cyan },
-  --     },
-  --   }
-  --
-  --   ins_left { 'location' }
-  --
-  --   ins_left {
-  --     function()
-  --       return '%='
-  --     end,
-  --   }
-  --
-  --   ins_left {
-  --     "filetype",
-  --     icon_only = true,
-  --     separator = "",
-  --     padding = {
-  --       left = 1,
-  --       right = 0
-  --     }
-  --   }
-  --   ins_left {
-  --     'filename',
-  --     cond = conditions.buffer_not_empty,
-  --     color = { fg = colors.pink, gui = 'bold' },
-  --     separator = {
-  --       left = 0
-  --     },
-  --     symbols = {
-  --       modified = "*",
-  --       readonly = "",
-  --       unnamed = ""
-  --     }
-  --   }
-  --
-  --   ins_right {
-  --     'diff',
-  --     -- Is it me or the symbol for modified us really weird
-  --     symbols = { added = ' ', modified = '柳', removed = ' ' },
-  --     diff_color = {
-  --       added = { fg = colors.green },
-  --       modified = { fg = colors.orange },
-  --       removed = { fg = colors.red },
-  --     },
-  --     cond = conditions.hide_in_width,
-  --   }
-  --
-  --   ins_right {
-  --     'branch',
-  --     icon = '',
-  --     color = { fg = colors.violet, gui = 'bold' },
-  --   }
-  --
-  --   ins_right {
-  --     function()
-  --       return '▊'
-  --     end,
-  --     color = { fg = colors.blue },
-  --     padding = { left = 1 },
-  --   }
-  --
-  --   -- Now don't forget to initialize lualine
-  --   lualine.setup(config)
-  -- end
 }

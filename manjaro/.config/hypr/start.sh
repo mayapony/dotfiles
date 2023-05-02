@@ -35,7 +35,7 @@ export GLFW_IM_MODULE=ibus kitty
 
 # hyprland
 export _JAVA_AWT_WM_NONREPARENTING=1
-export XCURSOR_SIZE=24
+export XCURSOR_SIZE=30
 export XDG_CURRENT_DESKTOP=Hyprland
 export XDG_SESSION_TYPE=wayland
 export XDG_SESSION_DESKTOP=Hyprland

@@ -1,7 +1,7 @@
 return {
   "nvim-neo-tree/neo-tree.nvim",
   cmd = "Neotree",
-  priority = 500,
+  lazy = false,
   keys = {
     {
       "<leader>e",
@@ -24,14 +24,16 @@ return {
     end
   end,
   opts = {
+    close_if_last_window = true,
     filesystem = {
-      bind_to_cwd = false,
+      bind_to_cwd = true,
       follow_current_file = true,
     },
     window = {
       mappings = {
         ["<space>"] = "none",
       },
+      width = 30
     },
     default_component_configs = {
       indent = {

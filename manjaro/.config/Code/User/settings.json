@@ -281,5 +281,5 @@
   "browse-lite.startUrl": "http://localhost:5173",
   "workbench.colorTheme": "Catppuccin Mocha",
   "cSpell.ignoreWords": ["dosini"],
-  "window.zoomLevel": 2
+  "window.zoomLevel": 3
 }

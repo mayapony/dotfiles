@@ -22,7 +22,7 @@ return {
       },
       opts = { lsp = { auto_attach = true } },
       keys = {
-        { "<leader>ss", "<cmd>Navbuddy<cr>", desc = "Toggle navbuddy" }
+        { "<leader>ss", "<cmd>Navbuddy<cr>", desc = "Toggle navbuddy" },
       }
     }
   },
@@ -82,30 +82,6 @@ return {
           completions = {
             completeFunctionCalls = true,
           },
-          typescript = {
-            inlayHints = {
-              includeInlayParameterNameHints = 'all',
-              includeInlayParameterNameHintsWhenArgumentMatchesName = false,
-              includeInlayFunctionParameterTypeHints = true,
-              includeInlayVariableTypeHints = true,
-              includeInlayVariableTypeHintsWhenTypeMatchesName = false,
-              includeInlayPropertyDeclarationTypeHints = true,
-              includeInlayFunctionLikeReturnTypeHints = true,
-              includeInlayEnumMemberValueHints = true,
-            }
-          },
-          javascript = {
-            inlayHints = {
-              includeInlayParameterNameHints = 'all',
-              includeInlayParameterNameHintsWhenArgumentMatchesName = false,
-              includeInlayFunctionParameterTypeHints = true,
-              includeInlayVariableTypeHints = true,
-              includeInlayVariableTypeHintsWhenTypeMatchesName = false,
-              includeInlayPropertyDeclarationTypeHints = true,
-              includeInlayFunctionLikeReturnTypeHints = true,
-              includeInlayEnumMemberValueHints = true,
-            }
-          }
         },
       },
     },
@@ -113,13 +89,6 @@ return {
     -- return true if you don't want this server to be setup with lspconfig
     ---@type table<string, fun(server:string, opts:_.lspconfig.options):boolean?>
     setup = {
-      -- example to setup with typescript.nvim
-      -- tsserver = function(_, opts)
-      --   require("typescript").setup({ server = opts })
-      --   return true
-      -- end,
-      -- Specify * to use this function as a fallback for any server
-      -- ["*"] = function(server, opts) end,
       eslint = function()
         require("lazyvim.util").on_attach(function(client)
           if client.name == "eslint" then
@@ -140,6 +109,8 @@ return {
         })
       end,
       tsserver = function(_, opts)
+        local keys = require("lazyvim.plugins.lsp.keymaps").get()
+        keys[#keys + 1] = { "<leader>ca", "<cmd>CodeActionMenu<cr>", desc = "Code action menu" }
         require("lazyvim.util").on_attach(function(client, buffer)
           if client.name == "tsserver" then
             -- stylua: ignore
@@ -152,6 +123,8 @@ return {
               { desc = "Clear unused variables", buffer = buffer })
             vim.keymap.set("n", "gd", "<cmd>TypescriptGoToSourceDefinition<CR>",
               { desc = "Go to typescript source definition", buffer = buffer })
+            -- vim.keymap.set("n", "<leader>ca", "<cmd>CodeActionMenu<CR>",
+            --   { desc = "code action menu", buffer = buffer })
           end
         end)
         require("typescript").setup({ server = opts })
@@ -159,6 +132,11 @@ return {
       end,
     },
   },
+  init = function()
+    -- setup keymaps
+    local keys = require("lazyvim.plugins.lsp.keymaps").get()
+    keys[#keys + 1] = { "<leader>ca", "<cmd>CodeActionMenu<cr>", desc = "Code action menu" }
+  end,
   ---@param opts PluginLspOpts
   config = function(_, opts)
     -- setup autoformat
