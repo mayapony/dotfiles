@@ -109,25 +109,34 @@ return {
         })
       end,
       tsserver = function(_, opts)
+        local typescript = require("typescript")
+        typescript.setup({
+          server = opts,
+          disable_commands = false, -- prevent the plugin from creating Vim commands
+          go_to_source_definition = {
+            fallback = true,        -- fall back to standard LSP definition on failure
+          },
+          debug = false,            -- enable debug logging for commands
+        })
         local keys = require("lazyvim.plugins.lsp.keymaps").get()
         keys[#keys + 1] = { "<leader>ca", "<cmd>CodeActionMenu<cr>", desc = "Code action menu" }
-        require("lazyvim.util").on_attach(function(client, buffer)
-          if client.name == "tsserver" then
-            -- stylua: ignore
-            vim.keymap.set("n", "<leader>co", "<cmd>TypescriptOrganizeImports<CR>",
-              { buffer = buffer, desc = "Organize Imports" })
-            vim.keymap.set("n", "<leader>cR", "<cmd>TypescriptRenameFile<CR>", { desc = "Rename File", buffer = buffer })
-            vim.keymap.set("n", "<leader>ci", "<cmd>TypescriptAddMissingImports<CR>",
-              { desc = "Import missing modules", buffer = buffer })
-            vim.keymap.set("n", "<leader>cc", "<cmd>TypescriptRemoveUnused<CR>",
-              { desc = "Clear unused variables", buffer = buffer })
-            vim.keymap.set("n", "gd", "<cmd>TypescriptGoToSourceDefinition<CR>",
-              { desc = "Go to typescript source definition", buffer = buffer })
-            -- vim.keymap.set("n", "<leader>ca", "<cmd>CodeActionMenu<CR>",
-            --   { desc = "code action menu", buffer = buffer })
-          end
-        end)
-        require("typescript").setup({ server = opts })
+        -- TODO something error here
+        -- require("lazyvim.util").on_attach(function(client, buffer)
+        --   if client.name == "tsserver" then
+        --     -- stylua: ignore
+        --     vim.keymap.set("n", "<leader>co", "<cmd>TypescriptOrganizeImports<CR>",
+        --       { buffer = buffer, desc = "Organize Imports" })
+        --     vim.keymap.set("n", "<leader>cR", "<cmd>TypescriptRenameFile<CR>", { desc = "Rename File", buffer = buffer })
+        --     vim.keymap.set("n", "<leader>ci", "<cmd>TypescriptAddMissingImports<CR>",
+        --       { desc = "Import missing modules", buffer = buffer })
+        --     vim.keymap.set("n", "<leader>cc", "<cmd>TypescriptRemoveUnused<CR>",
+        --       { desc = "Clear unused variables", buffer = buffer })
+        --     vim.keymap.set("n", "gd", "<cmd>TypescriptGoToSourceDefinition<CR>",
+        --       { desc = "Go to typescript source definition", buffer = buffer })
+        --     -- vim.keymap.set("n", "<leader>ca", "<cmd>CodeActionMenu<CR>",
+        --     --   { desc = "code action menu", buffer = buffer })
+        --   end
+        -- end)
         return true
       end,
     },
