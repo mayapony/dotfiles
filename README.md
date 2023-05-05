@@ -1,3 +1,10 @@
+文档🚧🚧🚧...
+
+现在用 Hyprland
+![](./doc/swappy-20230505_223013.png)
+![](./doc/swappy-20230505_223118.png)
+
+以前用 i3 是这样
 ![](https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210810123202.png)
 
 ## 一、关于i3的一些设置

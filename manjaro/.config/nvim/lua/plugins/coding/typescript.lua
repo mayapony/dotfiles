@@ -1,1 +1,3 @@
-return { "jose-elias-alvarez/typescript.nvim" }
+return {
+  "jose-elias-alvarez/typescript.nvim",
+}
