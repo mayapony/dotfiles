@@ -12,7 +12,7 @@ return {
     enabled = false,
   },
   {
-    "nvim-treesitter-textobjects",
+    "echasnovski/mini.ai",
     enabled = false
   }
 }

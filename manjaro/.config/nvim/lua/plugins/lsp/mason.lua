@@ -1,5 +1,4 @@
 return {
-
   "williamboman/mason.nvim",
   cmd = "Mason",
   keys = { { "<leader>mm", "<cmd>Mason<cr>", desc = "Mason" } },
@@ -8,7 +7,7 @@ return {
       "stylua",
       "shfmt",
       "flake8",
-      "prettierd",
+      "prettier",
     },
   },
   ---@param opts MasonSettings | {ensure_installed: string[]}

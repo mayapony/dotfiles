@@ -89,15 +89,16 @@ return {
     -- return true if you don't want this server to be setup with lspconfig
     ---@type table<string, fun(server:string, opts:_.lspconfig.options):boolean?>
     setup = {
-      eslint = function()
-        require("lazyvim.util").on_attach(function(client)
-          if client.name == "eslint" then
-            client.server_capabilities.documentFormattingProvider = true
-          elseif client.name == "tsserver" then
-            client.server_capabilities.documentFormattingProvider = false
-          end
-        end)
-      end,
+      -- TODO some error here
+      -- eslint = function()
+      --   require("lazyvim.util").on_attach(function(client)
+      --     if client.name == "eslint" then
+      --       client.server_capabilities.documentFormattingProvider = true
+      --     elseif client.name == "tsserver" then
+      --       client.server_capabilities.documentFormattingProvider = false
+      --     end
+      --   end)
+      -- end,
       tailwindscss = function()
         local nvim_lsp = require("lspconfig")
         local on_attach = function(client, bufnr)
