@@ -121,12 +121,12 @@
     }
   ],
   "editor.fontLigatures": true,
-  "editor.fontFamily": "'JetBrains Mono', 'Source Code Pro','hack','CaskaydiaCove Nerd Font','Fira Code', 'VictorMono Nerd Font'",
+  "editor.fontFamily": "'Maple Mono', 'JetBrains Mono', 'Source Code Pro','hack','CaskaydiaCove Nerd Font','Fira Code', 'VictorMono Nerd Font'",
   "vim.vimrc.enable": true,
   "editor.fontSize": 16,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
-  "debug.console.fontSize": 18,
+  "debug.console.fontSize": 16,
   "editor.lineNumbers": "relative",
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
@@ -134,7 +134,7 @@
   "window.menuBarVisibility": "toggle",
   "workbench.iconTheme": "catppuccin-mocha",
   "terminal.integrated.fontFamily": "FiraMono Nerd Font",
-  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontSize": 16,
   "cSpell.customDictionaries": {
     "custom-dictionary-user": {
       "name": "custom-dictionary-user",
@@ -206,7 +206,7 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
-    "//": "Last update at 2023/5/3 16:02:21",
+    "//": "Last update at 2023/5/13 11:43:14",
     "*.asax": "$(capture).*.cs, $(capture).*.vb",
     "*.ascx": "$(capture).*.cs, $(capture).*.vb",
     "*.ashx": "$(capture).*.cs, $(capture).*.vb",
@@ -279,7 +279,11 @@
   "workbench.activityBar.visible": false,
   "browse-lite.chromeExecutable": "/usr/bin/brave",
   "browse-lite.startUrl": "http://localhost:5173",
-  "workbench.colorTheme": "Vitesse Black",
+  "workbench.colorTheme": "Rosé Pine Moon (no italics)",
   "cSpell.ignoreWords": ["dosini"],
-  "window.zoomLevel": 3
+  "window.zoomLevel": 2,
+  "editor.minimap.enabled": false,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

@@ -1,13 +1,14 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
-  {
-    "key": "ctrl+n",
-    "command": "-workbench.action.files.newUntitledFile"
-  },
+  // {
+  //   "key": "ctrl+n",
+  //   "command": "-workbench.action.files.newUntitledFile"
+  // },
   {
     "key": "ctrl+n",
     "command": "fileutils.newFileAtRoot"
   },
+  // use ctrl+n ctrl+p select
   {
     "key": "ctrl+n",
     "command": "workbench.action.quickOpenSelectNext",
@@ -27,5 +28,26 @@
     "key": "ctrl+shift+t",
     "command": "-surround.with",
     "when": "editorHasSelection"
+  },
+  // tree config...
+  {
+    "key": "r",
+    "command": "renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "d",
+    "command": "deleteFile",
+    "when": "explorerViewletFocus && !inputFocus"
+  },
+  {
+    "key": "a",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus && !inputFocus"
+  },
+  {
+    "key": "A",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus && !inputFocus"
   }
 ]
