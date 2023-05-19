@@ -42,3 +42,5 @@ tfjs
 todos
 typeorm
 vimrc
+vspacecode
+whichkey

@@ -7,7 +7,6 @@ return {
     "mason.nvim",
     "williamboman/mason-lspconfig.nvim",
     "themaxmarchuk/tailwindcss-colors.nvim",
-    "jose-elias-alvarez/typescript.nvim",
     {
       "hrsh7th/cmp-nvim-lsp",
       cond = function()
@@ -56,21 +55,6 @@ return {
     -- LSP Server Settings
     ---@type lspconfig.options
     servers = {
-      jsonls = {},
-      eslint = {},
-      lua_ls = {
-        -- mason = false, -- set to false if you don't want this server to be installed with mason
-        settings = {
-          Lua = {
-            workspace = {
-              checkThirdParty = false,
-            },
-            completion = {
-              callSnippet = "Replace",
-            },
-          },
-        },
-      },
       tsserver = {
         -- source https://stackoverflow.com/questions/49582984/how-do-i-disable-js-file-is-a-commonjs-module-it-may-be-converted-to-an-es6
         init_options = {
@@ -89,16 +73,15 @@ return {
     -- return true if you don't want this server to be setup with lspconfig
     ---@type table<string, fun(server:string, opts:_.lspconfig.options):boolean?>
     setup = {
-      -- TODO some error here
-      -- eslint = function()
-      --   require("lazyvim.util").on_attach(function(client)
-      --     if client.name == "eslint" then
-      --       client.server_capabilities.documentFormattingProvider = true
-      --     elseif client.name == "tsserver" then
-      --       client.server_capabilities.documentFormattingProvider = false
-      --     end
-      --   end)
-      -- end,
+      eslint = function()
+        require("lazyvim.util").on_attach(function(client)
+          if client.name == "eslint" then
+            client.server_capabilities.documentFormattingProvider = true
+          elseif client.name == "tsserver" then
+            client.server_capabilities.documentFormattingProvider = false
+          end
+        end)
+      end,
       tailwindscss = function()
         local nvim_lsp = require("lspconfig")
         local on_attach = function(client, bufnr)
@@ -110,34 +93,25 @@ return {
         })
       end,
       tsserver = function(_, opts)
-        local typescript = require("typescript")
-        typescript.setup({
-          server = opts,
-          disable_commands = false, -- prevent the plugin from creating Vim commands
-          go_to_source_definition = {
-            fallback = true,        -- fall back to standard LSP definition on failure
-          },
-          debug = false,            -- enable debug logging for commands
-        })
         local keys = require("lazyvim.plugins.lsp.keymaps").get()
         keys[#keys + 1] = { "<leader>ca", "<cmd>CodeActionMenu<cr>", desc = "Code action menu" }
         -- TODO something error here
-        -- require("lazyvim.util").on_attach(function(client, buffer)
-        --   if client.name == "tsserver" then
-        --     -- stylua: ignore
-        --     vim.keymap.set("n", "<leader>co", "<cmd>TypescriptOrganizeImports<CR>",
-        --       { buffer = buffer, desc = "Organize Imports" })
-        --     vim.keymap.set("n", "<leader>cR", "<cmd>TypescriptRenameFile<CR>", { desc = "Rename File", buffer = buffer })
-        --     vim.keymap.set("n", "<leader>ci", "<cmd>TypescriptAddMissingImports<CR>",
-        --       { desc = "Import missing modules", buffer = buffer })
-        --     vim.keymap.set("n", "<leader>cc", "<cmd>TypescriptRemoveUnused<CR>",
-        --       { desc = "Clear unused variables", buffer = buffer })
-        --     vim.keymap.set("n", "gd", "<cmd>TypescriptGoToSourceDefinition<CR>",
-        --       { desc = "Go to typescript source definition", buffer = buffer })
-        --     -- vim.keymap.set("n", "<leader>ca", "<cmd>CodeActionMenu<CR>",
-        --     --   { desc = "code action menu", buffer = buffer })
-        --   end
-        -- end)
+        require("lazyvim.util").on_attach(function(client, buffer)
+          if client.name == "tsserver" then
+            -- stylua: ignore
+            vim.keymap.set("n", "<leader>co", "<cmd>TypescriptOrganizeImports<CR>",
+              { buffer = buffer, desc = "Organize Imports" })
+            vim.keymap.set("n", "<leader>cR", "<cmd>TypescriptRenameFile<CR>", { desc = "Rename File", buffer = buffer })
+            vim.keymap.set("n", "<leader>ci", "<cmd>TypescriptAddMissingImports<CR>",
+              { desc = "Import missing modules", buffer = buffer })
+            vim.keymap.set("n", "<leader>cc", "<cmd>TypescriptRemoveUnused<CR>",
+              { desc = "Clear unused variables", buffer = buffer })
+            vim.keymap.set("n", "gd", "<cmd>TypescriptGoToSourceDefinition<CR>",
+              { desc = "Go to typescript source definition", buffer = buffer })
+            -- vim.keymap.set("n", "<leader>ca", "<cmd>CodeActionMenu<CR>",
+            --   { desc = "code action menu", buffer = buffer })
+          end
+        end)
         return true
       end,
     },

@@ -14,5 +14,9 @@ return {
   {
     "echasnovski/mini.ai",
     enabled = false
+  },
+  {
+    "RRethy/vim-illuminate",
+    enabled = false
   }
 }

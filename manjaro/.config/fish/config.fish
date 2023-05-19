@@ -22,3 +22,6 @@ set PATH $ANDROID_HOME/platform-tools $PATH
 # doom emacs
 set PATH $HOME/.emacs.d/bin $PATH
 
+fish_config theme choose "Rosé Pine"
+
+
