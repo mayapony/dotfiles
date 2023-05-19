@@ -16,7 +16,7 @@ local config = {
   -- colors = {
   --   cursor_bg = "#cba6f7",
   -- },
-  default_cursor_style = "SteadyBlock",
+  default_cursor_style = "BlinkingBlock",
   -- Font config
   font = font_with_fallback(font_name),
   font_rules = {
@@ -124,9 +124,9 @@ local config = {
   bold_brightens_ansi_colors = true,
   -- Padding
   window_padding = {
-    left = 5,
+    left = 10,
     right = 0,
-    top = 5,
+    top = 10,
     bottom = 0,
   },
   -- Tab Bar

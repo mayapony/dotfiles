@@ -9,16 +9,9 @@ return {
   },
   ---@type TSConfig
   opts = {
-    highlight = function()
-      if (vim.g.colors_name == "catppuccin") then
-        return {
-          enable = true,
-          additional_vim_regex_highlighting = false
-        }
-      end
-
-      return { enable = true }
-    end,
+    highlight = {
+      enable = true
+    },
     indent = { enable = true, disable = { "python" } },
     context_commentstring = { enable = true, enable_autocmd = false },
     ensure_installed = {
@@ -33,7 +26,6 @@ return {
       "markdown_inline",
       "python",
       "query",
-      "regex",
       "tsx",
       "typescript",
       "vim",

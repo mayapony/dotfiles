@@ -1,13 +1,11 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
-  // {
-  //   "key": "ctrl+n",
-  //   "command": "-workbench.action.files.newUntitledFile"
-  // },
   {
     "key": "ctrl+n",
-    "command": "fileutils.newFileAtRoot"
+    "command": "-workbench.action.files.newUntitledFile"
   },
+
+  // ============= Navigator =================
   // use ctrl+n ctrl+p select
   {
     "key": "ctrl+n",
@@ -19,6 +17,30 @@
     "command": "workbench.action.quickOpenSelectPrevious",
     "when": "inQuickOpen"
   },
+  // use ctrl+n ctrl+p select suggestion
+  {
+    "key": "ctrl+n",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  // Easy navigation in code action
+  {
+    "key": "ctrl+n",
+    "command": "selectNextCodeAction",
+    "when": "codeActionMenuVisible"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "selectPrevCodeAction",
+    "when": "codeActionMenuVisible"
+  },
+  // ============= Navigator =================
+
   {
     "key": "ctrl+shift+c",
     "command": "-workbench.action.terminal.openNativeConsole",
@@ -29,7 +51,8 @@
     "command": "-surround.with",
     "when": "editorHasSelection"
   },
-  // tree config...
+
+  // ============= File Tree =================
   {
     "key": "r",
     "command": "renameFile",
@@ -49,5 +72,28 @@
     "key": "A",
     "command": "explorer.newFolder",
     "when": "explorerViewletFocus && !inputFocus"
+  },
+  // ============= File Tree =================
+
+  // ===================================================
+  // navigate search results
+  {
+    "key": "ctrl+n",
+    "command": "search.action.focusNextSearchResult",
+    "when": "hasSearchResult || inSearchEditor"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "search.action.focusPreviousSearchResult",
+    "when": "hasSearchResult || inSearchEditor"
+  },
+  {
+    "key": "ctrl+backspace",
+    "command": "-deleteLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+backspace",
+    "command": "search.action.clearSearchResults"
   }
 ]
