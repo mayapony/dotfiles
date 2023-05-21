@@ -12,10 +12,11 @@ abbr -a -- ra ranger
 abbr -a -- lg lazygit
 abbr -a -- trash rm
 abbr -a -- vi nvim
-abbr -a -- la 'colorls --dark -a'
 abbr -a -- pac 'sudo pacman'
 abbr -a -- ec 'emacsclient -nw'
 abbr -a -- pa pnpm add
 abbr -a -- pi pnpm install
 abbr -a -- pd pnpm add -D
 abbr -a -- d pnpm dev
+abbr --add la exa --icons -a
+abbr --add cat bat
