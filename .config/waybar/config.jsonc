@@ -1,0 +1,132 @@
+{
+  "layer": "top",
+  "position": "top",
+  "mod": "dock",
+  "exclusive": true,
+  "passtrough": false,
+  "gtk-layer-shell": true,
+  "height": 0,
+  "modules-left": [
+    "wlr/workspaces",
+    "clock"
+  ],
+  "modules-center": [
+    "hyprland/window"
+  ],
+  "modules-right": [
+    "custom/cava",
+    "pulseaudio",
+    "backlight",
+    "battery",
+    "network",
+    "tray"
+  ],
+  "hyprland/window": {
+    "format": "👉 {}"
+  },
+  "wlr/workspaces": {
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1",
+    "all-outputs": true,
+    "active-only": false,
+    "on-click": "activate",
+    "format": "{icon}",
+    "format-icons": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "urgent": "",
+      "active": "",
+      "default": ""
+    }
+  },
+  "custom/cava": {
+    "exec": "~/.config/waybar/scripts/cava.py -f 24 -b 12 -e fffdfc,fffafe,ffeafa,ffc3d2 -c average",
+    "restart-interval": 2,
+    "format": "{}"
+  },
+  "tray": {
+    "icon-size": 15,
+    "tooltip": true,
+    "spacing": 10
+  },
+  "clock": {
+    "format": "{: %m/%d %R}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "calendar": {
+      "format": {
+        "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
+      }
+    }
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "tooltip": false,
+    "format-muted": " Muted",
+    "on-click": "pamixer -t",
+    "on-scroll-up": "pamixer -i 5",
+    "on-scroll-down": "pamixer -d 5",
+    "scroll-step": 5,
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  "battery": {
+    "bat": "BAT1",
+    "interval": 60,
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon} {capacity}%",
+    "format-icons": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "max-length": 25
+  },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon}{percent}%",
+    "format-icons": [
+      " ",
+      " "
+    ]
+  },
+  "network": {
+    "format": "{ifname}",
+    "format-wifi": "  {essid} ({signalStrength}%)",
+    "format-ethernet": "{ipaddr}/{cidr} ",
+    "format-disconnected": "", //An empty format will hide the module.
+    "tooltip-format": "{ifname} via {gwaddr} ",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+    "tooltip-format-ethernet": "{ifname} ",
+    "tooltip-format-disconnected": "Disconnected",
+    "max-length": 50
+  },
+  "user": {
+    "format": "{user} (up {work_d} days ↑)",
+    "interval": 60,
+    "height": 30,
+    "width": 30,
+    "icon": true
+  }
+}

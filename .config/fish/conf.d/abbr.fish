@@ -4,7 +4,6 @@ abbr -a -- rm trash
 abbr -a -- p pnpm
 abbr -a -- ls 'exa --icons'
 abbr -a -- ll 'exa --icons -l'
-abbr -a -- la 'exa --icons -a'
 abbr -a -- sys 'sudo systemctl'
 abbr -a -- fzf-p fzf\ --preview\ \'bat\ --color=always\ --style=numbers\ --line-range=:500\ \{\}
 abbr -a -- tree 'exa --icons --tree'
@@ -13,6 +12,7 @@ abbr -a -- ra ranger
 abbr -a -- lg lazygit
 abbr -a -- trash rm
 abbr -a -- vi nvim
+abbr -a -- la 'colorls --dark -a'
 abbr -a -- pac 'sudo pacman'
 abbr -a -- ec 'emacsclient -nw'
 abbr -a -- pa pnpm add
