@@ -64,7 +64,7 @@ return {
     vim.keymap.set({ 'n', 'v' }, '<leader>fw', builtin.grep_string, { desc = "Find words" })
     vim.keymap.set('n', '<leader>fr', builtin.grep_string, { desc = "Find recent" })
     vim.keymap.set('n', '<leader>fN', "<cmd>Telescope notify<cr>", { desc = "Find notify" })
-    vim.keymap.set('n', '<leader>fp', "<cmd>Telescope Projects<cr>", { desc = "Find projects" })
+    vim.keymap.set('n', '<leader>fp', "<cmd>Telescope projects<cr>", { desc = "Find projects" })
     vim.keymap.set('n', '<leader>uC', builtin.colorscheme, { desc = "Change Colorscheme " })
   end,
 }

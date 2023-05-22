@@ -1,16 +1,18 @@
 return {
   {
     'stevearc/resession.nvim',
-    opts = {
-      autosave = {
-        enabled = true,
-        interval = 60,
-        notify = false,
-      },
-      extensions = {
-        overseer = {}
-      }
-    },
+    config = function()
+      require('resession').setup({
+        autosave = {
+          enabled = true,
+          interval = 60,
+          notify = true,
+        },
+        extensions = {
+          overseer = {}
+        }
+      })
+    end,
     keys = function()
       local resession = require("resession")
       return {

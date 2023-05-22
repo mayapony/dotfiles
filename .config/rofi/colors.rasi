@@ -1,5 +1,15 @@
 /* colors */
 
+configuration {
+    font:                "霞鹜文楷 12";
+    show-icons:          true;
+    icon-theme: 				 "Dracula";
+    display-drun: 			 "";
+    drun-display-format: "{name}";
+    disable-history:     false;
+    sidebar-mode: 			 false;
+}
+
 * {
   al:  #00000000;
   bg:  #282a36bb;
