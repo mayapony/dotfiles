@@ -8,7 +8,7 @@ return {
         disable_float_background = true,
       })
 
-      vim.api.nvim_command("colorscheme rose-pine-main")
+      vim.api.nvim_command("colorscheme rose-pine")
     end
   },
   {

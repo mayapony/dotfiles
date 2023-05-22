@@ -20,8 +20,8 @@ opt.list = true            -- Show some invisible characters (tabs...
 opt.mouse = "a"            -- Enable mouse mode
 opt.number = false         -- Print line number
 -- source from: https://github.com/catppuccin/nvim/issues/412
-opt.pumblend = 0           -- Popup blend 100 for full transparent
-opt.winblend = 0           -- Fix float black 100 for full transparent
+opt.pumblend = 30          -- Popup blend 100 for full transparent
+opt.winblend = 30          -- Fix float black 100 for full transparent
 opt.pumheight = 10         -- Maximum number of entries in a popup
 opt.relativenumber = false -- Relative line numbers
 opt.scrolloff = 4          -- Lines of context
