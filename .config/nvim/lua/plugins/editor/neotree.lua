@@ -26,18 +26,13 @@ return {
   opts = {
     close_if_last_window = true,
     filesystem = {
-      bind_to_cwd = true,
       follow_current_file = true,
-      cwd_target = {
-        sidebar = "tab",
-        current = "window"
-      }
     },
     window = {
       mappings = {
         ["<space>"] = "none",
       },
-      width = 30
+      width = 25
     },
     default_component_configs = {
       indent = {

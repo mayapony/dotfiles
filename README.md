@@ -2,8 +2,21 @@
 
 ## Arch and Hyprland
 
+![](./doc/swappy-20230601-223352.png)
+![](./doc/swappy-20230601-223254.png)
 ![](./doc/swappy-20230505_223013.png)
 ![](./doc/swappy-20230505_223118.png)
+
+### 常用软件
+
+- 字体：LXGW Neo XiHei Screen、Input Mono、Apple Color Emoji、FiraCode
+- 终端：kitty
+- 编辑器：vscode/neovim
+- 文件管理器：Thunar/joshuto
+- 网易云音乐：netease-cloud-music
+- 通知管理：SwayNotificationCenter
+- 壁纸管理：swww
+- 番茄计时器：Pomatez
 
 ### 配置
 
