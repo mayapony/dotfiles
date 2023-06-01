@@ -21,3 +21,4 @@ abbr --add d pnpm dev
 abbr --add la exa --icons -a
 abbr --add cat bat
 abbr --add vide env -u WAYLAND_DISPLAY neovide --multigrid
+abbr --add pvi NVIM_APPNAME=ponvim nvim

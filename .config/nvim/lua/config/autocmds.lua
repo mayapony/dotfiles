@@ -2,7 +2,6 @@
 -- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
 -- Add any additional autocmds here
 local fn = vim.fn
-local resession = require("resession")
 
 local function augroup(name)
   return vim.api.nvim_create_augroup("lazyvim_" .. name, { clear = true })
@@ -92,31 +91,3 @@ vim.api.nvim_create_autocmd("ColorScheme", {
     end
   end
 })
-
-----------------------------------------------------
--------------- resession config start --------------
--- auto save a session when you exit Neovim
-vim.api.nvim_create_autocmd("VimLeavePre", {
-  callback = function()
-    -- Always save a special session named "last"
-    resession.save("last")
-  end,
-})
-
--- Load a dir-specific session when you open Neovim, save it when you exit.
-vim.api.nvim_create_autocmd("VimEnter", {
-  callback = function()
-    -- Only load the session if nvim was started with no args
-    if vim.fn.argc() == 0 then
-      -- Save these to a different directory, so our manual sessions don't get polluted
-      resession.load(vim.fn.getcwd(), { dir = "dirsession", silence_errors = false })
-    end
-  end,
-})
-vim.api.nvim_create_autocmd("VimLeavePre", {
-  callback = function()
-    resession.save(vim.fn.getcwd(), { dir = "dirsession", notify = true })
-  end,
-})
--------------- resession config end -----------------
------------------------------------------------------

@@ -6,21 +6,9 @@
   "passtrough": false,
   "gtk-layer-shell": true,
   "height": 0,
-  "modules-left": [
-    "wlr/workspaces",
-    "clock"
-  ],
-  "modules-center": [
-    "hyprland/window"
-  ],
-  "modules-right": [
-    "custom/cava",
-    "pulseaudio",
-    "backlight",
-    "battery",
-    "network",
-    "tray"
-  ],
+  "modules-left": ["wlr/workspaces", "clock"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": ["pulseaudio", "backlight", "battery", "network", "tray"],
   "hyprland/window": {
     "format": "👉 {}"
   },
@@ -31,6 +19,17 @@
     "active-only": false,
     "on-click": "activate",
     "format": "{icon}",
+    "persistent_workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": [],
+      "7": [],
+      "8": [],
+      "9": []
+    },
     "format-icons": {
       "1": "1",
       "2": "2",
@@ -40,6 +39,7 @@
       "6": "6",
       "7": "7",
       "8": "8",
+      "9": "9",
       "urgent": "",
       "active": "",
       "default": ""
@@ -79,11 +79,7 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": [
-        "",
-        "",
-        ""
-      ]
+      "default": ["", "", ""]
     }
   },
   "battery": {
@@ -94,22 +90,13 @@
       "critical": 15
     },
     "format": "{icon} {capacity}%",
-    "format-icons": [
-      " ",
-      " ",
-      " ",
-      " ",
-      " "
-    ],
+    "format-icons": [" ", " ", " ", " ", " "],
     "max-length": 25
   },
   "backlight": {
     "device": "intel_backlight",
     "format": "{icon}{percent}%",
-    "format-icons": [
-      " ",
-      " "
-    ],
+    "format-icons": [" ", " "],
     "on-click": "yin-yang -t"
   },
   "network": {
@@ -122,12 +109,5 @@
     "tooltip-format-ethernet": "{ifname} ",
     "tooltip-format-disconnected": "Disconnected",
     "max-length": 50
-  },
-  "user": {
-    "format": "{user} (up {work_d} days ↑)",
-    "interval": 60,
-    "height": 30,
-    "width": 30,
-    "icon": true
   }
 }
