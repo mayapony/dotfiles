@@ -2,15 +2,23 @@
   "layer": "top",
   "position": "top",
   "mod": "dock",
+  "margin": "8px 10px 0 10px",
   "exclusive": true,
   "passtrough": false,
   "gtk-layer-shell": true,
   "height": 0,
   "modules-left": ["wlr/workspaces", "clock"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["pulseaudio", "backlight", "battery", "network", "tray"],
+  "modules-right": [
+    "custom/playerctl",
+    "pulseaudio",
+    "backlight",
+    "battery",
+    "tray"
+  ],
   "hyprland/window": {
-    "format": "👉 {}"
+    "format": "{}",
+    "max-length": 60
   },
   "wlr/workspaces": {
     "on-scroll-up": "hyprctl dispatch workspace e+1",
@@ -45,10 +53,32 @@
       "default": ""
     }
   },
-  "custom/cava": {
-    "exec": "~/.config/waybar/scripts/cava.py -f 24 -b 12 -e fffdfc,fffafe,ffeafa,ffc3d2 -c average",
-    "restart-interval": 2,
-    "format": "{}"
+  "custom/playerctl": {
+    "exec": "playerctl metadata --format \"{{ title }} - {{ artist }}\" | zscroll -l 30 -b \" \"",
+    "format": "{}",
+    "max-length": 30
+  },
+  "cava": {
+    //        "cava_config": "$XDG_CONFIG_HOME/cava/cava.conf",
+    "framerate": 60,
+    "autosens": 1,
+    "sensitivity": 100,
+    "bars": 14,
+    "lower_cutoff_freq": 50,
+    "higher_cutoff_freq": 10000,
+    "method": "pulse",
+    "source": "auto",
+    "stereo": true,
+    "reverse": false,
+    "bar_delimiter": 0,
+    "monstercat": false,
+    "waves": false,
+    "noise_reduction": 0.77,
+    "input_delay": 2,
+    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+    "actions": {
+      "on-click-right": "mode"
+    }
   },
   "tray": {
     "icon-size": 15,
@@ -73,11 +103,11 @@
     "on-scroll-down": "pamixer -d 5",
     "scroll-step": 5,
     "format-icons": {
-      "headphone": "",
-      "hands-free": "",
-      "headset": "",
-      "phone": "",
-      "portable": "",
+      "headphone": "󰋋",
+      "hands-free": "󰋋",
+      "headset": "󰋋",
+      "phone": " ",
+      "portable": " ",
       "car": "",
       "default": ["", "", ""]
     }
@@ -96,7 +126,7 @@
   "backlight": {
     "device": "intel_backlight",
     "format": "{icon}{percent}%",
-    "format-icons": [" ", " "],
+    "format-icons": [" "],
     "on-click": "yin-yang -t"
   },
   "network": {

@@ -37,8 +37,10 @@ pamixer
 passtrough
 pixelsize
 pnpm
+Pressable
 pulseaudio
 rasi
+Rosé
 Souce
 subproc
 systray
