@@ -2,30 +2,28 @@
   border: none;
   font-family: FiraCode Nerd Font, monospace;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
+  padding: 0;
 }
 
 window#waybar {
-  border: 5px solid transparent;
-  border-bottom: none;
-  background-color: rgba(35, 38, 52, 0.84);
-  color: #c6d0f5;
-  border-radius: 15px;
+  background: alpha(@theme_base_color, 0.7);
+  color: @theme_text_color;
+  border-radius: 14px;
 }
 
 tooltip {
   background: #232634;
   border-radius: 10px;
-  border: 2px solid #11111b;
 }
 
 #workspaces button {
-  color: #c6d0f5;
-  margin-right: 5px;
+  color: @theme_fg_color;
+  padding: 0 6px;
 }
 
 #workspaces button.active {
-  color: #f4b8e4;
+  color: @theme_selected_bg_color;
 }
 
 #workspaces button.focused {
@@ -38,9 +36,10 @@ tooltip {
 }
 
 #workspaces button:hover {
-  color: #f4b8e4;
+  color: @theme_selected_bg_color;
 }
 
+#custom-playerctl,
 #cava,
 #window,
 #clock,
@@ -50,9 +49,7 @@ tooltip {
 #workspaces,
 #tray,
 #backlight {
-  padding: 5px 10px;
-  padding-bottom: 0;
-  margin: 0px 3px;
+  padding: 2px 8px;
 }
 
 #tray {
@@ -67,34 +64,35 @@ tooltip {
 }
 
 #window {
-  border-radius: 10px;
+  /* border-radius: 10px; */
   margin-left: 60px;
   margin-right: 60px;
+  font-size: 16px;
+  color: @wm_title;
 }
 
-#battery {
-  color: #a6d189;
-}
+/* #battery { */
+/*   color: #a6d189; */
+/* } */
 
-#backlight {
-  color: #99d1db;
-}
-
-#clock {
+/* #backlight { */
+/*   color: #99d1db; */
+/* } */
+/**/
+/* #clock {
   color: #fab387;
-  border-radius: 10px;
-}
-
-#network {
-  color: #f9e2af;
-  border-left: 0px;
-  border-right: 0px;
-}
-
-#pulseaudio {
-  color: #8caaee;
-}
-
-#custom-cava {
-  padding: 0;
-}
+} */
+/**/
+/* #network { */
+/*   color: #f9e2af; */
+/*   border-left: 0px; */
+/*   border-right: 0px; */
+/* } */
+/**/
+/* #pulseaudio { */
+/*   color: #8caaee; */
+/* } */
+/**/
+/* #custom-cava { */
+/*   padding: 0; */
+/* } */

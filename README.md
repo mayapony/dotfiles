@@ -16,7 +16,8 @@
 - 网易云音乐：netease-cloud-music
 - 通知管理：SwayNotificationCenter
 - 壁纸管理：swww
-- 番茄计时器：Pomatez
+- 番茄计时器：Pomatez、BreakTimer
+- 使用时间记录：ActivityWatch
 
 ### 配置
 
@@ -27,6 +28,10 @@
 #### 2. 夜间模式切换
 
 使用 yin-yang, 并且使用一些脚本, 详见 `dotfiles/scripts/yin-yang`
+
+### Tips
+
+1. 使用 sudoedit 编辑需要 root 权限的文件，可以加载 nvim 的插件并且更加安全
 
 ## Manjaro + i3
 
