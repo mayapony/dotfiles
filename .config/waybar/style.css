@@ -7,7 +7,7 @@
 }
 
 window#waybar {
-  background: alpha(@theme_base_color, 0.7);
+  background: alpha(@theme_base_color, 0.8);
   color: @theme_text_color;
   border-radius: 14px;
 }
@@ -39,6 +39,8 @@ tooltip {
   color: @theme_selected_bg_color;
 }
 
+#memory,
+#cpu,
 #custom-playerctl,
 #cava,
 #window,
@@ -64,35 +66,8 @@ tooltip {
 }
 
 #window {
-  /* border-radius: 10px; */
   margin-left: 60px;
   margin-right: 60px;
   font-size: 16px;
   color: @wm_title;
 }
-
-/* #battery { */
-/*   color: #a6d189; */
-/* } */
-
-/* #backlight { */
-/*   color: #99d1db; */
-/* } */
-/**/
-/* #clock {
-  color: #fab387;
-} */
-/**/
-/* #network { */
-/*   color: #f9e2af; */
-/*   border-left: 0px; */
-/*   border-right: 0px; */
-/* } */
-/**/
-/* #pulseaudio { */
-/*   color: #8caaee; */
-/* } */
-/**/
-/* #custom-cava { */
-/*   padding: 0; */
-/* } */

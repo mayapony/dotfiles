@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+pacman -Qei | awk '/^Name/ { name=$3 } /^Groups/ { if ( $3 != "base" && $3 != "base-devel" ) { print name } }' > ~/.dotfiles/packages.log
+
+mackup backup
+

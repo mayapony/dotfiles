@@ -18,6 +18,7 @@
 - 壁纸管理：swww
 - 番茄计时器：Pomatez、BreakTimer
 - 使用时间记录：ActivityWatch
+- cpu、内存、磁盘使用：btop
 
 ### 配置
 
