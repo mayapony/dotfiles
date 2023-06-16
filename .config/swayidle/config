@@ -1,0 +1,4 @@
+timeout 300 'swaylock --screenshots --effect-blur 7x5'
+timeout 360 'hyprctl dispatch dpms off' resume 'hyprctl dispatch dpms on'
+before-sleep 'swaylock -c "#000000"'
+

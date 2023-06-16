@@ -7,7 +7,7 @@
   "passtrough": false,
   "gtk-layer-shell": true,
   "height": 0,
-  "modules-left": ["wlr/workspaces", "clock"],
+  "modules-left": ["wlr/workspaces", "clock", "cpu", "memory"],
   "modules-center": ["hyprland/window"],
   "modules-right": [
     "custom/playerctl",
@@ -54,7 +54,7 @@
     }
   },
   "custom/playerctl": {
-    "exec": "playerctl metadata --format \"{{ title }} - {{ artist }}\" | zscroll -l 30 -b \" \"",
+    "exec": "zscroll -l 25 --delay 1 -b \" \" -u true \"playerctl metadata --format '{{ title }} - {{artist}}'\"",
     "format": "{}",
     "max-length": 30
   },
@@ -139,5 +139,15 @@
     "tooltip-format-ethernet": "{ifname} ",
     "tooltip-format-disconnected": "Disconnected",
     "max-length": 50
+  },
+  "cpu": {
+    "interval": 10,
+    "format": " {}%",
+    "max-length": 10
+  },
+  "memory": {
+    "interval": 30,
+    "format": " {}%",
+    "max-length": 10
   }
 }
