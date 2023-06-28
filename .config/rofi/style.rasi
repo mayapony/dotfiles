@@ -6,10 +6,9 @@
  */
 
 configuration {
-    font:                "霞鹜文楷 12";
     show-icons:          true;
-    icon-theme: 				 "Dracula";
-    display-drun: 			 "";
+    icon-theme: 				 "Colloid";
+    display-drun: 			 "";
     drun-display-format: "{name}";
     disable-history:     false;
     sidebar-mode: 			 false;
@@ -43,8 +42,8 @@ entry {
     placeholder-color:              @bg;
     expand:                         true;
     horizontal-align:               0;
-    placeholder:                    "Search";
-    padding:                        0.10% 0% 0% 0%;
+    placeholder:                    "";
+    padding:                        0% 0% 0% 0%;
     blink:                          true;
 }
 

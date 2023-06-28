@@ -10,3 +10,7 @@ set -gx PATH "$PNPM_HOME" $PATH
 starship init fish | source
 zoxide init fish | source
 fish_config theme choose "Rosé Pine"
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH

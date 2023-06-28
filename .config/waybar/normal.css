@@ -1,0 +1,71 @@
+* {
+  font-family: FiraCode Nerd Font, monospace;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0;
+}
+
+window#waybar {
+  border: none;
+  background: alpha(@theme_base_color, 1);
+  color: @theme_text_color;
+}
+
+tooltip {
+  background: #232634;
+}
+
+#workspaces button {
+  color: @theme_fg_color;
+  padding: 0 6px;
+}
+
+#workspaces button.active {
+  color: @theme_selected_bg_color;
+}
+
+#workspaces button.focused {
+  color: #a6adc8;
+  background: #eba0ac;
+}
+
+#workspaces button.urgent {
+  color: #a6d189;
+}
+
+#workspaces button:hover {
+  color: @theme_selected_bg_color;
+}
+
+#memory,
+#cpu,
+#custom-playerctl,
+#cava,
+#window,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#workspaces,
+#tray,
+#backlight {
+  padding: 3px 8px;
+}
+
+#tray {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+#workspaces {
+  margin-left: 5px;
+  padding-right: 0px;
+  padding-left: 5px;
+}
+
+#window {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-size: 16px;
+  color: @wm_title;
+}
