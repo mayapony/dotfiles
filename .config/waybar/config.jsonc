@@ -2,20 +2,14 @@
   "layer": "top",
   "position": "top",
   "mod": "dock",
-  "margin": "8px 10px 0 10px",
+  "margin": "5px 5px 0 5px",
   "exclusive": true,
   "passtrough": false,
   "gtk-layer-shell": true,
   "height": 0,
-  "modules-left": ["wlr/workspaces", "clock", "cpu", "memory"],
+  "modules-left": ["custom/arch", "wlr/workspaces", "custom/playerctl"],
   "modules-center": ["hyprland/window"],
-  "modules-right": [
-    "custom/playerctl",
-    "pulseaudio",
-    "backlight",
-    "battery",
-    "tray"
-  ],
+  "modules-right": ["pulseaudio", "backlight", "battery", "clock", "tray"],
   "hyprland/window": {
     "format": "{}",
     "max-length": 60
@@ -56,7 +50,11 @@
   "custom/playerctl": {
     "exec": "zscroll -l 25 --delay 1 -b \" \" -u true \"playerctl metadata --format '{{ title }} - {{artist}}'\"",
     "format": "{}",
-    "max-length": 30
+    "max-length": 30,
+    "tooltip-format": "playerctl metadata --format '{{ title }} - {{artist}}'"
+  },
+  "custom/arch": {
+    "format": "󰣇 "
   },
   "cava": {
     //        "cava_config": "$XDG_CONFIG_HOME/cava/cava.conf",
@@ -86,13 +84,10 @@
     "spacing": 10
   },
   "clock": {
-    "format": "{: %m/%d %R}",
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "calendar": {
-      "format": {
-        "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
-      }
-    }
+    "interval": 60,
+    "tooltip": true,
+    "format": " {:%H:%M}",
+    "tooltip-format": "{:%Y-%m-%d}"
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
@@ -126,7 +121,7 @@
   "backlight": {
     "device": "intel_backlight",
     "format": "{icon}{percent}%",
-    "format-icons": [" "],
+    "format-icons": [" ", " "],
     "on-click": "yin-yang -t"
   },
   "network": {

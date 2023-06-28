@@ -3,8 +3,7 @@
 cd ~
 
 export EDITOR=/usr/bin/nvim
-export BROWSER=/usr/bin/brave
-# export BROWSER=/usr/bin/google-chrome-stable
+export BROWSER=/usr/bin/google-chrome-stable
 export CHROME_EXECUTABLE=browser
 
 # Flutter 镜像
@@ -58,6 +57,10 @@ export WIREPLUMBER_DEBUG=D
 
 # My bin
 export PATH=~/.dotfiles/bin:$PATH
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Fix VSCode login github error
 # see https://unix.stackexchange.com/a/295652/332452

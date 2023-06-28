@@ -2,10 +2,11 @@
 
 ## Arch and Hyprland
 
-![](./doc/swappy-20230601-223352.png)
+![](./doc/swappy-20230628-233408.png)
 ![](./doc/swappy-20230601-223254.png)
 ![](./doc/swappy-20230505_223013.png)
-![](./doc/swappy-20230505_223118.png)
+
+主题和图标：colloid
 
 ### 常用软件
 
@@ -29,6 +30,10 @@
 #### 2. 夜间模式切换
 
 使用 yin-yang, 并且使用一些脚本, 详见 `dotfiles/scripts/yin-yang`
+
+#### 3. 字体配置
+
+字体配置参考 [Arch 文档](https://wiki.archlinuxcn.org/wiki/%E5%AD%97%E4%BD%93%E9%85%8D%E7%BD%AE/%E4%B8%AD%E6%96%87)
 
 ### Tips
 
