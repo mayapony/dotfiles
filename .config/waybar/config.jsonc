@@ -48,7 +48,7 @@
     }
   },
   "custom/playerctl": {
-    "exec": "zscroll -l 25 --delay 1 -b \" \" -u true \"playerctl metadata --format '{{ title }} - {{artist}}'\"",
+    "exec": "zscroll -l 25 --delay 1 -u true \"playerctl metadata --format '{{ title }} - {{artist}}'\"",
     "format": "{}",
     "max-length": 30,
     "tooltip-format": "playerctl metadata --format '{{ title }} - {{artist}}'"

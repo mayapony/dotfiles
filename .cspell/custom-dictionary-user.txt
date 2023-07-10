@@ -1,11 +1,19 @@
 # Custom Dictionary Words
+addfile
+asvetliakov
+autofetch
 autohide
 Caskaydia
+Catppuccin
+cmdline
+codeium
 Colour
+colourless
 cupertino
 datas
 easymotion
 elif
+Entypo
 esbenp
 essid
 Evondev
@@ -28,6 +36,7 @@ maxsize
 maya
 mayapony
 mediapipe
+neovim
 nestjs
 nivo
 nord
@@ -48,6 +57,8 @@ tailwindcss
 tfjs
 todos
 typeorm
+Underride
 vimrc
 vspacecode
 whichkey
+zellij

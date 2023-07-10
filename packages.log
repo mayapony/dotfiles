@@ -33,6 +33,7 @@ fzf
 gimp
 git
 gnome-keyring
+go-musicfox-bin
 google-chrome
 grim
 grub
@@ -72,6 +73,8 @@ onefetch
 os-prober
 pacman-mirrorlist
 polkit-kde-agent
+ponysay
+postman-bin
 python-pdm
 python-pip
 qt5ct
@@ -89,10 +92,13 @@ swaylock-effects-git
 swayosd-git
 thunar
 tlp-rdw
+tmux
+tmuxinator
 trashy
 ttf-apple-emoji
 ttf-dejavu
 ttf-font-awesome
+ttf-jetbrains-mono-nerd
 ttf-lxgw-wenkai
 ttf-roboto
 unzip
