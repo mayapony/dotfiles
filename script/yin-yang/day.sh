@@ -1,3 +1,3 @@
 #!/bin/sh
-kitty +kitten themes --reload-in all --config-file-name kitty.conf Rosé Pine Dawn
+kitty +kitten themes --reload-in all --config-file-name kitty.conf Catppuccin-Latte
 echo "🌞"

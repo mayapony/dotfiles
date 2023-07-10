@@ -6,7 +6,7 @@ local function font_with_fallback(name, params)
 end
 
 -- local font_name = "Cartograph CF"
-local font_name = "Maple Mono"
+local font_name = "FiraCode Nerd Font"
 
 local config = {
 	-- OpenGL for GPU acceleration, Software for CPU
@@ -34,7 +34,7 @@ local config = {
 		},
 	},
 	warn_about_missing_glyphs = false,
-	font_size = 12,
+	font_size = 10,
 	line_height = 1.0,
 	dpi = 157.35,
 	-- X11

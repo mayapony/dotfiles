@@ -73,6 +73,10 @@ export SSH_AUTH_SOCK
 # see https://github.com/NixOS/nixpkgs/issues/14966#issuecomment-520083836
 mkdir -p "$HOME"/.local/share/keyrings
 
+# zellij
+export ZELLIJ_AUTO_ATTACH=true
+export ZELLIJ_AUTO_EXIT=false
+
 # ==== DON'T DELETE ME =====
 Hyprland
 # ==========================

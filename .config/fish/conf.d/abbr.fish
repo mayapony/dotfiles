@@ -1,9 +1,6 @@
 #! /usr/bin/fish
 abbr --add s neofetch
 abbr --add p pnpm
-abbr --add ls 'exa --icons'
-abbr --add ll 'exa --icons -l'
-abbr --add la exa --icons -a
 abbr --add tree 'exa --icons --tree'
 abbr --add sys 'sudo systemctl'
 abbr --add c clear
