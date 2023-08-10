@@ -34,7 +34,7 @@ startup_window: editor
 startup_pane: 1
 
 windows:
-  - fish: fish
-  - editor: fish
-  - config: fish
+  - fish: null
+  - editor: null
+  - config: null
   - music: musicfox

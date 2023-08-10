@@ -77,6 +77,12 @@ mkdir -p "$HOME"/.local/share/keyrings
 export ZELLIJ_AUTO_ATTACH=true
 export ZELLIJ_AUTO_EXIT=false
 
+# python rye
+# source ~/.rye/env
+
+# conda
+[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
+
 # ==== DON'T DELETE ME =====
 Hyprland
 # ==========================

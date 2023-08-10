@@ -8,7 +8,7 @@ __build_info:
     punctuation: 1654509031
     punctuation.custom: 0
     stroke.custom: 0
-    stroke.schema: 1688428056
+    stroke.schema: 1691499838
 abc_segmentor:
   extra_tags:
     - reverse_lookup
