@@ -68,7 +68,7 @@ local config = {
 	enable_tab_bar = false,
 	-- General
 	automatically_reload_config = true,
-	window_background_opacity = 0.9,
+	window_background_opacity = 1,
 	window_close_confirmation = "NeverPrompt",
 }
 

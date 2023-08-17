@@ -9,6 +9,7 @@ cmdline
 codeium
 Colour
 colourless
+cumsum
 cupertino
 datas
 easymotion
@@ -38,6 +39,7 @@ maya
 mayapony
 mediapipe
 Millis
+Multinomial
 neovim
 nestjs
 nivo
@@ -50,6 +52,7 @@ pixelsize
 pnpm
 Pressable
 pulseaudio
+pyplot
 rasi
 rehype
 Rosé
