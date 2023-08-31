@@ -5,8 +5,7 @@ local function font_with_fallback(name, params)
 	return wezterm.font_with_fallback(names, params)
 end
 
--- local font_name = "Cartograph CF"
-local font_name = "FiraCode Nerd Font"
+local font_name = "Hack Nerd Font"
 
 local config = {
 	-- OpenGL for GPU acceleration, Software for CPU
@@ -22,7 +21,7 @@ local config = {
 		},
 		{
 			italic = false,
-			font = font_with_fallback(font_name, { bold = false }),
+			font = font_with_fallback(font_name, { italic = false }),
 		},
 		{
 			intensity = "Bold",
@@ -92,10 +91,21 @@ table.insert(config.hyperlink_rules, {
 })
 
 function scheme_for_appearance(appearance)
+	local themes = {
+		Catppuccin = {
+			light = "Catppuccin Latte",
+			dark = "Catppuccin Mocha",
+		},
+		RosePine = {
+			light = "rose-pine-dawn",
+			dark = "rose-pin-moon",
+		},
+	}
+	local theme = themes["RosePine"]
 	if appearance:find("Dark") then
-		return "Catppuccin Mocha"
+		return theme.dark
 	else
-		return "Catppuccin Latte"
+		return theme.light
 	end
 end
 

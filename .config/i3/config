@@ -33,7 +33,8 @@ tiling_drag modifier titlebar
 bindsym Print exec --no-startup-id flameshot gui
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id "wezterm start tmuxinator start kitty -n kitty"
+# bindsym $mod+Return exec --no-startup-id "wezterm start tmuxinator start kitty -n kitty"
+bindsym $mod+Return exec --no-startup-id wezterm
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -160,24 +161,36 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Defining colors
-set $bg      #11111b
-set $lg      #1e1e2e
-set $fg      #cdd6f4
-set $cyan    #8be9fd
-set $green   #50fa7b
+# Catppuccin
+# set $bg      #11111b
+# set $lg      #1e1e2e
+# set $fg      #cdd6f4
+# set $cyan    #8be9fd
+# set $green   #50fa7b
+# set $magenta #ff79c6
+# set $comment #6272a4
+# set $purple  #bd93f9
+# set $pink    #f5c2e7	
+
+# Gruvbox
+set $bg      #1d2021
+set $lg      #282828
+set $fg      #ebdbb2
+set $cyan    #458588
+set $green   #689d6a
 set $magenta #ff79c6
 set $comment #6272a4
-set $purple  #bd93f9
+set $purple  #b16286
 set $pink    #f5c2e7	
 
 
 # Set some nice colors      border   background text     indicator
-client.focused              $pink    $pink      $pink    $comment
+client.focused              $purple    $purple      $purple    $comment
 client.unfocused            $bg      $lg        $fg			 $bg
 client.focused_inactive     $bg      $bg        $green   $bg
-client.urgent               $bg      $bg        $magenta $bg
+client.urgent               $bg      $bg        $purple $bg
 client.placeholder          $bg      $bg        $cyan    $bg
-client.background       		#2B2C2B
+client.background       		$bg
 
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 bar {
@@ -185,10 +198,10 @@ bar {
     status_command i3status
     colors {
         background 					$bg
-        focused_workspace   $pink      $pink  	$bg
-        active_workspace    $bg        $bg      $pink
+        focused_workspace   $purple      $purple  	$bg
+        active_workspace    $bg        $bg      $purple
         inactive_workspace  $bg        $bg      $fg
-        urgent_workspace    $bg        $bg      $magenta
+        urgent_workspace    $bg        $bg      $purple
         background          $bg
     }
 }
@@ -208,4 +221,5 @@ exec --no-startup-id darkman set dark
 exec --no-startup-id ~/.dotfiles/script/xinput.sh
 # exec --no-startup-id ~/.appimages/简悦 · 同步助手-1.2.0.AppImage
 exec --no-startup-id simpread-sync --sync-path "/home/maya/Nutstore Files/SimpRead"
-exec --no-startup-id nutstore
+# exec --no-startup-id nutstore
+exec --no-startup-id ~/.config/i3/env.sh

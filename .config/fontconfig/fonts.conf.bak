@@ -47,7 +47,7 @@
       <string>monospace</string>
     </test>
     <edit name="family" mode="prepend" binding="strong">
-      <string>Input Mono</string>
+      <string>Hack Nerd Font Bold</string>
     </edit>
   </match>
 
