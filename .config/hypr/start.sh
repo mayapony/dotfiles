@@ -3,7 +3,7 @@
 cd ~
 
 export EDITOR=/usr/bin/nvim
-export BROWSER=/usr/bin/google-chrome-stable
+export BROWSER=/usr/bin/microsoft-edge-stable
 export CHROME_EXECUTABLE=browser
 
 # Flutter 镜像

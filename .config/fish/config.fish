@@ -33,12 +33,16 @@ if type -q exa
 	alias nvim "nvim --listen /tmp/nvim.pipe"
 end
 
+# @link https://www.joshmedeski.com/posts/popup-history-with-tmux-and-fzf/
+# popup history with tmux and fzf
+set -U FZF_CTRL_R_OPTS "--reverse"
+set -U FZF_TMUX_OPTS "-p"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-# if test -f /opt/miniconda3/bin/conda
-#     eval /opt/miniconda3/bin/conda "shell.fish" "hook" $argv | source
-# 		export TERMINFO="/usr/share/terminfo"
-# end
+if test -f /opt/miniconda3/bin/conda
+    eval /opt/miniconda3/bin/conda "shell.fish" "hook" $argv | source
+		export TERMINFO="/usr/share/terminfo"
+end
 # <<< conda initialize <<<
 

@@ -18,3 +18,5 @@ abbr --add vide env -u WAYLAND_DISPLAY neovide --multigrid
 abbr --add rm trash
 abbr --add trash rm
 abbr --add j zi
+
+abbr --add kt tmuxinator start kitty -n kitty
