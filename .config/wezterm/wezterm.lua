@@ -1,37 +1,19 @@
 local wezterm = require("wezterm")
 
 local function font_with_fallback(name, params)
-	local names = { name, "Apple Color Emoji", "Font Awesome" }
+	local names = { name, "Font Awesome", "Apple Color Emoji" }
 	return wezterm.font_with_fallback(names, params)
 end
 
 local font_name = "Hack Nerd Font"
 
 local config = {
-	-- OpenGL for GPU acceleration, Software for CPU
-	-- front_end = "OpenGL",
 	front_end = "OpenGL",
-	default_cursor_style = "BlinkingBlock",
-	-- Font config
 	font = font_with_fallback(font_name),
-	font_rules = {
-		{
-			italic = true,
-			font = font_with_fallback(font_name, { italic = true }),
-		},
-		{
-			italic = false,
-			font = font_with_fallback(font_name, { italic = false }),
-		},
-		{
-			intensity = "Bold",
-			font = font_with_fallback(font_name, { bold = true }),
-		},
-	},
 	warn_about_missing_glyphs = false,
 	font_size = 16,
 	line_height = 1.2,
-	-- dpi = 157.35,
+	window_decorations = "RESIZE", -- dpi = 157.35,
 	-- X11
 	enable_wayland = true,
 	-- Keybinds

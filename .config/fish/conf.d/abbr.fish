@@ -11,7 +11,6 @@ abbr --add p pnpm
 abbr --add pa pnpm add
 abbr --add pi pnpm install
 abbr --add pd pnpm add -D
-abbr --add d pnpm dev
 abbr --add cat bat
 abbr --add vide env -u WAYLAND_DISPLAY neovide --multigrid
 
