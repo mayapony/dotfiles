@@ -1,3 +1,2 @@
 .vscode
-.local/share/fcitx5/rime/luna_pinyin.userdb
-.local/share/fcitx5/rime/luna_pinyin.userdb/*
+.local/share/fcitx5/fcitx5/rime/build
