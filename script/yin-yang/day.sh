@@ -1,17 +1,12 @@
 #!/bin/bash
-kitty +kitten themes --reload-in all --config-file-name kitty.conf Catppuccin-Latte;
-# kitty +kitten themes --reload-in all --config-file-name kitty.conf Gruvbox Light Hard;
-
-# tmux set -g window-style 'bg=#eff1f5';
-tmux set -g @catppuccin_flavour 'latte';
-~/.tmux/plugins/tpm/tpm;
+# kitty +kitten themes --reload-in all --config-file-name kitty.conf Rosé Pine Dawn;
+kitty +kitten themes --reload-in all --config-file-name kitty.conf Everforest Light Medium;
 
 tmux set -g "window-style" "bg=default";
 tmux set -g "window-active-style" "bg=default";
-# tmux set -g status-bg default;
-# tmux set-option -g status-style bg=default;
 
 darkman set light;
+# sed -i 's/Theme=\(.*\)/Theme=rose-pine-dawn/' ~/.config/fcitx5/conf/classicui.conf
 
 echo "light";
 

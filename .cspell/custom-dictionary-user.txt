@@ -4,6 +4,7 @@ arange
 asvetliakov
 autofetch
 autohide
+Cascadia
 Caskaydia
 Catppuccin
 cmdline

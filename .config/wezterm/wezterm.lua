@@ -1,11 +1,11 @@
 local wezterm = require("wezterm")
 
 local function font_with_fallback(name, params)
-	local names = { name, "Font Awesome", "Apple Color Emoji" }
+	local names = { name, "Apple Color Emoji" }
 	return wezterm.font_with_fallback(names, params)
 end
 
-local font_name = "Hack Nerd Font"
+local font_name = "Caskaydia Cove Nerd Font"
 
 local config = {
 	front_end = "OpenGL",
@@ -15,7 +15,7 @@ local config = {
 	line_height = 1.2,
 	window_decorations = "RESIZE", -- dpi = 157.35,
 	-- X11
-	enable_wayland = true,
+	enable_wayland = false,
 	-- Keybinds
 	disable_default_key_bindings = true,
 	keys = {
@@ -80,7 +80,7 @@ function scheme_for_appearance(appearance)
 		},
 		RosePine = {
 			light = "rose-pine-dawn",
-			dark = "rose-pin-moon",
+			dark = "rose-pine-moon",
 		},
 	}
 	local theme = themes["RosePine"]

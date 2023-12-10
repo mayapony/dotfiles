@@ -34,7 +34,7 @@ bindsym Print exec --no-startup-id flameshot gui
 
 # start a terminal
 # bindsym $mod+Return exec --no-startup-id "wezterm start tmuxinator start kitty -n kitty"
-bindsym $mod+Return exec --no-startup-id wezterm
+bindsym $mod+Return exec --no-startup-id kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -73,6 +73,9 @@ bindsym $mod+a focus parent
 
 # 防止切换workspace时失去焦点
 focus_follows_mouse no
+
+focus_on_window_activation none
+no_focus [class="wemeetapp"]
 
 # focus the child container
 #bindsym $mod+d focus child
@@ -219,7 +222,7 @@ exec --no-startup-id copyq --start-server
 exec --no-startup-id darkman set dark
 # exec --no-startup-id ~/.dotfiles/script/at-watcher.sh
 exec --no-startup-id ~/.dotfiles/script/xinput.sh
-# exec --no-startup-id ~/.appimages/简悦 · 同步助手-1.2.0.AppImage
-exec --no-startup-id simpread-sync --sync-path "/home/maya/Nutstore Files/SimpRead"
+# exec --no-startup-id simpread-sync --sync-path "/home/maya/Nutstore Files/SimpRead"
 # exec --no-startup-id nutstore
-exec --no-startup-id ~/.config/i3/env.sh
+# exec --no-startup-id ~/.config/i3/env.sh
+# exec --no-startup-id ~/.dotfiles/script/aw/x11.sh
