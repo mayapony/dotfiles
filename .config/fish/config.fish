@@ -18,6 +18,9 @@ set -gx PNPM_HOME "/home/mayapony/.local/share/pnpm"
 set -gx PATH "$PNPM_HOME" $PATH
 # pnpm end
 
+# npm
+set --export PATH "$HOME/.npm/bin:$PATH"
+
 starship init fish | source
 zoxide init fish | source
 fish_config theme choose "Rosé Pine"
@@ -30,13 +33,16 @@ if type -q exa
 	alias ls "exa --icons"
 	alias ll "exa --icons -l"
 	alias la "exa --icons -a"
-	alias nvim "nvim --listen /tmp/nvim.pipe"
+	# alias nvim "nvim --listen /tmp/nvim.pipe"
 end
 
 # @link https://www.joshmedeski.com/posts/popup-history-with-tmux-and-fzf/
 # popup history with tmux and fzf
 set -U FZF_CTRL_R_OPTS "--reverse"
 set -U FZF_TMUX_OPTS "-p"
+
+# add my script to PATH
+export PATH="$HOME/.dotfiles/bin:$PATH"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

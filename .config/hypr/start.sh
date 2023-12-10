@@ -29,11 +29,6 @@ export PATH=$GOBIN:$PATH
 # rust
 export PATH=~/.cargo/bin:$PATH
 
-# npm && pnpm
-export PATH=~/.npm/bin:$PATH
-export PNPM_HOME=~/.local/share/pnpm
-export PATH=$PNPM_HOME:$PATH
-
 # fcitx5
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
@@ -57,6 +52,12 @@ export WIREPLUMBER_DEBUG=D
 
 # My bin
 export PATH=~/.dotfiles/bin:$PATH
+
+# npm && pnpm
+export NPM_HOME=~/.npm/bin
+export PNPM_HOME=~/.local/share/pnpm
+export PATH=$PNPM_HOME:$PATH
+export PATH=$NPM_HOME:$PATH
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
