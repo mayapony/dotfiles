@@ -1,3 +1,0 @@
-Bash Programming Language.  Python Programming Language. Perl Programming Language.
-Hypertext Markup Language.
-Extensible Markup Language.

@@ -1,9 +1,0 @@
-#!/bin/bash
-
-if [[ "$(darkman get)" =~ "dark" ]]
-then
-	/bin/nvim $1 --cmd "set background=dark"
-else
-	/bin/nvim $1 --cmd "set background=light"
-fi
-
