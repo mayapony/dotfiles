@@ -1,5 +1,0 @@
-.vscode
-.local/share/fcitx5/fcitx5/rime/build
-.config/lazygit/state.yml
-.config/ranger/plugins/__pycache__
-.config/tmux/plugins
