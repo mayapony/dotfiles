@@ -37,7 +37,6 @@ go-musicfox-bin
 grim
 grub
 gtk-theme-arc-gruvbox-git
-hyprland-nvidia
 hyprpaper
 i3-wm
 i3exit
@@ -50,7 +49,6 @@ jq
 kdialog
 kitty
 kvantum-git
-kvantum-theme-layan-git
 lazygit
 libgnome-keyring
 linux
@@ -146,7 +144,6 @@ xarchiver
 xclip
 xdg-desktop-portal-hyprland
 xss-lock
-yazi-bin
 zathura
 zenity
 zip

@@ -41,7 +41,7 @@
 
 ## Manjaro + i3
 
-![](https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210810123202.png)
+![](https://gitee.com/maya/pic-dog/raw/master/imgs/20210810123202.png)
 
 ### 一、关于 i3 的一些设置
 
@@ -67,7 +67,7 @@
 
 #### 1) 截图
 
-![](https://gitee.com/mayapony/pic-dog/raw/master/imgs/20211029115030.png)
+![](https://gitee.com/maya/pic-dog/raw/master/imgs/20211029115030.png)
 
 ### 二、pacman 问题
 
@@ -195,7 +195,7 @@ sudo echo 'xset -b' >> ~/.xprofile
 
 修改 `i3` 配置
 
-![](https://gitee.com/mayapony/pic-dog/raw/master/imgs/20210615160204.png)
+![](https://gitee.com/maya/pic-dog/raw/master/imgs/20210615160204.png)
 
 ```
 just in case anyone is still interested, I had it working on the first try.
@@ -272,7 +272,7 @@ archlinux-java --help # 使用set命令
 
 doom-emacs 建议
 
-![](https://gitee.com/mayapony/pic-dog/raw/master/imgs/20211029201137.png)
+![](https://gitee.com/maya/pic-dog/raw/master/imgs/20211029201137.png)
 
 ## 十、一些位置
 
@@ -282,4 +282,4 @@ appiamge 存放位置：`/opt/appimages` 用户位置：`~/.appimages`
 
 ## 十一、现在的分区大小
 
-![](https://gitee.com/mayapony/pic-dog/raw/master/imgs/20220209103151.png)
+![](https://gitee.com/maya/pic-dog/raw/master/imgs/20220209103151.png)
