@@ -23,7 +23,6 @@ set --export PATH "$HOME/.npm/bin:$PATH"
 
 starship init fish | source
 zoxide init fish | source
-fish_config theme choose "Rosé Pine"
 
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
