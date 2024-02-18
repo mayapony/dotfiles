@@ -1,0 +1,63 @@
+gui:
+  # stuff relating to the UI
+  scrollHeight: 2 # how many lines you scroll by
+  scrollPastBottom: true # enable scrolling past the bottom
+  sidePanelWidth: 0.3333 # number from 0 to 1
+  expandFocusedSidePanel: false
+  mainPanelSplitMode: "flexible" # one of 'horizontal' | 'flexible' | 'vertical'
+  language: "auto" # one of 'auto' | 'en' | 'zh' | 'pl' | 'nl' | 'ja' | 'ko'
+  timeFormat: "02 Jan 06 15:04 MST" # https://pkg.go.dev/time#Time.Format
+  theme:
+    lightTheme: false # For terminals with a light background
+    activeBorderColor:
+      - green
+      - bold
+    inactiveBorderColor:
+      - white
+    optionsTextColor:
+      - blue
+    selectedLineBgColor:
+      - black # set to `default` to have no background colour
+    selectedRangeBgColor:
+      - green
+    cherryPickedCommitBgColor:
+      - cyan
+    cherryPickedCommitFgColor:
+      - blue
+    unstagedChangesColor:
+      - red
+  commitLength:
+    show: true
+  mouseEvents: true
+  skipDiscardChangeWarning: false
+  skipStashWarning: false
+  showFileTree: true # for rendering changes files in a tree format
+  showListFooter: true # for seeing the '5 of 20' message in list panels
+  showRandomTip: true
+  showBottomLine: true # for hiding the bottom information line (unless it has important information to tell you)
+  showCommandLog: true
+  showIcons: false
+  commandLogSize: 8
+  splitDiff: "auto" # one of 'auto' | 'always'
+customCommands:
+  - key: "C"
+    prompts:
+      - type: "menu"
+        title: "What kind of commit is it?"
+        options:
+          - name: "start\U0001F389: 开始一个新项目"
+            value: "\U0001F389 "
+          - name: "feat✨: 引入新功能"
+            value: "✨ "
+          - name: "fix\U0001F41B: 修复bug"
+            value: "\U0001F41B "
+          - name: "doc📝: 文档"
+            value: "📝 "
+          - name: "♻️ refactor"
+            value: "♻️ "
+      - type: "input"
+        title: "What is the commit message"
+        initialValue: ""
+    command: 'git commit -m "{{index .PromptResponses 0}}{{index .PromptResponses 1}}"'
+    context: "files"
+    loadingText: "add commit"
