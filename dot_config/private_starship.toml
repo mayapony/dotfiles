@@ -1,0 +1,40 @@
+add_newline = false
+
+[character]
+# Note the use of Catppuccin color 'maroon'
+success_symbol = "[❯](green)" # 
+vicmd_symbol = "[\ue62b](green)" # 
+error_symbol = "[❯](red)" # 
+
+[directory]
+style = "red bold"
+
+[package]
+disabled = true
+
+[username]
+disabled = true
+
+[hostname]
+disabled = true
+
+[aws]
+disabled = true
+
+[docker_context]
+disabled = true
+
+[git_branch]
+disabled = true
+
+[git_commit]
+disabled = true
+
+[git_state]
+disabled = true
+
+[git_metrics]
+disabled = true
+
+[git_status]
+disabled = true

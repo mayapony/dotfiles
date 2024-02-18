@@ -1,0 +1,10 @@
+lastupdatecheck: 0
+recentrepos:
+- /home/maya/.local/share/chezmoi
+- /home/maya/.dotfiles
+- /home/maya/Downloads/dotfiles
+startuppopupversion: 5
+customcommandshistory:
+- q
+hidecommandlog: false
+ignorewhitespaceindiffview: false
