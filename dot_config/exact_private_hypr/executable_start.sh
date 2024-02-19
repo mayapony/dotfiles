@@ -2,6 +2,10 @@
 
 cd ~
 
+# https://wiki.archlinuxcn.org/wiki/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E6%9C%AC%E5%9C%B0%E5%8C%96
+export LANG=en_US.UTF-8
+# export LANGUAGE=zh_CN:en_US
+
 export EDITOR=/usr/bin/nvim
 export BROWSER=/usr/bin/microsoft-edge-stable
 export CHROME_EXECUTABLE=browser
@@ -30,7 +34,7 @@ export PATH=$GOBIN:$PATH
 export PATH=~/.cargo/bin:$PATH
 
 # fcitx5
-export GTK_IM_MODULE=fcitx
+# export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 
@@ -67,6 +71,14 @@ export PATH=$NPM_HOME:$PATH
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# use neovim read man page
+export MANPAGER='nvim +Man!'
+
+# fzf use fd
+export FZF_DEFAULT_COMMAND="fd . $HOME"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="fd -t d . $HOME"
 
 # ==== DON'T DELETE ME =====
 Hyprland
