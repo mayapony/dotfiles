@@ -1019,6 +1019,6 @@ include "Rosé Pine.conf"
 
 
 # BEGIN_KITTY_THEME
-# Catppuccin-Mocha
+# Material Dark
 include current-theme.conf
 # END_KITTY_THEME
