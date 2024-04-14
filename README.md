@@ -2,6 +2,38 @@
 
 使用我的配置: `sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply mayapony`
 
+```
+sudo apt install fzf neovim fish ripgrep nodejs zoxide exa git curl tmux
+curl -sS https://starship.rs/install.sh | sh
+
+ln -s /mnt/c/Users/maya/Downloads Downloads
+
+`sh -c "$(curl -fsLS get.chezmoi.io/lb)" -- init --apply mayapony`
+
+❯ fisher list
+rose-pine/fish
+edc/bass
+patrickf1/fzf.fish
+jorgebucaran/fisher
+jorgebucaran/nvm.fish
+franciscolourenco/don
+
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+patrickf1/fzf.fish
+
+sudo apt install default-jre
+sudo apt install default-jdk
+
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+sudo chmod u+x nvim.appimage
+sudo mv nvim.appimage /usr/local/bin/nvim
+sudo apt install fuse`
+git clone git@github.com:mayapony/ponvim.git ~/.config/nvim
+
+bash -c 'some bash command'
+chsh -s /usr/local/bin/fish`
+```
+
 ## Arch and Hyprland
 
 ![](./doc/swappy-20230628-233408.png)
