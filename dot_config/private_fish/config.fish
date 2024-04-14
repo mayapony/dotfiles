@@ -43,21 +43,5 @@ set -U FZF_TMUX_OPTS "-p"
 
 # add my script to PATH
 export PATH="$HOME/.config/fish/scripts:$PATH"
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-if test -f /opt/mambaforge/bin/conda
-    eval /opt/mambaforge/bin/conda "shell.fish" "hook" $argv | source
-else
-    if test -f "/opt/mambaforge/etc/fish/conf.d/conda.fish"
-        . "/opt/mambaforge/etc/fish/conf.d/conda.fish"
-    else
-        set -x PATH "/opt/mambaforge/bin" $PATH
-    end
-end
-
-if test -f "/opt/mambaforge/etc/fish/conf.d/mamba.fish"
-    source "/opt/mambaforge/etc/fish/conf.d/mamba.fish"
-end
-# <<< conda initialize <<<
+export PATH="$HOME/.local/bin:$PATH"
 
