@@ -14,7 +14,7 @@ set -g theme_title_use_abbreviated_path yes
 set -g theme_display_vi yes
 
 # pnpm
-set -gx PNPM_HOME "/home/mayapony/.local/share/pnpm"
+set -gx PNPM_HOME "$HOME/.local/share/pnpm"
 set -gx PATH "$PNPM_HOME" $PATH
 # pnpm end
 
