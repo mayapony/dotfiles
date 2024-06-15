@@ -1,0 +1,40 @@
+export EDITOR=/usr/bin/nvim
+export BROWSER=/usr/bin/firefox
+export CHROME_EXECUTABLE=browser
+
+# Flutter 镜像
+export PUB_HOSTED_URL=https://pub.flutter-io.cn
+export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
+
+# Java
+export JAVA_HOME=/usr/lib/jvm/default
+export PATH=$JAVA_HOME/bin:$PATH
+
+# Android
+export ANDROID_SDK_ROOT=~/Android/Sdk
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools/
+export PATH=$PATH:$ANDROID_SDK_ROOT/tols/bin/
+export PATH=$PATH:$ANDROID_SDK_ROOT/tools/
+
+# rust
+export PATH=~/.cargo/bin:$PATH
+
+# fcitx5
+export XMODIFIERS=@im=fcitx
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export SDL_IM_MODULE=fcitx
+export GLFW_IM_MODULE=ibus
+
+# My bin
+export PATH=~/.dotfiles/bin:$PATH
+
+# npm && pnpm
+export NPM_HOME=~/.npm/bin
+export PNPM_HOME=~/.local/share/pnpm
+export PATH=$PNPM_HOME:$PATH
+export PATH=$NPM_HOME:$PATH
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
