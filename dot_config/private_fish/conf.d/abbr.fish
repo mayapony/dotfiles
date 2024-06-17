@@ -17,7 +17,10 @@ abbr --add top btop
 abbr --add df duf
 abbr --add bf chezmoi
 
-function cpr  
+# git
+abbr --add gst "git status"
+
+function cpr
   rsync --archive -hh --partial --info=stats1,progress2 --modify-window=1 $argv  
 end
 
