@@ -6,3 +6,15 @@ encryption = "age"
     identity = "~/.config/chezmoi/key.txt"
     recipient = "age1laelxs9qs7c7shtppywldu6heejh3hl3guwr7jvre549wmdsdv0scwlgjl"
 encryption = "age"
+
+[diff]
+		command = "delta"
+
+[merge]
+    command = "nvim"
+    args = [
+        "-d",
+        {{ printf "%q" "{{ .Destination }}" }},
+        {{ printf "%q" "{{ .Source }}" }},
+        {{ printf "%q" "{{ .Target }}" }},
+    ]

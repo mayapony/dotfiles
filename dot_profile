@@ -35,6 +35,3 @@ export PNPM_HOME=~/.local/share/pnpm
 export PATH=$PNPM_HOME:$PATH
 export PATH=$NPM_HOME:$PATH
 
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
