@@ -6,3 +6,6 @@ alias vi=nvim
 alias ls="eza --icons -1"
 alias ll="eza --icons -l"
 alias la="eza --icons -a"
+alias tree="exa --icons --tree"
+alias bf=chezmoi
+alias pac=sudo pacman
