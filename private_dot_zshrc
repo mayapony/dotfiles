@@ -119,3 +119,5 @@ unset key
 for file in ~/.zsh/*.zsh; do
     source "$file"
 done
+
+eval "$(zoxide init zsh)"

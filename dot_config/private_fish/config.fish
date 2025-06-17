@@ -29,10 +29,10 @@ zoxide init fish | source
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
 
-if type -q exa
-	alias ls "exa --icons -1"
-	alias ll "exa --icons -l"
-	alias la "exa --icons -a"
+if type -q eza
+	alias ls "eza --icons"
+	alias ll "eza --icons -l"
+	alias la "eza --icons -a"
 	# alias nvim "nvim --listen /tmp/nvim.pipe"
 end
 

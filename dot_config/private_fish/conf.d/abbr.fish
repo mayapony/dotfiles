@@ -2,7 +2,7 @@
 abbr --add tree 'exa --icons --tree'
 abbr --add sys 'sudo systemctl'
 abbr --add c clear
-abbr --add lg lazygit
+abbr --add lg lazygit --ucd "~/.config/lazygit"
 abbr --add vi nvim
 abbr --add pac 'sudo pacman'
 abbr --add ec 'emacsclient -nw'
