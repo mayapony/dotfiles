@@ -121,3 +121,4 @@ for file in ~/.zsh/*.zsh; do
 done
 
 eval "$(zoxide init zsh)"
+eval "$(fnm env --use-on-cd --shell zsh)"
