@@ -52,8 +52,8 @@ case "$SYSTEM" in
         sudo pacman -S --needed --noconfirm "${COMMON_PACKAGES[@]}"
         ;;
     darwin)
-        brew install "${COMMON_PACKAGES[@]}"
-        ;;
+				echo "skip"
+				;;
     *)
         echo "错误：不支持的系统类型: $SYSTEM"
         exit 1
@@ -66,14 +66,14 @@ if [[ "$SYSTEM" == "linux" ]]; then
     sudo pacman -S --needed --noconfirm "${ARCH_PACKAGES[@]}"
 elif [[ "$SYSTEM" == "darwin" ]]; then
     echo ">> 安装 macOS 独占包: ${MACOS_PACKAGES[*]}"
-    brew install "${MACOS_PACKAGES[@]}"
+		echo "skip"
 fi
 
 # 清理缓存
 echo ">> 清理缓存..."
 case "$SYSTEM" in
     linux) sudo pacman -Scc --noconfirm ;;
-    darwin) brew cleanup ;;
+    darwin) echo "skip"
 esac
 
 echo "=== 安装完成 ==="
