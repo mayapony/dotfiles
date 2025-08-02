@@ -19,6 +19,9 @@ zmodule termtitle
 # Utility aliases and functions. Adds colour to ls, grep and less.
 zmodule utility
 
+# exa for better ls...
+zmodule exa
+
 #
 # Prompt
 #
@@ -54,6 +57,7 @@ zmodule zsh-users/zsh-history-substring-search
 zmodule zsh-users/zsh-autosuggestions
 zmodule pabloariasal/zfm
 zmodule Aloxaf/fzf-tab
+zmodule joke/zim-starship
 
 # }}} End configuration added by Zim install
 
