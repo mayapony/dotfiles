@@ -18,6 +18,7 @@ zmodule exa
 #
 # Prompt
 #
+# https://github.com/sindresorhus/pure
 zmodule sindresorhus/pure --source async.zsh --source pure.zsh
 
 #
