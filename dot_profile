@@ -35,3 +35,5 @@ export PNPM_HOME=~/.local/share/pnpm
 export PATH=$PNPM_HOME:$PATH
 export PATH=$NPM_HOME:$PATH
 
+
+. "$HOME/.local/bin/env"

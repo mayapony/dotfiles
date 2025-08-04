@@ -18,23 +18,37 @@ disabled = true
 [hostname]
 disabled = true
 
-[aws]
-disabled = true
+[custom.upstream_behind]
+command = '''
+# 检查是否在 Git 仓库中
+git rev-parse --git-dir > /dev/null 2>&1 || exit
 
-[docker_context]
-disabled = true
+# 检查是否存在 upstream 远程仓库
+git remote | grep -q "^upstream$" || exit
 
-[git_branch]
-disabled = true
+# 获取当前分支名
+current=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
 
-[git_commit]
-disabled = true
+# 确定上游分支（优先 main，其次 master）
+upstream="upstream/main"
+git rev-parse --verify $upstream > /dev/null 2>&1 || upstream="upstream/master"
+git rev-parse --verify $upstream > /dev/null 2>&1 || exit
 
-[git_state]
-disabled = true
+# 使用 git status 的方式获取准确的领先/落后信息
+# 先确保有最新的远程信息（可选，但更准确）
+# git fetch upstream > /dev/null 2>&1
 
-[git_metrics]
-disabled = true
-
-[git_status]
-disabled = true
+# 获取当前分支相对于上游分支的状态
+counts=$(git rev-list --left-right --count $current...$upstream 2>/dev/null)
+if [ $? -eq 0 ] && [ -n "$counts" ]; then
+    ahead=$(echo $counts | cut -d' ' -f1)
+    behind=$(echo $counts | cut -d' ' -f2)
+    
+    # 只有真正落后时才显示红点
+    [ "$behind" -gt 0 ] && echo "🔴"
+fi
+'''
+when = "git rev-parse --git-dir"
+format = "$output"
+style = "bold red"
+shell = ["bash", "--noprofile", "--norc"]

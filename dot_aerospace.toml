@@ -12,6 +12,18 @@ enable-normalization-opposite-orientation-for-nested-containers = false
 # Mouse follows focus when focused monitor changes
 on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 
+[workspace-to-monitor-force-assignment]
+    1 = 'main'                       # Main monitor
+    2 = 'main'                       # Main monitor
+    3 = 'main'                       # Main monitor
+    4 = 'main'                       # Main monitor
+    5 = 'main'                       # Main monitor
+    6 = 'main'                       # Main monitor
+    7 = 'main'                       # Main monitor
+    A = 'secondary'                  # Non-main monitor in case when there are only two monitors
+    S = 'secondary'                  # Non-main monitor in case when there are only two monitors
+    D = 'secondary'                  # Non-main monitor in case when there are only two monitors
+
 [mode.main.binding]
     # See: https://nikitabobko.github.io/AeroSpace/goodies#open-a-new-window-with-applescript
     alt-enter = '''exec-and-forget osascript -e '
@@ -21,17 +33,12 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
     end tell'
     '''
 
-    # i3 wraps focus by default
-    alt-h =         'focus --boundaries-action wrap-around-the-workspace left'
-    alt-j =         'focus --boundaries-action wrap-around-the-workspace down'
-    alt-k =         'focus --boundaries-action wrap-around-the-workspace up'
-    alt-l = 'focus --boundaries-action wrap-around-the-workspace right'
     # normalizations
 
-    alt-f = 'fullscreen'
+    # alt-f = 'fullscreen'
 
-    alt-s = 'layout v_accordion' # 'layout stacking' in i3
-    alt-w = 'layout h_accordion' # 'layout tabbed' in i3
+    alt-v = 'layout v_accordion' # 'layout stacking' in i3
+    alt-t = 'layout h_accordion' # 'layout tabbed' in i3
     alt-e = 'layout tiles horizontal vertical' # 'layout toggle split' in i3
 
     alt-shift-space = 'layout floating tiling' # 'floating toggle' in i3
@@ -54,6 +61,9 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
     alt-8 = 'workspace 8'
     alt-9 = 'workspace 9'
     alt-0 = 'workspace 10'
+    alt-a = 'workspace A'
+    alt-s = 'workspace S'
+    alt-d = 'workspace D'
 
     alt-shift-1 = 'move-node-to-workspace 1'
     alt-shift-2 = 'move-node-to-workspace 2'
@@ -65,15 +75,9 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
     alt-shift-8 = 'move-node-to-workspace 8'
     alt-shift-9 = 'move-node-to-workspace 9'
     alt-shift-0 = 'move-node-to-workspace 10'
+    alt-shift-a = 'move-node-to-workspace A'
+    alt-shift-s = 'move-node-to-workspace S'
+    alt-shift-d = 'move-node-to-workspace D'
 
     alt-shift-c = 'reload-config'
 
-    alt-r = 'mode resize'
-
-[mode.resize.binding]
-    h = 'resize width -50'
-    j = 'resize height +50'
-    k = 'resize height -50'
-    l = 'resize width +50'
-    enter = 'mode main'
-    esc = 'mode main'
