@@ -6,7 +6,7 @@ alias vi=nvim
 alias pac="sudo pacman"
 
 # chezmoi
-alias vib="chezmoi edit"
+alias bfv="chezmoi edit"
 alias bf=chezmoi
 alias bfd="chezmoi diff"
 alias bfa="chezmoi apply"
