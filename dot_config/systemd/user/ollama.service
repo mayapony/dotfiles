@@ -1,0 +1,17 @@
+[Unit]
+Description=Ollama AI Service
+Documentation=https://ollama.ai/
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/ollama serve
+Restart=always
+RestartSec=3
+Environment=OLLAMA_HOST=0.0.0.0:11434
+WorkingDirectory=%h
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target
