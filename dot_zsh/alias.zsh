@@ -11,3 +11,6 @@ alias bf=chezmoi
 alias bfd="chezmoi diff"
 alias bfa="chezmoi apply"
 alias bfc="chezmoi cd"
+
+# docker
+alias docker=podman
