@@ -35,3 +35,16 @@ export NODE_PATH="$HOME/.env/node_modules"
 export PATH="$NPM_CONFIG_PREFIX/bin:$PNPM_HOME:$YARN_GLOBAL_FOLDER/bin:$PATH"
 mkdir -p "$HOME/.env"/{npm,pnpm,yarn,node_modules}
 
+############################
+# Go
+############################
+mkdir -p "$HOME/.env/go"/{bin,pkg,src,cache}
+export GOPATH="$HOME/.env/go"
+export GOBIN="$GOPATH/bin"
+export GOCACHE="$GOPATH/cache"
+export PATH="$GOBIN:$PATH"
+
+export GO111MODULE="on"
+export GOPROXY="https://goproxy.cn,direct"
+export GOSUMDB="sum.golang.google.cn"
+export GOMODCACHE="$GOPATH/pkg/mod"

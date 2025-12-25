@@ -14,3 +14,6 @@ alias bfc="chezmoi cd"
 
 # docker
 alias docker=podman
+
+# ls
+alias ls="exa --icons"
